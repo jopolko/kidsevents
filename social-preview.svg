@@ -1,0 +1,47 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#grad)"/>
+
+  <!-- Emojis -->
+  <text x="600" y="150" font-family="Arial, sans-serif" font-size="60" text-anchor="middle" fill="white">
+    🎉 🎨 ⚽ 📚 🌳
+  </text>
+
+  <!-- Main Title -->
+  <text x="600" y="260" font-family="Arial, sans-serif" font-size="68" font-weight="900" text-anchor="middle" fill="white">
+    Toronto Kids Events
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="330" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="white" opacity="0.95">
+    4000+ Events for Kids 0-12
+  </text>
+
+  <!-- Feature Pills Background -->
+  <rect x="180" y="370" width="240" height="60" rx="30" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <rect x="450" y="370" width="240" height="60" rx="30" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <rect x="720" y="370" width="220" height="60" rx="30" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+
+  <!-- Feature Text -->
+  <text x="300" y="410" font-family="Arial, sans-serif" font-size="22" font-weight="600" text-anchor="middle" fill="white">
+    🆓 3700+ Free
+  </text>
+  <text x="570" y="410" font-family="Arial, sans-serif" font-size="22" font-weight="600" text-anchor="middle" fill="white">
+    📅 Daily Updated
+  </text>
+  <text x="820" y="410" font-family="Arial, sans-serif" font-size="22" font-weight="600" text-anchor="middle" fill="white">
+    📍 Near You
+  </text>
+
+  <!-- URL -->
+  <text x="600" y="580" font-family="Arial, sans-serif" font-size="26" font-weight="600" text-anchor="middle" fill="white" opacity="0.9">
+    joshuaopolko.com/kidsevents
+  </text>
+</svg>

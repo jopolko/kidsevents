@@ -1,0 +1,21 @@
+# Deny access to everything by default
+Require all denied
+
+# Only allow specific JSON files needed by the website
+<FilesMatch "^(events\.json|events_full\.json|events_week[1-4]\.json)$">
+    Require all granted
+</FilesMatch>
+
+# Set correct MIME type for JSON
+<IfModule mod_mime.c>
+    AddType application/json .json
+</IfModule>
+
+# Enable CORS for local development
+<IfModule mod_headers.c>
+    <FilesMatch "\.json$">
+        Header set Access-Control-Allow-Origin "*"
+        Header set Access-Control-Allow-Methods "GET, OPTIONS"
+        Header set Access-Control-Allow-Headers "Content-Type"
+    </FilesMatch>
+</IfModule>

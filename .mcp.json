@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "toronto-open-data-mcp-server": {
+      "command": "uvx",
+      "args": ["toronto-open-data-mcp-server"]
+    }
+  }
+}

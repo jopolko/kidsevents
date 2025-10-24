@@ -1,0 +1,35 @@
+# robots.txt for Kids Events Toronto
+
+User-agent: *
+Allow: /
+
+# Disallow admin, config, and sensitive files
+Disallow: /config.php
+Disallow: /load-env.php
+Disallow: /.env
+Disallow: /.env.example
+Disallow: /distance-proxy.php
+Disallow: /.htaccess
+Disallow: /.git
+Disallow: /.claude/
+
+# Disallow documentation files (not needed in search results)
+Disallow: /ARCHITECTURE.md
+Disallow: /CLAUDE.md
+Disallow: /DATA_SOURCES.md
+Disallow: /GETTING_STARTED.md
+Disallow: /PROJECT_SUMMARY.md
+Disallow: /README.md
+Disallow: /SECURITY_SETUP.md
+
+# Allow access to public data files for crawling
+Allow: /events.json
+Allow: /events_full.json
+Allow: /events_week*.json
+Allow: /load_events.js
+
+# Sitemap location
+Sitemap: https://joshuaopolko.com/kidsevents/sitemap.xml
+
+# Crawl-delay (optional, helps prevent server overload)
+Crawl-delay: 1

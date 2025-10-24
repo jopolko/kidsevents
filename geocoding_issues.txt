@@ -1,0 +1,609 @@
+VENUES REQUIRING RE-GEOCODING
+================================================================================
+
+1. Canoe Landing Community Recreation Centre
+   Address: 45 Fort York Blvd.
+   Neighborhood: Toronto and East York
+   Events: 105
+   Coords: (43.6532, -79.3832)
+
+2. Regent Park Community Centre
+   Address: 402 Shuter St
+   Neighborhood: Toronto and East York
+   Events: 50
+   Coords: (43.6532, -79.3832)
+
+3. Jimmie Simpson Recreation Centre
+   Address: 870 Queen St E
+   Neighborhood: Toronto and East York
+   Events: 54
+   Coords: (43.6532, -79.3832)
+
+4. Trinity Community Recreation Centre
+   Address: 155 Crawford St
+   Neighborhood: Toronto and East York
+   Events: 52
+   Coords: (43.6532, -79.3832)
+
+5. Jenner Jean-Marie Community Recreation Centre
+   Address: 48 Thorncliffe Park Dr
+   Neighborhood: North York
+   Events: 45
+   Coords: (43.6532, -79.3832)
+
+6. Mary McCormick Recreation Centre
+   Address: 66 Sheridan Ave
+   Neighborhood: Toronto and East York
+   Events: 42
+   Coords: (43.6532, -79.3832)
+
+7. Frankland Community Centre
+   Address: 816 Logan Ave
+   Neighborhood: Frankland
+   Events: 2
+   Coords: (43.6814, -79.3406)
+
+8. Wellesley Community Centre
+   Address: 495 Sherbourne St
+   Neighborhood: Toronto and East York
+   Events: 30
+   Coords: (43.6532, -79.3832)
+
+9. Northwood Community Centre
+   Address: 15 Clubhouse Crt
+   Neighborhood: Etobicoke York
+   Events: 29
+   Coords: (43.6532, -79.3832)
+
+10. Toronto Public Library - Northern District
+   Address: Northern District
+   Neighborhood: Northern District
+   Events: 24
+   Coords: (43.6532, -79.3832)
+
+11. Oakdale Community Centre
+   Address: 350 Grandravine Dr
+   Neighborhood: Etobicoke York
+   Events: 24
+   Coords: (43.6532, -79.3832)
+
+12. Chalkfarm Community Recreation Centre
+   Address: 180 Chalkfarm Dr
+   Neighborhood: Etobicoke York
+   Events: 24
+   Coords: (43.6532, -79.3832)
+
+13. Wallace Emerson Community Recreation Centre
+   Address: 1260 Dufferin St
+   Neighborhood: Toronto and East York
+   Events: 23
+   Coords: (43.6532, -79.3832)
+
+14. Toronto Public Library - Parliament Street
+   Address: Parliament Street
+   Neighborhood: Parliament Street
+   Events: 23
+   Coords: (43.6532, -79.3832)
+
+15. Riverdale Farm
+   Address: 201 Winchester St
+   Neighborhood: Toronto and East York
+   Events: 22
+   Coords: (43.6532, -79.3832)
+
+16. Toronto Public Library - All Branches
+   Address: All Branches
+   Neighborhood: All Branches
+   Events: 22
+   Coords: (43.6532, -79.3832)
+
+17. Falstaff Community Recreation Centre
+   Address: 50 Falstaff Ave
+   Neighborhood: Etobicoke York
+   Events: 21
+   Coords: (43.6532, -79.3832)
+
+18. Parkdale Community Recreation Centre
+   Address: 75 Lansdowne Ave.
+   Neighborhood: Toronto and East York
+   Events: 20
+   Coords: (43.6532, -79.3832)
+
+19. Secord Community Centre
+   Address: 91 Barrington Ave
+   Neighborhood: Toronto and East York
+   Events: 20
+   Coords: (43.6532, -79.3832)
+
+20. York Recreation Centre
+   Address: 115 Black Creek Dr
+   Neighborhood: Etobicoke York
+   Events: 19
+   Coords: (43.6532, -79.3832)
+
+21. Fairbank Memorial Community Centre
+   Address: 2213 Dufferin St
+   Neighborhood: Toronto and East York
+   Events: 19
+   Coords: (43.6532, -79.3832)
+
+22. Carmine Stefano Community Centre
+   Address: 3100 Weston Rd
+   Neighborhood: Etobicoke York
+   Events: 18
+   Coords: (43.6532, -79.3832)
+
+23. East Bayfront Community Recreation Centre
+   Address: 261 Queens Quay E
+   Neighborhood: Toronto and East York
+   Events: 17
+   Coords: (43.6532, -79.3832)
+
+24. St. Lawrence Community Recreation Centre
+   Address: 230 The Esplanade
+   Neighborhood: Toronto and East York
+   Events: 17
+   Coords: (43.6532, -79.3832)
+
+25. Toronto Public Library - York Woods
+   Address: York Woods
+   Neighborhood: York Woods
+   Events: 17
+   Coords: (43.6532, -79.3832)
+
+26. Elmbank Community Centre
+   Address: 10 Rampart Rd
+   Neighborhood: Etobicoke York
+   Events: 16
+   Coords: (43.6532, -79.3832)
+
+27. Bob Abate Community Recreation Centre
+   Address: 485 Montrose Ave
+   Neighborhood: Toronto and East York
+   Events: 15
+   Coords: (43.6532, -79.3832)
+
+28. John Innes Community Recreation Centre
+   Address: 150 Sherbourne St
+   Neighborhood: Toronto and East York
+   Events: 15
+   Coords: (43.6532, -79.3832)
+
+29. Beaches Recreation Centre
+   Address: 6 Williamson Rd
+   Neighborhood: Toronto and East York
+   Events: 15
+   Coords: (43.6532, -79.3832)
+
+30. Toronto Public Library - Junction Triangle
+   Address: Junction Triangle
+   Neighborhood: Junction Triangle
+   Events: 13
+   Coords: (43.6532, -79.3832)
+
+31. Toronto Public Library - Humberwood
+   Address: Humberwood
+   Neighborhood: Humberwood
+   Events: 13
+   Coords: (43.6532, -79.3832)
+
+32. Toronto Public Library - Don Mills
+   Address: Don Mills
+   Neighborhood: Don Mills
+   Events: 12
+   Coords: (43.6532, -79.3832)
+
+33. Toronto Public Library - Downsview
+   Address: Downsview
+   Neighborhood: Downsview
+   Events: 12
+   Coords: (43.6532, -79.3832)
+
+34. Joseph J. Piccininni Community Recreation Centre
+   Address: 1369 St. Clair Ave W
+   Neighborhood: Toronto and East York
+   Events: 11
+   Coords: (43.6532, -79.3832)
+
+35. Domenico DiLuca Community Recreation Centre
+   Address: 25 Stanley Rd
+   Neighborhood: Etobicoke York
+   Events: 11
+   Coords: (43.6532, -79.3832)
+
+36. Toronto Public Library - Morningside
+   Address: Morningside
+   Neighborhood: Morningside
+   Events: 11
+   Coords: (43.6532, -79.3832)
+
+37. Toronto Public Library - Amesbury Park
+   Address: Amesbury Park
+   Neighborhood: Amesbury Park
+   Events: 11
+   Coords: (43.6532, -79.3832)
+
+38. Toronto Public Library - Daniel G. Hill
+   Address: Daniel G. Hill
+   Neighborhood: Daniel G. Hill
+   Events: 10
+   Coords: (43.6532, -79.3832)
+
+39. Topham Park
+   Address: 181 Westview Blvd.
+   Neighborhood: Toronto and East York
+   Events: 10
+   Coords: (43.6532, -79.3832)
+
+40. Humberwood Community Centre
+   Address: 850 Humberwood Blvd
+   Neighborhood: Etobicoke York
+   Events: 10
+   Coords: (43.6532, -79.3832)
+
+41. Pam McConnell Aquatic Centre
+   Address: 640 Dundas St E
+   Neighborhood: Toronto and East York
+   Events: 9
+   Coords: (43.6532, -79.3832)
+
+42. O'Connor Community Centre
+   Address: 1386 Victoria Park Ave
+   Neighborhood: Toronto and East York
+   Events: 9
+   Coords: (43.6532, -79.3832)
+
+43. Toronto Public Library - Riverdale
+   Address: Riverdale
+   Neighborhood: Riverdale
+   Events: 9
+   Coords: (43.6532, -79.3832)
+
+44. Toronto Public Library - Forest Hill
+   Address: Forest Hill
+   Neighborhood: Forest Hill
+   Events: 8
+   Coords: (43.6532, -79.3832)
+
+45. Toronto Public Library - Elmbrook Park
+   Address: Elmbrook Park
+   Neighborhood: Elmbrook Park
+   Events: 8
+   Coords: (43.6532, -79.3832)
+
+46. Toronto Public Library - Spadina Road
+   Address: Spadina Road
+   Neighborhood: Spadina Road
+   Events: 8
+   Coords: (43.6532, -79.3832)
+
+47. Toronto Public Library - Pape/Danforth
+   Address: Pape/Danforth
+   Neighborhood: Pape/Danforth
+   Events: 8
+   Coords: (43.6532, -79.3832)
+
+48. S.H. Armstrong Community Recreation Centre
+   Address: 56 Woodfield Rd
+   Neighborhood: Toronto and East York
+   Events: 8
+   Coords: (43.6532, -79.3832)
+
+49. Toronto Public Library - Hillcrest
+   Address: Hillcrest
+   Neighborhood: Hillcrest
+   Events: 7
+   Coords: (43.6532, -79.3832)
+
+50. Toronto Public Library - Wychwood
+   Address: Wychwood
+   Neighborhood: Wychwood
+   Events: 7
+   Coords: (43.6532, -79.3832)
+
+51. Driftwood Community Recreation Centre
+   Address: 4401 Jane St
+   Neighborhood: Etobicoke York
+   Events: 7
+   Coords: (43.6532, -79.3832)
+
+52. Toronto Public Library - Armour Heights
+   Address: Armour Heights
+   Neighborhood: Armour Heights
+   Events: 7
+   Coords: (43.6532, -79.3832)
+
+53. Matty Eckler Recreation Centre
+   Address: 953 Gerrard St E
+   Neighborhood: Toronto and East York
+   Events: 7
+   Coords: (43.6532, -79.3832)
+
+54. North Kipling Community Centre
+   Address: 2 Rowntree Rd
+   Neighborhood: Etobicoke York
+   Events: 6
+   Coords: (43.6532, -79.3832)
+
+55. Fairmount Park Community Centre
+   Address: 1757 Gerrard St E
+   Neighborhood: Toronto and East York
+   Events: 5
+   Coords: (43.6532, -79.3832)
+
+56. Greenwood Park
+   Address: 150 Greenwood Ave
+   Neighborhood: Toronto and East York
+   Events: 5
+   Coords: (43.6532, -79.3832)
+
+57. James S. Bell Community School
+   Address: 90 Thirty First St
+   Neighborhood: Etobicoke York
+   Events: 5
+   Coords: (43.6532, -79.3832)
+
+58. Terry Fox Community Centre
+   Address: 2 Gledhill Ave
+   Neighborhood: Toronto and East York
+   Events: 5
+   Coords: (43.6532, -79.3832)
+
+59. Toronto Public Library - Burrows Hall
+   Address: Burrows Hall
+   Neighborhood: Burrows Hall
+   Events: 5
+   Coords: (43.6532, -79.3832)
+
+60. Toronto Public Library - Northern Elms
+   Address: Northern Elms
+   Neighborhood: Northern Elms
+   Events: 5
+   Coords: (43.6532, -79.3832)
+
+61. Toronto Public Library - Ethennonnhawahstihnen'
+   Address: Ethennonnhawahstihnen'
+   Neighborhood: Ethennonnhawahstihnen'
+   Events: 4
+   Coords: (43.6532, -79.3832)
+
+62. Earl Beatty Community Centre
+   Address: 455 Glebeholme Blvd
+   Neighborhood: Toronto and East York
+   Events: 4
+   Coords: (43.6532, -79.3832)
+
+63. Toronto Public Library - Locke
+   Address: Locke
+   Neighborhood: Locke
+   Events: 4
+   Coords: (43.6532, -79.3832)
+
+64. Swansea Community Recreation Centre
+   Address: 15 Waller Ave
+   Neighborhood: Toronto and East York
+   Events: 4
+   Coords: (43.6532, -79.3832)
+
+65. Smithfield Community School
+   Address: 175 Mount Olive Dr
+   Neighborhood: Etobicoke York
+   Events: 4
+   Coords: (43.6532, -79.3832)
+
+66. Pine Point Arena
+   Address: 15 Grierson Rd
+   Neighborhood: Etobicoke York
+   Events: 4
+   Coords: (43.6532, -79.3832)
+
+67. Pottery Studio 1
+   Address: Downtown Toronto
+   Neighborhood: Downtown
+   Events: 4
+   Coords: (43.6532, -79.3832)
+
+68. Studio Mooi
+   Address: Multiple Toronto Locations
+   Neighborhood: Downtown
+   Events: 4
+   Coords: (43.6532, -79.3832)
+
+69. The Maker Bean Cafe
+   Address: Multiple Toronto Locations
+   Neighborhood: Downtown
+   Events: 4
+   Coords: (43.6532, -79.3832)
+
+70. 4Cats Arts Studio
+   Address: Multiple Toronto Locations
+   Neighborhood: Multiple Locations
+   Events: 4
+   Coords: (43.6532, -79.3832)
+
+71. Holy Family Community Centre
+   Address: 141 Close Ave.
+   Neighborhood: Toronto and East York
+   Events: 3
+   Coords: (43.6532, -79.3832)
+
+72. Amesbury Sports Complex
+   Address: 155 Culford Rd.
+   Neighborhood: Etobicoke York
+   Events: 3
+   Coords: (43.6532, -79.3832)
+
+73. Main Square Community Recreation Centre
+   Address: 245 Main St
+   Neighborhood: Toronto and East York
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+74. Hollycrest Community School
+   Address: 630 Renforth Dr
+   Neighborhood: Etobicoke York
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+75. Alderwood Pool
+   Address: 2 Orianna Dr
+   Neighborhood: Etobicoke York
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+76. Norseman Community School and Pool
+   Address: 105 Norseman St
+   Neighborhood: Etobicoke York
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+77. Ken Cox Community Centre
+   Address: 28 Colonel Samuel Smith Park Dr
+   Neighborhood: Etobicoke York
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+78. The Elms Community School and Pool
+   Address: 45 Golfdown Dr.
+   Neighborhood: Etobicoke York
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+79. City of Toronto Drop-In Sports
+   Address: Multiple Locations
+   Neighborhood: City-Wide
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+80. SC Toronto Soccer Club
+   Address: Toronto
+   Neighborhood: City-Wide
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+81. Toronto Public Library - FREE STEM Workshops
+   Address: Various TPL Branches
+   Neighborhood: City-Wide
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+82. MakerKids - Trial Classes
+   Address: Multiple Toronto Locations
+   Neighborhood: City-Wide
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+83. Exceed Robotics - Free Trial Workshop
+   Address: Multiple GTA Locations
+   Neighborhood: GTA
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+84. Generations Performing Arts
+   Address: Toronto
+   Neighborhood: Central Toronto
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+85. Randolph Kids
+   Address: Downtown Toronto
+   Neighborhood: Downtown
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+86. Toronto Youth Drop-In Programs
+   Address: Community Centers City-Wide
+   Neighborhood: City-Wide
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+87. Toronto Parks - Free Outdoor Play
+   Address: Parks City-Wide
+   Neighborhood: City-Wide
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+88. Annette Community Recreation Centre
+   Address: 333 Annette St
+   Neighborhood: Toronto and East York
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+89. Brown Community Centre
+   Address: 454 Avenue Rd
+   Neighborhood: Toronto and East York
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+90. East York Community Recreation Centre
+   Address: 1081 Pape Ave
+   Neighborhood: Toronto and East York
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+91. Hillcrest Community Centre
+   Address: 1339 Bathurst St
+   Neighborhood: Toronto and East York
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+92. John Booth Memorial Arena
+   Address: 230 Gosford Blvd
+   Neighborhood: Etobicoke York
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+93. Chris Tonks Arena
+   Address: 95 Black Creek Dr
+   Neighborhood: Etobicoke York
+   Events: 2
+   Coords: (43.6532, -79.3832)
+
+94. Citywide Toronto
+   Address: 80+ Locations across Toronto
+   Neighborhood: Citywide Toronto
+   Events: 1
+   Coords: (43.6532, -79.3832)
+
+95. Various Toronto
+   Address: Multiple TPL Branches
+   Neighborhood: Various Toronto
+   Events: 1
+   Coords: (43.6532, -79.3832)
+
+96. Citywide Toronto
+   Address: Multiple TPL Branches
+   Neighborhood: Citywide Toronto
+   Events: 1
+   Coords: (43.6532, -79.3832)
+
+97. Royal Ontario Museum
+   Address: 100 Queen's Park, Toronto
+   Neighborhood: Toronto
+   Events: 1
+   Coords: (43.6532, -79.3832)
+
+98. Colborne Lodge
+   Address: Colborne Lodge Drive, Toronto
+   Neighborhood: Toronto
+   Events: 1
+   Coords: (43.6532, -79.3832)
+
+99. Toronto Public Library - Brookbanks
+   Address: Brookbanks
+   Neighborhood: Brookbanks
+   Events: 1
+   Coords: (43.6532, -79.3832)
+
+100. Masaryk-Cowan Community Recreation Centre
+   Address: 220 Cowan Ave
+   Neighborhood: Toronto and East York
+   Events: 1
+   Coords: (43.6532, -79.3832)
+
+101. Cineplex - Sensory Friendly Screenings
+   Address: Select Cineplex Theatres
+   Neighborhood: City-Wide
+   Events: 1
+   Coords: (43.6532, -79.3832)
+

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Baby & Me",
+    "description": "Songs, rhymes and bounces for babies and caregivers.",
+    "date": "2025-10-22",
+    "start_time": "10:00",
+    "end_time": "10:30",
+    "branch": "High Park",
+    "address": "1893 Bloor St W",
+    "url": "https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMEVT12345"
+  },
+  {
+    "title": "Preschool Storytime",
+    "description": "Stories, songs and activities for preschoolers.",
+    "date": "2025-10-23",
+    "start_time": "10:30",
+    "end_time": "11:15",
+    "branch": "Beaches",
+    "address": "2161 Queen St E",
+    "url": "https://www.torontopubliclibrary.ca"
+  }
+]

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toronto Kids Events</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 0;
+            margin: 0;
+        }
+
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 12px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-bottom: 2px solid #34495e;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 0;
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .header p {
+            font-size: 13px;
+            color: #bdc3c7;
+            margin: 0;
+            display: inline-block;
+        }
+
+        .refresh-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .refresh-btn:hover {
+            background: #2980b9;
+        }
+
+        .refresh-btn:active {
+            background: #21618c;
+        }
+
+        .refresh-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+
+        .dashboard {
+            padding: 0;
+            max-width: 100%;
+            margin: 0;
+        }
+
+        .event-card {
+            background: white;
+            border-bottom: 1px solid #ddd;
+            padding: 12px 20px;
+            display: grid;
+            grid-template-columns: 40px 80px 280px 120px 130px 60px 120px 100px 180px 100px 220px 70px;
+            gap: 12px;
+            align-items: center;
+            transition: background 0.1s;
+            font-size: 13px;
+        }
+
+        .event-card:hover {
+            background: #fafafa;
+        }
+
+        .happening-now {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+        }
+
+        .event-number {
+            font-size: 14px;
+            font-weight: 600;
+            color: #7f8c8d;
+            text-align: center;
+        }
+
+        .event-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #2c3e50;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .event-badge {
+            text-align: center;
+        }
+
+        .event-date,
+        .event-time,
+        .event-dist,
+        .event-age,
+        .event-type,
+        .event-where,
+        .event-setting,
+        .event-addr {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .col-label {
+            font-size: 10px;
+            color: #95a5a6;
+            text-transform: uppercase;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .col-value {
+            color: #34495e;
+            font-weight: 500;
+            font-size: 13px;
+        }
+
+        .stat-badge {
+            background: #e74c3c;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+
+        .map-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            font-size: 12px;
+            font-weight: 500;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background 0.2s;
+            white-space: nowrap;
+        }
+
+        .map-btn:hover {
+            background: #229954;
+        }
+
+        .empty {
+            text-align: center;
+            padding: 40px 20px;
+            color: #7f8c8d;
+            background: white;
+            margin: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .empty-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1><a href="simple.html" style="color: white; text-decoration: none;">Toronto Kids Events</a></h1>
+        <p>Free events for children 12 and under in the Toronto area</p>
+        <button class="refresh-btn" id="refreshBtn" onclick="refreshEvents()">
+            🔄 Refresh
+        </button>
+    </div>
+
+    <div class="dashboard" id="dashboard">
+        <div class="empty">
+            <div class="empty-icon">⏳</div>
+            <p>Loading events near you...</p>
+        </div>
+    </div>
+
+    <script>
+        let userLocation = null;
+        let events = [];
+
+        async function loadEvents() {
+            try {
+                const response = await fetch('events.json');
+                const data = await response.json();
+                events = Array.isArray(data) ? data : data.events || [];
+                console.log(`Loaded ${events.length} events`);
+            } catch (error) {
+                console.error('Failed to load events:', error);
+                events = [];
+            }
+        }
+
+        function refreshEvents() {
+            const btn = document.getElementById('refreshBtn');
+            btn.disabled = true;
+            btn.innerHTML = '⏳ Loading...';
+
+            if (!navigator.geolocation) {
+                alert('Location not supported by your browser');
+                btn.disabled = false;
+                btn.innerHTML = '🔄 Refresh';
+                return;
+            }
+
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    userLocation = {
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    };
+                    renderTop10Events();
+                    btn.disabled = false;
+                    btn.innerHTML = '🔄 Refresh';
+                },
+                (error) => {
+                    alert('Enable location to find events near you');
+                    btn.disabled = false;
+                    btn.innerHTML = '🔄 Refresh';
+                }
+            );
+        }
+
+        function openMap(venueName, address, lat, lng) {
+            // Include venue name in the search query for accurate Google Maps results
+            const query = encodeURIComponent(`${venueName}, ${address}, Toronto`);
+            window.open(`https://www.google.com/maps/search/?api=1&query=${query}`, '_blank');
+        }
+
+        function isHappeningNow(event) {
+            const now = new Date();
+            const eventDate = new Date(event.date + 'T00:00:00');
+            const [startHours, startMins] = event.start_time.split(':');
+            const [endHours, endMins] = event.end_time.split(':');
+
+            const eventStart = new Date(eventDate);
+            eventStart.setHours(parseInt(startHours), parseInt(startMins), 0);
+
+            const eventEnd = new Date(eventDate);
+            eventEnd.setHours(parseInt(endHours), parseInt(endMins), 0);
+
+            return now >= eventStart && now <= eventEnd;
+        }
+
+        function getMinutesUntilStart(event) {
+            const now = new Date();
+            const eventDate = new Date(event.date + 'T00:00:00');
+            const [startHours, startMins] = event.start_time.split(':');
+            const eventStart = new Date(eventDate);
+            eventStart.setHours(parseInt(startHours), parseInt(startMins), 0);
+            return (eventStart - now) / (1000 * 60);
+        }
+
+        function getMinutesUntilEnd(event) {
+            const now = new Date();
+            const eventDate = new Date(event.date + 'T00:00:00');
+            const [endHours, endMins] = event.end_time.split(':');
+            const eventEnd = new Date(eventDate);
+            eventEnd.setHours(parseInt(endHours), parseInt(endMins), 0);
+            return (eventEnd - now) / (1000 * 60);
+        }
+
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+            const R = 6371;
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                      Math.sin(dLon / 2) * Math.sin(dLon / 2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            return R * c;
+        }
+
+        function formatTime(timeStr) {
+            const [hours, minutes] = timeStr.split(':');
+            const hour = parseInt(hours);
+            const ampm = hour >= 12 ? 'PM' : 'AM';
+            const displayHour = hour % 12 || 12;
+            return `${displayHour}:${minutes}${ampm}`;
+        }
+
+
+        function renderTop10Events() {
+            if (!userLocation || events.length === 0) {
+                return;
+            }
+
+            const now = new Date();
+
+            // Calculate distances and time scores
+            let scoredEvents = events.map(event => {
+                const dist = calculateDistance(
+                    userLocation.lat,
+                    userLocation.lng,
+                    event.venue.lat,
+                    event.venue.lng
+                );
+
+                const minsUntilStart = getMinutesUntilStart(event);
+                const happening = isHappeningNow(event);
+
+                // Score: lower is better
+                // Happening now = 0, then by minutes until start, then by distance
+                let timeScore = happening ? 0 : Math.abs(minsUntilStart);
+
+                return {
+                    ...event,
+                    distance: dist,
+                    timeScore: timeScore,
+                    happening: happening
+                };
+            });
+
+            // Filter out events that have ended
+            scoredEvents = scoredEvents.filter(event => {
+                const minsUntilEnd = getMinutesUntilEnd(event);
+                return minsUntilEnd > -30;
+            });
+
+            // Sort by happening now first, then time score, then distance
+            scoredEvents.sort((a, b) => {
+                if (a.happening && !b.happening) return -1;
+                if (!a.happening && b.happening) return 1;
+
+                const timeDiff = a.timeScore - b.timeScore;
+                if (Math.abs(timeDiff) > 60) return timeDiff; // If >1hr difference, prioritize time
+
+                return a.distance - b.distance; // Otherwise prioritize distance
+            });
+
+            // Take top 10
+            const top10 = scoredEvents.slice(0, 10);
+
+            const dashboardEl = document.getElementById('dashboard');
+
+            if (top10.length === 0) {
+                dashboardEl.innerHTML = `
+                    <div class="empty">
+                        <div class="empty-icon">😴</div>
+                        <p>No events found near you.<br>Check back later!</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // Render table-style event listings
+            dashboardEl.innerHTML = top10.map((event, index) => {
+                const happening = event.happening;
+                const minsUntil = getMinutesUntilStart(event);
+                const minsRemaining = getMinutesUntilEnd(event);
+
+                let badgeText = '';
+                if (happening) {
+                    if (minsRemaining <= 30) {
+                        badgeText = `ENDS ${Math.round(minsRemaining)}MIN`;
+                    } else {
+                        badgeText = 'NOW';
+                    }
+                } else if (minsUntil > 0 && minsUntil < 60) {
+                    badgeText = `STARTS ${Math.round(minsUntil)}MIN`;
+                }
+
+                const eventDate = new Date(event.date + 'T00:00:00');
+                const dateStr = eventDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+
+                return `
+                    <div class="event-card ${happening ? 'happening-now' : ''}">
+                        <div class="event-number">#${index + 1}</div>
+                        <div class="event-badge">${badgeText ? `<span class="stat-badge">${badgeText}</span>` : ''}</div>
+                        <div class="event-title" title="${event.title}">${event.title}</div>
+                        <div class="event-date"><span class="col-label">Date</span><span class="col-value">${dateStr}</span></div>
+                        <div class="event-time"><span class="col-label">Time</span><span class="col-value">${formatTime(event.start_time)}-${formatTime(event.end_time)}</span></div>
+                        <div class="event-dist"><span class="col-label">Dist</span><span class="col-value">${event.distance.toFixed(1)}km</span></div>
+                        <div class="event-age"><span class="col-label">Age</span><span class="col-value">${event.age_groups[0]}</span></div>
+                        <div class="event-type"><span class="col-label">Type</span><span class="col-value">${event.category}</span></div>
+                        <div class="event-where" title="${event.venue.name}"><span class="col-label">Where</span><span class="col-value">${event.venue.name}</span></div>
+                        <div class="event-setting"><span class="col-label">Setting</span><span class="col-value">${event.indoor_outdoor}</span></div>
+                        <div class="event-addr" title="${event.venue.address}"><span class="col-label">Address</span><span class="col-value">${event.venue.address}</span></div>
+                        <button class="map-btn" onclick="openMap('${event.title.replace(/'/g, "\\'")}', '${event.venue.address}', ${event.venue.lat}, ${event.venue.lng})">Map</button>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Load events and initialize
+        loadEvents().then(() => {
+            // Auto-load on page load
+            refreshEvents();
+        });
+    </script>
+</body>
+</html>

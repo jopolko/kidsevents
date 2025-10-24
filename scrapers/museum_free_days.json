@@ -1,0 +1,2047 @@
+[
+  {
+    "title": "ROM Third Tuesday Night FREE Admission",
+    "description": "Free admission for everyone on the third Tuesday evening of each month! Explore world cultures, natural history, and special exhibitions. Advance tickets required (released 2 weeks prior).",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-10-21",
+    "start_time": "16:30",
+    "end_time": "20:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca/whats-on/special-programs/third-tuesday-nights-free",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Third Tuesday Night FREE Admission",
+    "description": "Free admission for everyone on the third Tuesday evening of each month! Explore world cultures, natural history, and special exhibitions. Advance tickets required (released 2 weeks prior).",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-11-18",
+    "start_time": "16:30",
+    "end_time": "20:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca/whats-on/special-programs/third-tuesday-nights-free",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Third Tuesday Night FREE Admission",
+    "description": "Free admission for everyone on the third Tuesday evening of each month! Explore world cultures, natural history, and special exhibitions. Advance tickets required (released 2 weeks prior).",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-12-16",
+    "start_time": "16:30",
+    "end_time": "20:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca/whats-on/special-programs/third-tuesday-nights-free",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Third Tuesday Night FREE Admission",
+    "description": "Free admission for everyone on the third Tuesday evening of each month! Explore world cultures, natural history, and special exhibitions. Advance tickets required (released 2 weeks prior).",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2026-01-20",
+    "start_time": "16:30",
+    "end_time": "20:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca/whats-on/special-programs/third-tuesday-nights-free",
+    "source": "Museums"
+  },
+  {
+    "title": "AGO First Wednesday Night FREE Admission",
+    "description": "Free admission on the first Wednesday evening of each month! See world-class art collections including Canadian, European, and contemporary works. Tickets released Monday before.",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-11-05",
+    "start_time": "18:00",
+    "end_time": "21:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca/visit/free-wednesday-nights",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO First Wednesday Night FREE Admission",
+    "description": "Free admission on the first Wednesday evening of each month! See world-class art collections including Canadian, European, and contemporary works. Tickets released Monday before.",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-12-03",
+    "start_time": "18:00",
+    "end_time": "21:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca/visit/free-wednesday-nights",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO First Wednesday Night FREE Admission",
+    "description": "Free admission on the first Wednesday evening of each month! See world-class art collections including Canadian, European, and contemporary works. Tickets released Monday before.",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2026-01-07",
+    "start_time": "18:00",
+    "end_time": "21:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca/visit/free-wednesday-nights",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-10-18",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-10-19",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-10-25",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-10-26",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-11-01",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-11-02",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-11-08",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-11-09",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-11-15",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-11-16",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-11-22",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-11-23",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-11-29",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "AGO Free Main Floor + Weekend Activities",
+    "description": "Free access to first-floor galleries! Enjoy pop-up performances showcasing local artists and educational activities for all ages. Every weekend has a fresh theme!",
+    "category": "Arts",
+    "icon": "🎨",
+    "date": "2025-11-30",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Art Gallery of Ontario",
+      "address": "317 Dundas St W",
+      "neighborhood": "Downtown",
+      "lat": 43.6536,
+      "lng": -79.3925
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Art Gallery of Ontario",
+    "website": "https://ago.ca",
+    "source": "ArtGallery"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-10-18",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-10-19",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-10-25",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-10-26",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-11-01",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-11-02",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-11-08",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-11-09",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-11-15",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-11-16",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-11-22",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-11-23",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-11-29",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "ROM Free Main Floor + Weekend Activities",
+    "description": "Free access to expansive first-floor galleries! Every weekend brings fresh themes with pop-up performances, local artists, and exciting educational activities for all ages.",
+    "category": "Learning",
+    "icon": "🏛️",
+    "date": "2025-11-30",
+    "start_time": "10:00",
+    "end_time": "17:30",
+    "venue": {
+      "name": "Royal Ontario Museum",
+      "address": "100 Queens Park",
+      "neighborhood": "Downtown",
+      "lat": 43.6677,
+      "lng": -79.3948
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Royal Ontario Museum",
+    "website": "https://www.rom.on.ca",
+    "source": "Museums"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-18",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-19",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-20",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-21",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-22",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-23",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-24",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-25",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-26",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-27",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-28",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-29",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-30",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-10-31",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-01",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-02",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-03",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-04",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-05",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-06",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-07",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-08",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-09",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-10",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-11",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-12",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-13",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-14",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-15",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Harbourfront Centre - Free Waterfront Activities",
+    "description": "Explore Toronto's waterfront! Free art exhibitions, outdoor spaces, and family-friendly activities daily. Check website for current events and performances.",
+    "category": "Entertainment",
+    "icon": "🎭",
+    "date": "2025-11-16",
+    "start_time": "10:00",
+    "end_time": "20:00",
+    "venue": {
+      "name": "Harbourfront Centre",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Waterfront",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "All Ages"
+    ],
+    "indoor_outdoor": "Both",
+    "organized_by": "Harbourfront Centre",
+    "website": "https://harbourfrontcentre.com",
+    "source": "Entertainment"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-10-18",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre KidSpark at Harbourfront",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Toronto",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-10-25",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre KidSpark at Harbourfront",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Toronto",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-11-01",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre KidSpark at Harbourfront",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Toronto",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-11-08",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre KidSpark at Harbourfront",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Toronto",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-11-15",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre KidSpark at Harbourfront",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Toronto",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-11-22",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre KidSpark at Harbourfront",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Toronto",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-11-29",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre KidSpark at Harbourfront",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Toronto",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-12-06",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre KidSpark at Harbourfront",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Toronto",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-12-13",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre KidSpark at Harbourfront",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Toronto",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-12-20",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre KidSpark at Harbourfront",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Toronto",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-12-27",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre KidSpark at Harbourfront",
+      "address": "235 Queens Quay W",
+      "neighborhood": "Toronto",
+      "lat": 43.6387,
+      "lng": -79.3816
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-10-18",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre at CF Sherway Gardens",
+      "address": "25 The West Mall",
+      "neighborhood": "Toronto",
+      "lat": 43.6104,
+      "lng": -79.5576
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-10-25",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre at CF Sherway Gardens",
+      "address": "25 The West Mall",
+      "neighborhood": "Toronto",
+      "lat": 43.6104,
+      "lng": -79.5576
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-11-01",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre at CF Sherway Gardens",
+      "address": "25 The West Mall",
+      "neighborhood": "Toronto",
+      "lat": 43.6104,
+      "lng": -79.5576
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-11-08",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre at CF Sherway Gardens",
+      "address": "25 The West Mall",
+      "neighborhood": "Toronto",
+      "lat": 43.6104,
+      "lng": -79.5576
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-11-15",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre at CF Sherway Gardens",
+      "address": "25 The West Mall",
+      "neighborhood": "Toronto",
+      "lat": 43.6104,
+      "lng": -79.5576
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-11-22",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre at CF Sherway Gardens",
+      "address": "25 The West Mall",
+      "neighborhood": "Toronto",
+      "lat": 43.6104,
+      "lng": -79.5576
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-11-29",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre at CF Sherway Gardens",
+      "address": "25 The West Mall",
+      "neighborhood": "Toronto",
+      "lat": 43.6104,
+      "lng": -79.5576
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-12-06",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre at CF Sherway Gardens",
+      "address": "25 The West Mall",
+      "neighborhood": "Toronto",
+      "lat": 43.6104,
+      "lng": -79.5576
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-12-13",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre at CF Sherway Gardens",
+      "address": "25 The West Mall",
+      "neighborhood": "Toronto",
+      "lat": 43.6104,
+      "lng": -79.5576
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-12-20",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre at CF Sherway Gardens",
+      "address": "25 The West Mall",
+      "neighborhood": "Toronto",
+      "lat": 43.6104,
+      "lng": -79.5576
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  },
+  {
+    "title": "Ontario Science Centre Pop-Up - Hands-On STEM Play",
+    "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
+    "category": "Learning",
+    "icon": "🔬",
+    "date": "2025-12-27",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "venue": {
+      "name": "Ontario Science Centre at CF Sherway Gardens",
+      "address": "25 The West Mall",
+      "neighborhood": "Toronto",
+      "lat": 43.6104,
+      "lng": -79.5576
+    },
+    "age_groups": [
+      "Babies (0-2)",
+      "Toddlers (3-5)",
+      "Kids (6-12)"
+    ],
+    "indoor_outdoor": "Indoor",
+    "organized_by": "Ontario Science Centre",
+    "website": "https://www.ontariosciencecentre.ca",
+    "source": "ScienceCentre"
+  }
+]

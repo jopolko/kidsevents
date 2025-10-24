@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue Analysis Report - Toronto Kids Events</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 0.9rem;
+        }
+        thead {
+            background: #667eea;
+            color: white;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        tr:hover {
+            background: #f5f5f5;
+        }
+        .duplicate-warning {
+            background: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin-bottom: 20px;
+        }
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #28a745;
+            margin-bottom: 20px;
+        }
+        .venue-name {
+            font-weight: 600;
+            color: #333;
+        }
+        .venue-address {
+            color: #666;
+            font-size: 0.85rem;
+        }
+        .event-count {
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-weight: 600;
+            display: inline-block;
+        }
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: #667eea;
+            font-size: 1.2rem;
+        }
+        .similarity {
+            color: #dc3545;
+            font-size: 0.85rem;
+            font-style: italic;
+        }
+        .filter-controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            padding: 10px 20px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .filter-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏢 Venue Analysis Report</h1>
+        <p class="subtitle">Analysis of unique venues in Toronto Kids Events data</p>
+
+        <div id="loading" class="loading">
+            Loading venue data...
+        </div>
+
+        <div id="content" style="display: none;">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" id="total-venues">0</div>
+                    <div class="stat-label">Total Unique Venues</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="total-events">0</div>
+                    <div class="stat-label">Total Events</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="avg-events">0</div>
+                    <div class="stat-label">Avg Events per Venue</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="potential-dupes">0</div>
+                    <div class="stat-label">Potential Duplicates</div>
+                </div>
+            </div>
+
+            <div id="duplicate-section"></div>
+
+            <div class="section">
+                <h2 class="section-title">📊 All Venues by Event Count</h2>
+                <div class="filter-controls">
+                    <button class="filter-btn active" onclick="filterVenues('all')">All Venues</button>
+                    <button class="filter-btn" onclick="filterVenues('tpl')">TPL Branches</button>
+                    <button class="filter-btn" onclick="filterVenues('earlyon')">EarlyON Centers</button>
+                    <button class="filter-btn" onclick="filterVenues('parks')">Parks & Rec</button>
+                    <button class="filter-btn" onclick="filterVenues('high-volume')">High Volume (20+ events)</button>
+                </div>
+                <table id="venue-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Venue Name</th>
+                            <th>Address</th>
+                            <th>Neighborhood</th>
+                            <th>Events</th>
+                        </tr>
+                    </thead>
+                    <tbody id="venue-list">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allVenues = [];
+        let currentFilter = 'all';
+
+        async function loadData() {
+            try {
+                const response = await fetch('events_week1.json');
+                const data = await response.json();
+                const events = data.events || [];
+
+                // Extract all venues with their event counts
+                const venueMap = new Map();
+
+                events.forEach(event => {
+                    const venue = event.venue;
+                    if (!venue || !venue.name) return;
+
+                    const key = venue.name.toLowerCase().trim();
+
+                    if (!venueMap.has(key)) {
+                        venueMap.set(key, {
+                            name: venue.name,
+                            address: venue.address || 'N/A',
+                            neighborhood: venue.neighborhood || 'N/A',
+                            lat: venue.lat,
+                            lng: venue.lng,
+                            eventCount: 0,
+                            events: []
+                        });
+                    }
+
+                    const v = venueMap.get(key);
+                    v.eventCount++;
+                    v.events.push(event);
+                });
+
+                allVenues = Array.from(venueMap.values())
+                    .sort((a, b) => b.eventCount - a.eventCount);
+
+                analyzeVenues(allVenues, events.length);
+                displayVenues(allVenues);
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('loading').innerHTML = '❌ Error loading venue data';
+            }
+        }
+
+        function analyzeVenues(venues, totalEvents) {
+            // Update stats
+            document.getElementById('total-venues').textContent = venues.length;
+            document.getElementById('total-events').textContent = totalEvents.toLocaleString();
+            document.getElementById('avg-events').textContent = (totalEvents / venues.length).toFixed(1);
+
+            // Find potential duplicates (similar names)
+            const potentialDupes = findPotentialDuplicates(venues);
+            document.getElementById('potential-dupes').textContent = potentialDupes.length;
+
+            // Show duplicate section if found
+            const dupeSection = document.getElementById('duplicate-section');
+            if (potentialDupes.length > 0) {
+                dupeSection.innerHTML = `
+                    <div class="section">
+                        <h2 class="section-title">⚠️ Potential Duplicate Venues</h2>
+                        <div class="duplicate-warning">
+                            Found ${potentialDupes.length} pairs of venues with similar names. These may be duplicates or legitimately different locations.
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Venue 1</th>
+                                    <th>Venue 2</th>
+                                    <th>Similarity</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${potentialDupes.map(dupe => `
+                                    <tr>
+                                        <td>
+                                            <div class="venue-name">${dupe.venue1.name}</div>
+                                            <div class="venue-address">${dupe.venue1.address}</div>
+                                        </td>
+                                        <td>
+                                            <div class="venue-name">${dupe.venue2.name}</div>
+                                            <div class="venue-address">${dupe.venue2.address}</div>
+                                        </td>
+                                        <td><span class="similarity">${(dupe.similarity * 100).toFixed(0)}% similar</span></td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+            } else {
+                dupeSection.innerHTML = `
+                    <div class="success-message">
+                        ✅ No potential duplicate venues detected! All ${venues.length} venues appear to be unique.
+                    </div>
+                `;
+            }
+
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('content').style.display = 'block';
+        }
+
+        function findPotentialDuplicates(venues) {
+            const duplicates = [];
+
+            for (let i = 0; i < venues.length; i++) {
+                for (let j = i + 1; j < venues.length; j++) {
+                    const similarity = calculateSimilarity(venues[i].name, venues[j].name);
+
+                    // Flag if names are >70% similar but not exact matches
+                    if (similarity > 0.7 && similarity < 1.0) {
+                        duplicates.push({
+                            venue1: venues[i],
+                            venue2: venues[j],
+                            similarity: similarity
+                        });
+                    }
+                }
+            }
+
+            return duplicates.sort((a, b) => b.similarity - a.similarity);
+        }
+
+        function calculateSimilarity(str1, str2) {
+            const s1 = str1.toLowerCase();
+            const s2 = str2.toLowerCase();
+
+            // Exact match
+            if (s1 === s2) return 1.0;
+
+            // Check if one contains the other
+            if (s1.includes(s2) || s2.includes(s1)) {
+                return Math.max(s2.length / s1.length, s1.length / s2.length) * 0.9;
+            }
+
+            // Levenshtein distance
+            const matrix = [];
+            for (let i = 0; i <= s1.length; i++) {
+                matrix[i] = [i];
+            }
+            for (let j = 0; j <= s2.length; j++) {
+                matrix[0][j] = j;
+            }
+
+            for (let i = 1; i <= s1.length; i++) {
+                for (let j = 1; j <= s2.length; j++) {
+                    if (s1.charAt(i - 1) === s2.charAt(j - 1)) {
+                        matrix[i][j] = matrix[i - 1][j - 1];
+                    } else {
+                        matrix[i][j] = Math.min(
+                            matrix[i - 1][j - 1] + 1,
+                            matrix[i][j - 1] + 1,
+                            matrix[i - 1][j] + 1
+                        );
+                    }
+                }
+            }
+
+            const distance = matrix[s1.length][s2.length];
+            const maxLength = Math.max(s1.length, s2.length);
+            return 1 - (distance / maxLength);
+        }
+
+        function filterVenues(type) {
+            currentFilter = type;
+
+            // Update button states
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // Filter venues
+            let filtered = allVenues;
+
+            if (type === 'tpl') {
+                filtered = allVenues.filter(v =>
+                    v.name.toLowerCase().includes('toronto public library') ||
+                    v.name.toLowerCase().includes('tpl')
+                );
+            } else if (type === 'earlyon') {
+                filtered = allVenues.filter(v =>
+                    v.name.toLowerCase().includes('earlyon')
+                );
+            } else if (type === 'parks') {
+                filtered = allVenues.filter(v =>
+                    v.name.toLowerCase().includes('community centre') ||
+                    v.name.toLowerCase().includes('community center') ||
+                    v.name.toLowerCase().includes('arena') ||
+                    v.name.toLowerCase().includes('recreation')
+                );
+            } else if (type === 'high-volume') {
+                filtered = allVenues.filter(v => v.eventCount >= 20);
+            }
+
+            displayVenues(filtered);
+        }
+
+        function displayVenues(venues) {
+            const tbody = document.getElementById('venue-list');
+            tbody.innerHTML = venues.map((venue, index) => `
+                <tr>
+                    <td>${index + 1}</td>
+                    <td>
+                        <div class="venue-name">${venue.name}</div>
+                    </td>
+                    <td><div class="venue-address">${venue.address}</div></td>
+                    <td>${venue.neighborhood}</td>
+                    <td><span class="event-count">${venue.eventCount}</span></td>
+                </tr>
+            `).join('');
+        }
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>

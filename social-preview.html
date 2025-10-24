@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toronto Kids Events - Social Preview Card</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #f0f0f0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        .preview-card {
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .preview-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: white;
+        }
+
+        .emoji-banner {
+            font-size: 80px;
+            margin-bottom: 20px;
+            line-height: 1;
+        }
+
+        h1 {
+            font-size: 72px;
+            font-weight: 900;
+            margin: 0 0 20px 0;
+            line-height: 1.1;
+            text-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        .tagline {
+            font-size: 36px;
+            font-weight: 400;
+            margin: 0 0 30px 0;
+            opacity: 0.95;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .features {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .feature {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 22px;
+            font-weight: 600;
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+
+        .url {
+            position: absolute;
+            bottom: 40px;
+            font-size: 28px;
+            font-weight: 600;
+            opacity: 0.9;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="preview-card">
+        <div class="content">
+            <div class="emoji-banner">🎉 🎨 ⚽ 📚 🌳</div>
+            <h1>Toronto Kids Events</h1>
+            <div class="tagline">4000+ Events for Kids 0-12</div>
+            <div class="features">
+                <div class="feature">🆓 3700+ Free</div>
+                <div class="feature">📅 Daily Updated</div>
+                <div class="feature">📍 Near You</div>
+            </div>
+        </div>
+        <div class="url">joshuaopolko.com/kidsevents</div>
+    </div>
+
+    <script>
+        // Instructions for creating the image
+        console.log('To create your social media preview image:');
+        console.log('1. Open this page in a browser at 1200x630 resolution');
+        console.log('2. Take a screenshot of just the purple card');
+        console.log('3. Save as: social-preview.png or social-preview.jpg');
+        console.log('4. Upload to /var/www/html/kidsevents/');
+        console.log('5. Then add the meta tags to index.html');
+    </script>
+</body>
+</html>

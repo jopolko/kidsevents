@@ -1,0 +1,275 @@
+[
+  {
+    "name": "Kensington Studios",
+    "type": "Community Art Space",
+    "neighborhood": "Kensington Market",
+    "description": "Artist studios and outdoor market featuring local painters, sculptors, and makers. Summer market runs daily April-September.",
+    "address": "19 Kensington Ave",
+    "lat": 43.6544,
+    "lng": -79.4004,
+    "website": "https://www.kensingtonstudios.com/",
+    "specialties": [
+      "Painting",
+      "Sculpture",
+      "Mixed Media",
+      "Jewelry"
+    ],
+    "family_friendly": true,
+    "icon": "🎨"
+  },
+  {
+    "name": "Arts Market Toronto",
+    "type": "Artisan Collective",
+    "neighborhood": "Leslieville",
+    "description": "270+ local artists with storefronts. Pottery, jewelry, textiles, woodwork. Support local makers!",
+    "address": "790 Queen St E",
+    "lat": 43.6575,
+    "lng": -79.3458,
+    "website": "https://artsmarket.ca/",
+    "specialties": [
+      "Pottery",
+      "Jewelry",
+      "Textiles",
+      "Woodwork",
+      "Illustration"
+    ],
+    "family_friendly": true,
+    "icon": "🖼️"
+  },
+  {
+    "name": "Riverdale Hub - Sunday Artisan Market",
+    "type": "Monthly Craft Market",
+    "neighborhood": "Riverdale",
+    "description": "Second Sunday of every month! Local artisans selling handmade goods, art, crafts. Family-friendly atmosphere.",
+    "address": "1083 Queen St E",
+    "lat": 43.6607,
+    "lng": -79.3312,
+    "website": "https://riverdalehub.ca/",
+    "specialties": [
+      "Handmade Crafts",
+      "Art",
+      "Ceramics",
+      "Textiles"
+    ],
+    "family_friendly": true,
+    "icon": "🎪"
+  },
+  {
+    "name": "The Danforth Arts Studio",
+    "type": "Art Studio & Workshops",
+    "neighborhood": "Danforth",
+    "description": "Kids & family art classes! Painting, drawing, sculpture workshops. Drop-in sessions available.",
+    "address": "270 Danforth Ave",
+    "lat": 43.6776,
+    "lng": -79.3575,
+    "website": "https://thedanforthartstudio.com/",
+    "specialties": [
+      "Kids Classes",
+      "Painting",
+      "Drawing",
+      "Sculpture"
+    ],
+    "family_friendly": true,
+    "icon": "🖌️"
+  },
+  {
+    "name": "Studio Mooi",
+    "type": "Creative Workshop Space",
+    "neighborhood": "Downtown",
+    "description": "Kids programs, PA Day camps, birthday parties. Inspiring creativity for all ages!",
+    "address": "Multiple Toronto Locations",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "website": "https://www.studiomooi.ca/",
+    "specialties": [
+      "Kids Workshops",
+      "Art Classes",
+      "Camps",
+      "Private Events"
+    ],
+    "family_friendly": true,
+    "icon": "✨"
+  },
+  {
+    "name": "The Make Station",
+    "type": "Youth Art Studio",
+    "neighborhood": "West End",
+    "description": "Art camps & classes for kids! Painting, drawing, photography, sculpture, mixed media exploration.",
+    "address": "West Toronto",
+    "lat": 43.6465,
+    "lng": -79.4656,
+    "website": "https://themakestation.ca/",
+    "specialties": [
+      "Kids Art",
+      "Photography",
+      "Sculpture",
+      "Mixed Media"
+    ],
+    "family_friendly": true,
+    "icon": "🎨"
+  },
+  {
+    "name": "The Maker Bean Cafe",
+    "type": "Makerspace & Cafe",
+    "neighborhood": "Downtown",
+    "description": "Canada's FIRST makerspace cafe! Laser cutting, 3D printing, kids tech camps. Locally sourced coffee!",
+    "address": "Multiple Toronto Locations",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "website": "https://themakerbean.com/",
+    "specialties": [
+      "Tech Workshops",
+      "Laser Cutting",
+      "3D Printing",
+      "Kids Camps"
+    ],
+    "family_friendly": true,
+    "icon": "⚡"
+  },
+  {
+    "name": "Harbourfront Centre - Craft & Design",
+    "type": "Professional Craft Studios",
+    "neighborhood": "Harbourfront",
+    "description": "Glass blowing, ceramics, jewelry making, textiles! Watch artisans work, take classes.",
+    "address": "235 Queens Quay W",
+    "lat": 43.6385,
+    "lng": -79.3817,
+    "website": "https://harbourfrontcentre.com/",
+    "specialties": [
+      "Glass Blowing",
+      "Ceramics",
+      "Jewelry",
+      "Textiles",
+      "Screen Printing"
+    ],
+    "family_friendly": true,
+    "icon": "🔥"
+  },
+  {
+    "name": "Toronto Artisan Market - Distillery",
+    "type": "Artisan Market",
+    "neighborhood": "Distillery District",
+    "description": "Monthly market in historic Distillery District. Local makers, food artisans, unique crafts.",
+    "address": "Distillery District",
+    "lat": 43.6503,
+    "lng": -79.3599,
+    "website": "https://www.torontoartisanmarket.com/",
+    "specialties": [
+      "Handmade Goods",
+      "Food Artisans",
+      "Jewelry",
+      "Art"
+    ],
+    "family_friendly": true,
+    "icon": "🏭"
+  },
+  {
+    "name": "Site 3 coLaboratory",
+    "type": "Art & Technology Makerspace",
+    "neighborhood": "Bloor-Ossington",
+    "description": "Woodworking, glassworking, 3D printing, electronics. Classes for adults and families.",
+    "address": "Near Bloor & Ossington",
+    "lat": 43.6569,
+    "lng": -79.4234,
+    "website": "https://www.site3.ca/",
+    "specialties": [
+      "Woodworking",
+      "Glassworking",
+      "3D Printing",
+      "Electronics"
+    ],
+    "family_friendly": true,
+    "icon": "🔧"
+  },
+  {
+    "name": "Paperhouse Studio",
+    "type": "Paper Arts Studio",
+    "neighborhood": "Dundas West",
+    "description": "Paper & print arts! Origami, bookbinding, monoprinting, papermaking classes.",
+    "address": "Dundas West",
+    "lat": 43.652,
+    "lng": -79.4478,
+    "website": "https://www.paperhousestudio.com/",
+    "specialties": [
+      "Origami",
+      "Bookbinding",
+      "Printing",
+      "Papermaking"
+    ],
+    "family_friendly": true,
+    "icon": "📄"
+  },
+  {
+    "name": "The Beaches Arts & Crafts Show",
+    "type": "Annual Craft Fair",
+    "neighborhood": "The Beaches",
+    "description": "Springtime tradition since 1984! 150+ independent artists, makers, designers. Outdoor show.",
+    "address": "Kew Gardens, The Beaches",
+    "lat": 43.6679,
+    "lng": -79.2975,
+    "website": "https://www.beachesartandcraftshow.com/",
+    "specialties": [
+      "Fine Art",
+      "Crafts",
+      "Jewelry",
+      "Pottery",
+      "Textiles"
+    ],
+    "family_friendly": true,
+    "icon": "🏖️"
+  },
+  {
+    "name": "MakerKids",
+    "type": "Tech Makerspace for Kids",
+    "neighborhood": "Multiple Locations",
+    "description": "World's biggest makerspace for kids! Minecraft, robotics, coding camps and workshops.",
+    "address": "Bloor West & Jane (+ other locations)",
+    "lat": 43.6465,
+    "lng": -79.4878,
+    "website": "https://www.makerkids.com/",
+    "specialties": [
+      "Robotics",
+      "Coding",
+      "Minecraft",
+      "Tech Camps"
+    ],
+    "family_friendly": true,
+    "icon": "🤖"
+  },
+  {
+    "name": "Toronto Dark Arts Market",
+    "type": "Alternative Arts Market",
+    "neighborhood": "Various Locations",
+    "description": "Bi-monthly alternative marketplace! Gothic, witchy, alternative artists, musicians, makers.",
+    "address": "Rotating Venues",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "website": "https://www.torontodarkartsmarket.com/",
+    "specialties": [
+      "Alternative Art",
+      "Gothic Crafts",
+      "Music",
+      "Unique Goods"
+    ],
+    "family_friendly": false,
+    "icon": "🌙"
+  },
+  {
+    "name": "Sharpen Skills",
+    "type": "Hands-On Workshop Studio",
+    "neighborhood": "Downtown",
+    "description": "Self-sufficiency workshops! Woodworking, leatherwork, knife skills. Expert artisans, small groups.",
+    "address": "Downtown Toronto",
+    "lat": 43.6532,
+    "lng": -79.3832,
+    "website": "https://sharpenskills.ca/",
+    "specialties": [
+      "Woodworking",
+      "Leatherwork",
+      "Knife Making",
+      "Practical Skills"
+    ],
+    "family_friendly": false,
+    "icon": "🪵"
+  }
+]

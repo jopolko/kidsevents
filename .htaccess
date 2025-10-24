@@ -1,0 +1,84 @@
+# Security Configuration for FreeTO Kids Events
+# Updated with Apache 2.4 syntax and enhanced security
+
+# ============================================
+# 1. BLOCK ACCESS TO SENSITIVE FILES
+# ============================================
+
+# Block all .env files (contains API keys)
+<FilesMatch "^\.env">
+    Require all denied
+</FilesMatch>
+
+# Block configuration and loader files
+<FilesMatch "^(config\.php|load-env\.php)$">
+    Require all denied
+</FilesMatch>
+
+# Block Python source code files
+<FilesMatch "\.(py|pyc|pyo|pyd)$">
+    Require all denied
+</FilesMatch>
+
+# Block configuration and documentation files
+<FilesMatch "^(requirements\.txt|setup\.sh|.*\.md|CLAUDE\.md|README\.md|\.gitignore|\.git.*|composer\.json|package\.json)$">
+    Require all denied
+</FilesMatch>
+
+# Block backup and temporary files
+<FilesMatch "\.(bak|backup|old|tmp|swp|swo|log|~)$">
+    Require all denied
+</FilesMatch>
+
+# Block access to hidden files except .well-known
+<FilesMatch "^\.(?!well-known)">
+    Require all denied
+</FilesMatch>
+
+# ============================================
+# 2. SECURITY HEADERS
+# ============================================
+
+<IfModule mod_headers.c>
+    # Prevent clickjacking
+    Header always set X-Frame-Options "DENY"
+
+    # Prevent MIME type sniffing
+    Header always set X-Content-Type-Options "nosniff"
+
+    # Enable XSS protection
+    Header always set X-XSS-Protection "1; mode=block"
+
+    # Referrer policy
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+    # CORS for JSON files (needed for events data)
+    <FilesMatch "\.(json)$">
+        Header set Access-Control-Allow-Origin "*"
+        Header set Access-Control-Allow-Methods "GET, OPTIONS"
+        Header set Access-Control-Allow-Headers "Content-Type"
+    </FilesMatch>
+</IfModule>
+
+# ============================================
+# 3. MIME TYPES
+# ============================================
+
+<IfModule mod_mime.c>
+    AddType application/json .json
+    AddType text/javascript .js
+</IfModule>
+
+# ============================================
+# 4. DISABLE DIRECTORY LISTING
+# ============================================
+
+Options -Indexes
+
+# ============================================
+# 5. PREVENT ACCESS TO DEBUGGING FILES
+# ============================================
+
+<FilesMatch "^(phpinfo\.php|test\.php|debug\.php)$">
+    Require all denied
+</FilesMatch>

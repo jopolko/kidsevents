@@ -1,0 +1,29 @@
+[
+  {
+    "title": "LEGO Club",
+    "description": "Build amazing creations with LEGO. Bricks provided.",
+    "date": "2025-10-17",
+    "start_time": "16:00",
+    "end_time": "17:00",
+    "branch": "Fort York",
+    "address": "190 Fort York Blvd"
+  },
+  {
+    "title": "Coding for Kids",
+    "description": "Learn programming basics through fun games and activities.",
+    "date": "2025-10-18",
+    "start_time": "10:00",
+    "end_time": "11:30",
+    "branch": "Reference Library",
+    "address": "789 Yonge St"
+  },
+  {
+    "title": "Saturday Science Club",
+    "description": "Hands-on STEM activities and experiments for kids.",
+    "date": "2025-10-19",
+    "start_time": "10:00",
+    "end_time": "11:30",
+    "branch": "Albion",
+    "address": "1515 Albion Rd"
+  }
+]
