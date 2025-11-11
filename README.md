@@ -128,13 +128,13 @@ pq/
 
 | Source | Events/Week | Status |
 |--------|-------------|--------|
-| **Toronto Public Library** | 500+ | ✅ Active |
-| **EventBrite** | 50+ | ✅ Active |
-| **Parks & Recreation** | 200+ | 🔜 Coming soon |
-| **Museums** | 20+ | 🔜 Coming soon |
-| **Community Centres** | 100+ | 🔜 Coming soon |
+| **EarlyON Centres** | 1,290+ | ✅ Active |
+| **Parks & Recreation** | 873+ | ✅ Active |
+| **Toronto Public Library** | 805+ | ✅ Active |
+| **Museums** | 117+ | ✅ Active |
+| **Community Events** | 100+ | ✅ Active |
 
-**Total:** 500+ events currently, 900+ when all sources added
+**Total:** 3,181+ events currently updated daily
 
 ---
 

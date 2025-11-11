@@ -80,16 +80,15 @@ A complete, production-ready web application for discovering free kids events in
 ## 📊 Current Status
 
 ### Data Sources
-| Source | Status | Events/Week |
+| Source | Status | Events |
 |--------|--------|-------------|
-| Toronto Public Library | ✅ Template ready | 500+ |
-| EventBrite | ✅ Live integration | 50+ |
-| Parks & Recreation | 🔜 Coming soon | 200+ |
-| Museums | 🔜 Coming soon | 20+ |
-| Community Centres | 🔜 Coming soon | 100+ |
+| EarlyON Centres | ✅ Live | 1,290+ |
+| Parks & Recreation | ✅ Live | 873+ |
+| Toronto Public Library | ✅ Live | 805+ |
+| Museums (Various) | ✅ Live | 117+ |
+| Community Events | ✅ Live | 100+ |
 
-**Current Total:** 550+ events
-**Potential Total:** 870+ events
+**Current Total:** 3,181+ events updated daily
 
 ### Features Completed
 - ✅ Web interface
