@@ -2,7 +2,7 @@
 
 **Discover events and activities for children under 12 in Toronto**
 
-🌐 **Live Demo:** [joshuaopolko.com/kidsevents]
+🌐 **Live Demo:** joshuaopolko.com/kidsevents
 📚 **Documentation:** See guides below
 
 ---
