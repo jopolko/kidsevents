@@ -31,7 +31,7 @@
 
 ```bash
 # 1. Clone/download this project
-cd pq
+cd kidsevents
 
 # 2. Set up data scrapers
 cd scrapers
