@@ -12,10 +12,9 @@
 - 🎯 **Kids-Focused** - Events specifically for ages 0-12
 - 📍 **Location-Based** - Find events near you with GPS
 - 🔍 **Smart Search** - Real-time filtering by keywords
-- 📅 **Calendar View** - Visual monthly calendar
 - 🎨 **Beautiful Design** - Modern, mobile-first UI
-- ⚡ **Fast & Simple** - No login required, works offline
-- 🆓 **100% Free** - All events are completely free
+- ⚡ **Fast & Simple** - No login required
+- 🆓 **90% Free** - Almost all events are completely free
 
 ---
 
