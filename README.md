@@ -158,36 +158,9 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed system design.
 
 ## 🚀 Deployment
 
-### Option 1: GitHub Pages (Free)
-```bash
-# Push to GitHub
-git add .
-git commit -m "Deploy Toronto Kids Events"
-git push origin main
+The site is currently deployed on Apache web server at [https://joshuaopolko.com/kidsevents/](https://joshuaopolko.com/kidsevents/).
 
-# Enable GitHub Pages in repo settings
-# Site will be live at: https://yourusername.github.io/torontokidsevents
-```
-
-### Option 2: Netlify (Free)
-```bash
-# Install Netlify CLI
-npm install -g netlify-cli
-
-# Deploy
-netlify deploy --prod
-
-# Or connect GitHub repo in Netlify dashboard
-```
-
-### Option 3: Vercel (Free)
-```bash
-# Install Vercel CLI
-npm install -g vercel
-
-# Deploy
-vercel --prod
-```
+For other hosting options, you can deploy to any static web host since this is a single-page application with no backend dependencies.
 
 ---
 
