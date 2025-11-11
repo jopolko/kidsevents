@@ -87,7 +87,7 @@ pq/
 ## 🎯 Use Cases
 
 ### Parents & Caregivers
-- Find weekend activities for kids
+- Find weekly and daily activities for kids
 - Discover library storytimes nearby
 - Plan weekly outings without spending money
 
