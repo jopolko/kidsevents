@@ -86,8 +86,7 @@ class FamilyFunScraper:
             next_elem = next_elem.find_next_sibling()
             count += 1
 
-        if len(description) > 300:
-            description = description[:297] + "..."
+        # Keep full description - no truncation
 
         # Default to this weekend
         days_until_saturday = (5 - today.weekday()) % 7

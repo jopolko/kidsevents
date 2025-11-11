@@ -1,4 +1,4 @@
-# FreeTO Architecture Overview
+# Toronto Kids Events Architecture Overview
 
 ## 🏗️ System Architecture
 

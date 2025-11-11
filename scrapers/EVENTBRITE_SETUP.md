@@ -19,7 +19,7 @@ Currently, **TPL events make up 88.2% of all events** in the aggregator. We need
 1. Go to https://www.eventbrite.com/platform/
 2. Click "Create App" or go to https://www.eventbrite.com/account-settings/apps
 3. Fill out the app details:
-   - **App Name**: "FreeTO Events Scraper" (or any name)
+   - **App Name**: "Toronto Kids Events Events Scraper" (or any name)
    - **App Description**: "Aggregating free kids and family events in Toronto"
    - **App URL**: Your website or `https://joshuaopolko.com/pq/`
 

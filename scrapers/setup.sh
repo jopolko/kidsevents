@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# FreeTO Scrapers Setup Script
+# Toronto Kids Events Scrapers Setup Script
 
-echo "🎯 FreeTO Data Scrapers Setup"
+echo "🎯 Toronto Kids Events Data Scrapers Setup"
 echo "=============================="
 echo ""
 

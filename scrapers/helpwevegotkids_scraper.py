@@ -45,21 +45,27 @@ class HelpWeveGotKidsScraper:
             response = session.get(
                 self.events_url,
                 timeout=20,
-                allow_redirects=True
+                allow_redirects=True,
+                verify=False  # SSL certificate has expired
             )
 
-            if response.status_code != 200:
+            # Site returns 500 but still serves HTML content - accept both 200 and 500
+            if response.status_code not in [200, 500]:
                 print(f"   ⚠️  HTTP {response.status_code} - trying alternate approach")
                 # Try without some headers that might trigger protection
                 simple_headers = {
                     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
                 }
                 time.sleep(2)
-                response = requests.get(self.events_url, headers=simple_headers, timeout=20)
+                response = requests.get(self.events_url, headers=simple_headers, timeout=20, verify=False)
 
-                if response.status_code != 200:
+                if response.status_code not in [200, 500]:
                     print(f"   ⚠️  Still getting HTTP {response.status_code} - site may have bot protection")
                     return []
+
+            # Acknowledge 500 status but proceed with parsing
+            if response.status_code == 500:
+                print(f"   ⚠️  HTTP 500 received but attempting to parse content anyway")
 
             soup = BeautifulSoup(response.content, 'html.parser')
             events = []

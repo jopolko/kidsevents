@@ -286,44 +286,39 @@ class MuseumFreeDaysScraper:
         return events
 
     def _generate_osc_popup(self) -> List[Dict]:
-        """Generate Ontario Science Centre pop-up location events"""
+        """Generate Ontario Science Centre free events and special programs"""
         events = []
         today = datetime.now()
-        end_date = datetime(2025, 12, 31)  # Extended through 2025
+        end_date = datetime(2026, 3, 31)  # Extended through March 2026
 
-        venues = ['OSC_Harbourfront', 'OSC_Sherway']
+        # Pride in STEM 2025 - Free Event (Nov 15, 2025)
+        pride_stem_date = datetime(2025, 11, 15)
+        if today.date() <= pride_stem_date.date() <= end_date.date():
+            events.append({
+                "title": "Pride in STEM 2025 - Free Event",
+                "description": "FREE event celebrating the 2SLGBTQI+ community in science! Join us for interactive activities, workshops, and science demonstrations. All ages and families welcome.",
+                "category": "Learning",
+                "icon": "🌈",
+                "date": pride_stem_date.strftime('%Y-%m-%d'),
+                "start_time": "11:00",
+                "end_time": "16:00",
+                "venue": {
+                    "name": "Ontario Science Centre at Harbourfront",
+                    "address": "235 Queens Quay W",
+                    "neighborhood": "Waterfront",
+                    "lat": 43.6387,
+                    "lng": -79.3816
+                },
+                "age_groups": ["All Ages"],
+                "indoor_outdoor": "Indoor",
+                "organized_by": "Ontario Science Centre",
+                "website": "https://www.ontariosciencecentre.ca",
+                "source": "ScienceCentre"
+            })
 
-        for venue_key in venues:
-            venue = self.venues[venue_key]
-            current = today
-
-            while current <= end_date:
-                # Only generate for days when OSC is typically open (Tue-Sun)
-                if current.weekday() < 6:  # Not Monday
-                    event = {
-                        "title": f"Ontario Science Centre Pop-Up - Hands-On STEM Play",
-                        "description": "Interactive STEM exhibits for kids 10 and under! Explore Innovation Station, Imagination Playground, and Rigamajig. Note: $15 admission (free for ages 2 and under, free for Indigenous peoples).",
-                        "category": "Learning",
-                        "icon": "🔬",
-                        "date": current.strftime('%Y-%m-%d'),
-                        "start_time": "10:00",
-                        "end_time": "17:00",
-                        "venue": {
-                            "name": venue['name'],
-                            "address": venue['address'],
-                            "neighborhood": "Toronto",
-                            "lat": venue['lat'],
-                            "lng": venue['lng']
-                        },
-                        "age_groups": ["Babies (0-2)", "Toddlers (3-5)", "Kids (6-12)"],
-                        "indoor_outdoor": "Indoor",
-                        "organized_by": "Ontario Science Centre",
-                        "website": venue['website'],
-                        "source": "ScienceCentre"
-                    }
-                    events.append(event)
-
-                current += timedelta(days=7)  # Weekly to avoid overwhelming with daily entries
+        # Note: OSC pop-up locations (Harbourfront & Sherway Gardens) require paid admission ($15)
+        # and are NOT included here since this project focuses on FREE events only.
+        # Exceptions: Free for ages 2 and under, and free for Indigenous peoples.
 
         return events
 

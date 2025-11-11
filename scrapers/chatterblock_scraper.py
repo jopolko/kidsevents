@@ -143,7 +143,7 @@ class ChatterBlockScraper:
 
             return {
                 "title": name,
-                "description": description[:250] + "..." if len(description) > 250 else description,
+                "description": description,
                 "category": category,
                 "icon": icon,
                 "date": event_date.strftime('%Y-%m-%d'),

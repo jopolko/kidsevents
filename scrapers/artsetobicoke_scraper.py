@@ -38,41 +38,50 @@ class ArtsEtobicokeScraper:
         # Since these are ongoing paid programs, we won't add them as individual events
         # Focus on special free events instead
 
-        # Creative Socials at Cloverdale (if within date range)
-        creative_social = datetime(2025, 10, 24).date()
-        if today <= creative_social <= end_date:
+        # Creative Socials at Cloverdale (weekly on Thursdays)
+        # Generate for next 8 weeks
+        current_date = today
+        while current_date <= end_date:
+            if current_date.weekday() == 3:  # Thursday
+                events.append({
+                    'title': 'Creative Socials at Cloverdale',
+                    'description': 'Drop-in creative coworking and social space for families and community members. Bring your creative projects and connect with others.',
+                    'category': 'Arts',
+                    'icon': '🎨',
+                    'date': current_date.strftime('%Y-%m-%d'),
+                    'start_time': '10:00',
+                    'end_time': '16:00',
+                    'venue': {
+                        'name': 'Cloverdale Common - Cloverdale Mall',
+                        'address': '250 The East Mall, Etobicoke, ON',
+                        'neighborhood': 'Etobicoke',
+                        'lat': 43.6186,
+                        'lng': -79.5532
+                    },
+                    'age_groups': ['All Ages'],
+                    'indoor_outdoor': 'Indoor',
+                    'organized_by': 'Arts Etobicoke',
+                    'website': 'https://www.artsetobicoke.com/ae-events/',
+                    'source': self.source,
+                    'scraped_at': datetime.now().isoformat()
+                })
+            current_date += timedelta(days=1)
+
+        # Studio Series workshops (bi-weekly on Fridays)
+        workshop_dates = []
+        check_date = today
+        while check_date <= end_date and len(workshop_dates) < 4:
+            if check_date.weekday() == 4:  # Friday
+                workshop_dates.append(check_date)
+            check_date += timedelta(days=1)
+
+        for workshop_date in workshop_dates[::2]:  # Every other Friday
             events.append({
-                'title': 'Creative Socials at Cloverdale',
-                'description': 'Drop-in creative coworking and social space for families and community members. Bring your creative projects and connect with others.',
+                'title': 'Studio Series: Art Workshop for Kids',
+                'description': 'Studio Series workshop for children featuring hands-on creative activities. Led by local artists exploring different mediums and techniques.',
                 'category': 'Arts',
                 'icon': '🎨',
-                'date': '2025-10-24',
-                'start_time': '10:00',
-                'end_time': '16:00',
-                'venue': {
-                    'name': 'Cloverdale Common - Cloverdale Mall',
-                    'address': '250 The East Mall, Etobicoke, ON',
-                    'neighborhood': 'Etobicoke',
-                    'lat': 43.6186,
-                    'lng': -79.5532
-                },
-                'age_groups': ['All Ages'],
-                'indoor_outdoor': 'Indoor',
-                'organized_by': 'Arts Etobicoke',
-                'website': 'https://www.artsetobicoke.com/',
-                'source': self.source,
-                'scraped_at': datetime.now().isoformat()
-            })
-
-        # Studio Series: Whimsical Wonders of Fall
-        fall_workshop = datetime(2025, 10, 25).date()
-        if today <= fall_workshop <= end_date:
-            events.append({
-                'title': 'Whimsical Wonders of Fall: Art for Kids',
-                'description': 'Studio Series workshop for children featuring fall-themed art activities. Hands-on creative experience exploring autumn themes.',
-                'category': 'Arts',
-                'icon': '🍂',
-                'date': '2025-10-25',
+                'date': workshop_date.strftime('%Y-%m-%d'),
                 'start_time': '14:00',
                 'end_time': '16:00',
                 'venue': {
@@ -85,33 +94,7 @@ class ArtsEtobicokeScraper:
                 'age_groups': ['Kids (6-8)', 'Preteens (9-12)'],
                 'indoor_outdoor': 'Indoor',
                 'organized_by': 'Arts Etobicoke',
-                'website': 'https://www.artsetobicoke.com/',
-                'source': self.source,
-                'scraped_at': datetime.now().isoformat()
-            })
-
-        # AE Open Mic Night (family-friendly)
-        open_mic = datetime(2025, 10, 29).date()
-        if today <= open_mic <= end_date:
-            events.append({
-                'title': 'AE Open Mic Night (Family-Friendly)',
-                'description': 'Free community open mic night at Storefront Gallery. All ages welcome to perform or enjoy performances in a supportive environment.',
-                'category': 'Arts',
-                'icon': '🎤',
-                'date': '2025-10-29',
-                'start_time': '18:00',
-                'end_time': '20:00',
-                'venue': {
-                    'name': 'Storefront Gallery',
-                    'address': '4893a Dundas Street West, Etobicoke, ON',
-                    'neighborhood': 'Etobicoke',
-                    'lat': 43.6638,
-                    'lng': -79.5242
-                },
-                'age_groups': ['All Ages'],
-                'indoor_outdoor': 'Indoor',
-                'organized_by': 'Arts Etobicoke',
-                'website': 'https://www.artsetobicoke.com/',
+                'website': 'https://www.artsetobicoke.com/ae-events/',
                 'source': self.source,
                 'scraped_at': datetime.now().isoformat()
             })

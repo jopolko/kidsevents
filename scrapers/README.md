@@ -1,4 +1,4 @@
-# FreeTO Data Scrapers
+# Toronto Kids Events Data Scrapers
 
 Automated data collection scripts for aggregating free kids events in Toronto.
 
@@ -248,4 +248,4 @@ To add a new event source:
 
 ## 📄 License
 
-MIT - Use freely for FreeTO project
+MIT - Use freely for Toronto Kids Events project

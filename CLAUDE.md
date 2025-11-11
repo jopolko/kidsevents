@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-FreeTO is a web application for discovering free kids events (ages 0-12) in Toronto. The project consists of:
+Toronto Kids Events is a web application for discovering kids events (ages 0-12) in Toronto. The project consists of:
 - A single-page frontend application (vanilla JavaScript, no frameworks)
 - Python scrapers that collect event data from multiple sources
 - A data aggregator that combines, deduplicates, and validates events

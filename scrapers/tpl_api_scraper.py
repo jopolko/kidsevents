@@ -207,6 +207,26 @@ class TPLAPIScraper:
                 if any(kw in text_to_check for kw in job_keywords):
                     continue
 
+                # Filter out adult settlement/newcomer services (not kids events)
+                adult_service_keywords = [
+                    'settlement services', 'settlement worker', 'settlement help', 'settlement 101',
+                    'newcomer services', 'pr card', 'citizenship test', 'citizenship application',
+                    'citizenship education', 'citizenship preparation', 'canadian citizenship',
+                    'pathway to citizenship', 'applying as a citizen', 'applying for citizenship',
+                    'work permit', 'study permit', 'immigration documents', 'commissioner of oaths',
+                    'english conversation circle', 'esl reading circle', 'conversation circle',
+                    'practice english', 'speak english', 'improve english',
+                    'tax clinic', 'tax preparation', 'tax help', 'income tax',
+                    'medicare enrollment', 'health card', 'ohip',
+                    'business in canada', 'launch your business', 'entrepreneurship',
+                    'computer basics', 'computer literacy', 'learn computer',
+                    'public speaking for', 'communicate with confidence',
+                    'empowering immigrants', 'bank account and credit', 'credit management',
+                    'rights in canada', 'charter of rights', 'human rights code'
+                ]
+                if any(kw in text_to_check for kw in adult_service_keywords):
+                    continue
+
                 # Clean description (remove HTML)
                 description = self._clean_description(description)
 
@@ -413,10 +433,7 @@ class TPLAPIScraper:
         # Remove excessive whitespace
         clean = re.sub(r'\s+', ' ', clean)
 
-        # Truncate
-        if len(clean) > 250:
-            clean = clean[:247] + "..."
-
+        # No truncation - return full description
         return clean.strip()
 
 

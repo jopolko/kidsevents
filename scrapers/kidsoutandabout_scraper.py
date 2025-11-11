@@ -10,6 +10,7 @@ from datetime import datetime, timedelta
 from typing import List, Dict
 import re
 from bs4 import BeautifulSoup
+from place_id_lookup import PlaceIDLookup
 
 class KidsOutAndAboutScraper:
     def __init__(self):
@@ -17,6 +18,17 @@ class KidsOutAndAboutScraper:
         self.event_list_url = f"{self.base_url}/event-list"
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+        }
+        self.place_lookup = PlaceIDLookup()
+
+        # Toronto boundaries (approximate)
+        # Lat: 43.58 (south) to 43.86 (north)
+        # Lng: -79.64 (west) to -79.12 (east)
+        self.toronto_bounds = {
+            'lat_min': 43.58,
+            'lat_max': 43.86,
+            'lng_min': -79.64,
+            'lng_max': -79.12
         }
 
     def fetch_events(self, days_ahead: int = 30) -> List[Dict]:
@@ -42,9 +54,10 @@ class KidsOutAndAboutScraper:
             event_items = soup.find_all('div', class_='node-activity')
 
             for item in event_items:
-                parsed = self._parse_event_item(item, soup)
-                if parsed:
-                    events.append(parsed)
+                # Can return multiple events (one per date)
+                parsed_events = self._parse_event_item(item, soup)
+                if parsed_events:
+                    events.extend(parsed_events)
 
             print(f"   ✅ Found {len(events)} events from Kids Out and About")
             return events
@@ -53,61 +66,91 @@ class KidsOutAndAboutScraper:
             print(f"   ❌ Error fetching Kids Out and About events: {e}")
             return []
 
-    def _parse_event_item(self, item, soup) -> Dict:
-        """Parse an individual event item"""
+    def _parse_event_item(self, item, soup) -> List[Dict]:
+        """Parse an individual event item - returns list of events (one per date)"""
 
         try:
             # Extract title from h2 tag within group-activity-details
             details_div = item.find('div', class_='group-activity-details')
             if not details_div:
-                return None
+                return []
 
             title_elem = details_div.find('h2')
             if not title_elem:
-                return None
+                return []
 
             title_link = title_elem.find('a')
             if not title_link:
-                return None
+                return []
 
             title = title_link.get_text(strip=True)
             if not title:
-                return None
+                return []
 
             event_url = title_link.get('href', '')
             if event_url and not event_url.startswith('http'):
                 event_url = f"{self.base_url}{event_url}"
 
-            # Extract location
+            # Extract location - try multiple field names
             venue_name = "Toronto Area"
             address = "Toronto, ON"
-            lat, lng = 43.6532, -79.3832
+            lat, lng = None, None
 
-            contact_info = item.find('div', class_='field-name-field-contact-info')
-            if contact_info:
-                venue_link = contact_info.find('span', class_='fn')
-                if venue_link:
-                    venue_name = venue_link.get_text(strip=True)
+            # Try field-venue-places-api first (new structure)
+            venue_field = item.find('div', class_='field-name-field-venue-places-api')
+            if venue_field:
+                field_item = venue_field.find('div', class_='field-item')
+                if field_item:
+                    # Extract address text directly
+                    address_div = field_item.find('div')
+                    if address_div:
+                        full_address = address_div.get_text(strip=True)
+                        if full_address:
+                            address = full_address
+                            # Try to extract venue name from organization in script
+                            script = item.find('script', type='text/javascript')
+                            if script and 'organization' in script.get_text():
+                                org_match = re.search(r"'organization':\s*'([^']+)'", script.get_text())
+                                if org_match:
+                                    venue_name = org_match.group(1)
 
-                street = contact_info.find('div', class_='street-address')
-                locality = contact_info.find('span', class_='locality')
-                if street and locality:
-                    address = f"{street.get_text(strip=True)}, {locality.get_text(strip=True)}, ON"
+            # Fallback to old field-contact-info structure
+            if venue_name == "Toronto Area":
+                contact_info = item.find('div', class_='field-name-field-contact-info')
+                if contact_info:
+                    venue_link = contact_info.find('span', class_='fn')
+                    if venue_link:
+                        venue_name = venue_link.get_text(strip=True)
 
-            # Extract dates
+                    street = contact_info.find('div', class_='street-address')
+                    locality = contact_info.find('span', class_='locality')
+                    if street and locality:
+                        address = f"{street.get_text(strip=True)}, {locality.get_text(strip=True)}, ON"
+
+            # Set default Toronto coordinates only if we didn't get a specific venue
+            if venue_name == "Toronto Area":
+                lat, lng = 43.6532, -79.3832
+
+            # Extract ALL dates
             dates_field = item.find('div', class_='field-field-activity-dates')
             if not dates_field:
-                return None
+                return []
 
+            # Get all date items including hidden ones
             date_items = dates_field.find_all('span', class_='date-display-single')
             if not date_items:
-                return None
+                return []
 
-            # Get first date
-            first_date_text = date_items[0].get_text(strip=True)
-            event_date = self._parse_date_string(first_date_text)
-            if not event_date:
-                return None
+            # Parse all dates
+            event_dates = []
+            for date_item in date_items:
+                date_text = date_item.get_text(strip=True)
+                parsed_date = self._parse_date_string(date_text)
+                if parsed_date:
+                    event_dates.append(parsed_date)
+
+            if not event_dates:
+                return []
 
             # Extract time
             time_field = item.find('div', class_='field-name-field-time')
@@ -120,7 +163,7 @@ class KidsOutAndAboutScraper:
 
             # Filter for kids relevance
             if not self._is_kids_relevant(title):
-                return None
+                return []
 
             # Check if free (look for pricing info)
             is_free = self._check_if_free(item)
@@ -129,35 +172,101 @@ class KidsOutAndAboutScraper:
             age_groups = self._determine_age_groups(title)
             category, icon = self._determine_category(title)
 
-            # Build event dict
-            event_dict = {
-                "title": title,
-                "description": f"Event from Kids Out and About Toronto",
-                "category": category,
-                "icon": icon,
-                "date": event_date,
-                "start_time": start_time,
-                "end_time": end_time,
-                "venue": {
+            # Enrich venue with geocoding BEFORE checking Toronto boundaries
+            # Only geocode once for all dates
+            if venue_name != "Toronto Area":
+                temp_venue = {
                     "name": venue_name,
                     "address": address,
                     "neighborhood": "Toronto",
                     "lat": lat,
                     "lng": lng
-                },
-                "age_groups": age_groups,
-                "indoor_outdoor": "Indoor",
-                "organized_by": "Kids Out and About Toronto",
-                "website": event_url,
-                "source": "KidsOutAndAbout",
-                "scraped_at": datetime.now().isoformat(),
-                "is_free": is_free
-            }
+                }
+                enriched_venue = self.place_lookup.enrich_venue(temp_venue)
+                lat = enriched_venue.get("lat", lat)
+                lng = enriched_venue.get("lng", lng)
+                place_id = enriched_venue.get("place_id")
+            else:
+                place_id = None
 
-            return event_dict
+            # Fallback to Toronto coordinates if geocoding didn't provide coordinates
+            if not lat or not lng:
+                lat = 43.6532
+                lng = -79.3832
+
+            # Note: Including GTA events (Mississauga, Vaughan, etc.) for users near Toronto
+            # Geographic filter disabled to include nearby cities
+            # if not self._is_in_toronto(lat, lng, address):
+            #     return []
+
+            # Create one event per date
+            events = []
+            for event_date in event_dates:
+                event_dict = {
+                    "title": title,
+                    "description": f"Event from Kids Out and About Toronto",
+                    "category": category,
+                    "icon": icon,
+                    "date": event_date,
+                    "start_time": start_time,
+                    "end_time": end_time,
+                    "venue": {
+                        "name": venue_name,
+                        "address": address,
+                        "neighborhood": "Toronto",
+                        "lat": lat,
+                        "lng": lng
+                    },
+                    "age_groups": age_groups,
+                    "indoor_outdoor": "Indoor",
+                    "organized_by": "Kids Out and About Toronto",
+                    "website": event_url,
+                    "source": "KidsOutAndAbout",
+                    "scraped_at": datetime.now().isoformat(),
+                    "is_free": is_free
+                }
+
+                # Add place_id if available
+                if place_id:
+                    event_dict["venue"]["place_id"] = place_id
+
+                events.append(event_dict)
+
+            return events
 
         except Exception as e:
-            return None
+            return []
+
+    def _is_in_toronto(self, lat: float, lng: float, address: str) -> bool:
+        """Check if event is within Toronto boundaries"""
+
+        # Check address first
+        address_lower = address.lower()
+
+        # Exclude if explicitly not in Toronto
+        non_toronto = ['mississauga', 'brampton', 'vaughan', 'markham', 'richmond hill',
+                       'pickering', 'ajax', 'whitby', 'oshawa', 'cambridge', 'kitchener',
+                       'waterloo', 'hamilton', 'burlington', 'oakville', 'milton', 'kettleby',
+                       'newmarket', 'aurora', 'king city']
+
+        if any(city in address_lower for city in non_toronto):
+            return False
+
+        # If address explicitly says Toronto, include it
+        if 'toronto' in address_lower:
+            return True
+
+        # Check coordinates if available
+        if lat and lng:
+            if (self.toronto_bounds['lat_min'] <= lat <= self.toronto_bounds['lat_max'] and
+                self.toronto_bounds['lng_min'] <= lng <= self.toronto_bounds['lng_max']):
+                return True
+
+        # If we have no coordinates and address doesn't mention Toronto, exclude it
+        if not lat or not lng:
+            return False
+
+        return False
 
     def _parse_date_string(self, date_str: str) -> str:
         """Parse MM/DD/YYYY format to YYYY-MM-DD"""
@@ -296,6 +405,9 @@ def main():
 
     print(f"\n📊 Summary:")
     print(f"   Total events: {len(events)}")
+
+    # Print geocoding statistics
+    scraper.place_lookup.print_stats()
 
     # Save to JSON
     with open('kidsoutandabout_events.json', 'w', encoding='utf-8') as f:

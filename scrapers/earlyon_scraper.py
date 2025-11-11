@@ -45,6 +45,7 @@ class EarlyONScraper:
     def _parse_earlyon_centers(self, centers: List[Dict], days_ahead: int) -> List[Dict]:
         """Parse EarlyON centers into recurring weekly events"""
         events = []
+        seen_events = set()  # Track unique events to handle duplicates in source data
 
         # Calculate date range
         today = datetime.now().date()
@@ -65,11 +66,16 @@ class EarlyONScraper:
 
             # Get location info
             program_name = center.get('program_name', 'EarlyON Center')
+
+            # Extract just the physical location name from program_name
+            # Pattern: "[Agency] EarlyON Child and Family Centre at [Location]"
+            venue_name = self._extract_venue_name(program_name)
+
             address = center.get('full_address', center.get('address', 'TBD'))
             lat = float(center.get('lat', 43.6532)) if center.get('lat') else 43.6532
             lng = float(center.get('lng', -79.3832)) if center.get('lng') else -79.3832
             phone = center.get('phone', '')
-            website = center.get('website', '')
+            website = self._normalize_website_url(center.get('website', ''))
             agency = center.get('agency', 'EarlyON Program')
 
             # Generate events for each day in the schedule
@@ -79,8 +85,16 @@ class EarlyONScraper:
 
                 for event_date in day_dates:
                     for start_time, end_time in time_ranges:
+                        # Create unique key to detect duplicates
+                        event_key = (address, event_date.strftime('%Y-%m-%d'), start_time, end_time)
+
+                        if event_key in seen_events:
+                            continue  # Skip duplicate session
+
+                        seen_events.add(event_key)
+
                         event = {
-                            "title": f"EarlyON Drop-In at {program_name}",
+                            "title": f"EarlyON Drop-In at {venue_name}",
                             "description": f"Free drop-in program for children 0-6 years and caregivers. Play, learn, and connect with other families. No registration required.",
                             "category": "Learning",
                             "icon": "👶",
@@ -88,7 +102,7 @@ class EarlyONScraper:
                             "start_time": start_time,
                             "end_time": end_time,
                             "venue": {
-                                "name": program_name,
+                                "name": venue_name,
                                 "address": address,
                                 "neighborhood": center.get('ward_name', 'Toronto'),
                                 "lat": lat,
@@ -107,29 +121,79 @@ class EarlyONScraper:
 
         return events
 
+    def _extract_venue_name(self, program_name: str) -> str:
+        """Extract the physical location name from the full program name
+
+        Examples:
+        - "ACSA EarlyON Child and Family Centre at Goldhawk Recreation Room"
+          → "Goldhawk Recreation Room"
+        - "Variety Village EarlyON Centre"
+          → "Variety Village EarlyON Centre"
+        - "St. James Town EarlyON Child and Family Centre"
+          → "St. James Town EarlyON Centre"
+        """
+
+        # If program name contains " at ", extract everything after it
+        if " at " in program_name:
+            # Split on " at " and take the last part (the physical location)
+            location = program_name.split(" at ")[-1].strip()
+            return location
+
+        # If it contains "EarlyON Child and Family Centre", simplify to "EarlyON Centre"
+        if "EarlyON Child and Family Centre" in program_name:
+            # Extract the first part before "EarlyON" and add "EarlyON Centre"
+            parts = program_name.split("EarlyON")[0].strip()
+            if parts:
+                return f"{parts} EarlyON Centre"
+
+        # Otherwise return as-is (might be already a simple name)
+        return program_name
+
+    def _normalize_website_url(self, url: str) -> str:
+        """Normalize website URL by adding protocol if missing
+
+        Args:
+            url: Website URL that may be missing protocol
+
+        Returns:
+            Properly formatted URL with https:// protocol, or None if invalid
+        """
+        if not url or url.lower() in ['none', 'n/a', '']:
+            return None
+
+        url = url.strip()
+
+        # If URL already has a protocol, return as-is
+        if url.startswith('http://') or url.startswith('https://'):
+            return url
+
+        # Add https:// protocol
+        return f"https://{url}"
+
     def _parse_schedule(self, schedule_str: str) -> Dict:
         """Parse drop-in hours string into structured schedule"""
         # Example: "Wednesday: 9:00 a.m. - 11:30 a.m."
         # Example: "Monday, Wednesday: 9:00 a.m. - 12:00 p.m."
         # Example: "Monday: 9:00 a.m. - noon | Tuesday: 2:00 p.m. - 4:00 p.m."
+        # Example: "Monday: 9:00 a.m. - noon ; 1:00 p.m. - 3:30 p.m." (multiple sessions same day)
 
         schedule = {}
 
-        # Split by common delimiters (pipe, semicolon, newline)
-        lines = re.split(r'[;\n|]', schedule_str)
+        # First split by pipe and newline (these separate different days)
+        day_lines = re.split(r'[\n|]', schedule_str)
 
-        for line in lines:
+        for line in day_lines:
             line = line.strip()
             if not line or ':' not in line:
                 continue
 
-            # Split day and time
+            # Split day and time portion
             parts = line.split(':', 1)
             if len(parts) != 2:
                 continue
 
             day_part = parts[0].strip()
-            time_part = parts[1].strip()
+            time_portion = parts[1].strip()
 
             # Extract day(s)
             days = []
@@ -140,16 +204,20 @@ class EarlyONScraper:
             if not days:
                 continue
 
-            # Extract time range
-            time_range = self._parse_time_range(time_part)
-            if not time_range:
-                continue
+            # Split time portion by semicolons to handle multiple sessions per day
+            time_segments = [t.strip() for t in time_portion.split(';') if t.strip()]
 
-            # Add to schedule
-            for day in days:
-                if day not in schedule:
-                    schedule[day] = []
-                schedule[day].append(time_range)
+            # Parse each time segment
+            for time_str in time_segments:
+                time_range = self._parse_time_range(time_str)
+                if not time_range:
+                    continue
+
+                # Add to schedule for all days mentioned
+                for day in days:
+                    if day not in schedule:
+                        schedule[day] = []
+                    schedule[day].append(time_range)
 
         return schedule
 

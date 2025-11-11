@@ -1,6 +1,6 @@
-# FreeTO - Free Events for Kids in Toronto
+# Toronto Kids Events - Discover Events for Kids in Toronto
 
-**Discover free events and activities for children under 12 in Toronto**
+**Discover events and activities for children under 12 in Toronto**
 
 🌐 **Live Demo:** [Open index.html]
 📚 **Documentation:** See guides below
@@ -163,11 +163,11 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed system design.
 ```bash
 # Push to GitHub
 git add .
-git commit -m "Deploy FreeTO"
+git commit -m "Deploy Toronto Kids Events"
 git push origin main
 
 # Enable GitHub Pages in repo settings
-# Site will be live at: https://yourusername.github.io/freeto
+# Site will be live at: https://yourusername.github.io/torontokidsevents
 ```
 
 ### Option 2: Netlify (Free)
@@ -288,7 +288,7 @@ Edit age groups in `index.html`:
 - **Coordinates**: Some venues may have inaccurate lat/lng
 - **CORS**: Must use local server for development (not `file://`)
 
-See [Issues](https://github.com/yourusername/freeto/issues) on GitHub.
+See [Issues](https://github.com/yourusername/torontokidsevents/issues) on GitHub.
 
 ---
 
@@ -330,10 +330,10 @@ MIT License - feel free to use for any purpose!
 
 ## 📞 Contact & Support
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/freeto/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/freeto/discussions)
-- **Email:** freeto@example.com
-- **Twitter:** @FreeTO_Toronto
+- **Issues:** [GitHub Issues](https://github.com/yourusername/torontokidsevents/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/yourusername/torontokidsevents/discussions)
+- **Email:** torontokidsevents@example.com
+- **X (Twitter):** [@JoshuaOpolko](https://x.com/JoshuaOpolko)
 
 ---
 

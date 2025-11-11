@@ -124,7 +124,7 @@ class TorontoOpenDataScraper:
 
                 event = {
                     "title": title,
-                    "description": description[:200] + "..." if len(description) > 200 else description,
+                    "description": description,
                     "category": category,
                     "icon": icon,
                     "date": event_start.strftime('%Y-%m-%d'),

@@ -2,6 +2,19 @@
 """
 BlogTO Kids Events Scraper
 Fetches kids/family events from BlogTO Toronto
+
+IMPORTANT: This scraper is DISABLED because BlogTO uses JavaScript rendering.
+
+WHY IT DOESN'T WORK:
+1. Events list page (/events/) loads content via JavaScript
+2. Article pages with event details ALSO load content via JavaScript
+3. Static HTML contains NO event data - everything is client-side rendered
+
+TO FIX THIS WOULD REQUIRE:
+- Selenium or Playwright for browser automation
+- OR access to BlogTO's API (if one exists)
+
+As of November 2025, this scraper returns 0 events due to JS rendering requirements.
 """
 
 import requests
@@ -14,100 +27,223 @@ import time
 class BlogTOScraper:
     def __init__(self):
         self.base_url = "https://www.blogto.com"
-        self.kids_section = f"{self.base_url}/kids/"
+        self.events_page = f"{self.base_url}/events/"
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
 
     def fetch_events(self, days_ahead: int = 30) -> List[Dict]:
-        """Fetch kids/family events from BlogTO"""
+        """BlogTO scraper is DISABLED - requires JavaScript rendering
+
+        BlogTO loads all event content via JavaScript, making it impossible
+        to scrape with simple HTTP requests. Both the events list page and
+        individual article pages use client-side rendering.
+
+        Returns empty list.
+        """
 
         print("📰 Fetching from BlogTO Kids...")
+        print("   ⚠️  BlogTO requires JavaScript rendering - scraper disabled")
+        print("   💡 To scrape BlogTO, you would need Selenium or Playwright")
+        return []
 
+    def _get_article_url(self, featured_section) -> str:
+        """Extract the article URL from featured section"""
         try:
-            time.sleep(1)  # Be polite
-
-            response = requests.get(self.kids_section, headers=self.headers, timeout=15)
-
-            if response.status_code != 200:
-                print(f"   ⚠️  HTTP {response.status_code}")
-                return []
-
-            soup = BeautifulSoup(response.content, 'html.parser')
-            events = []
-
-            # BlogTO uses article cards for events
-            articles = soup.find_all('article', class_=lambda x: x and 'article' in str(x).lower())
-
-            if not articles:
-                # Fallback: find divs with event-like classes
-                articles = soup.find_all(['div', 'article'], class_=lambda x: x and ('post' in str(x).lower() or 'card' in str(x).lower()))
-
-            for article in articles[:20]:  # Limit to first 20
-                parsed = self._parse_article(article)
-                if parsed:
-                    events.append(parsed)
-
-            if events:
-                print(f"   ✅ Found {len(events)} events from BlogTO")
-            else:
-                print(f"   ⚠️  No events found")
-
-            return events
-
-        except Exception as e:
-            print(f"   ❌ Error fetching BlogTO events: {e}")
-            return []
-
-    def _parse_article(self, article) -> Dict:
-        """Parse an individual article/event"""
-
-        try:
-            # Extract title
-            title_elem = article.find(['h2', 'h3', 'a'], class_=lambda x: 'title' in str(x).lower() if x else False)
-            if not title_elem:
-                title_elem = article.find(['h2', 'h3'])
-            if not title_elem:
+            article = featured_section.find('div', class_='article-thumbnail')
+            if not article:
                 return None
 
-            title = title_elem.get_text(strip=True)
-
-            # Filter for kids-related content
-            kids_keywords = ['kid', 'child', 'family', 'toddler', 'baby', 'teen', 'youth',
-                           'playground', 'park', 'free', 'festival', 'event']
-            if not any(keyword in title.lower() for keyword in kids_keywords):
-                return None
-
-            # Extract link
+            # Find any link in the article
             link_elem = article.find('a', href=True)
             if not link_elem:
                 return None
 
-            url = link_elem['href']
-            if not url.startswith('http'):
+            url = link_elem.get('href', '')
+            if url and not url.startswith('http'):
                 url = self.base_url + url
 
-            # Extract date from text if available
-            date_text = article.get_text()
-            event_date = self._extract_date(date_text)
+            return url if url else None
+        except:
+            return None
 
-            if not event_date:
-                # Default to tomorrow if no date found
-                event_date = (datetime.now() + timedelta(days=1)).strftime('%Y-%m-%d')
+    def _parse_article_events(self, html_content) -> List[Dict]:
+        """Parse individual events from the article content"""
+        soup = BeautifulSoup(html_content, 'html.parser')
+        events = []
 
-            # Extract description/excerpt
-            desc_elem = article.find(['p', 'div'], class_=lambda x: 'excerpt' in str(x).lower() if x else False)
-            description = desc_elem.get_text(strip=True)[:200] if desc_elem else title
+        # Find all tables (events are organized in category tables)
+        tables = soup.find_all('table')
+
+        for table in tables:
+            rows = table.find_all('tr')[1:]  # Skip header row
+
+            for row in rows:
+                cells = row.find_all('td')
+                if len(cells) >= 3:
+                    # Extract event details
+                    event_name = cells[0].get_text(strip=True)
+                    dates = cells[1].get_text(strip=True)
+                    location = cells[2].get_text(strip=True)
+
+                    # Filter for potentially free/family-friendly events
+                    if not self._is_likely_free_or_family(event_name, location):
+                        continue
+
+                    # Parse date
+                    event_date = self._parse_date(dates)
+                    if not event_date:
+                        continue
+
+                    # Create event
+                    event = {
+                        'title': event_name,
+                        'description': f"From BlogTO's weekly curated list. Location: {location}",
+                        'category': self._categorize_event(event_name),
+                        'icon': self._get_event_icon(event_name),
+                        'date': event_date,
+                        'start_time': '10:00',
+                        'end_time': '18:00',
+                        'venue': {
+                            'name': location,
+                            'address': f"{location}, Toronto, ON",
+                            'neighborhood': 'Toronto',
+                            'lat': 43.6532,
+                            'lng': -79.3832
+                        },
+                        'age_groups': ['All Ages'],
+                        'indoor_outdoor': 'Both',
+                        'organized_by': location,
+                        'website': self.base_url,
+                        'source': 'BlogTO'
+                    }
+
+                    events.append(event)
+
+        return events
+
+    def _is_likely_free_or_family(self, event_name: str, location: str) -> bool:
+        """Filter for likely free or family-friendly events"""
+        event_lower = event_name.lower()
+        location_lower = location.lower()
+
+        # Exclude obvious paid events
+        paid_keywords = ['concert', 'tour', 'nba', 'nhl', 'comedy', 'comedian',
+                         'live show', 'theatre', 'playoff', 'game']
+        if any(keyword in event_lower for keyword in paid_keywords):
+            return False
+
+        # Include likely free/family events
+        free_keywords = ['market', 'fair', 'festival', 'expo', 'free', 'family',
+                        'kids', 'children', 'playground', 'park']
+        if any(keyword in event_lower or keyword in location_lower for keyword in free_keywords):
+            return True
+
+        return False
+
+    def _parse_date(self, date_str: str) -> str:
+        """Parse date from various formats"""
+        try:
+            # Extract month and day using regex
+            match = re.search(r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})', date_str)
+
+            if match:
+                month_name = match.group(1)
+                day = int(match.group(2))
+
+                month_map = {
+                    'January': 1, 'February': 2, 'March': 3, 'April': 4,
+                    'May': 5, 'June': 6, 'July': 7, 'August': 8,
+                    'September': 9, 'October': 10, 'November': 11, 'December': 12
+                }
+
+                month = month_map.get(month_name)
+                if month:
+                    year = datetime.now().year
+                    # If month has passed, use next year
+                    if month < datetime.now().month:
+                        year += 1
+
+                    date_obj = datetime(year, month, day)
+                    return date_obj.strftime('%Y-%m-%d')
+
+            return None
+        except:
+            return None
+
+    def _categorize_event(self, name: str) -> str:
+        """Categorize event"""
+        name_lower = name.lower()
+
+        if any(word in name_lower for word in ['market', 'fair', 'expo']):
+            return 'Entertainment'
+        elif any(word in name_lower for word in ['festival', 'celebration']):
+            return 'Entertainment'
+        else:
+            return 'Entertainment'
+
+    def _get_event_icon(self, name: str) -> str:
+        """Get icon for event"""
+        name_lower = name.lower()
+
+        if 'market' in name_lower:
+            return '🛍️'
+        elif 'fair' in name_lower or 'festival' in name_lower:
+            return '🎪'
+        elif 'expo' in name_lower:
+            return '🎨'
+        else:
+            return '🎉'
+
+    def _parse_featured_article(self, article) -> Dict:
+        """Parse the featured weekly events article"""
+
+        try:
+            # Extract title (in <p> tag with class article-thumbnail-title)
+            title_elem = article.find('p', class_='article-thumbnail-title')
+            if not title_elem:
+                return None
+
+            title_span = title_elem.find('span', class_='article-thumbnail-title-text')
+            if not title_span:
+                return None
+
+            title = title_span.get_text(strip=True)
+
+            # Only include "things to do" type articles
+            if 'things to do' not in title.lower():
+                return None
+
+            # Extract link from image wrapper
+            link_wrapper = article.find('div', class_='article-thumbnail-picture-wrapper')
+            if link_wrapper:
+                link = link_wrapper.find_parent('a')
+                if link:
+                    url = link.get('href', '')
+                    if url and not url.startswith('http'):
+                        url = self.base_url + url
+                else:
+                    url = self.events_page
+            else:
+                url = self.events_page
+
+            # Determine date (assume current week)
+            today = datetime.now()
+            # Find next Monday for "this week" events
+            days_until_monday = (7 - today.weekday()) % 7
+            if days_until_monday == 0 and today.weekday() != 0:
+                days_until_monday = 7
+            event_date = (today + timedelta(days=days_until_monday)).strftime('%Y-%m-%d')
 
             # Create event
             event = {
                 'title': title,
-                'description': description,
-                'category': self._categorize(title + ' ' + description),
-                'icon': self._get_icon(title + ' ' + description),
+                'description': 'Weekly curated list of top things to do in Toronto, including family-friendly events, festivals, exhibitions, and activities.',
+                'category': 'Entertainment',
+                'icon': '🎉',
                 'date': event_date,
-                'start_time': '10:00',  # Default time
-                'end_time': '17:00',
+                'start_time': '00:00',
+                'end_time': '23:59',
                 'venue': {
                     'name': 'Various Toronto Locations',
                     'address': 'Toronto, ON',
@@ -117,7 +253,7 @@ class BlogTOScraper:
                 },
                 'age_groups': ['All Ages'],
                 'indoor_outdoor': 'Both',
-                'organized_by': 'BlogTO Featured',
+                'organized_by': 'BlogTO',
                 'website': url,
                 'source': 'BlogTO'
             }
@@ -127,91 +263,6 @@ class BlogTOScraper:
         except Exception as e:
             return None
 
-    def _extract_date(self, text: str) -> str:
-        """Extract date from text"""
-
-        today = datetime.now()
-
-        # Look for common date patterns
-        patterns = [
-            (r'(?:Jan|January)\s+(\d{1,2})', 1),
-            (r'(?:Feb|February)\s+(\d{1,2})', 2),
-            (r'(?:Mar|March)\s+(\d{1,2})', 3),
-            (r'(?:Apr|April)\s+(\d{1,2})', 4),
-            (r'(?:May)\s+(\d{1,2})', 5),
-            (r'(?:Jun|June)\s+(\d{1,2})', 6),
-            (r'(?:Jul|July)\s+(\d{1,2})', 7),
-            (r'(?:Aug|August)\s+(\d{1,2})', 8),
-            (r'(?:Sep|Sept|September)\s+(\d{1,2})', 9),
-            (r'(?:Oct|October)\s+(\d{1,2})', 10),
-            (r'(?:Nov|November)\s+(\d{1,2})', 11),
-            (r'(?:Dec|December)\s+(\d{1,2})', 12),
-        ]
-
-        for pattern, month in patterns:
-            match = re.search(pattern, text, re.IGNORECASE)
-            if match:
-                day = int(match.group(1))
-                year = today.year
-                # If month has passed, use next year
-                if month < today.month:
-                    year += 1
-                try:
-                    date_obj = datetime(year, month, day)
-                    return date_obj.strftime('%Y-%m-%d')
-                except:
-                    pass
-
-        # Look for "this weekend", "next week", etc.
-        if 'this weekend' in text.lower() or 'saturday' in text.lower():
-            # Find next Saturday
-            days_ahead = (5 - today.weekday()) % 7
-            if days_ahead == 0:
-                days_ahead = 7
-            date_obj = today + timedelta(days=days_ahead)
-            return date_obj.strftime('%Y-%m-%d')
-
-        return None
-
-    def _categorize(self, text: str) -> str:
-        """Categorize event based on content"""
-
-        text_lower = text.lower()
-
-        if any(word in text_lower for word in ['music', 'concert', 'dance', 'perform']):
-            return 'Arts'
-        elif any(word in text_lower for word in ['park', 'outdoor', 'nature', 'garden']):
-            return 'Nature'
-        elif any(word in text_lower for word in ['museum', 'gallery', 'exhibit']):
-            return 'Learning'
-        elif any(word in text_lower for word in ['sport', 'swim', 'skate', 'play']):
-            return 'Sports'
-        elif any(word in text_lower for word in ['festival', 'fair', 'market']):
-            return 'Entertainment'
-        else:
-            return 'Entertainment'
-
-    def _get_icon(self, text: str) -> str:
-        """Get icon based on content"""
-
-        text_lower = text.lower()
-
-        if any(word in text_lower for word in ['music', 'concert']):
-            return '🎵'
-        elif any(word in text_lower for word in ['art', 'paint', 'craft']):
-            return '🎨'
-        elif any(word in text_lower for word in ['park', 'outdoor', 'nature']):
-            return '🌳'
-        elif any(word in text_lower for word in ['museum', 'gallery']):
-            return '🏛️'
-        elif any(word in text_lower for word in ['sport', 'swim', 'skate']):
-            return '⚽'
-        elif any(word in text_lower for word in ['festival', 'fair']):
-            return '🎪'
-        elif any(word in text_lower for word in ['food', 'market']):
-            return '🍕'
-        else:
-            return '🎉'
 
 
 if __name__ == "__main__":

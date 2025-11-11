@@ -1,12 +1,12 @@
 """
-FreeTO Data Scrapers Package
+Toronto Kids Events Data Scrapers Package
 
 This package contains scrapers and utilities for collecting
 free kids events in Toronto from various sources.
 """
 
 __version__ = '1.0.0'
-__author__ = 'FreeTO Team'
+__author__ = 'Toronto Kids Events Team'
 
 from .tpl_scraper import TPLScraper
 from .eventbrite_fetcher import EventBriteFetcher

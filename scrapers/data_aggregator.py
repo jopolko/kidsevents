@@ -16,13 +16,13 @@ from toronto_opendata_scraper import TorontoOpenDataScraper
 from meetup_api_scraper import MeetupAPIScraper
 from rss_feed_scraper import RSSFeedScraper
 from community_events_scraper import CommunityEventsScraper
-from eventbrite_scraper import EventBriteScraper
+# EventBrite scraper removed - API deprecated public event search in Feb 2020
 from museums_free_days_scraper import MuseumFreeDaysScraper
 from earlyon_scraper import EarlyONScraper
 from parksrec_scraper import ParksRecScraper
 from chatterblock_scraper import ChatterBlockScraper
 from holistic_community_scraper import HolisticCommunityScraper
-from todocanada_scraper import ToDoCanadaScraper
+# ToDoCanada scraper removed - site has Cloudflare protection that requires JavaScript
 from familyfun_scraper import FamilyFunScraper
 from toronto_artisans_scraper import TorontoArtisansScraper
 from targeted_audiences_scraper import TargetedAudiencesScraper
@@ -36,21 +36,30 @@ from kidsoutandabout_scraper import KidsOutAndAboutScraper
 from indoor_play_centers_scraper import IndoorPlayCentersScraper
 from helpwevegotkids_scraper import HelpWeveGotKidsScraper
 from blogto_scraper import BlogTOScraper
-from todaysparent_scraper import TodaysParentScraper
+# TodaysParent scraper removed - site has Cloudflare protection that requires JavaScript
 from likeadad_scraper import LikeADadScraper
-from bia_scraper import BIAScraper
+# BIA scraper removed - all 4 BIA websites have broken/changed URLs
 from moca_scraper import MOCAScraper
 from mississauga_scraper import MississaugaScraper
 from tinytown_scraper import TinyTownScraper
 from stonegate_scraper import StonegateScraper
 from artsetobicoke_scraper import ArtsEtobicokeScraper
 from westnh_scraper import WestNHScraper
+from toronto_opendata_api_scraper import TorontoOpenDataScraper
+from evergreen_brickworks_scraper import EvergreenBrickWorksScraper
+from rom_scraper import ROMScraper
+from ago_scraper import AGOScraper
+from agakhan_scraper import AgaKhanMuseumScraper
+from highpark_scraper import HighParkScraper
+from fortyork_scraper import FortYorkScraper
+from place_id_lookup import PlaceIDLookup
 
 
 class DataAggregator:
     def __init__(self):
         self.events = []
         self.seen_hashes = set()
+        self.place_id_lookup = PlaceIDLookup()
 
     def generate_event_hash(self, event: Dict) -> str:
         """Generate unique hash for event to detect duplicates"""
@@ -149,6 +158,36 @@ class DataAggregator:
 
         self.events = validated
 
+    def enrich_with_place_ids(self):
+        """Enrich venues with Google Place IDs for precise map locations"""
+        print("📍 Enriching venues with Google Place IDs...")
+
+        enriched_count = 0
+        debug_count = 0
+        for event in self.events:
+            # Skip events without venues
+            if 'venue' not in event or not event['venue']:
+                continue
+
+            venue = event['venue']
+
+            # Only enrich if we don't already have a place_id
+            if 'place_id' not in venue:
+                # Enrich venue in place (modifies the dict directly)
+                self.place_id_lookup.enrich_venue(venue)
+                if venue.get('place_id'):
+                    enriched_count += 1
+                    # Debug: Show first 3 enrichments
+                    if debug_count < 3:
+                        print(f"   DEBUG: Enriched {venue.get('name')} with {venue.get('place_id')}")
+                        debug_count += 1
+
+        # Final check: How many events actually have place_ids?
+        final_count = sum(1 for e in self.events if e.get('venue', {}).get('place_id'))
+        print(f"   ✅ Enriched {enriched_count} venues with Place IDs")
+        print(f"   🔍 Final verification: {final_count} events have place_id in venue")
+        self.place_id_lookup.print_stats()
+
     def get_statistics(self) -> Dict:
         """Generate statistics about aggregated events"""
         stats = {
@@ -199,6 +238,10 @@ class DataAggregator:
 
     def save_separate_files(self):
         """Save events to multiple files for easier management"""
+        # DEBUG: Check place_ids before saving
+        debug_count = sum(1 for e in self.events if e.get('venue', {}).get('place_id'))
+        print(f"   DEBUG: Before saving - {debug_count} events have place_id")
+
         # Main events file (for production) - save with metadata in both locations
         output = {
             'generated_at': datetime.now(timezone.utc).isoformat(),
@@ -213,6 +256,12 @@ class DataAggregator:
         parent_dir = Path(__file__).parent.parent
         with open(parent_dir / 'events.json', 'w', encoding='utf-8') as f:
             json.dump(output, f, indent=2, ensure_ascii=False)
+
+        # DEBUG: Verify after saving
+        with open(parent_dir / 'events.json', 'r', encoding='utf-8') as f:
+            saved_data = json.load(f)
+            saved_count = sum(1 for e in saved_data['events'] if e.get('venue', {}).get('place_id'))
+            print(f"   DEBUG: After saving - {saved_count} events have place_id in file")
 
         # Events with metadata (for debugging)
         output = {
@@ -383,25 +432,13 @@ def main():
 
     print()
 
-    # 7. Fetch from EventBrite (requires API token)
-    print("🎫 Fetching from EventBrite...")
-    try:
-        eventbrite_scraper = EventBriteScraper()
-        eventbrite_events = eventbrite_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(eventbrite_events, 'EventBrite')
-    except Exception as e:
-        print(f"   ❌ Error fetching EventBrite events: {e}")
+    # 7. REMOVED - EventBrite (API deprecated public event search in Feb 2020)
+    # The /v3/events/search/ endpoint no longer exists - only private events accessible
 
     print()
 
-    # 8. Fetch from To Do Canada (curated family activities)
-    print("🎪 Fetching from To Do Canada...")
-    try:
-        todocanada_scraper = ToDoCanadaScraper()
-        todocanada_events = todocanada_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(todocanada_events, 'ToDoCanada')
-    except Exception as e:
-        print(f"   ❌ Error fetching To Do Canada events: {e}")
+    # 8. REMOVED - To Do Canada (Cloudflare protection requires JavaScript/headless browser)
+    # Site returns 403 with challenge page that cannot be bypassed with simple HTTP requests
 
     print()
 
@@ -570,14 +607,8 @@ def main():
 
     print()
 
-    # 23. Fetch from Today's Parent Toronto
-    print("👨‍👩‍👧‍👦 Fetching from Today's Parent Toronto...")
-    try:
-        todaysparent_scraper = TodaysParentScraper()
-        todaysparent_events = todaysparent_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(todaysparent_events, 'TodaysParent')
-    except Exception as e:
-        print(f"   ❌ Error fetching Today's Parent events: {e}")
+    # 23. REMOVED - Today's Parent (Cloudflare protection requires JavaScript/headless browser)
+    # Site returns 403 with challenge page that cannot be bypassed with simple HTTP requests
 
     print()
 
@@ -592,14 +623,8 @@ def main():
 
     print()
 
-    # 25. Fetch from Toronto BIAs
-    print("🏘️  Fetching from Toronto BIAs...")
-    try:
-        bia_scraper = BIAScraper()
-        bia_events = bia_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(bia_events, 'BIA')
-    except Exception as e:
-        print(f"   ❌ Error fetching BIA events: {e}")
+    # 25. REMOVED - Toronto BIAs (all 4 BIA websites have broken/changed URLs)
+    # Beaches BIA: DNS failure, Bloor West Village: 404, Leslieville: 404, Kensington Market: redirects to homepage
 
     print()
 
@@ -669,10 +694,88 @@ def main():
 
     print()
 
-    # 32. Process events
+    # 32. Fetch from Toronto Open Data API (City of Toronto festivals & events)
+    print("🏛️  Fetching from Toronto Open Data API...")
+    try:
+        toronto_opendata_scraper = TorontoOpenDataScraper()
+        toronto_opendata_events = toronto_opendata_scraper.fetch_events(days_ahead=60)
+        aggregator.add_events(toronto_opendata_events, 'TorontoOpenData')
+    except Exception as e:
+        print(f"   ❌ Error fetching Toronto Open Data events: {e}")
+
+    print()
+
+    # 33. Fetch from Evergreen Brick Works (free weekly events)
+    print("🌳 Fetching from Evergreen Brick Works...")
+    try:
+        evergreen_scraper = EvergreenBrickWorksScraper()
+        evergreen_events = evergreen_scraper.fetch_events(days_ahead=30)
+        aggregator.add_events(evergreen_events, 'EvergreenBrickWorks')
+    except Exception as e:
+        print(f"   ❌ Error fetching Evergreen Brick Works events: {e}")
+
+    print()
+
+    # 34. Fetch from ROM (Third Tuesday Nights Free)
+    print("🏛️  Fetching from ROM...")
+    try:
+        rom_scraper = ROMScraper()
+        rom_events = rom_scraper.fetch_events(days_ahead=90)
+        aggregator.add_events(rom_events, 'ROM')
+    except Exception as e:
+        print(f"   ❌ Error fetching ROM events: {e}")
+
+    print()
+
+    # 35. Fetch from AGO (First Wednesday Night Free)
+    print("🎨 Fetching from AGO...")
+    try:
+        ago_scraper = AGOScraper()
+        ago_events = ago_scraper.fetch_events(days_ahead=90)
+        aggregator.add_events(ago_events, 'AGO')
+    except Exception as e:
+        print(f"   ❌ Error fetching AGO events: {e}")
+
+    print()
+
+    # 36. Fetch from Aga Khan Museum (Free Wednesdays + Family Sundays)
+    print("🕌 Fetching from Aga Khan Museum...")
+    try:
+        agakhan_scraper = AgaKhanMuseumScraper()
+        agakhan_events = agakhan_scraper.fetch_events(days_ahead=90)
+        aggregator.add_events(agakhan_events, 'AgaKhanMuseum')
+    except Exception as e:
+        print(f"   ❌ Error fetching Aga Khan Museum events: {e}")
+
+    print()
+
+    # 37. Fetch from High Park (Free Zoo + Nature Centre)
+    print("🌳 Fetching from High Park...")
+    try:
+        highpark_scraper = HighParkScraper()
+        highpark_events = highpark_scraper.fetch_events(days_ahead=90)
+        aggregator.add_events(highpark_events, 'HighPark')
+    except Exception as e:
+        print(f"   ❌ Error fetching High Park events: {e}")
+
+    print()
+
+    # 38. Fetch from Toronto History Museums (FREE admission)
+    print("🏰 Fetching from Toronto History Museums...")
+    try:
+        fortyork_scraper = FortYorkScraper()
+        fortyork_events = fortyork_scraper.fetch_events(days_ahead=90)
+        aggregator.add_events(fortyork_events, 'TorontoHistoryMuseums')
+    except Exception as e:
+        print(f"   ❌ Error fetching Toronto History Museums events: {e}")
+
+    print()
+
+    # 39. Process events
     print("🔧 Processing events...")
     aggregator.filter_past_events()
     aggregator.validate_events()
+    aggregator.enrich_with_place_ids()
     aggregator.sort_events()
 
     print()

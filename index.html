@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toronto Kids Events - 400+ Venues • 2,000+ Events Weekly</title>
+    <title>Toronto Kids Events - Weekly Listings</title>
     <!-- Version 2.23 - Performance: Eliminated all render-blocking resources -->
 
     <!-- Metadata no longer needed - meta tags are now static for SEO/GA consistency -->
@@ -13,17 +13,17 @@
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
 
-    <meta id="meta-description" name="description" content="400+ venues and 2,000+ events per week in Toronto. Find recurring community programs, Indigenous activities, nature workshops, library storytimes, museum free days, Parks & Rec drop-ins, and grassroots family events. Updated daily.">
+    <meta id="meta-description" name="description" content="Find free kids events in Toronto. Discover recurring community programs, Indigenous activities, nature workshops, library storytimes, museum free days, Parks & Rec drop-ins, and grassroots family events. Updated daily.">
 
     <meta name="keywords" content="Toronto kids events, Toronto children activities, free kids events Toronto, Toronto family events, kids activities Toronto today, Toronto community events, Indigenous kids programs Toronto, nature workshops Toronto kids, Toronto library events children, museum free days Toronto, Parks and Recreation Toronto kids, EarlyON Toronto, grassroots kids events, holistic parenting Toronto, Toronto outdoor kids activities, free family activities Toronto, kids events near me Toronto, things to do with kids Toronto, Toronto toddler activities, Toronto baby programs, Toronto teen events">
 
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Toronto Kids Events - 400+ Venues • 2,000+ Events Weekly">
-    <meta property="og:description" content="400+ venues and 2,000+ events per week in Toronto. Recurring community programs, library storytimes, Parks & Rec drop-ins & more. Updated daily.">
+    <meta property="og:title" content="Toronto Kids Events - Weekly Listings">
+    <meta property="og:description" content="Find free kids events in Toronto. Recurring community programs, library storytimes, Parks & Rec drop-ins & more. Updated daily.">
     <meta property="og:url" content="https://joshuaopolko.com/kidsevents/">
-    <meta property="og:image" content="https://joshuaopolko.com/kidsevents/og-image-1761012726.jpg">
-    <meta property="og:image:secure_url" content="https://joshuaopolko.com/kidsevents/og-image-1761012726.jpg">
+    <meta property="og:image" content="https://joshuaopolko.com/kidsevents/kids-twitter.jpg?v=1761934337">
+    <meta property="og:image:secure_url" content="https://joshuaopolko.com/kidsevents/kids-twitter.jpg?v=1761934337">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:type" content="image/jpeg">
@@ -32,10 +32,10 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@joshuaopolko">
     <meta name="twitter:url" content="https://joshuaopolko.com/kidsevents/">
-    <meta name="twitter:title" content="Toronto Kids Events - 400+ Venues • 2,000+ Events Weekly">
-    <meta name="twitter:description" content="400+ venues and 2,000+ events per week in Toronto. Recurring community programs, library events & more. Updated daily.">
-    <meta name="twitter:image" content="https://joshuaopolko.com/kidsevents/og-image-1761012726.jpg">
-    <meta name="twitter:image:alt" content="Toronto Kids Events - 400+ venues with 2,000+ events per week">
+    <meta name="twitter:title" content="Toronto Kids Events - Weekly Listings">
+    <meta name="twitter:description" content="Find free kids events in Toronto. Recurring community programs, library events & more. Updated daily.">
+    <meta name="twitter:image" content="https://joshuaopolko.com/kidsevents/kids-twitter.jpg?v=1761934337">
+    <meta name="twitter:image:alt" content="Toronto Kids Events">
 
     <!-- Preconnect to external domains -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -748,6 +748,20 @@
     </style>
 
     <!-- Metadata loaded for potential future use; meta tags kept static for GA consistency -->
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/kidsevents/manifest.json">
+
+    <!-- Apple iOS specific meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Kids Events">
+    <link rel="apple-touch-icon" href="/kidsevents/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/kidsevents/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/kidsevents/icons/icon-192x192.png">
+
+    <!-- Theme color for browser UI -->
+    <meta name="theme-color" content="#4CAF50">
 </head>
 <body>
     <div id="loading" style="min-height: 100vh; background: linear-gradient(135deg, #A4B3F5 0%, #B497D6 100%);">
@@ -820,7 +834,6 @@
                             <option value="Babies (0-2)">👶 Babies (0-2)</option>
                             <option value="Toddlers (3-5)">🧒 Toddlers (3-5)</option>
                             <option value="Kids (6-12)">👧 Kids (6-12)</option>
-                            <option value="Teens (13-17)">🧑 Teens (13-17)</option>
                         </select>
                         <button class="age-filter-btn" id="near-me-btn" style="background: linear-gradient(135deg, #06B6D4 0%, #0891B2 100%); color: white; border-color: #0891B2; white-space: nowrap;">📍 Near Me</button>
                     </div>
@@ -830,7 +843,7 @@
                 </div>
                 <div id="show-more-container" style="text-align: center; margin-top: 30px; display: none;">
                     <button id="show-more-btn" onclick="showMoreEvents()" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 24px rgba(99, 102, 241, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 16px rgba(99, 102, 241, 0.2)'" style="background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%); color: white; border: none; padding: 16px 48px; border-radius: 12px; font-size: 1.05rem; font-weight: 600; cursor: pointer; box-shadow: 0 4px 16px rgba(99, 102, 241, 0.2); transition: all 0.3s ease; min-height: 52px; touch-action: manipulation; -webkit-tap-highlight-color: transparent;">
-                        Show More Events
+                        Load Next 20
                     </button>
                 </div>
             </div>
@@ -854,14 +867,14 @@
 
     <script>
         // Version check - force cache clear if seeing old distances
-        console.log('🎯 FreeTO v2.16 - Compact dropdown age filter - ' + new Date().toISOString());
+        console.log('🎯 Toronto Kids Events v2.16 - Compact dropdown age filter - ' + new Date().toISOString());
 
         // Global variables (accessed directly on window object by load_events.js)
         var events = [];
         var userLocation = null;
         var currentEvents = []; // Store currently displayed events
         var allFilteredEvents = []; // Store all filtered events for pagination
-        var displayedCount = 50; // Number of events currently displayed
+        var displayedCount = 20; // Number of events currently displayed
         var searchQuery = ''; // Track current search query
 
         // Icon helper - inline SVG icons (replaces Font Awesome)
@@ -885,11 +898,89 @@
             'users': '<svg viewBox="0 0 640 512"><path d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"/></svg>',
             'home': '<svg viewBox="0 0 576 512"><path d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"/></svg>',
             'sun': '<svg viewBox="0 0 512 512"><path d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z"/></svg>',
-            'location-dot': '<svg viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192 384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2 12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64 64 28.7 64 64-28.7 64-64 64z"/></svg>'
+            'location-dot': '<svg viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192 384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2 12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64 64 28.7 64 64-28.7 64-64 64z"/></svg>',
+            'copy': '<svg viewBox="0 0 448 512"><path d="M320 448v40c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V120c0-13.255 10.745-24 24-24h72v296c0 30.879 25.121 56 56 56h168zm0-344V0H152c-13.255 0-24 10.745-24 24v368c0 13.255 10.745 24 24 24h272c13.255 0 24-10.745 24-24V128H344c-13.2 0-24-10.8-24-24zm120.971-31.029L375.029 7.029A24 24 0 0 0 358.059 0H352v96h96v-6.059a24 24 0 0 0-7.029-16.97z"/></svg>',
+            'check': '<svg viewBox="0 0 512 512"><path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"/></svg>',
+            'clock': '<svg viewBox="0 0 512 512"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>'
         };
 
         function icon(name) {
             return `<span class="icon">${icons[name] || ''}</span>`;
+        }
+
+        // Copy event details to clipboard
+        function copyEvent(eventId) {
+            console.log('🔵 copyEvent called with ID:', eventId);
+            console.log('🔵 currentEvents exists:', !!currentEvents);
+            console.log('🔵 currentEvents length:', currentEvents ? currentEvents.length : 0);
+
+            const event = currentEvents.find(e => e.id === eventId);
+            if (!event) {
+                console.error('❌ Event not found with ID:', eventId);
+                alert('Could not find event. Please try again.');
+                return;
+            }
+
+            console.log('✅ Found event:', event.title);
+
+            const eventDate = new Date(event.date + 'T' + event.start_time);
+            const dateStr = eventDate.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+            const startTime = formatTime12Hour(event.start_time);
+            const endTime = event.end_time ? formatTime12Hour(event.end_time) : '';
+            const timeStr = endTime ? `${startTime} - ${endTime}` : startTime;
+
+            let text = `📅 ${event.title}\n\n`;
+            text += `🗓️ ${dateStr}\n`;
+            text += `🕐 ${timeStr}\n`;
+            text += `📍 ${event.venue.name || event.venue.neighborhood}\n`;
+            if (event.venue.address) {
+                text += `   ${event.venue.address}\n`;
+            }
+            text += `${event.icon} ${event.category}\n`;
+            if (event.age_groups && event.age_groups.length) {
+                text += `👨‍👩‍👧‍👦 ${event.age_groups.join(', ')}\n`;
+            }
+            if (event.indoor_outdoor) {
+                text += `${event.indoor_outdoor === 'Outdoor' ? '☀️' : '🏠'} ${event.indoor_outdoor}\n`;
+            }
+            if (event.organized_by) {
+                text += `🏢 ${event.organized_by}\n`;
+            }
+            if (event.description && event.description.trim() !== event.title.trim()) {
+                text += `\n${event.description}\n`;
+            }
+            if (event.website) {
+                let websiteUrl = event.website;
+                if (!websiteUrl.startsWith('http://') && !websiteUrl.startsWith('https://')) {
+                    websiteUrl = 'https://' + websiteUrl;
+                }
+                text += `\n🔗 ${websiteUrl}`;
+            }
+
+            text += `\n\n✨ Found on Toronto Kids Events\nhttps://joshuaopolko.com/kidsevents/`;
+
+            console.log('📋 Full text to copy (length=' + text.length + '):');
+            console.log(text);
+
+            // Copy to clipboard
+            navigator.clipboard.writeText(text).then(() => {
+                console.log('✅ Copy to clipboard successful!');
+                // Visual feedback
+                const btn = document.querySelector(`[data-event-id="${eventId}"] .copy-btn`);
+                console.log('🔘 Button found:', !!btn);
+                if (btn) {
+                    const originalHTML = btn.innerHTML;
+                    btn.innerHTML = `${icon('check')} Copied!`;
+                    btn.style.background = 'linear-gradient(135deg, #7FD4AA 0%, #5FC48D 100%)';
+                    setTimeout(() => {
+                        btn.innerHTML = originalHTML;
+                        btn.style.background = 'linear-gradient(135deg, #A0E7E0 0%, #88CFC0 100%)';
+                    }, 2000);
+                }
+            }).catch(err => {
+                console.error('❌ Copy failed:', err);
+                alert('Could not copy to clipboard: ' + err.message);
+            });
         }
 
         // Convert 24-hour time to 12-hour AM/PM format
@@ -1016,7 +1107,24 @@
 
                 // Filter upcoming events (today through end of week)
                 const upcomingEvents = events.filter(e => {
-                    return e.date >= todayStr && e.date <= endOfWeekStr;
+                    // Check if event is within date range
+                    if (e.date < todayStr || e.date > endOfWeekStr) {
+                        return false;
+                    }
+
+                    // For today's events, check if they've already ended
+                    if (e.date === todayStr && e.end_time) {
+                        const now = new Date();
+                        const currentTime = now.getHours().toString().padStart(2, '0') + ':' + now.getMinutes().toString().padStart(2, '0');
+
+                        // If event has ended, don't show it
+                        if (e.end_time < currentTime) {
+                            console.log(`🗑️ Filtering out past event: "${e.title}" (ended at ${e.end_time}, current time: ${currentTime})`);
+                            return false;
+                        }
+                    }
+
+                    return true;
                 }).sort((a, b) => {
                     // First: Sort by date
                     if (a.date !== b.date) {
@@ -1042,7 +1150,7 @@
                 // Show events or helpful message
                 if (mixedEvents.length > 0) {
                     currentEvents = mixedEvents; // Store all events
-                    displayedCount = 50; // Reset display count
+                    displayedCount = 20; // Reset display count
                     // Sort by distance if user location available, otherwise by date/time
                     allFilteredEvents = sortEventsByDistance([...currentEvents]);
                     const eventsToShow = allFilteredEvents.slice(0, displayedCount);
@@ -1280,42 +1388,49 @@
                 }
                 // No fallback to 311 - only show phone if we have a direct number
 
-                // Create map URL - use name + address for full place details (phone, photos, reviews)
-                // Using text search instead of coordinates so Google shows the full place card
+                // Create map URL - prefer Place ID for direct, unambiguous linking
                 let mapUrl;
-                let searchQuery;
 
-                // Check if address is a real street address (has numbers) or just a neighborhood name
-                const hasStreetAddress = event.venue.address && /\d/.test(event.venue.address);
-
-                if (hasStreetAddress && event.venue.name) {
-                    // Best: Real street address + venue name
-                    searchQuery = `${event.venue.name}, ${event.venue.address}, Toronto, ON, Canada`;
-                } else if (hasStreetAddress) {
-                    // Good: Just street address
-                    searchQuery = `${event.venue.address}, Toronto, ON, Canada`;
-                } else if (event.venue.name) {
-                    // Handle special cases like "Toronto Public Library - Parkdale"
-                    let venueName = event.venue.name;
-
-                    // For TPL branches, simplify the name for better Google Maps matching
-                    if (venueName.includes('Toronto Public Library -')) {
-                        // Extract branch name: "Toronto Public Library - Parkdale" -> "Parkdale Library Toronto"
-                        const branchName = venueName.split('-')[1].trim();
-                        searchQuery = `${branchName} Library Toronto`;
-                    } else if (venueName.includes('Community Centre') || venueName.includes('Recreation Centre')) {
-                        // Keep full name for community/rec centres
-                        searchQuery = `${venueName}, Toronto, ON, Canada`;
-                    } else {
-                        // Default: use full venue name
-                        searchQuery = `${venueName}, Toronto, ON, Canada`;
-                    }
+                if (event.venue.place_id) {
+                    // Best: Use Place ID for direct link to specific place (no ambiguity)
+                    // Include venue name as query for better UX and fallback
+                    const venueName = encodeURIComponent(event.venue.name);
+                    mapUrl = `https://www.google.com/maps/search/?api=1&query=${venueName}&query_place_id=${event.venue.place_id}`;
                 } else {
-                    // Last resort: Use neighborhood
-                    searchQuery = `${event.venue.neighborhood}, Toronto, ON, Canada`;
-                }
+                    // Fallback: Use search query if Place ID not available
+                    let searchQuery;
+                    const hasStreetAddress = event.venue.address && /\d/.test(event.venue.address);
 
-                mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(searchQuery)}`;
+                    if (hasStreetAddress && event.venue.name) {
+                        const addressHasLocation = event.venue.address.includes('ON') || /[A-Z]\d[A-Z]\s*\d[A-Z]\d/.test(event.venue.address);
+                        if (addressHasLocation) {
+                            searchQuery = `${event.venue.name}, ${event.venue.address}`;
+                        } else {
+                            searchQuery = `${event.venue.name}, ${event.venue.address}, Toronto, ON, Canada`;
+                        }
+                    } else if (hasStreetAddress) {
+                        const addressHasLocation = event.venue.address.includes('ON') || /[A-Z]\d[A-Z]\s*\d[A-Z]\d/.test(event.venue.address);
+                        if (addressHasLocation) {
+                            searchQuery = `${event.venue.address}`;
+                        } else {
+                            searchQuery = `${event.venue.address}, Toronto, ON, Canada`;
+                        }
+                    } else if (event.venue.name) {
+                        let venueName = event.venue.name;
+                        if (venueName.includes('Toronto Public Library -')) {
+                            const branchName = venueName.split('-')[1].trim();
+                            searchQuery = `${branchName} Library Toronto`;
+                        } else if (venueName.includes('Community Centre') || venueName.includes('Recreation Centre')) {
+                            searchQuery = `${venueName}, Toronto, ON, Canada`;
+                        } else {
+                            searchQuery = `${venueName}, Toronto, ON, Canada`;
+                        }
+                    } else {
+                        searchQuery = `${event.venue.neighborhood}, Toronto, ON, Canada`;
+                    }
+
+                    mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(searchQuery)}`;
+                }
 
                 // Action buttons
                 let actionsHtml = `<div class="event-actions">
@@ -1459,6 +1574,22 @@
                             if (desc.toLowerCase().replace(/[^a-z0-9\s]/g, '') === title.toLowerCase().replace(/[^a-z0-9\s]/g, '')) return '';
                             // If description is very short and similar, skip it
                             if (desc.length < 20 && desc.toLowerCase().includes(title.toLowerCase().split(' ')[0])) return '';
+
+                            // Show truncated description with "Read more" if longer than 150 words
+                            const words = desc.split(/\s+/);
+                            const wordLimit = 150;
+
+                            if (words.length > wordLimit) {
+                                // Truncate to first 150 words
+                                const truncated = words.slice(0, wordLimit).join(' ');
+                                const descId = 'desc-' + event.id;
+                                return `
+                                    <div class="event-description" style="margin-top: 15px;">
+                                        <span id="${descId}-short">${truncated}... <button onclick="toggleDescription('${descId}')" style="color: #3B82F6; background: none; border: none; cursor: pointer; text-decoration: underline; font-weight: 700; padding: 0;">Read more</button></span>
+                                        <span id="${descId}-full" style="display: none;">${desc} <button onclick="toggleDescription('${descId}')" style="color: #3B82F6; background: none; border: none; cursor: pointer; text-decoration: underline; font-weight: 700; padding: 0;">Read less</button></span>
+                                    </div>
+                                `;
+                            }
                             return `<div class="event-description" style="margin-top: 15px;">${desc}</div>`;
                         })()}
 
@@ -1473,6 +1604,24 @@
 
             // Don't automatically update distances - only when explicitly requested
             // This saves API calls and costs
+        }
+
+        // Toggle description expand/collapse
+        function toggleDescription(descId) {
+            const shortEl = document.getElementById(descId + '-short');
+            const fullEl = document.getElementById(descId + '-full');
+
+            if (shortEl && fullEl) {
+                if (shortEl.style.display === 'none') {
+                    // Currently showing full, switch to short
+                    shortEl.style.display = 'inline';
+                    fullEl.style.display = 'none';
+                } else {
+                    // Currently showing short, switch to full
+                    shortEl.style.display = 'none';
+                    fullEl.style.display = 'inline';
+                }
+            }
         }
 
         // No longer needed - distances are calculated instantly using Haversine
@@ -1586,9 +1735,9 @@
             }
         }
 
-        // Show more events (load next 50)
+        // Show more events (load next 20)
         function showMoreEvents() {
-            displayedCount += 50;
+            displayedCount += 20;
             const eventsToShow = allFilteredEvents.slice(0, displayedCount);
             displayTodayEvents(eventsToShow);
             updateEventSchema(eventsToShow);
@@ -1609,7 +1758,7 @@
                 return;
             }
 
-            displayedCount = 50; // Reset display count
+            displayedCount = 20; // Reset display count
 
             // Calculate next 7 days date range
             const today = new Date();
@@ -1624,13 +1773,34 @@
             if (ageGroup === 'all') {
                 // Show all events in next 7 days
                 filtered = currentEvents.filter(event => {
-                    return event.date >= todayStr && event.date < nextWeekStr;
+                    // Must be in next 7 days
+                    if (event.date < todayStr || event.date >= nextWeekStr) return false;
+
+                    // For today's events, check if they've already ended
+                    if (event.date === todayStr && event.end_time) {
+                        const now = new Date();
+                        const currentTime = now.getHours().toString().padStart(2, '0') + ':' + now.getMinutes().toString().padStart(2, '0');
+                        if (event.end_time < currentTime) {
+                            return false;
+                        }
+                    }
+
+                    return true;
                 });
             } else {
                 // Filter by BOTH age group AND next 7 days
                 filtered = currentEvents.filter(event => {
                     // First check: must be in next 7 days
                     if (event.date < todayStr || event.date >= nextWeekStr) return false;
+
+                    // For today's events, check if they've already ended
+                    if (event.date === todayStr && event.end_time) {
+                        const now = new Date();
+                        const currentTime = now.getHours().toString().padStart(2, '0') + ':' + now.getMinutes().toString().padStart(2, '0');
+                        if (event.end_time < currentTime) {
+                            return false;
+                        }
+                    }
 
                     if (!event.age_groups || event.age_groups.length === 0) return false;
 
@@ -1665,33 +1835,44 @@
                     if (!text) return false;
                     const lowerText = text.toLowerCase();
 
+                    // First, try exact substring match for both original and normalized query
+                    if (lowerText.includes(query)) return true;
+                    if (lowerText.includes(normalizedQuery)) return true;
+
                     // For short queries (≤4 chars), require whole-word matches to avoid false positives
                     // e.g., "east" shouldn't match "Toronto and East York" (East is part of district name)
                     const isShortQuery = query.length <= 4;
 
-                    if (isShortQuery) {
-                        // Use word boundary matching for short queries
-                        const wordBoundaryRegex = new RegExp(`\\b${query}\\b`, 'i');
-                        if (wordBoundaryRegex.test(lowerText)) return true;
+                    // Tokenize text into words (removing punctuation)
+                    const textWords = lowerText.split(/[\s,.:;!?()[\]{}'"]+/).filter(w => w.length >= 2);
 
-                        // Check normalized query with word boundaries
-                        const normalizedRegex = new RegExp(`\\b${normalizedQuery}\\b`, 'i');
-                        if (normalizedRegex.test(lowerText)) return true;
-                    } else {
-                        // For longer queries, allow substring matches
-                        if (lowerText.includes(query)) return true;
-                        if (lowerText.includes(normalizedQuery)) return true;
-                    }
+                    // Tokenize query into words
+                    const queryWords = query.split(/\s+/).filter(w => w.length >= 2);
 
-                    // Word variation check: does text contain a word that starts with the query?
-                    // e.g., searching "swim" should match "swimming"
-                    const words = lowerText.split(/\s+/);
-                    for (const word of words) {
-                        if (word.length >= 3) {
-                            const normalizedWord = normalizeWord(word);
-                            // Check if word starts with search term
-                            if (normalizedWord.startsWith(query) || normalizedWord.startsWith(normalizedQuery)) {
-                                return true;
+                    // Check each query word against each text word
+                    for (const queryWord of queryWords) {
+                        const normalizedQueryWord = normalizeWord(queryWord);
+
+                        for (const textWord of textWords) {
+                            const normalizedTextWord = normalizeWord(textWord);
+
+                            if (isShortQuery) {
+                                // For short queries, require exact match after normalization
+                                if (normalizedTextWord === normalizedQueryWord || normalizedTextWord === queryWord) {
+                                    return true;
+                                }
+                            } else {
+                                // For longer queries:
+                                // 1. Check if normalized words match
+                                if (normalizedTextWord === normalizedQueryWord) return true;
+
+                                // 2. Check if text word starts with query word (swim matches swimming)
+                                if (normalizedTextWord.startsWith(normalizedQueryWord)) return true;
+
+                                // 3. Check if query word starts with text word (swimming matches swim)
+                                // BUT only for words of reasonable length (4+ chars) to avoid false positives
+                                // e.g., prevent "burlington" from matching "by" or "bur"
+                                if (normalizedTextWord.length >= 4 && normalizedQueryWord.startsWith(normalizedTextWord)) return true;
                             }
                         }
                     }
@@ -1719,9 +1900,31 @@
 
                         // Skip neighborhood for very short queries (≤4 chars) to avoid matching district names
                         // e.g., "east" shouldn't match all "Toronto and East York" events
-                        // But "east york" should work
-                        if (query.length > 4) {
-                            if (textMatches(event.venue?.neighborhood)) return true;
+                        // For neighborhood search, only match if searching for multiple words that match
+                        // the compound name, or if matching a non-hyphenated neighborhood name
+                        // This prevents "Agincourt" from matching all "SCARBOROUGH-AGINCOURT" events
+                        if (query.length > 4 && event.venue?.neighborhood) {
+                            const neighborhood = event.venue.neighborhood.toLowerCase();
+
+                            // If searching for multiple words (e.g., "scarborough agincourt"), match the full area
+                            if (query.includes(' ')) {
+                                if (textMatches(neighborhood)) return true;
+                            }
+                            // For single-word queries, only match if:
+                            // 1. The neighborhood name has no hyphen (simple neighborhood)
+                            // 2. The query exactly matches the entire neighborhood name
+                            else {
+                                if (!neighborhood.includes('-')) {
+                                    // Simple neighborhood name - allow partial matching
+                                    if (textMatches(neighborhood)) return true;
+                                } else {
+                                    // Hyphenated ward name - require exact full match only
+                                    // This prevents "Agincourt" matching "SCARBOROUGH-AGINCOURT"
+                                    if (neighborhood === query || neighborhood === normalizedQuery) {
+                                        return true;
+                                    }
+                                }
+                            }
                         }
 
                         // Search in organizer
@@ -2033,14 +2236,14 @@
                 <h2 style="font-size: 2.5rem; font-weight: 900; color: #D81B60; margin-bottom: 16px; text-shadow: 2px 2px 4px rgba(216, 27, 96, 0.2);">About Toronto Kids Events</h2>
                 <h3 style="font-size: 1.5rem; font-weight: 600; color: #E91E63; margin-bottom: 16px;">Your Daily Guide to Kids Activities in Toronto</h3>
                 <p style="margin-bottom: 16px; line-height: 1.8; color: #000;">Toronto Kids Events helps families discover amazing activities happening across Toronto and the GTA. Whether you're looking for library storytimes, community centre drop-ins, museum free days, or indoor play centres, we've got you covered.</p>
-                <p style="margin-bottom: 16px; line-height: 1.8; color: #000;">Our platform aggregates programs from <strong><span id="about-venue-count">437</span> venues</strong> across dozens of trusted sources and updates daily. Many venues host recurring programs throughout the week—so you'll see library storytimes, community drop-ins, and Parks & Rec programs happening at the same great locations multiple times per week.</p>
-                <p style="margin-bottom: 16px; line-height: 1.8; color: #000;"><strong>Over 90% of programs are FREE!</strong> We feature <strong><span id="about-event-count">2,857</span> programs</strong> this week with most being completely free. Events with a green "FREE" badge are confirmed free. Events without the badge may charge admission—check the venue's website for details.</p>
+                <p style="margin-bottom: 16px; line-height: 1.8; color: #000;">Our platform aggregates programs from <strong><span id="about-venue-count">300+</span> venues</strong> across dozens of trusted sources and updates daily. Many venues host recurring programs throughout the week—so you'll see library storytimes, community drop-ins, and Parks & Rec programs happening at the same great locations multiple times per week.</p>
+                <p style="margin-bottom: 16px; line-height: 1.8; color: #000;"><strong>Over 90% of programs are FREE!</strong> We feature <strong><span id="about-event-count">1,000+</span> programs</strong> this week with most being completely free. Events with a green "FREE" badge are confirmed free. Events without the badge may charge admission—check the venue's website for details.</p>
                 <h3 style="font-size: 1.5rem; font-weight: 600; color: #E91E63; margin: 24px 0 16px;">What You'll Find:</h3>
-                <p style="margin-bottom: 16px; line-height: 1.8; color: #000;">📚 Toronto Public Library events (storytimes, crafts, STEM programs)<br>
-                🏛️ Museum & gallery free admission days (ROM, AGO, Science Centre)<br>
+                <p style="margin-bottom: 16px; line-height: 1.8; color: #000;">📚 <a href="https://www.torontopubliclibrary.ca/" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">Toronto Public Library</a> events (storytimes, crafts, <a href="https://en.wikipedia.org/wiki/Science,_technology,_engineering,_and_mathematics" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">STEM</a> programs)<br>
+                🏛️ Museum & gallery free admission days (<a href="https://www.rom.on.ca/" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">ROM</a>, <a href="https://ago.ca/" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">AGO</a>, <a href="https://www.ontariosciencecentre.ca/" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">Science Centre</a>)<br>
                 🎪 Community centre drop-in programs (playgroups, youth programs, gym time)<br>
-                🌳 EarlyON drop-in sessions for babies & toddlers<br>
-                🏃 Parks & Recreation programs across Toronto<br>
+                🌳 <a href="https://www.toronto.ca/community-people/children-parenting/children-programs-activities/early-learning-child-care-centres/earlyon-child-family-centres/" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">EarlyON</a> drop-in sessions for babies & toddlers<br>
+                🏃 <a href="https://www.toronto.ca/explore-enjoy/recreation/" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">Parks & Recreation</a> programs across Toronto<br>
                 🎨 Arts, cultural, and educational activities<br>
                 🌿 Nature programs and outdoor adventures<br>
                 🤸 Indoor play centres & trampoline parks (paid admission)</p>
@@ -2058,26 +2261,26 @@
 
                 <p style="margin-bottom: 24px; line-height: 1.8; color: #000; padding: 16px; background: linear-gradient(135deg, #FFF9C4 0%, #FFF3E0 100%); border-left: 4px solid #FFA726; border-radius: 8px;"><strong>Time Range:</strong> Events displayed cover the next 7 days from today.</p>
 
-                <h3 style="font-size: 1.5rem; font-weight: 600; color: #E91E63; margin: 24px 0 12px;">Toronto Public Library (TPL)</h3>
-                <p style="margin-bottom: 24px; line-height: 1.8; color: #000;">Library events including storytimes, crafts, STEM programs, and educational activities are sourced from the <strong>Toronto Public Library Open Data API</strong>. This official API provides real-time event information from all 100+ TPL branches across Toronto.</p>
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: #E91E63; margin: 24px 0 12px;"><a href="https://www.torontopubliclibrary.ca/" target="_blank" rel="noopener noreferrer" style="color: #E91E63; text-decoration: none;">Toronto Public Library (TPL)</a></h3>
+                <p style="margin-bottom: 24px; line-height: 1.8; color: #000;">Library events including storytimes, crafts, STEM programs, and educational activities are sourced from the <strong><a href="https://open.toronto.ca/dataset/toronto-public-library-branch-general-information/" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">Toronto Public Library Open Data API</a></strong>. This official <a href="https://en.wikipedia.org/wiki/Application_programming_interface" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">API</a> provides real-time event information from all 100+ TPL branches across Toronto.</p>
 
                 <h3 style="font-size: 1.5rem; font-weight: 600; color: #E91E63; margin: 24px 0 12px;">Museums & Cultural Institutions</h3>
-                <p style="margin-bottom: 24px; line-height: 1.8; color: #000;">Free admission events are compiled from the <strong>Royal Ontario Museum (ROM)</strong>, <strong>Art Gallery of Ontario (AGO)</strong>, <strong>Ontario Science Centre</strong>, and <strong>Harbourfront Centre</strong>. These include Third Tuesday Night Free, First Wednesday Night Free, weekend free floor programs, and ongoing cultural activities.</p>
+                <p style="margin-bottom: 24px; line-height: 1.8; color: #000;">Free admission events are compiled from the <strong><a href="https://www.rom.on.ca/" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">Royal Ontario Museum (ROM)</a></strong>, <strong><a href="https://ago.ca/" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">Art Gallery of Ontario (AGO)</a></strong>, <strong><a href="https://www.ontariosciencecentre.ca/" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">Ontario Science Centre</a></strong>, and <strong><a href="https://www.harbourfrontcentre.com/" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">Harbourfront Centre</a></strong>. These include Third Tuesday Night Free, First Wednesday Night Free, weekend free floor programs, and ongoing cultural activities.</p>
 
                 <h3 style="font-size: 1.5rem; font-weight: 600; color: #E91E63; margin: 24px 0 12px;">Community Centres</h3>
                 <p style="margin-bottom: 24px; line-height: 1.8; color: #000;">Drop-in programs including playgroups, youth programs, family gym time, and arts & crafts sessions are compiled from <strong>18 major Toronto community centres</strong> including Scadding Court, High Park, Beaches, Leaside Memorial Gardens, St Lawrence, and others across the city.</p>
 
-                <h3 style="font-size: 1.5rem; font-weight: 600; color: #E91E63; margin: 24px 0 12px;">EarlyON Child and Family Centres</h3>
-                <p style="margin-bottom: 24px; line-height: 1.8; color: #000;">Free drop-in programs for children ages 0-6 and their caregivers are sourced from <strong>EarlyON Child and Family Centres</strong> across Toronto. These programs provide play, learning, and community connections for families with young children.</p>
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: #E91E63; margin: 24px 0 12px;"><a href="https://www.toronto.ca/community-people/children-parenting/children-programs-activities/early-learning-child-care-centres/earlyon-child-family-centres/" target="_blank" rel="noopener noreferrer" style="color: #E91E63; text-decoration: none;">EarlyON Child and Family Centres</a></h3>
+                <p style="margin-bottom: 24px; line-height: 1.8; color: #000;">Free drop-in programs for children ages 0-6 and their caregivers are sourced from <strong><a href="https://www.toronto.ca/community-people/children-parenting/children-programs-activities/early-learning-child-care-centres/earlyon-child-family-centres/" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">EarlyON Child and Family Centres</a></strong> across Toronto. These programs provide play, learning, and community connections for families with young children.</p>
 
-                <h3 style="font-size: 1.5rem; font-weight: 600; color: #E91E63; margin: 24px 0 12px;">Parks & Recreation</h3>
-                <p style="margin-bottom: 24px; line-height: 1.8; color: #000;">Drop-in recreational programs including swimming, skating, gym time, and sports activities are compiled from the <strong>City of Toronto Parks, Forestry & Recreation</strong> program database, covering hundreds of facilities across the city.</p>
+                <h3 style="font-size: 1.5rem; font-weight: 600; color: #E91E63; margin: 24px 0 12px;"><a href="https://www.toronto.ca/explore-enjoy/recreation/" target="_blank" rel="noopener noreferrer" style="color: #E91E63; text-decoration: none;">Parks & Recreation</a></h3>
+                <p style="margin-bottom: 24px; line-height: 1.8; color: #000;">Drop-in recreational programs including swimming, skating, gym time, and sports activities are compiled from the <strong><a href="https://www.toronto.ca/explore-enjoy/recreation/" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">City of Toronto Parks, Forestry & Recreation</a></strong> program database, covering hundreds of facilities across the city.</p>
 
                 <h3 style="font-size: 1.5rem; font-weight: 600; color: #E91E63; margin: 24px 0 12px;">Community Events</h3>
                 <p style="margin-bottom: 24px; line-height: 1.8; color: #000;">Additional community events, festivals, workshops, and activities are sourced from various community organizations, cultural groups, and event platforms including ChatterBlock, Family Fun Canada, and local community partners.</p>
 
                 <h3 style="font-size: 1.5rem; font-weight: 600; color: #E91E63; margin: 24px 0 12px;">Location & Mapping</h3>
-                <p style="margin-bottom: 24px; line-height: 1.8; color: #000;">Event locations and mapping utilize <strong>Google Maps</strong>. Distance calculations use the <strong>Haversine formula</strong> for straight-line distances, which closely match actual walking distances in Toronto's grid-based street system.</p>
+                <p style="margin-bottom: 24px; line-height: 1.8; color: #000;">Event locations and mapping utilize <strong><a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">Google Maps</a></strong>. Distance calculations use the <strong><a href="https://en.wikipedia.org/wiki/Haversine_formula" target="_blank" rel="noopener noreferrer" style="color: #D81B60; text-decoration: underline;">Haversine formula</a></strong> for straight-line distances, which closely match actual walking distances in Toronto's grid-based street system.</p>
 
                 <p style="margin-top: 24px; line-height: 1.8; font-style: italic; color: #000;"><strong>Note:</strong> Toronto Kids Events is an independent resource and is not affiliated with or endorsed by any government agency, institution, or organization. All event information is provided for informational purposes only. Please verify details with event organizers before attending.</p>
         </div>
@@ -2119,6 +2322,108 @@
                 <p style="margin-top: 32px; line-height: 1.8; color: #000;">Have feedback or suggestions? Want to report an issue or contribute event data? Feel free to reach out via any of the channels above.</p>
         </div>
     </div>
+
+    <!-- PWA Service Worker Registration -->
+    <script>
+        // Check if service workers are supported
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/kidsevents/sw.js')
+                    .then(registration => {
+                        console.log('PWA: Service Worker registered successfully:', registration.scope);
+
+                        // Check for updates periodically
+                        setInterval(() => {
+                            registration.update();
+                        }, 60000); // Check every minute
+
+                        // Listen for updates
+                        registration.addEventListener('updatefound', () => {
+                            const newWorker = registration.installing;
+                            newWorker.addEventListener('statechange', () => {
+                                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                    // New service worker available, show update prompt
+                                    if (confirm('New version available! Reload to update?')) {
+                                        window.location.reload();
+                                    }
+                                }
+                            });
+                        });
+                    })
+                    .catch(error => {
+                        console.log('PWA: Service Worker registration failed:', error);
+                    });
+            });
+
+            // Handle install prompt
+            let deferredPrompt;
+            window.addEventListener('beforeinstallprompt', (e) => {
+                // Prevent the mini-infobar from appearing on mobile
+                e.preventDefault();
+                // Stash the event so it can be triggered later
+                deferredPrompt = e;
+                console.log('PWA: Install prompt available');
+
+                // Optionally, show your own install button
+                // You could create a banner or button to prompt installation
+                showInstallPromotion();
+            });
+
+            function showInstallPromotion() {
+                // Create an install banner (optional)
+                const installBanner = document.createElement('div');
+                installBanner.id = 'install-banner';
+                installBanner.style.cssText = `
+                    position: fixed;
+                    bottom: 20px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background: #4CAF50;
+                    color: white;
+                    padding: 16px 24px;
+                    border-radius: 12px;
+                    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    z-index: 10000;
+                    animation: slideUp 0.3s ease;
+                `;
+                installBanner.innerHTML = `
+                    <span>📱 Install this app for quick access!</span>
+                    <button id="install-button" style="background: white; color: #4CAF50; border: none; padding: 8px 16px; border-radius: 8px; font-weight: 600; cursor: pointer;">Install</button>
+                    <button id="dismiss-button" style="background: transparent; color: white; border: 1px solid white; padding: 8px 16px; border-radius: 8px; cursor: pointer;">Later</button>
+                `;
+                document.body.appendChild(installBanner);
+
+                document.getElementById('install-button').addEventListener('click', async () => {
+                    if (deferredPrompt) {
+                        deferredPrompt.prompt();
+                        const { outcome } = await deferredPrompt.userChoice;
+                        console.log(`PWA: User response to install prompt: ${outcome}`);
+                        deferredPrompt = null;
+                        installBanner.remove();
+                    }
+                });
+
+                document.getElementById('dismiss-button').addEventListener('click', () => {
+                    installBanner.remove();
+                });
+            }
+
+            // Log when app is installed
+            window.addEventListener('appinstalled', () => {
+                console.log('PWA: App installed successfully!');
+                // Optional: Track installation in analytics
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'pwa_installed', {
+                        'event_category': 'PWA',
+                        'event_label': 'App Installed'
+                    });
+                }
+            });
+        }
+    </script>
 
 </body>
 </html>

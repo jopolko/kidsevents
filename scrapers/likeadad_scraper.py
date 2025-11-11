@@ -14,9 +14,13 @@ import time
 class LikeADadScraper:
     def __init__(self):
         self.base_url = "https://likeadad.net"
-        self.events_section = f"{self.base_url}/category/gta-events/"
+        # Changed from /category/toronto-life/ to /category/toronto/
+        self.events_section = f"{self.base_url}/category/toronto/"
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Referer': 'https://likeadad.net/'
         }
 
     def fetch_events(self, days_ahead: int = 30) -> List[Dict]:
@@ -59,16 +63,16 @@ class LikeADadScraper:
         """Parse an individual article/event"""
 
         try:
-            # Extract title
-            title_elem = article.find(['h1', 'h2', 'h3'])
+            # Extract title (LikeADad uses h4 for entry-title)
+            title_elem = article.find(['h1', 'h2', 'h3', 'h4', 'h5'])
             if not title_elem:
                 return None
 
             title = title_elem.get_text(strip=True)
 
-            # Filter for event-related content
-            event_keywords = ['event', 'festival', 'fair', 'free', 'family', 'kid',
-                            'activities', 'things to do', 'weekend', 'camp']
+            # Filter for event-related content (broadened to catch more relevant posts)
+            event_keywords = ['event', 'festival', 'fair', 'free', 'family', 'kid', 'children',
+                            'activities', 'things to do', 'weekend', 'camp', 'fun', 'toronto']
             if not any(keyword in title.lower() for keyword in event_keywords):
                 return None
 

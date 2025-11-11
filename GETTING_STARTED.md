@@ -1,6 +1,6 @@
-# Getting Started with FreeTO Data Collection
+# Getting Started with Toronto Kids Events Data Collection
 
-Complete guide to setting up automated event scraping for FreeTO.
+Complete guide to setting up automated event scraping for Toronto Kids Events.
 
 ## 📋 Table of Contents
 
@@ -173,7 +173,7 @@ Update events every day at 6 AM:
 crontab -e
 
 # Add this line:
-0 6 * * * cd /var/www/html/pq/scrapers && /usr/bin/python3 data_aggregator.py >> /tmp/freeto-scraper.log 2>&1
+0 6 * * * cd /var/www/html/pq/scrapers && /usr/bin/python3 data_aggregator.py >> /tmp/torontokidsevents-scraper.log 2>&1
 ```
 
 **Test cron job:**
@@ -184,7 +184,7 @@ cd /var/www/html/pq/scrapers && python3 data_aggregator.py
 
 **View logs:**
 ```bash
-tail -f /tmp/freeto-scraper.log
+tail -f /tmp/torontokidsevents-scraper.log
 ```
 
 ### Option 2: GitHub Actions (Recommended)
@@ -226,8 +226,8 @@ jobs:
 
       - name: Commit updated data
         run: |
-          git config user.name "FreeTO Bot"
-          git config user.email "bot@freeto.ca"
+          git config user.name "Toronto Kids Events Bot"
+          git config user.email "bot@torontokidsevents.ca"
           git add scrapers/events.json scrapers/events_full.json
           git diff --quiet && git diff --staged --quiet || \
             (git commit -m "Update events data [automated]" && git push)
@@ -388,7 +388,7 @@ cat debug.log
 
 3. **Check logs:**
    ```bash
-   tail -f /tmp/freeto-scraper.log
+   tail -f /tmp/torontokidsevents-scraper.log
    ```
 
 4. **Test manually:**
@@ -433,7 +433,7 @@ cat scrapers/events_full.json | jq '.statistics.date_range'
 ```bash
 # In crontab:
 MAILTO=your@email.com
-0 6 * * * cd /var/www/html/pq/scrapers && python3 data_aggregator.py || echo "FreeTO scraper failed"
+0 6 * * * cd /var/www/html/pq/scrapers && python3 data_aggregator.py || echo "Toronto Kids Events scraper failed"
 ```
 
 **Slack notification:**
@@ -449,7 +449,7 @@ def notify_slack(message):
         requests.post(webhook, json={"text": message})
 
 # After aggregation:
-notify_slack(f"✅ FreeTO: Updated {len(events)} events")
+notify_slack(f"✅ Toronto Kids Events: Updated {len(events)} events")
 ```
 
 ---

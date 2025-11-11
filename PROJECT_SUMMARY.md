@@ -1,4 +1,4 @@
-# FreeTO - Project Summary
+# Toronto Kids Events - Project Summary
 
 ## 🎉 What We Built
 
@@ -120,7 +120,7 @@ cd ..
 open index.html
 ```
 
-That's it! You're running FreeTO locally.
+That's it! You're running Toronto Kids Events locally.
 
 ---
 
@@ -365,4 +365,4 @@ MIT License - Use freely!
 
 ---
 
-*FreeTO: Making free events easy to discover* ❤️
+*Toronto Kids Events: Making free events easy to discover* ❤️
