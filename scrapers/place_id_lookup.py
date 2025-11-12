@@ -170,10 +170,11 @@ class PlaceIDLookup:
         request_body['languageCode'] = 'en'
 
         # New API uses headers for authentication and field selection
+        # Only request essential fields (id + location) for faster response times
         headers = {
             'Content-Type': 'application/json',
             'X-Goog-Api-Key': self.api_key,
-            'X-Goog-FieldMask': 'places.id,places.displayName,places.formattedAddress,places.location'
+            'X-Goog-FieldMask': 'places.id,places.location'
         }
 
         try:
