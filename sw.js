@@ -1,10 +1,10 @@
 // Service Worker for Toronto Kids Events PWA
-const CACHE_NAME = 'kidsevents-v1';
+const CACHE_NAME = 'kidsevents-v2'; // Incremented to clear old caches
 const urlsToCache = [
   '/kidsevents/',
   '/kidsevents/index.html',
-  '/kidsevents/load_events.js',
-  '/kidsevents/scrapers/events.json'
+  '/kidsevents/load_events.js'
+  // NOTE: JSON files are NOT cached - they use network-first strategy for fresh data
 ];
 
 // Install event - cache core files
@@ -37,17 +37,47 @@ self.addEventListener('activate', event => {
   );
 });
 
-// Fetch event - serve from cache, fall back to network
+// Fetch event - network-first for JSON, cache-first for static assets
 self.addEventListener('fetch', event => {
   // Skip cross-origin requests
   if (!event.request.url.startsWith(self.location.origin)) {
     return;
   }
 
+  const url = new URL(event.request.url);
+  const isJSONFile = url.pathname.endsWith('.json');
+
+  // NETWORK-FIRST strategy for JSON files (always fetch fresh data)
+  if (isJSONFile) {
+    event.respondWith(
+      fetch(event.request)
+        .then(response => {
+          console.log('Service Worker: Fetched fresh JSON from network:', url.pathname);
+          // Don't cache JSON files - they change frequently
+          return response;
+        })
+        .catch(error => {
+          console.log('Service Worker: Network failed for JSON, checking cache:', error);
+          // Fall back to cache only if network fails (offline mode)
+          return caches.match(event.request)
+            .then(cachedResponse => {
+              if (cachedResponse) {
+                console.log('Service Worker: Serving stale JSON from cache (offline)');
+                return cachedResponse;
+              }
+              return new Response('{"error": "Offline and no cached data available"}', {
+                headers: { 'Content-Type': 'application/json' }
+              });
+            });
+        })
+    );
+    return;
+  }
+
+  // CACHE-FIRST strategy for static assets (HTML, JS, CSS)
   event.respondWith(
     caches.match(event.request)
       .then(response => {
-        // Return cached version or fetch from network
         if (response) {
           console.log('Service Worker: Serving from cache:', event.request.url);
           return response;
@@ -66,7 +96,7 @@ self.addEventListener('fetch', event => {
           const responseToCache = response.clone();
           caches.open(CACHE_NAME)
             .then(cache => {
-              // Only cache GET requests
+              // Only cache GET requests for static assets
               if (event.request.method === 'GET') {
                 cache.put(event.request, responseToCache);
               }
@@ -74,8 +104,7 @@ self.addEventListener('fetch', event => {
 
           return response;
         }).catch(error => {
-          console.log('Service Worker: Fetch failed, serving offline page', error);
-          // You could return a custom offline page here
+          console.log('Service Worker: Fetch failed:', error);
           return new Response('You are offline. Please check your internet connection.', {
             headers: { 'Content-Type': 'text/plain' }
           });
@@ -84,24 +113,7 @@ self.addEventListener('fetch', event => {
   );
 });
 
-// Background sync for updating events
-self.addEventListener('sync', event => {
-  console.log('Service Worker: Background sync');
-  if (event.tag === 'sync-events') {
-    event.waitUntil(
-      fetch('/kidsevents/scrapers/events.json')
-        .then(response => response.json())
-        .then(data => {
-          return caches.open(CACHE_NAME).then(cache => {
-            return cache.put('/kidsevents/scrapers/events.json',
-              new Response(JSON.stringify(data))
-            );
-          });
-        })
-        .catch(error => console.log('Sync failed:', error))
-    );
-  }
-});
+// Background sync removed - JSON files are always fetched fresh from network
 
 // Push notification support (optional)
 self.addEventListener('push', event => {
