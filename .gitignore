@@ -55,6 +55,12 @@ Thumbs.db
 debug.log
 scraper.log
 
+# Test files
+test_*.py
+*_debug.py
+*.backup
+*_response.html
+
 # Temporary files
 tmp/
 temp/

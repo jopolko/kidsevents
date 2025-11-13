@@ -128,13 +128,13 @@ pq/
 
 | Source | Events/Week | Status |
 |--------|-------------|--------|
-| **EarlyON Centres** | 1,290+ | ✅ Active |
-| **Parks & Recreation** | 873+ | ✅ Active |
-| **Toronto Public Library** | 805+ | ✅ Active |
-| **Museums** | 117+ | ✅ Active |
+| **Toronto Public Library** | 2,400+ | ✅ Active |
+| **Parks & Recreation** | 1,700+ | ✅ Active |
+| **EarlyON Centres** | 1,280+ | ✅ Active |
+| **Museums & Cultural** | 150+ | ✅ Active |
 | **Community Events** | 100+ | ✅ Active |
 
-**Total:** 3,181+ events currently updated daily
+**Total:** 5,600+ events currently updated daily at 6 AM
 
 ---
 
@@ -166,25 +166,25 @@ For other hosting options, you can deploy to any static web host since this is a
 
 ## 🤖 Automation
 
-### Update Events Daily
+### Automated Daily Updates ✅
 
-**GitHub Actions** (Recommended):
-```yaml
-# .github/workflows/scrape-events.yml
-name: Update Events
-on:
-  schedule:
-    - cron: '0 6 * * *'  # Daily at 6 AM
-```
+**Events are automatically updated daily at 6 AM EST** via cron job.
 
-**Cron Job** (Local server):
+The scraper runs automatically using:
 ```bash
-crontab -e
-# Add:
-0 6 * * * cd /path/to/pq/scrapers && python3 data_aggregator.py
+# Configured cron job
+0 6 * * * /var/www/html/kidsevents/scrapers/run_daily_scrape.sh
 ```
 
-See [GETTING_STARTED.md](GETTING_STARTED.md) for detailed instructions.
+This ensures:
+- Fresh event data every morning
+- Automatic removal of past events
+- New events added as they're published
+- No manual intervention needed
+
+**Logs**: Check `/var/www/html/kidsevents/scrapers/scraper.log` for run history.
+
+See [GETTING_STARTED.md](GETTING_STARTED.md) for setup instructions on other servers.
 
 ---
 
@@ -229,12 +229,12 @@ Edit age groups in `index.html`:
 - [x] Location-based sorting
 - [x] Calendar view
 
-### Phase 2 - Data Expansion 🔜
-- [ ] Parks & Recreation scraper
-- [ ] Museums & galleries
-- [ ] Community centres
-- [ ] More event categories
-- [ ] Better geocoding
+### Phase 2 - Data Expansion ✅
+- [x] Parks & Recreation scraper
+- [x] Museums & galleries
+- [x] Community centres
+- [x] More event categories
+- [x] Better geocoding
 
 ### Phase 3 - Features 🔮
 - [ ] User accounts
@@ -255,9 +255,7 @@ Edit age groups in `index.html`:
 
 ## 🐛 Known Issues
 
-- **TPL Scraper**: Currently returns sample data (needs actual scraping implementation)
-- **EventBrite**: Requires API token for live data
-- **Coordinates**: Some venues may have inaccurate lat/lng
+- **Coordinates**: Some venues may have inaccurate lat/lng for new locations
 - **CORS**: Must use local server for development (not `file://`)
 
 See [Issues](https://github.com/yourusername/torontokidsevents/issues) on GitHub.
@@ -273,14 +271,6 @@ Contributions welcome! Here's how:
 3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
 4. **Push** to branch (`git push origin feature/amazing`)
 5. **Open** a Pull Request
-
-### Areas needing help:
-- 🕷️ Implement actual TPL scraping
-- 🏞️ Add Parks & Rec scraper
-- 🎨 Improve UI/UX design
-- 📱 Mobile app development
-- 🧪 Write tests
-- 📝 Improve documentation
 
 ---
 

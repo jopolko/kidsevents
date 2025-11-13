@@ -379,7 +379,7 @@ def main():
     print("📚 Fetching from Toronto Public Library...")
     try:
         tpl_scraper = TPLAPIScraper()
-        tpl_events = tpl_scraper.fetch_events(days_ahead=7)
+        tpl_events = tpl_scraper.fetch_events(days_ahead=30)
         aggregator.add_events(tpl_events, 'TPL')
     except Exception as e:
         print(f"   ❌ Error fetching TPL events: {e}")
@@ -414,7 +414,7 @@ def main():
     print("🏃 Fetching from Parks & Recreation...")
     try:
         parksrec_scraper = ParksRecScraper()
-        parksrec_events = parksrec_scraper.fetch_events(days_ahead=7)
+        parksrec_events = parksrec_scraper.fetch_events(days_ahead=14)
         aggregator.add_events(parksrec_events, 'ParksRec')
     except Exception as e:
         print(f"   ❌ Error fetching Parks & Rec events: {e}")

@@ -30,6 +30,36 @@ class ParksRecScraper:
         self.geocode_cache_file = 'geocode_cache.json'
         self.geocode_cache = self._load_geocode_cache()
 
+        # Hardcoded coordinates for common facility addresses
+        self.facility_addresses = {
+            '875 Dufferin St': (43.6637, -79.4349),  # Dufferin Grove Park & Community Centre
+            '205 Wilmington Ave': (43.7072, -79.3033),  # Crescent Town
+            '140 Cheritan Ave': (43.7263, -79.5048),  # Kipling/Steeles area
+            '276 Davisville Ave': (43.7006, -79.3913),  # Davisville Village
+            '19 Castlegrove Blvd': (43.7891, -79.4471),  # Don Mills/Sheppard area
+            '19 Sedgebrook Cres': (43.7531, -79.3083),  # Woodview Park area
+            '370 The West Mall': (43.6414, -79.5566),  # Etobicoke West Mall
+            '55 Scadding Ave': (43.6434, -79.4154),  # Scadding Court Community Centre
+            '60 Guildwood Pkwy': (43.7555, -79.1972),  # Guildwood
+            '100 Antibes Dr': (43.7722, -79.2982),  # Malvern area
+            '136 Heron Park Dr': (43.7384, -79.2829),  # Heron Park
+            '150 Toryork Dr': (43.7551, -79.5781),  # Humber Summit
+            '170 Ashtonbee Rd': (43.7780, -79.2502),  # Centennial Scarborough
+            '200 Wilmington Ave': (43.7072, -79.3033),  # Crescent Town alternate
+            '220 Dawes Rd': (43.6888, -79.2854),  # Dawes Road area
+            '349 Neilson Rd': (43.7879, -79.2445),  # Neilson Park
+            '540 Cedarbrae Mall': (43.7631, -79.2259),  # Cedarbrae
+            '640 Dixon Rd': (43.6992, -79.5787),  # Rexdale
+            '800 Murison Blvd': (43.7551, -79.5781),  # Humber area
+            '1220 Weston Rd': (43.7009, -79.5176),  # Weston
+            '1515 Bathurst St': (43.6880, -79.4154),  # Bathurst/St Clair
+            '1734 St Clair Ave W': (43.6745, -79.4524),  # St Clair West
+            '1900 Davenport Rd': (43.6744, -79.4524),  # Davenport
+            '3050 Danforth Ave': (43.6868, -79.2918),  # Danforth East
+            '3443 Kennedy Rd': (43.7885, -79.2627),  # Kennedy/Sheppard
+            '3600 Kingston Rd': (43.7402, -79.2167),  # Scarborough Village
+        }
+
         # Direct phone numbers for major community centres
         self.facility_phones = {
             'Glen Long Community Centre': '416-395-7921',
@@ -155,7 +185,11 @@ class ParksRecScraper:
 
     def _geocode_address(self, address: str, district: str) -> tuple:
         """Geocode an address using Google Geocoding API with caching"""
-        # Check cache first
+        # Check hardcoded addresses first
+        if address in self.facility_addresses:
+            return self.facility_addresses[address]
+
+        # Check cache second
         cache_key = f"{address}, {district}, Ontario, Canada"
         if cache_key in self.geocode_cache:
             return self.geocode_cache[cache_key]
