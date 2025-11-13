@@ -290,15 +290,6 @@ MIT License - feel free to use for any purpose!
 
 ---
 
-## 📞 Contact & Support
-
-- **Issues:** [GitHub Issues](https://github.com/yourusername/torontokidsevents/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/torontokidsevents/discussions)
-- **Email:** torontokidsevents@example.com
-- **X (Twitter):** [@JoshuaOpolko](https://x.com/JoshuaOpolko)
-
----
-
 ## ⭐ Show Your Support
 
 If this project helps you, give it a ⭐ on GitHub!
