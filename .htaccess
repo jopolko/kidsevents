@@ -59,11 +59,14 @@
         Header set Access-Control-Allow-Headers "Content-Type"
     </FilesMatch>
 
-    # Prevent caching of event data files (updated every 6 hours by cron)
+    # Prevent caching of event data files (updated daily by cron at 6 AM)
     <FilesMatch "^(events|events_full|events_week[0-9]|metadata)\.json$">
         Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
         Header set Pragma "no-cache"
         Header set Expires "0"
+        # Remove ETag to prevent CDN caching validation
+        Header unset ETag
+        FileETag None
     </FilesMatch>
 </IfModule>
 

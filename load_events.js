@@ -10,7 +10,9 @@ async function loadWeekEvents(weekNumber) {
     try {
         console.log(`📥 Loading week ${weekNumber} events...`);
 
-        const response = await fetch(`events_week${weekNumber}.json`);
+        // Add cache-busting timestamp to force CDN to fetch fresh data
+        const cacheBuster = `?v=${Date.now()}`;
+        const response = await fetch(`events_week${weekNumber}.json${cacheBuster}`);
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -45,7 +47,9 @@ async function loadAllWeeks() {
     try {
         console.log('📥 Loading all weeks fallback...');
 
-        const response = await fetch('events.json');
+        // Add cache-busting timestamp to force CDN to fetch fresh data
+        const cacheBuster = `?v=${Date.now()}`;
+        const response = await fetch(`events.json${cacheBuster}`);
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
