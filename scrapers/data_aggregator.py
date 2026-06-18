@@ -5,22 +5,27 @@ Combines events from multiple sources, deduplicates, and outputs unified JSON
 """
 
 import json
+import sys
 from datetime import datetime, timezone
 from typing import List, Dict
 import hashlib
 from pathlib import Path
 
+# Zero-cost deterministic description enricher (lives at the repo root).
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from editorialize import enrich as _editorialize
+
 # Import our scrapers
-from tpl_api_scraper import TPLAPIScraper
+# TPL scraper removed 2026-06-18 - mill source, excluded from product (library = common knowledge)
 from toronto_opendata_scraper import TorontoOpenDataScraper
 from meetup_api_scraper import MeetupAPIScraper
 from rss_feed_scraper import RSSFeedScraper
 from community_events_scraper import CommunityEventsScraper
 # EventBrite scraper removed - API deprecated public event search in Feb 2020
 from museums_free_days_scraper import MuseumFreeDaysScraper
-from earlyon_scraper import EarlyONScraper
-from parksrec_scraper import ParksRecScraper
-from chatterblock_scraper import ChatterBlockScraper
+# EarlyON scraper removed 2026-06-18 - mill source, excluded from product
+# ParksRec scraper removed 2026-06-18 - mill source, excluded from product
+# ChatterBlock scraper removed 2026-06-18 - ToS-risky aggregator scrape (C&D risk)
 from holistic_community_scraper import HolisticCommunityScraper
 # ToDoCanada scraper removed - site has Cloudflare protection that requires JavaScript
 from familyfun_scraper import FamilyFunScraper
@@ -32,10 +37,10 @@ from adventure_playgrounds_scraper import AdventurePlaygroundsScraper
 from harbourfront_scraper import HarbourfrontScraper
 from trca_scraper import TRCAScraper
 from farmers_markets_scraper import FarmersMarketsScraper
-from kidsoutandabout_scraper import KidsOutAndAboutScraper
+# KidsOutAndAbout scraper removed 2026-06-18 - ToS-risky aggregator scrape (C&D risk)
 from indoor_play_centers_scraper import IndoorPlayCentersScraper
-from helpwevegotkids_scraper import HelpWeveGotKidsScraper
-from blogto_scraper import BlogTOScraper
+# HelpWeveGotKids scraper removed 2026-06-18 - ToS-risky aggregator scrape (C&D risk)
+# BlogTO scraper removed 2026-06-18 - ToS-risky aggregator scrape (C&D risk)
 # TodaysParent scraper removed - site has Cloudflare protection that requires JavaScript
 from likeadad_scraper import LikeADadScraper
 # BIA scraper removed - all 4 BIA websites have broken/changed URLs
@@ -115,8 +120,24 @@ class DataAggregator:
             print(f"   🗑️  Removed {removed} past events")
 
     def sort_events(self):
-        """Sort events by date and time"""
-        self.events.sort(key=lambda e: (e['date'], e['start_time']))
+        """Order by date, then interleave sources within each date (round-robin)
+        so one high-volume source (EarlyON) can't form a long unbroken run."""
+        from collections import defaultdict, deque
+        by_date = defaultdict(list)
+        for e in self.events:
+            by_date[e.get('date','')].append(e)
+        out = []
+        for date in sorted(by_date):
+            src = defaultdict(deque)
+            for e in sorted(by_date[date], key=lambda x: x.get('start_time','')):
+                src[e.get('source','?')].append(e)
+            queues = list(src.values())
+            while queues:
+                for q in list(queues):
+                    out.append(q.popleft())
+                    if not q:
+                        queues.remove(q)
+        self.events = out
 
     def validate_events(self):
         """Validate event data and fix common issues"""
@@ -223,8 +244,24 @@ class DataAggregator:
 
         return stats
 
+    def editorialize_events(self):
+        """Rewrite thin/boilerplate descriptions from each event's structured
+        fields (venue, neighbourhood, ages, day/time, free). Zero-cost and
+        deterministic; genuine scraper copy is preserved; idempotent."""
+        n = 0
+        for e in self.events:
+            try:
+                new = _editorialize(e)
+                if new and new != e.get('description'):
+                    e['description'] = new
+                    n += 1
+            except Exception:
+                pass  # never let editorialization break a save
+        print(f"✍️  Editorialized {n} thin descriptions")
+
     def save_to_json(self, filename: str = "events.json"):
         """Save aggregated events to JSON file"""
+        self.editorialize_events()
         output = {
             'generated_at': datetime.now(timezone.utc).isoformat(),
             'total_events': len(self.events),
@@ -238,6 +275,7 @@ class DataAggregator:
 
     def save_separate_files(self):
         """Save events to multiple files for easier management"""
+        self.editorialize_events()
         # DEBUG: Check place_ids before saving
         debug_count = sum(1 for e in self.events if e.get('venue', {}).get('place_id'))
         print(f"   DEBUG: Before saving - {debug_count} events have place_id")
@@ -375,14 +413,7 @@ def main():
 
     print()
 
-    # 2. Fetch from Toronto Public Library (using real API)
-    print("📚 Fetching from Toronto Public Library...")
-    try:
-        tpl_scraper = TPLAPIScraper()
-        tpl_events = tpl_scraper.fetch_events(days_ahead=30)
-        aggregator.add_events(tpl_events, 'TPL')
-    except Exception as e:
-        print(f"   ❌ Error fetching TPL events: {e}")
+    # 2. TPL removed 2026-06-18 - mill source, excluded from product (library = common knowledge)
 
     print()
 
@@ -399,36 +430,15 @@ def main():
 
     print()
 
-    # 4. Fetch from EarlyON Centers (free drop-in programs for kids 0-6)
-    print("👶 Fetching from EarlyON Centers...")
-    try:
-        earlyon_scraper = EarlyONScraper()
-        earlyon_events = earlyon_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(earlyon_events, 'EarlyON')
-    except Exception as e:
-        print(f"   ❌ Error fetching EarlyON events: {e}")
+    # 4. EarlyON removed 2026-06-18 - mill source, excluded from product
 
     print()
 
-    # 5. Fetch from Parks & Recreation (drop-in programs for all ages)
-    print("🏃 Fetching from Parks & Recreation...")
-    try:
-        parksrec_scraper = ParksRecScraper()
-        parksrec_events = parksrec_scraper.fetch_events(days_ahead=14)
-        aggregator.add_events(parksrec_events, 'ParksRec')
-    except Exception as e:
-        print(f"   ❌ Error fetching Parks & Rec events: {e}")
+    # 5. Parks & Rec removed 2026-06-18 - mill source, excluded from product
 
     print()
 
-    # 6. Fetch from ChatterBlock (actual changing events - festivals, workshops, performances)
-    print("🎪 Fetching from ChatterBlock...")
-    try:
-        chatterblock_scraper = ChatterBlockScraper()
-        chatterblock_events = chatterblock_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(chatterblock_events, 'ChatterBlock')
-    except Exception as e:
-        print(f"   ❌ Error fetching ChatterBlock events: {e}")
+    # 6. ChatterBlock removed 2026-06-18 - ToS-risky aggregator scrape (C&D risk)
 
     print()
 
@@ -563,14 +573,7 @@ def main():
 
     print()
 
-    # 19. Fetch from Kids Out and About Toronto
-    print("🎪 Fetching from Kids Out and About Toronto...")
-    try:
-        kidsoutandabout_scraper = KidsOutAndAboutScraper()
-        kidsoutandabout_events = kidsoutandabout_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(kidsoutandabout_events, 'KidsOutAndAbout')
-    except Exception as e:
-        print(f"   ❌ Error fetching Kids Out and About events: {e}")
+    # 19. KidsOutAndAbout removed 2026-06-18 - ToS-risky aggregator scrape (C&D risk)
 
     print()
 
@@ -585,25 +588,11 @@ def main():
 
     print()
 
-    # 21. Fetch from Help! We've Got Kids (family events aggregator)
-    print("🎈 Fetching from Help! We've Got Kids...")
-    try:
-        helpwevegotkids_scraper = HelpWeveGotKidsScraper()
-        helpwevegotkids_events = helpwevegotkids_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(helpwevegotkids_events, 'HelpWeveGotKids')
-    except Exception as e:
-        print(f"   ❌ Error fetching Help! We've Got Kids events: {e}")
+    # 21. Help! We've Got Kids removed 2026-06-18 - ToS-risky aggregator scrape (C&D risk)
 
     print()
 
-    # 22. Fetch from BlogTO Kids
-    print("📰 Fetching from BlogTO Kids...")
-    try:
-        blogto_scraper = BlogTOScraper()
-        blogto_events = blogto_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(blogto_events, 'BlogTO')
-    except Exception as e:
-        print(f"   ❌ Error fetching BlogTO events: {e}")
+    # 22. BlogTO removed 2026-06-18 - ToS-risky aggregator scrape (C&D risk)
 
     print()
 

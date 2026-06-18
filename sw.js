@@ -1,5 +1,5 @@
 // Service Worker for Toronto Kids Events PWA
-const CACHE_NAME = 'kidsevents-v2'; // Incremented to clear old caches
+const CACHE_NAME = 'kidsevents-v21'; // v21: de-mill static About + Data Sources modals + keywords meta 2026-06-18. v20: de-mill homepage editorial (stat cards/FAQ/About/meta now venue-circuit, not EarlyON/TPL/Parks) 2026-06-18. v19: removed earlyon/parks guide pages (links/cards/sitemap/llms/redirects) 2026-06-18. v18: calendar day-expand collapses EarlyON/ParksRec mill into one summary line (distinctive-first) 2026-06-18. v17: trim inline ItemList schema 200->50 (~133KB off HTML, mobile perf) 2026-06-18. v14: top-5 distinctive picks/day (freq-demote routine), no Join (whole chip tap->editorial match), warmer header (2026-06-14)
 const urlsToCache = [
   '/kidsevents/',
   '/kidsevents/index.html',

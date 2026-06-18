@@ -59,14 +59,54 @@
         Header set Access-Control-Allow-Headers "Content-Type"
     </FilesMatch>
 
-    # Prevent caching of event data files (updated daily by cron at 6 AM)
+    # Event data files (updated daily by cron at 6 AM):
+    # allow caching but force revalidation. Apache answers If-Modified-Since
+    # with a 304 (empty body) unless the scrape rewrote the file, so repeat
+    # visitors skip the full download while never seeing stale data.
     <FilesMatch "^(events|events_full|events_week[0-9]|metadata)\.json$">
-        Header set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
-        Header set Pragma "no-cache"
-        Header set Expires "0"
+        Header set Cache-Control "no-cache"
+        Header unset Pragma
+        Header unset Expires
         # Remove ETag to prevent CDN caching validation
         Header unset ETag
         FileETag None
+    </FilesMatch>
+</IfModule>
+
+# ============================================
+# 2b. COMPRESSION
+# ============================================
+
+# Ubuntu's default deflate.conf covers HTML/CSS/JS but NOT application/json.
+# events_week1.json is ~800 KB raw vs ~90 KB gzipped, so this is the single
+# biggest LCP win on the events page.
+# NOTE: AddOutputFilterByType in .htaccess REPLACES the server-level type list
+# rather than merging with it, so every compressible type must be listed here
+# — omitting text/html silently disables HTML compression for this directory.
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml
+    AddOutputFilterByType DEFLATE application/json application/xml image/svg+xml
+    AddOutputFilterByType DEFLATE application/javascript text/javascript
+</IfModule>
+
+# ============================================
+# 2c. STATIC ASSET CACHING
+# ============================================
+
+<IfModule mod_headers.c>
+    # Versioned static assets (script tags carry ?v=N) — cache 7 days
+    <FilesMatch "\.(js|css|jpg|jpeg|png|gif|webp|svg|ico|woff|woff2)$">
+        Header set Cache-Control "public, max-age=604800"
+    </FilesMatch>
+
+    # Service worker must revalidate so version bumps propagate promptly
+    <FilesMatch "^sw\.js$">
+        Header set Cache-Control "no-cache"
+    </FilesMatch>
+
+    # HTML is rewritten daily by geo_inject — revalidate every visit
+    <FilesMatch "\.(html)$">
+        Header set Cache-Control "no-cache"
     </FilesMatch>
 </IfModule>
 
@@ -92,3 +132,7 @@ Options -Indexes
 <FilesMatch "^(phpinfo\.php|test\.php|debug\.php)$">
     Require all denied
 </FilesMatch>
+
+# Retired guide pages (EarlyON / Parks & Rec) -> main kidsevents page (2026-06-18)
+RedirectMatch 301 ^/kidsevents/earlyon-guide/?$ /kidsevents/
+RedirectMatch 301 ^/kidsevents/parks-rec-guide/?$ /kidsevents/
