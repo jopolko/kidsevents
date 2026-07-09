@@ -1,4 +1,5 @@
 # robots.txt for Kids Events Toronto
+# Note: Main sitemap is managed at https://joshuaopolko.com/sitemap.xml
 
 User-agent: *
 Allow: /
@@ -27,9 +28,6 @@ Allow: /events.json
 Allow: /events_full.json
 Allow: /events_week*.json
 Allow: /load_events.js
-
-# Sitemap location
-Sitemap: https://joshuaopolko.com/kidsevents/sitemap.xml
 
 # Crawl-delay (optional, helps prevent server overload)
 Crawl-delay: 1

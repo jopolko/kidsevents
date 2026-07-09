@@ -18,6 +18,7 @@ class TorontoEventsScraper:
         }
 
     def fetch_events(self, days_ahead: int = 90, limit: int = 500) -> List[Dict]:
+        return []  # RETIRED: TorontoEvents — City calendar archived (2025 only)
         """Fetch free family/kids events from City of Toronto"""
 
         print("🏛️  Fetching events from City of Toronto...")

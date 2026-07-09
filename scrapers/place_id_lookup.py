@@ -16,10 +16,15 @@ from dotenv import load_dotenv
 
 # Load environment variables from secure location
 env_path = Path('/var/secrets/kidsevents.env')
-if env_path.exists():
-    load_dotenv(dotenv_path=env_path)
-else:
-    # Fallback to local .env for development
+try:
+    if env_path.exists():
+        load_dotenv(dotenv_path=env_path)
+    else:
+        # Fallback to local .env for development
+        env_path = Path(__file__).parent.parent / '.env'
+        load_dotenv(dotenv_path=env_path)
+except PermissionError:
+    # Fallback to local .env if no permission to access secrets
     env_path = Path(__file__).parent.parent / '.env'
     load_dotenv(dotenv_path=env_path)
 

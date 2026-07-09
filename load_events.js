@@ -10,9 +10,10 @@ async function loadWeekEvents(weekNumber) {
     try {
         console.log(`📥 Loading week ${weekNumber} events...`);
 
-        // Add cache-busting timestamp to force CDN to fetch fresh data
-        const cacheBuster = `?v=${Date.now()}`;
-        const response = await fetch(`events_week${weekNumber}.json${cacheBuster}`);
+        // No cache-buster: server sends Cache-Control: no-cache + Last-Modified,
+        // so the browser revalidates and gets a tiny 304 unless the daily
+        // scrape actually rewrote the file. A Date.now() param defeats that.
+        const response = await fetch(`events_week${weekNumber}.json`);
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -47,9 +48,8 @@ async function loadAllWeeks() {
     try {
         console.log('📥 Loading all weeks fallback...');
 
-        // Add cache-busting timestamp to force CDN to fetch fresh data
-        const cacheBuster = `?v=${Date.now()}`;
-        const response = await fetch(`events.json${cacheBuster}`);
+        // No cache-buster: rely on Cache-Control: no-cache revalidation (304s)
+        const response = await fetch(`events.json`);
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -128,10 +128,14 @@ async function loadInitialEvents() {
                 );
             });
 
-            // Update global variables with ALL weeks
-            window.events = filteredAllEvents;
-            window.currentEvents = filteredAllEvents;  // Update currentEvents too!
-            window.allFilteredEvents = filteredAllEvents;
+            // Update global variables with ALL weeks (deduped for the browse list)
+            window._rawEvents = filteredAllEvents;
+            const browseAll = window.dedupeSeries ? window.dedupeSeries(filteredAllEvents) : filteredAllEvents;
+            window.events = browseAll;
+            window.currentEvents = browseAll;  // Update currentEvents too!
+            window.allFilteredEvents = browseAll;
+            const _baBtn2 = document.getElementById('browse-all-btn');
+            if (_baBtn2) _baBtn2.textContent = `Browse all ${browseAll.length} programs ▾`;
 
             console.log('✅ App updated with all weeks');
 
@@ -205,10 +209,16 @@ async function initializeAppWithData() {
             console.log(`🚫 Filtered out ${cancelledCount} cancelled events`);
         }
 
-        // Update global variables that the HTML expects
-        window.events = filteredEvents;
-        window.currentEvents = filteredEvents;  // This is what filterEventsByAge checks!
-        window.allFilteredEvents = filteredEvents;
+        // Raw per-day instances drive the digest; the browse list shows the
+        // deduped recurring-series view (~220 programs, not ~700 rows).
+        window._rawEvents = filteredEvents;
+        const browseEvents = window.dedupeSeries ? window.dedupeSeries(filteredEvents) : filteredEvents;
+        window.events = browseEvents;
+        window.currentEvents = browseEvents;  // This is what filterEventsByAge checks!
+        window.allFilteredEvents = browseEvents;
+        // Digest self-fetches the full month from events.json (see index.html).
+        const _baBtn = document.getElementById('browse-all-btn');
+        if (_baBtn) _baBtn.textContent = `Browse all ${browseEvents.length} programs ▾`;
 
         // Hide loading screen and show content
         const loadingEl = document.getElementById('loading');

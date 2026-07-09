@@ -40,6 +40,7 @@ class TorontoOpenDataScraper:
         ]
 
     def fetch_events(self, days_ahead: int = 60) -> List[Dict]:
+        return []  # RETIRED: TorontoOpenData — festivals feed WAF-blocked
         """Fetch kids/family events from Toronto Open Data"""
 
         print("🏛️  Fetching from Toronto Open Data API...")
