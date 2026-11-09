@@ -1,0 +1,951 @@
+{
+"tpl.ca": {
+"url": "https://tpl.ca/locations/SA/",
+"names": [
+"Toronto Public Library - Sanderson",
+"Toronto Public Library - North York Central Library",
+"Toronto Public Library - Eglinton Square",
+"Toronto Public Library - Goldhawk Park",
+"Toronto Public Library - Maryvale",
+"Toronto Public Library - Victoria Village",
+"Toronto Public Library - Leaside",
+"Toronto Public Library - Lillian H. Smith",
+"Toronto Public Library - Brookbanks",
+"Toronto Public Library - Parkdale",
+"Toronto Public Library - Fairview"
+],
+"lat": 43.6521007,
+"lng": -79.405463
+},
+"hpl.ca": {
+"url": "https://hpl.ca/branches/ancaster-branch",
+"names": [
+"Hamilton Public Library - Ancaster Branch",
+"Hamilton Public Library - Terryberry Branch",
+"Hamilton Public Library - Central Branch",
+"Hamilton Public Library - Turner Park Branch",
+"Hamilton Public Library - Valley Park Branch",
+"Hamilton Public Library - Barton Branch",
+"Hamilton Public Library - West Harbour Branch",
+"Hamilton Public Library - Westdale Branch",
+"Hamilton Public Library - Locke Branch"
+],
+"lat": 43.2251983,
+"lng": -79.9766976
+},
+"bpl.on.ca": {
+"url": "https://www.bpl.on.ca/about/locations-hours/ta",
+"names": [
+"Burlington Public Library - Tansley Woods Branch",
+"Burlington Public Library - Central Branch"
+],
+"lat": 43.3822616,
+"lng": -79.8012734
+},
+"torontopubliclibrary.ca": {
+"url": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB090",
+"names": [
+"Toronto Public Library - Thorncliffe",
+"Toronto Public Library - Dawes Road",
+"Toronto Public Library - Northern District",
+"Toronto Public Library - Bridlewood",
+"Toronto Public Library - St. James Town",
+"Toronto Public Library - St. Lawrence",
+"Toronto Public Library - Todmorden Room",
+"Toronto Public Library - Guildwood",
+"Toronto Public Library - Armour Heights",
+"Toronto Public Library - Swansea Memorial",
+"Toronto Public Library - Pape/Danforth",
+"Toronto Public Library - Gerrard/Ashdale",
+"Toronto Public Library - Kennedy/Eglinton",
+"Toronto Public Library - Forest Hill",
+"Toronto Public Library - Mount Pleasant",
+"Toronto Public Library - Main Street",
+"Toronto Public Library - New Toronto",
+"Toronto Public Library - Alderwood",
+"Toronto Public Library - Burrows Hall",
+"Toronto Public Library - Steeles",
+"Toronto Public Library - City Hall",
+"Toronto Public Library - St. Clair/Silverthorn",
+"Toronto Public Library - Woodview Park",
+"Toronto Public Library - Cliffcrest",
+"Toronto Public Library - Woodside Square",
+"Toronto Public Library - Malvern",
+"Toronto Public Library - Flemingdon Park",
+"Toronto Public Library - Humberwood",
+"Toronto Public Library - Port Union",
+"Toronto Public Library - McGregor Park",
+"Toronto Public Library - Northern Elms",
+"Toronto Public Library - Black Creek",
+"Junction Triangle",
+"Toronto Public Library - Hillcrest",
+"Toronto Public Library - Toronto Reference Library",
+"Toronto Public Library - Don Mills",
+"Toronto Public Library - Riverdale",
+"Toronto Public Library - Eatonville",
+"Toronto Public Library - Amesbury Park",
+"Toronto Public Library - S. Walter Stewart",
+"Toronto Public Library - Locke",
+"Toronto Public Library - York Woods",
+"Toronto Public Library - Richview",
+"Toronto Public Library - Danforth/Coxwell",
+"Toronto Public Library - Deer Park",
+"Toronto Public Library - Rexdale",
+"Toronto Public Library - Highland Creek",
+"Toronto Public Library - Pleasant View",
+"Toronto Public Library - Yorkville",
+"Toronto Public Library - Mimico Centennial",
+"Toronto Public Library - Wychwood",
+"Toronto Public Library - Maria A. Shchuka",
+"Toronto Public Library - Albion",
+"Toronto Public Library - Beaches",
+"Toronto Public Library - Centennial",
+"Toronto Public Library - Agincourt",
+"Toronto Public Library - Daniel G. Hill",
+"Toronto Public Library - Long Branch",
+"Toronto Public Library - Barbara Frum",
+"Toronto Public Library - Elmbrook Park",
+"Toronto Public Library - Parliament Street",
+"Toronto Public Library - Bendale",
+"Toronto Public Library - Downsview",
+"Toronto Public Library - Spadina Road",
+"Toronto Public Library - Runnymede",
+"Toronto Public Library - Bloor/Gladstone",
+"Toronto Public Library - Annette Street",
+"Toronto Public Library - Fort York",
+"Toronto Public Library - Evelyn Gregory",
+"Toronto Public Library - Palmerston",
+"Toronto Public Library - Dufferin/St. Clair",
+"Toronto Public Library - Humber Bay",
+"Toronto Public Library - Humber Summit",
+"Toronto Public Library - Weston",
+"Toronto Public Library - Brentwood",
+"Toronto Public Library - Jane/Sheppard",
+"Toronto Public Library - Mount Dennis",
+"Toronto Public Library - Jones",
+"Toronto Public Library - Morningside",
+"Toronto Public Library - Scarborough Civic Centre",
+"Toronto Public Library - Oakwood Village",
+"Toronto Public Library - Albert Campbell",
+"Toronto Public Library - High Park",
+"Toronto Public Library - Cedarbrae",
+"Toronto Public Library - Taylor Memorial",
+"Toronto Public Library - College/Shaw",
+"Toronto Public Library - Davenport",
+"Toronto Public Library - Queen/Saulter"
+],
+"lat": 43.7029518,
+"lng": -79.3425925
+},
+"markham.ca": {
+"url": "https://www.markham.ca/wps/portal/Markham/RecreationCulture/Library/AboutTheLibrary/BranchesAndHours/MarkhamVillage",
+"names": [
+"Markham Public Library - Markham Village Branch",
+"Markham Public Library - Cornell Branch",
+"Markham Public Library - Aaniin Branch"
+],
+"lat": 43.8733205,
+"lng": -79.2586723
+},
+"biblioottawalibrary.ca": {
+"url": "https://biblioottawalibrary.ca/en/branch/main",
+"names": [
+"Ottawa Public Library - Main Branch",
+"Ottawa Public Library - Greenboro Branch",
+"Ottawa Public Library - Carp Branch",
+"Ottawa Public Library - Beaverbrook Branch",
+"Ottawa Public Library - Centennial Branch",
+"Ottawa Public Library - Cumberland Branch"
+],
+"lat": 45.4202912,
+"lng": -75.6954433
+},
+"library.queensu.ca": {
+"url": "https://library.queensu.ca/locations/bracken-health-sciences-library",
+"names": [
+"Bracken Health Sciences Library",
+"Douglas Library",
+"Stauffer Library"
+],
+"lat": 44.2244861,
+"lng": -76.4918106
+},
+"vaughanpl.info": {
+"url": "https://www.vaughanpl.info/libraries/view/7",
+"names": [
+"Pierre Berton Resource Library",
+"Carrville Library",
+"Bathurst Clark Resource Library",
+"Civic Centre Resource Library",
+"Ansley Grove Library"
+],
+"lat": 43.8174992,
+"lng": -79.595937
+},
+"cambridgepl.ca": {
+"url": "https://cambridgepl.ca/location/clemens-mill",
+"names": [
+"Cambridge Public Library - Clemens Mill",
+"Cambridge Public Library - Queen's Square",
+"Cambridge Public Library - Hespeler",
+"Cambridge Public Library - Preston",
+"Cambridge Public Library - Old Post Office"
+],
+"lat": 43.3930219,
+"lng": -80.3003564
+},
+"kfpl.ca": {
+"url": "https://www.kfpl.ca/hours-and-locations/hartington-branch",
+"names": [
+"Kingston Frontenac Public Library - Hartington Branch",
+"Kingston Frontenac Public Library - Rideau Heights branch",
+"Kingston Frontenac Public Library - Storrington Branch",
+"Kingston Frontenac Public Library - Cloyne Branch",
+"Kingston Frontenac Public Library - Arden Branch",
+"Kingston Frontenac Public Library - Howe Island",
+"Kingston Frontenac Public Library - Parham",
+"Kingston Frontenac Public Library - Plevna Branch",
+"Kingston Frontenac Public Library - Sharbot Lake",
+"Kingston Frontenac Public Library - Central Branch",
+"Kingston Frontenac Public Library - Isabel Turner Branch",
+"Kingston Frontenac Public Library - Pittsburgh Branch",
+"Kingston Frontenac Public Library - Sydenham Branch",
+"Kingston Frontenac Public Library - Wolfe Island Branch"
+],
+"lat": 44.4409926,
+"lng": -76.6691863
+},
+"newcollege.utoronto.ca": {
+"url": "https://newcollege.utoronto.ca/academics/library/",
+"names": [
+"New College Library (Ivey)"
+],
+"lat": 43.6617897,
+"lng": -79.4001637
+},
+"galwaycavendishharveylibrary.ca": {
+"url": "http://www.galwaycavendishharveylibrary.ca",
+"names": [
+"Trent Lakes Public Library - Main Branch"
+],
+"lat": 44.5536944,
+"lng": -78.3509574
+},
+"engineering.library.utoronto.ca": {
+"url": "https://engineering.library.utoronto.ca/",
+"names": [
+"Engineering & Computer Science Library"
+],
+"lat": 43.6601686,
+"lng": -79.3949804
+},
+"brantford.library.on.ca": {
+"url": "https://brantford.library.on.ca/home/",
+"names": [
+"Brantford Public Library - Main Branch"
+],
+"lat": 43.1382783,
+"lng": -80.2627855
+},
+"ncpl.ca": {
+"url": "https://www.ncpl.ca/about-ncpl/branch-hours-locations/simcoe-branch/",
+"names": [
+"Norfolk County Public Library - Simcoe Branch"
+],
+"lat": 42.8359745,
+"lng": -80.3067375
+},
+"wpl.ca": {
+"url": "https://www.wpl.ca/your-library/locations-hours/mccormick-branch/",
+"names": [
+"Waterloo Public Library - McCormick Branch",
+"Waterloo Public Library - John M. Harper Branch",
+"Waterloo Public Library - Main",
+"Waterloo Public Library - Eastside Branch"
+],
+"lat": 43.4891793,
+"lng": -80.5441828
+},
+"myscpl.ca": {
+"url": "https://www.myscpl.ca/about-us/branch-and-location-hours/central-library/",
+"names": [
+"St. Catharines Public Library - Central Library",
+"St. Catharines Public Library - Dr. Huq Family Branch",
+"St. Catherines Public Library - Port Dalhousie Branch",
+"St. Catharines Public Library - Merritt Branch"
+],
+"lat": 43.1601991,
+"lng": -79.2460466
+},
+"library.hhpl.on.ca": {
+"url": "http://www.library.hhpl.on.ca/",
+"names": [
+"Halton Hills Public Library - Georgetown Branch"
+],
+"lat": 43.6482213,
+"lng": -79.925772
+},
+"opl.ca": {
+"url": "https://opl.ca",
+"names": [
+"Oakville Public Library",
+"Oakville Public Library"
+],
+"lat": 43.4882696,
+"lng": -79.7008804
+},
+"elliotlakelibrary.com": {
+"url": "http://www.elliotlakelibrary.com/",
+"names": [
+"Elliot Lake Library"
+],
+"lat": 46.383738,
+"lng": -82.6625987
+},
+"library.vicu.utoronto.ca": {
+"url": "https://library.vicu.utoronto.ca/emmanuel/",
+"names": [
+"Emmanuel College Library - Victoria University",
+"E. J. Pratt Library"
+],
+"lat": 43.666578,
+"lng": -79.3926981
+},
+"kpl.org": {
+"url": "https://www.kpl.org/pp",
+"names": [
+"Kitchener Public Library - Pioneer Park",
+"Kitchener Public Library - Country Hills",
+"Kitchener Public Library - Forest Heights",
+"Kitchener Public Library - Main",
+"Southwest Community Library"
+],
+"lat": 43.3943152,
+"lng": -80.4371359
+},
+"ocadu.ca": {
+"url": "https://www.ocadu.ca/library.htm",
+"names": [
+"Dorothy H. Hoover Library"
+],
+"lat": 43.6533748,
+"lng": -79.3900504
+},
+"sdglibrary.ca": {
+"url": "https://sdglibrary.ca/",
+"names": [
+"SDG Library - Winchester Branch"
+],
+"lat": 45.0904137,
+"lng": -75.3511823
+},
+"mississauga.ca": {
+"url": "http://www.mississauga.ca/portal/residents/cooksvillelibrary",
+"names": [
+"Mississauga Library - Cooksville",
+"Missisauga Library - Malton",
+"Mississauga Library - Courtneypark",
+"Mississauga Library - South Common",
+"Mississauga Library - Erin Meadows"
+],
+"lat": 43.5805334,
+"lng": -79.6172825
+},
+"grandvalley.org": {
+"url": "http://www.grandvalley.org",
+"names": [
+"Grand Valley Public Library"
+],
+"lat": 43.8993356,
+"lng": -80.3149792
+},
+"guelphpl.ca": {
+"url": "https://www.guelphpl.ca/en/about-us/scottsdale.aspx",
+"names": [
+"Guelph Public Library - Scottsdale Branch",
+"Guelph Public Library - West End Branch",
+"Guelph Public Library - Bullfrog Mall Branch",
+"Guelph Public Library - Westminister Square Branch",
+"Guelph Public Library - Main Branch",
+"Guelph Public Library - East Side Branch"
+],
+"lat": 43.5149222,
+"lng": -80.2378939
+},
+"georginalibrary.ca": {
+"url": "http://www.georginalibrary.ca/",
+"names": [
+"Georgina Public Library - Peter Gzowski Branch"
+],
+"lat": 44.3089759,
+"lng": -79.3676877
+},
+"whitbylibrary.on.ca": {
+"url": "http://www.whitbylibrary.on.ca/",
+"names": [
+"Whitby Public Library - Rossland Branch"
+],
+"lat": 43.8994663,
+"lng": -78.938692
+},
+"olsn.ca": {
+"url": "http://www.olsn.ca/kirklandlakepl/",
+"names": [
+"Teck Centennial Library"
+],
+"lat": 48.1507588,
+"lng": -80.0316496
+},
+"nflibrary.ca": {
+"url": "https://www.nflibrary.ca/",
+"names": [
+"Niagara Falls Public Library - Community Centre Branch"
+],
+"lat": 43.0712515,
+"lng": -79.1245026
+},
+"wsplibrary.ca": {
+"url": "http://www.wsplibrary.ca/",
+"names": [
+"Whitchurch-Stouffville Public Library"
+],
+"lat": 43.9669498,
+"lng": -79.2444771
+},
+"grimsbylibrary.ca": {
+"url": "https://www.grimsbylibrary.ca/",
+"names": [
+"Grimsby Public Library"
+],
+"lat": 43.1952887,
+"lng": -79.5594777
+},
+"library.brucecounty.on.ca": {
+"url": "https://library.brucecounty.on.ca/southampton/",
+"names": [
+"Bruce County Public Library - Southampton Branch",
+"Bruce County Public Library - Lucknow Branch",
+"Bruce County Public Library - Port Elgin Branch",
+"Bruce County Public Library - Tobermory Branch"
+],
+"lat": 44.4951914,
+"lng": -81.3711889
+},
+"ottawatranslibrary.ca": {
+"url": "https://ottawatranslibrary.ca",
+"names": [
+"Ottawa Trans Library"
+],
+"lat": 45.4059222,
+"lng": -75.7220587
+},
+"lso.ca": {
+"url": "https://lso.ca/about-lso/great-library",
+"names": [
+"Great Library"
+],
+"lat": 43.6518332,
+"lng": -79.3855253
+},
+"arquives.ca": {
+"url": "https://arquives.ca",
+"names": [
+"The ArQuives"
+],
+"lat": 43.668138,
+"lng": -79.3839765
+},
+"lennox-addington.on.ca": {
+"url": "https://www.lennox-addington.on.ca/library-services",
+"names": [
+"Lennox & Addington Library - Amherstview Branch",
+"Lennox & Addington Library - Napanee Branch"
+],
+"lat": 44.2257136,
+"lng": -76.65793
+},
+"countylibrary.ca": {
+"url": "https://www.countylibrary.ca",
+"names": [
+"Lennox & Addington Library - Yarker Branch"
+],
+"lat": 44.3739606,
+"lng": -76.7676826
+},
+"kawarthalakeslibrary.ca": {
+"url": "https://www.kawarthalakeslibrary.ca/about-us/branch-locations-and-hours/bobcaygeon/",
+"names": [
+"Kawartha Lakes Public Library - Bobcaygeon Branch",
+"Kawartha Lakes Public Library - Omemee Branch"
+],
+"lat": 44.5365394,
+"lng": -78.5382339
+},
+"selwyntownship.ca": {
+"url": "https://www.selwyntownship.ca/en/library/library.aspx",
+"names": [
+"Selwyn Public Library - Lakefield Branch"
+],
+"lat": 44.422315,
+"lng": -78.2725052
+},
+"egpl.ca": {
+"url": "https://www.egpl.ca/about-your-library/hours-location",
+"names": [
+"East Gwillimbury Public Library - Holland Landing Branch",
+"East Gwillimbury Public Library - Queensville Branch",
+"East Gwillimbury Public Library - Mount Albert Branch"
+],
+"lat": 44.1047887,
+"lng": -79.491003
+},
+"northkawarthalibrary.com": {
+"url": "https://www.northkawarthalibrary.com",
+"names": [
+"North Kawartha Public Library - Apsley Branch"
+],
+"lat": 44.7565374,
+"lng": -78.0862551
+},
+"pickeringlibrary.ca": {
+"url": "https://pickeringlibrary.ca/locations/5/",
+"names": [
+"Pickering Public Library - Claremont Branch"
+],
+"lat": 43.9702796,
+"lng": -79.1285267
+},
+"clearview.library.on.ca": {
+"url": "https://www.clearview.library.on.ca",
+"names": [
+"Clearview Public Library - Sunnidale Branch"
+],
+"lat": 44.3585071,
+"lng": -79.9693328
+},
+"rwlibrary.ca": {
+"url": "https://www.rwlibrary.ca/about-the-library/locations-hours/bloomingdale-branch/",
+"names": [
+"Region Of Waterloo Library - Bloomingdale Branch"
+],
+"lat": 43.5105361,
+"lng": -80.4616515
+},
+"wawa.olsn.ca": {
+"url": "https://wawa.olsn.ca/",
+"names": [
+"Wawa Public Library"
+],
+"lat": 47.9965987,
+"lng": -84.7713221
+},
+"hsl.mcmaster.ca": {
+"url": "https://hsl.mcmaster.ca/",
+"names": [
+"Health Sciences Library"
+],
+"lat": 43.2600733,
+"lng": -79.9184856
+},
+"library.yorku.ca": {
+"url": "https://www.library.yorku.ca/web/bbl/",
+"names": [
+"Peter F. Bronfman Business Library",
+"Scott Library",
+"Steacie Science & Engineering Library"
+],
+"lat": 43.7732536,
+"lng": -79.498449
+},
+"bibliofauquier.weebly.com": {
+"url": "http://bibliofauquier.weebly.com/",
+"names": [
+"Biblioth\u00e8que Municipale de Fauquier-Strickland"
+],
+"lat": 49.3086363,
+"lng": -82.0356111
+},
+"library.mohawkcollege.ca": {
+"url": "https://library.mohawkcollege.ca/iahs-library",
+"names": [
+"IAHS Library"
+],
+"lat": 43.2593962,
+"lng": -79.9202321
+},
+"thebluemountainslibrary.ca": {
+"url": "https://www.thebluemountainslibrary.ca/museum",
+"names": [
+"Craigleith Heritage Depot"
+],
+"lat": 44.5251501,
+"lng": -80.3252817
+},
+"dfcm.utoronto.ca": {
+"url": "https://dfcm.utoronto.ca",
+"names": [
+"University of Toronto Department of Family and Community Medicine"
+],
+"lat": 43.6554477,
+"lng": -79.3890156
+},
+"earth.library.utoronto.ca": {
+"url": "https://earth.library.utoronto.ca",
+"names": [
+"Earth Sciences Library (Noranda)"
+],
+"lat": 43.6604673,
+"lng": -79.3996676
+},
+"bramptonlibrary.ca": {
+"url": "https://www.bramptonlibrary.ca/your-library/branches/claireville-branch-library",
+"names": [
+"Brampton Library - Claireville Branch",
+"Brampton Library - Four Corners Branch",
+"Brampton Library - Springdale Branch"
+],
+"lat": 43.7663167,
+"lng": -79.6567479
+},
+"chatham-kent.ca": {
+"url": "https://www.chatham-kent.ca/library/usingthelibrary/branches/Pages/Branch-Information.aspx",
+"names": [
+"Chatham Kent Public Library - Highgate Branch"
+],
+"lat": 42.5022651,
+"lng": -81.8178563
+},
+"east.library.utoronto.ca": {
+"url": "https://east.library.utoronto.ca/",
+"names": [
+"Cheng Yu Tung East Asian Library"
+],
+"lat": 43.6644899,
+"lng": -79.3992061
+},
+"library.utoronto.ca": {
+"url": "https://library.utoronto.ca/library/music",
+"names": [
+"Music Library",
+"A. D. Allen Chemistry Library",
+"Robarts Library"
+],
+"lat": 43.6668737,
+"lng": -79.3947011
+},
+"knox.utoronto.ca": {
+"url": "https://knox.utoronto.ca/caven-library/",
+"names": [
+"Caven Library"
+],
+"lat": 43.6617136,
+"lng": -79.3965456
+},
+"ottawaoutdoorgearlibrary.com": {
+"url": "https://ottawaoutdoorgearlibrary.com/",
+"names": [
+"Ottawa Outdoor Gear Library"
+],
+"lat": 45.4133644,
+"lng": -75.7061455
+},
+"library.stmikes.utoronto.ca": {
+"url": "https://library.stmikes.utoronto.ca",
+"names": [
+"John M. Kelly Library - St. Michael\u2019s College"
+],
+"lat": 43.6648522,
+"lng": -79.3895107
+},
+"gananoquelibrary.ca": {
+"url": "https://www.gananoquelibrary.ca/",
+"names": [
+"Gananoque Public Library"
+],
+"lat": 44.3281236,
+"lng": -76.1649874
+},
+"lac-bac.gc.ca": {
+"url": "https://www.lac-bac.gc.ca/",
+"names": [
+"Library and Archives Canada"
+],
+"lat": 45.4198174,
+"lng": -75.708089
+},
+"library.barrie.on.ca": {
+"url": "http://www.library.barrie.on.ca/",
+"names": [
+"Barrie Public Library - Downtown Branch"
+],
+"lat": 44.3918999,
+"lng": -79.6883862
+},
+"lop.parl.ca": {
+"url": "https://lop.parl.ca/sites/PublicWebsite/default/en_CA",
+"names": [
+"Library of Parliament"
+],
+"lat": 45.4255138,
+"lng": -75.7002571
+},
+"lib.uoguelph.ca": {
+"url": "https://www.lib.uoguelph.ca/",
+"names": [
+"McLaughlin Library"
+],
+"lat": 43.5315073,
+"lng": -80.2276662
+},
+"muskokalakes.ca": {
+"url": "https://www.muskokalakes.ca/library",
+"names": [
+"Muskoka Lakes Library"
+],
+"lat": 45.1171585,
+"lng": -79.577374
+},
+"library.mcmaster.ca": {
+"url": "https://library.mcmaster.ca/spaces/thode",
+"names": [
+"H.G. Thode Library of Science & Engineering"
+],
+"lat": 43.2611035,
+"lng": -79.9225817
+},
+"ssmpl.ca": {
+"url": "https://ssmpl.ca/",
+"names": [
+"James L. McIntyre Centennial Library"
+],
+"lat": 46.5061016,
+"lng": -84.3297363
+},
+"newmarketpl.ca": {
+"url": "http://www.newmarketpl.ca/",
+"names": [
+"Newmarket Public Library"
+],
+"lat": 44.0533034,
+"lng": -79.4589873
+},
+"bonnechereupl.com": {
+"url": "http://bonnechereupl.com/",
+"names": [
+"Bonnechere Union Public Library"
+],
+"lat": 45.5411446,
+"lng": -77.097311
+},
+"essexcountylibrary.ca": {
+"url": "https://www.essexcountylibrary.ca/client/en_US/home",
+"names": [
+"Essex County Library - Cottam Branch"
+],
+"lat": 42.1313786,
+"lng": -82.7449793
+},
+"gravenhurst.ca": {
+"url": "http://www.gravenhurst.ca/en/library/library.asp",
+"names": [
+"Gravenhurst Public Library"
+],
+"lat": 44.9181142,
+"lng": -79.374294
+},
+"bellevillelibrary.ca": {
+"url": "https://bellevillelibrary.ca/",
+"names": [
+"Belleville Public Library"
+],
+"lat": 44.1653082,
+"lng": -77.3837195
+},
+"tpl.timmins.ca": {
+"url": "http://tpl.timmins.ca/",
+"names": [
+"Timmins Public Library"
+],
+"lat": 48.4736582,
+"lng": -81.3254382
+},
+"mississippimills.ca": {
+"url": "https://www.mississippimills.ca/en/live/pakenhambranch.asp",
+"names": [
+"Mississippi Mills Public Library - Pakenham Branch"
+],
+"lat": 45.3319896,
+"lng": -76.2892056
+},
+"bramlib.on.ca": {
+"url": "http://www.bramlib.on.ca/index.php/cyril-clark-branch",
+"names": [
+"Brampton Library - Cyril Clark Branch"
+],
+"lat": 43.725703,
+"lng": -79.8000985
+},
+"haliburtonlibrary.ca": {
+"url": "https://www.haliburtonlibrary.ca/",
+"names": [
+"Haliburton County Public Library - Dysart Branch",
+"Haliburton County Public Library - Minden Branch"
+],
+"lat": 45.0471256,
+"lng": -78.5102483
+},
+"springwater.library.on.ca": {
+"url": "https://springwater.library.on.ca/client/en_US/spring/",
+"names": [
+"Springwater Public Library - Midhurst Branch"
+],
+"lat": 44.4398327,
+"lng": -79.7325388
+},
+"algonquinhighlands.ca": {
+"url": "https://www.algonquinhighlands.ca/libraries.php",
+"names": [
+"Haliburton County Public Library - Stanhope Branch"
+],
+"lat": 45.0753094,
+"lng": -78.7132766
+},
+"osngupl.ca": {
+"url": "https://www.osngupl.ca/",
+"names": [
+"Owen Sound & North Grey Union Public Library"
+],
+"lat": 44.5640713,
+"lng": -80.9450414
+},
+"library.barrys-bay.ca": {
+"url": "http://library.barrys-bay.ca/",
+"names": [
+"Madawaska Valley Public Library"
+],
+"lat": 45.487968,
+"lng": -77.6746363
+},
+"about.biblioottawalibrary.ca": {
+"url": "https://about.biblioottawalibrary.ca/en/branch/elmvale-acres",
+"names": [
+"Ottawa Public Library - Elmvale Acres Branch",
+"Ottawa Public Library - Vernon Branch"
+],
+"lat": 45.3999776,
+"lng": -75.625012
+},
+"bibliotheque.hawkesbury.on.ca": {
+"url": "http://www.bibliotheque.hawkesbury.on.ca/fr/#",
+"names": [
+"Hawkesbury Public Library"
+],
+"lat": 45.6073986,
+"lng": -74.602989
+},
+"porthopepubliclibrary.ca": {
+"url": "https://www.porthopepubliclibrary.ca/",
+"names": [
+"Port Hope Public Library"
+],
+"lat": 43.9500636,
+"lng": -78.2925956
+},
+"westportontariolibrary.wordpress.com": {
+"url": "https://westportontariolibrary.wordpress.com/",
+"names": [
+"Westport Public Library"
+],
+"lat": 44.6779764,
+"lng": -76.3954708
+},
+"smithfallslibrary.ca": {
+"url": "https://www.smithfallslibrary.ca",
+"names": [
+"Smith Falls Public Library"
+],
+"lat": 44.903285,
+"lng": -76.021254
+},
+"echrs.ca": {
+"url": "https://echrs.ca/",
+"names": [
+"Essex and Community Historical Research Society"
+],
+"lat": 42.1744107,
+"lng": -82.8206368
+},
+"edcarlibrary.ca": {
+"url": "http://www.edcarlibrary.ca/",
+"names": [
+"Edwardsburgh Cardinal Public Library - Cardinal Branch",
+"Edwardsburgh Cardinal Public Library - Spencerville Branch"
+],
+"lat": 44.7895008,
+"lng": -75.3826738
+},
+"powassanlibrary.com": {
+"url": "https://www.powassanlibrary.com/",
+"names": [
+"Powassan & District Union Public Library"
+],
+"lat": 46.081858,
+"lng": -79.365372
+},
+"huroncountylibrary.ca": {
+"url": "https://www.huroncountylibrary.ca/",
+"names": [
+"Huron County Library - Clinton Branch"
+],
+"lat": 43.6177065,
+"lng": -81.5390185
+},
+"bracebridgelibrary.ca": {
+"url": "https://bracebridgelibrary.ca",
+"names": [
+"Bracebridge Library"
+],
+"lat": 45.0417658,
+"lng": -79.3122993
+},
+"peclibrary.org": {
+"url": "https://www.peclibrary.org/wellington/",
+"names": [
+"Prince Edward County Public Library - Wellington Branch"
+],
+"lat": 43.9514662,
+"lng": -77.3486793
+},
+"trinity.utoronto.ca": {
+"url": "https://trinity.utoronto.ca/library/",
+"names": [
+"John W. Graham Library"
+],
+"lat": 43.6650676,
+"lng": -79.396427
+},
+"library.wellington.ca": {
+"url": "https://library.wellington.ca/",
+"names": [
+"Wellington County Library - Erin Village Branch"
+],
+"lat": 43.7702491,
+"lng": -80.0620774
+},
+"assiginackpubliclibrary.com": {
+"url": "https://www.assiginackpubliclibrary.com/",
+"names": [
+"Assiginack Public Library"
+],
+"lat": 45.7451213,
+"lng": -81.8069309
+},
+"gerstein.library.utoronto.ca": {
+"url": "https://gerstein.library.utoronto.ca",
+"names": [
+"Gerstein Science Information Centre"
+],
+"lat": 43.662088,
+"lng": -79.3936403
+}
+}

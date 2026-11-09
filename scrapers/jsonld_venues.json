@@ -1,0 +1,5 @@
+{"_note": "Venues publishing schema.org Event JSON-LD on their own pages (found by discovery/probe_jsonld.py). family=true: venue is kid/family-oriented, keep all non-adult-titled events.",
+ "venues": [
+  {"host": "reptilia.org", "name": "Reptilia", "pages": ["https://reptilia.org/reptilia-events/"], "family": true, "region": "Vaughan|Whitby|Toronto|Mississauga|Markham|Pickering|Oshawa"},
+  {"host": "cercleamitie.ca", "name": "Cercle de l'Amitié", "pages": ["https://cercleamitie.ca/"], "region": "Toronto|Mississauga|Vaughan|Markham"}
+ ]}

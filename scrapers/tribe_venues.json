@@ -1,0 +1,47 @@
+{
+ "_note": "Venues on The Events Calendar (Tribe) with a live /wp-json/tribe/events/v1 feed. family=true: every event is kept (family-oriented venue). Otherwise only events matching the kid/family filter. Found by discovery/osm_venues.py + discovery/probe_tribe.py.",
+ "venues": [
+  {
+   "host": "torontorailwaymuseum.com",
+   "name": "Toronto Railway Museum",
+   "family": true,
+   "lat": 43.64065,
+   "lng": -79.38596
+  },
+  {
+   "host": "highparknaturecentre.com",
+   "name": "High Park Nature Centre",
+   "family": true
+  },
+  {
+   "host": "stonegatechc.org",
+   "name": "Stonegate Community Health Centre"
+  },
+  {
+   "host": "lakeshorearts.ca",
+   "name": "Lakeshore Arts",
+   "lat": 43.61452,
+   "lng": -79.48912
+  },
+  {
+   "host": "ajax.ca",
+   "name": "Town of Ajax",
+   "lat": 43.85158,
+   "lng": -79.05447
+  },
+  {
+   "host": "torontobotanicalgarden.ca",
+   "name": "Toronto Botanical Garden",
+   "lat": 43.7255,
+   "lng": -79.3604
+  },
+  {
+   "host": "ontarioplace.com",
+   "name": "Ontario Place",
+   "lat": 43.6288,
+   "lng": -79.4146
+  }
+ ],
+ "_dropped": "Live Tribe feeds judged not kid-event providers: accessalliance.ca, boulderzclimbing.com, cvc.ca, parc.on.ca, ralphthornton.org",
+ "_skipped": "Already fetched by prod's tribe_venues_scraper.py: batashoemuseum.ca, gardinermuseum.on.ca, textilemuseum.ca"
+}

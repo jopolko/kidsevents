@@ -57,6 +57,9 @@ from ago_scraper import AGOScraper
 from agakhan_scraper import AgaKhanMuseumScraper
 from highpark_scraper import HighParkScraper
 from fortyork_scraper import FortYorkScraper
+from tribe_scraper import TribeScraper
+from jsonld_scraper import JsonLdScraper
+from activenet_scraper import ActiveNetScraper
 from place_id_lookup import PlaceIDLookup
 
 
@@ -129,7 +132,7 @@ class DataAggregator:
         out = []
         for date in sorted(by_date):
             src = defaultdict(deque)
-            for e in sorted(by_date[date], key=lambda x: x.get('start_time','')):
+            for e in sorted(by_date[date], key=lambda x: x.get('start_time') or ''):
                 src[e.get('source','?')].append(e)
             queues = list(src.values())
             while queues:
@@ -757,6 +760,36 @@ def main():
         aggregator.add_events(fortyork_events, 'TorontoHistoryMuseums')
     except Exception as e:
         print(f"   ❌ Error fetching Toronto History Museums events: {e}")
+
+    print()
+
+    # 39. Platform sweep: every venue on The Events Calendar (Tribe), from tribe_venues.json
+    print("📅 Fetching from Tribe-platform venues...")
+    try:
+        tribe_events = TribeScraper().fetch_events(days_ahead=90)
+        aggregator.add_events(tribe_events, 'Tribe')
+    except Exception as e:
+        print(f"   ❌ Error fetching Tribe venue events: {e}")
+
+    print()
+
+    # 40. Platform sweep: venues publishing schema.org Event JSON-LD (jsonld_venues.json)
+    print("🧬 Fetching from JSON-LD venues...")
+    try:
+        jsonld_events = JsonLdScraper().fetch_events(days_ahead=90)
+        aggregator.add_events(jsonld_events, 'JSONLD')
+    except Exception as e:
+        print(f"   ❌ Error fetching JSON-LD venue events: {e}")
+
+    print()
+
+    # 41. Platform sweep: municipal recreation on ActiveNet (activenet_tenants.json) - event-like kid items only
+    print("🏊 Fetching from ActiveNet municipal recreation...")
+    try:
+        activenet_events = ActiveNetScraper().fetch_events(days_ahead=45)
+        aggregator.add_events(activenet_events, 'ActiveNet')
+    except Exception as e:
+        print(f"   ❌ Error fetching ActiveNet events: {e}")
 
     print()
 

@@ -1,0 +1,1539 @@
+{
+ "abilities": {
+  "kid_activities_60d": 103,
+  "centres": []
+ },
+ "activeinnisfil": {
+  "kid_activities_60d": 56,
+  "centres": [
+   "Alcona Glen Elementary School",
+   "Centennial Park",
+   "Churchill - Coralwoods Park",
+   "Churchill Community Centre"
+  ]
+ },
+ "activekitchener": {
+  "kid_activities_60d": 1605,
+  "centres": [
+   "Activa Sportsplex",
+   "Alpine Public School",
+   "Breithaupt Centre",
+   "Bridgeport Community Centre"
+  ]
+ },
+ "activemississauga": {
+  "kid_activities_60d": 4038,
+  "centres": [
+   "Adamson Estate",
+   "Applewood Heights Outdoor Pool",
+   "Barondale Green Park",
+   "Benares Museum"
+  ]
+ },
+ "activestc": {
+  "kid_activities_60d": 536,
+  "centres": [
+   "Aquatics - Lion Dunc Schooley Pool",
+   "Aquatics - Port Dalhousie Pool",
+   "Aquatics - St.Catharines Kiwanis Aquatics Centre",
+   "Bill Burgoyne Memorial Arena"
+  ]
+ },
+ "activewaterloo": {
+  "kid_activities_60d": 820,
+  "centres": [
+   "Albert McCormick C.C.",
+   "Manulife Soccer and Sports Centre",
+   "Moses Springer Community Centre",
+   "Online"
+  ]
+ },
+ "aelcc": {
+  "kid_activities_60d": 5,
+  "centres": [
+   "Athletic Facility",
+   "Building G"
+  ]
+ },
+ "aftoronto": {
+  "kid_activities_60d": 398,
+  "centres": []
+ },
+ "ajax": {
+  "kid_activities_60d": 1433,
+  "centres": [
+   "Ajax Centre for the Arts",
+   "Ajax Community Centre",
+   "Ajax Memorial Pool",
+   "Ajax Waterfront"
+  ]
+ },
+ "amc": {
+  "kid_activities_60d": 31,
+  "centres": [
+   "AYR Motor Centre"
+  ]
+ },
+ "arborgbifrostrec": {
+  "kid_activities_60d": 6,
+  "centres": [
+   "Access Aquatic Centre",
+   "Arborg & District Arena"
+  ]
+ },
+ "artsumbrella": {
+  "kid_activities_60d": 191,
+  "centres": [
+   "Granville Island, 1400 Johnston St",
+   "Surrey Centre"
+  ]
+ },
+ "asprc": {
+  "kid_activities_60d": 3,
+  "centres": [
+   "Armstrong Elementary School",
+   "Armstrong Spallumcheen Outdoor Pool",
+   "Centennial Hall",
+   "Hassen Arena"
+  ]
+ },
+ "auroraontario": {
+  "kid_activities_60d": 594,
+  "centres": [
+   "Ada Johnson Park",
+   "Aurora Community Centre",
+   "Aurora Family Leisure Complex",
+   "Aurora Heights Public School"
+  ]
+ },
+ "barrie": {
+  "kid_activities_60d": 1376,
+  "centres": [
+   "Allandale Recreation Centre",
+   "Barrie Community Sports Complex",
+   "Centennial Beach",
+   "Codrington Public School"
+  ]
+ },
+ "barrietrainer": {
+  "kid_activities_60d": 1448,
+  "centres": [
+   "Allandale Recreation Centre",
+   "Barrie Community Sports Complex",
+   "Centennial Beach",
+   "Codrington Public School"
+  ]
+ },
+ "bcitrecreation": {
+  "kid_activities_60d": 11,
+  "centres": []
+ },
+ "bellaliantcentre": {
+  "kid_activities_60d": 189,
+  "centres": []
+ },
+ "bgcairdrie": {
+  "kid_activities_60d": 11,
+  "centres": [
+   "Beiseker",
+   "Heloise Lorimer School",
+   "Irricana",
+   "Nose Creek School"
+  ]
+ },
+ "bgcgh": {
+  "kid_activities_60d": 25,
+  "centres": []
+ },
+ "bgckl": {
+  "kid_activities_60d": 26,
+  "centres": [
+   "Coboconk- Ridgwood Public School",
+   "Dunsford District Elementary School (Dunsford)",
+   "Edmison Heights Public School",
+   "Kirkfield-Lady MacKenzie Public School"
+  ]
+ },
+ "bgckltrainer": {
+  "kid_activities_60d": 26,
+  "centres": [
+   "Coboconk- Ridgwood Public School",
+   "Dunsford District Elementary School (Dunsford)",
+   "Edmison Heights Public School",
+   "Kirkfield-Lady MacKenzie Public School"
+  ]
+ },
+ "bgcniagara": {
+  "kid_activities_60d": 189,
+  "centres": [
+   "EJ Freeland Club",
+   "Niagara Falls Club"
+  ]
+ },
+ "bluewater": {
+  "kid_activities_60d": 8,
+  "centres": [
+   "Bayfield Agricultural Park",
+   "Hensall Community Centre",
+   "Hensall Park",
+   "Varna Community Centre"
+  ]
+ },
+ "bowencommunityrec": {
+  "kid_activities_60d": 30,
+  "centres": [
+   "Auxiliary Location",
+   "BICC",
+   "BICS",
+   "Youth Centre"
+  ]
+ },
+ "brant": {
+  "kid_activities_60d": 40,
+  "centres": [
+   "Airport Community Centre",
+   "Apps' Mill Nature Centre",
+   "Bean Park",
+   "Brant Sports Complex"
+  ]
+ },
+ "brantford": {
+  "kid_activities_60d": 368,
+  "centres": [
+   "Bell Homestead National Historic Site",
+   "Blanche E Williams Community Centre",
+   "Branlyn Community Centre",
+   "Central Public School"
+  ]
+ },
+ "brocku": {
+  "kid_activities_60d": 178,
+  "centres": []
+ },
+ "burnaby": {
+  "kid_activities_60d": 5182,
+  "centres": [
+   "Armstrong Elementary School",
+   "Aubrey Elementary School",
+   "Barnet Marine Park",
+   "Bill Copeland Sports Centre (BCS)"
+  ]
+ },
+ "bvpool": {
+  "kid_activities_60d": 69,
+  "centres": []
+ },
+ "cambridgeont": {
+  "kid_activities_60d": 415,
+  "centres": [
+   "Allan Reuter Centre",
+   "Bismark Park",
+   "Cambridge Centre for the Arts",
+   "Cambridge Sports Park"
+  ]
+ },
+ "carmandufferinrecreation": {
+  "kid_activities_60d": 6,
+  "centres": [
+   "Carman Baseball Diamonds",
+   "Carman Community Hall",
+   "Carman Soccer Pitches",
+   "Carman-Dufferin Arena"
+  ]
+ },
+ "cbsc": {
+  "kid_activities_60d": 1,
+  "centres": [
+   "The Crescent Beach Swimming Club"
+  ]
+ },
+ "cdrc": {
+  "kid_activities_60d": 12,
+  "centres": [
+   "Centre Dufferin Recreation Complex(CDRC)"
+  ]
+ },
+ "centrewellington": {
+  "kid_activities_60d": 511,
+  "centres": [
+   "Belwood Hall",
+   "CW Community Sportsplex",
+   "Fergus Grand Theatre",
+   "Jefferson Elora Community Centre"
+  ]
+ },
+ "cep": {
+  "kid_activities_60d": 1,
+  "centres": []
+ },
+ "cgpsportsplex": {
+  "kid_activities_60d": 8,
+  "centres": [
+   "J.D.A. County Sportsplex"
+  ]
+ },
+ "chocolatetown": {
+  "kid_activities_60d": 65,
+  "centres": [
+   "Garcelon Civic Center",
+   "Memorial Park",
+   "Milltown Basketball Court",
+   "W.T. Booth Centennial Pool"
+  ]
+ },
+ "cityfortstjohn": {
+  "kid_activities_60d": 303,
+  "centres": []
+ },
+ "cityoforillia": {
+  "kid_activities_60d": 946,
+  "centres": [
+   "Barnfield Point Recreation Centre",
+   "Bayview Park",
+   "Black Lotus Kickboxing",
+   "Couchiching Beach Park"
+  ]
+ },
+ "cityofpickering": {
+  "kid_activities_60d": 611,
+  "centres": [
+   "Beachfront Park",
+   "Chestnut Hill Developments Recreation Complex",
+   "Diana, Princess of Wales Park",
+   "Don Beer Arena"
+  ]
+ },
+ "cityofportcolborne": {
+  "kid_activities_60d": 6,
+  "centres": [
+   "Vale Health & Wellness Centre"
+  ]
+ },
+ "cityofportcoquitlam": {
+  "kid_activities_60d": 1055,
+  "centres": [
+   "Aggie Park (Centennial Outdoor Pool)",
+   "Gates Park",
+   "Gathering Place",
+   "Hyde Creek Recreation Centre"
+  ]
+ },
+ "cityofsprucegrove": {
+  "kid_activities_60d": 8,
+  "centres": []
+ },
+ "cityofwinkler": {
+  "kid_activities_60d": 1,
+  "centres": [
+   "Winkler Community Services"
+  ]
+ },
+ "clarington": {
+  "kid_activities_60d": 824,
+  "centres": [
+   "Alan Strike Aquatic and Squash Centre",
+   "Bowmanville Community Complex",
+   "Courtice Community Complex",
+   "Darlington Sports Centre"
+  ]
+ },
+ "cobourgcommunitycentre": {
+  "kid_activities_60d": 45,
+  "centres": [
+   "CCC"
+  ]
+ },
+ "comoxrecreation": {
+  "kid_activities_60d": 215,
+  "centres": [
+   "Anderton Park",
+   "Comox Community Centre",
+   "Comox Fire Rescue",
+   "Ecole Robb Road Fields"
+  ]
+ },
+ "corydoncc": {
+  "kid_activities_60d": 62,
+  "centres": [
+   "Crescentwood Site",
+   "River Heights Site"
+  ]
+ },
+ "courtenayrecreation": {
+  "kid_activities_60d": 188,
+  "centres": [
+   "Bill Moore Park",
+   "Courtenay & District Outdoor Memorial Pool",
+   "Florence Filberg Centre",
+   "Lewis Centre"
+  ]
+ },
+ "courtenayrecreationtrainer": {
+  "kid_activities_60d": 187,
+  "centres": [
+   "Bill Moore Park",
+   "Courtenay & District Outdoor Memorial Pool",
+   "Florence Filberg Centre",
+   "Lewis Centre"
+  ]
+ },
+ "cssd": {
+  "kid_activities_60d": 1,
+  "centres": []
+ },
+ "cumberlandrecreation": {
+  "kid_activities_60d": 35,
+  "centres": [
+   "Cumberland Cultural Centre",
+   "Cumberland Recreation Centre",
+   "No. 6 Mine Heritage Park",
+   "Other Parks"
+  ]
+ },
+ "cumberlandymca": {
+  "kid_activities_60d": 188,
+  "centres": [
+   "YMCA of Cumberland"
+  ]
+ },
+ "cwkleisurey": {
+  "kid_activities_60d": 25,
+  "centres": [
+   "Cheam Leisure Centre",
+   "Chilliwack Landing Leisure Centre",
+   "Rotary Outdoor Pool"
+  ]
+ },
+ "dakotacc": {
+  "kid_activities_60d": 28,
+  "centres": [
+   "Dakota Community Centre"
+  ]
+ },
+ "dauphinrecreation": {
+  "kid_activities_60d": 30,
+  "centres": [
+   "Credit Union Place",
+   "Dauphin Recreation Services Rec Complex",
+   "Kin Aquatic Centre",
+   "PRC Curling Rink"
+  ]
+ },
+ "doc": {
+  "kid_activities_60d": 8,
+  "centres": [
+   "Community Centres"
+  ]
+ },
+ "drumheller": {
+  "kid_activities_60d": 41,
+  "centres": [
+   "Badlands Community Facility",
+   "Drumheller Aquaplex",
+   "Drumheller Memorial Arena"
+  ]
+ },
+ "eastgwillimbury": {
+  "kid_activities_60d": 438,
+  "centres": [
+   "--Silver City Cinemas",
+   "East Gwillimbury Sports Complex",
+   "Harvest Hills Activity Centre",
+   "Health and Active Living Plaza"
+  ]
+ },
+ "esbgc": {
+  "kid_activities_60d": 49,
+  "centres": [
+   "BGC East Scarborough",
+   "Corvette EarlyON Child & Family Centre",
+   "MAAT Youth Innovation and Cultural Centre",
+   "Mason Road Junior Public School"
+  ]
+ },
+ "espanolaleisuresvcs": {
+  "kid_activities_60d": 53,
+  "centres": []
+ },
+ "essexconnect": {
+  "kid_activities_60d": 267,
+  "centres": [
+   "Colchester Community Centre",
+   "Essex Centre Sports Complex",
+   "Essex Recreation Complex",
+   "Essex Sports Park"
+  ]
+ },
+ "estevan": {
+  "kid_activities_60d": 35,
+  "centres": [
+   "Estevan Leisure Centre"
+  ]
+ },
+ "exploitsvalleyymca": {
+  "kid_activities_60d": 37,
+  "centres": [
+   "Exploits Valley YMCA Adminstration Office",
+   "Exploits Valley YMCA HFA Centre"
+  ]
+ },
+ "fernierecreation": {
+  "kid_activities_60d": 135,
+  "centres": [
+   "Fernie Aquatic Centre",
+   "Fernie Memorial Arena",
+   "Max Turyk School"
+  ]
+ },
+ "fesc": {
+  "kid_activities_60d": 15,
+  "centres": [
+   "Family Education Support Centre"
+  ]
+ },
+ "fortfrances": {
+  "kid_activities_60d": 3,
+  "centres": [
+   "Sports Fields",
+   "Town of Fort Frances - Memorial Sports Centre"
+  ]
+ },
+ "fvrd": {
+  "kid_activities_60d": 34,
+  "centres": [
+   "Almer Carlson Pool",
+   "Hope & Area Recreation Centre",
+   "School District #78"
+  ]
+ },
+ "geegeereg": {
+  "kid_activities_60d": 6,
+  "centres": [
+   "Gee-Gees Field - Lees",
+   "Minto Sports Complex",
+   "Montpetit Hall"
+  ]
+ },
+ "georgina": {
+  "kid_activities_60d": 1236,
+  "centres": [
+   "Belhaven Park",
+   "De La Salle",
+   "Georgina Ice Palace",
+   "Georgina Ice Palace - Storage"
+  ]
+ },
+ "georginatrainer": {
+  "kid_activities_60d": 514,
+  "centres": [
+   "Belhaven Hall",
+   "Belhaven Park",
+   "De La Salle",
+   "Georgina Ice Palace"
+  ]
+ },
+ "gravenhurst": {
+  "kid_activities_60d": 7,
+  "centres": [
+   "Gravenhurst Centennial Centre",
+   "Gull Lake Rotary Park",
+   "Muskoka Wharf"
+  ]
+ },
+ "haldimand": {
+  "kid_activities_60d": 78,
+  "centres": [
+   "Caledonia Centennial school",
+   "Caledonia Kinsmen Park",
+   "Caledonia Presbyterian Church",
+   "Cayuga Arena"
+  ]
+ },
+ "hamiltontownship": {
+  "kid_activities_60d": 2,
+  "centres": []
+ },
+ "hanover": {
+  "kid_activities_60d": 8,
+  "centres": [
+   "Civic Centre",
+   "P & H Centre"
+  ]
+ },
+ "havefun": {
+  "kid_activities_60d": 10,
+  "centres": [
+   "Beaches Sandbox"
+  ]
+ },
+ "hollandbloorview": {
+  "kid_activities_60d": 2,
+  "centres": []
+ },
+ "houston": {
+  "kid_activities_60d": 12,
+  "centres": [
+   "Claude Parish Memorial Arena",
+   "Houston Community Hall",
+   "Houston Leisure Facility"
+  ]
+ },
+ "innisfail": {
+  "kid_activities_60d": 20,
+  "centres": [
+   "Innisfail Aquatic Centre",
+   "Innisfail Library Learning Centre",
+   "Innisfail Public High School",
+   "Innisfail Public Middle School"
+  ]
+ },
+ "iqaluitrecreation": {
+  "kid_activities_60d": 38,
+  "centres": [
+   "Arctic Winter Games Complex",
+   "Iqaluit Aquatic Centre"
+  ]
+ },
+ "johnsonbentley": {
+  "kid_activities_60d": 40,
+  "centres": [
+   "Johnson Bentley Memorial Aquatic Centre"
+  ]
+ },
+ "jpra": {
+  "kid_activities_60d": 3,
+  "centres": []
+ },
+ "kamloopsy": {
+  "kid_activities_60d": 114,
+  "centres": [
+   "John Tod Centre YMCA",
+   "Kamloops Downtown YMCA"
+  ]
+ },
+ "kenora": {
+  "kid_activities_60d": 45,
+  "centres": [
+   "--Kiizhik",
+   "Ballfields",
+   "Beaches",
+   "Kenora Aquatic Centre"
+  ]
+ },
+ "keyano": {
+  "kid_activities_60d": 3,
+  "centres": [
+   "SSWC"
+  ]
+ },
+ "kincardine": {
+  "kid_activities_60d": 106,
+  "centres": [
+   "Davidson Centre",
+   "Davidson Centre Gymnasium",
+   "Tiverton Sports Centre"
+  ]
+ },
+ "kirklandlake": {
+  "kid_activities_60d": 2,
+  "centres": [
+   "Baird Park",
+   "Civic Service Stadium",
+   "Joe Mavrinac Community Complex"
+  ]
+ },
+ "kitimatleisureservices": {
+  "kid_activities_60d": 52,
+  "centres": [
+   "Kitimat Ice Rink",
+   "Riverlodge Recreation Centre",
+   "Sam Lindsay Aquatic Centre",
+   "Tamitik Arena"
+  ]
+ },
+ "lakebonavistaca": {
+  "kid_activities_60d": 4,
+  "centres": [
+   "Lake Bonavista Community Association"
+  ]
+ },
+ "lakecountry": {
+  "kid_activities_60d": 21,
+  "centres": [
+   "Beasley Park",
+   "Jack Seaton Park",
+   "Lake Country Community Complex",
+   "Okanagan Centre Park"
+  ]
+ },
+ "lakeshore": {
+  "kid_activities_60d": 170,
+  "centres": [
+   "Atlas Tube Recreation Centre",
+   "Comber Community Centre",
+   "Libro Community Centre"
+  ]
+ },
+ "langleycityrecconnect": {
+  "kid_activities_60d": 126,
+  "centres": [
+   "AL ANDERSON MEMORIAL POOL - 4949 207 ST",
+   "BLACKLOCK FINE ARTS ELEMENTARY - 5100 206 ST",
+   "BRYDON LAGOON",
+   "BUCKLEY PARK - 19688 48 AVE"
+  ]
+ },
+ "leamington": {
+  "kid_activities_60d": 104,
+  "centres": [
+   "NFF Recreation Centre"
+  ]
+ },
+ "leisureonline": {
+  "kid_activities_60d": 2056,
+  "centres": [
+   "Ab McDonald Arena",
+   "Acceleration Performance",
+   "Animal Services Agency",
+   "Archwood Community Centre"
+  ]
+ },
+ "midsun": {
+  "kid_activities_60d": 9,
+  "centres": [
+   "Mid-Sun Community Association"
+  ]
+ },
+ "minto": {
+  "kid_activities_60d": 15,
+  "centres": [
+   "Clifford Arena & Hall",
+   "Harriston Pool",
+   "Harriston-Minto Community Complex",
+   "Lions Heritage Park"
+  ]
+ },
+ "morrisarearecreation": {
+  "kid_activities_60d": 7,
+  "centres": [
+   "Morris Community Pool",
+   "Morris Multiplex"
+  ]
+ },
+ "mrurecreation": {
+  "kid_activities_60d": 131,
+  "centres": []
+ },
+ "mvregionalparks": {
+  "kid_activities_60d": 6,
+  "centres": [
+   "Aldergrove Regional Park",
+   "Belcarra Regional Park",
+   "Boundary Bay Regional Park",
+   "Burnaby Lake Regional Park"
+  ]
+ },
+ "nationmun": {
+  "kid_activities_60d": 12,
+  "centres": [
+   "Caledonia Community Centre",
+   "Limoges Annex",
+   "Limoges Community Centre",
+   "Marcel Legault Park"
+  ]
+ },
+ "nbcymca": {
+  "kid_activities_60d": 53,
+  "centres": [
+   "Foundry Fort St. John",
+   "Prince George Family Y",
+   "Vanderhoof Aquatic Centre",
+   "Vanderhoof Community Centre"
+  ]
+ },
+ "niagarafalls": {
+  "kid_activities_60d": 72,
+  "centres": [
+   "Gustavo Munro Park",
+   "MacBain Community Centre",
+   "Niagara Falls History Museum",
+   "The Exchange"
+  ]
+ },
+ "notl": {
+  "kid_activities_60d": 5,
+  "centres": [
+   "Centennial Arena",
+   "Community Centre",
+   "Meridian Credit Union Arena",
+   "Niagara Pool"
+  ]
+ },
+ "ntrbarrie": {
+  "kid_activities_60d": 73,
+  "centres": []
+ },
+ "ntrnewmarket": {
+  "kid_activities_60d": 74,
+  "centres": []
+ },
+ "ntrrichmondhill": {
+  "kid_activities_60d": 117,
+  "centres": []
+ },
+ "osgbymca": {
+  "kid_activities_60d": 334,
+  "centres": [
+   "ACES",
+   "Health, Fitness and Aquatics Centre"
+  ]
+ },
+ "ottawa": {
+  "kid_activities_60d": 9891,
+  "centres": [
+   "Albion-Heatherington Recreation Centre",
+   "Alexander Community Centre",
+   "Alfred Taylor Recreation Centre",
+   "Alta Vista Public School"
+  ]
+ },
+ "parcolympique": {
+  "kid_activities_60d": 120,
+  "centres": [
+   "Parc olympique Sports Center"
+  ]
+ },
+ "pcymca": {
+  "kid_activities_60d": 139,
+  "centres": [
+   "AG Baillie Memorial School",
+   "Antigonish Education Centre",
+   "Dr W A Macleod School",
+   "Frank H MacDonald Academy"
+  ]
+ },
+ "pelham": {
+  "kid_activities_60d": 9,
+  "centres": [
+   "Marlene Stewart Streit Park",
+   "Meridian Community Centre",
+   "Old Pelham Town Hall"
+  ]
+ },
+ "pembroke": {
+  "kid_activities_60d": 86,
+  "centres": [
+   "Kinsmen Pool",
+   "Pembroke Memorial Centre"
+  ]
+ },
+ "pise": {
+  "kid_activities_60d": 45,
+  "centres": []
+ },
+ "placedesarts": {
+  "kid_activities_60d": 137,
+  "centres": [
+   "1. Place des Arts",
+   "2. Evergreen Cultural Centre",
+   "Satellite Programming Venue"
+  ]
+ },
+ "porthope": {
+  "kid_activities_60d": 6,
+  "centres": [
+   "Caroline Street Park",
+   "Jack Burger Sports Complex - Arena",
+   "Jack Burger Sports Complex - POOL",
+   "Memorial Park"
+  ]
+ },
+ "powellriver": {
+  "kid_activities_60d": 50,
+  "centres": [
+   "Aquatic Centre",
+   "Arena/Rink",
+   "Cranberry School",
+   "Dwight Hall"
+  ]
+ },
+ "rdnrecreation": {
+  "kid_activities_60d": 80,
+  "centres": [
+   "Arrowview Elementary School",
+   "Bradley Centre",
+   "Cedar Community Hall",
+   "Cedar Community Secondary School"
+  ]
+ },
+ "recconnect": {
+  "kid_activities_60d": 314,
+  "centres": [
+   "Bannerman Park",
+   "Bowring Park",
+   "City Hall",
+   "H.G.R. Mews Community Centre"
+  ]
+ },
+ "regina": {
+  "kid_activities_60d": 678,
+  "centres": [
+   "Buffalo Meadows Outdoor Pool",
+   "Canada Games Athletic Complex",
+   "Cathedral Neighbourhood Centre",
+   "Core Ritchie Neighbourhood Centre"
+  ]
+ },
+ "regionalfieldhouse": {
+  "kid_activities_60d": 33,
+  "centres": [
+   "10FOLD Regional Fieldhouse"
+  ]
+ },
+ "renfrew": {
+  "kid_activities_60d": 17,
+  "centres": [
+   "Municipal Facilities",
+   "myFM Centre",
+   "Visitor Information Centre"
+  ]
+ },
+ "revelstokeprc": {
+  "kid_activities_60d": 33,
+  "centres": [
+   "Beach Volleyball Court",
+   "Big Eddy Park",
+   "Doug May Memorial Field",
+   "Industrial Field"
+  ]
+ },
+ "richmondhill": {
+  "kid_activities_60d": 2343,
+  "centres": [
+   "Bayview Hill CC",
+   "Bayview Hill ES",
+   "Bayview Hill Park",
+   "Bayview Hill Pool"
+  ]
+ },
+ "riverview": {
+  "kid_activities_60d": 260,
+  "centres": [
+   "Lion Ken Gabbey Community Pool",
+   "Parks & Playgrounds",
+   "Parks and Recreation Office",
+   "Pat Crossman Memorial Aquatic Centre"
+  ]
+ },
+ "rmdcontinuingeducation": {
+  "kid_activities_60d": 2,
+  "centres": []
+ },
+ "rookieandace": {
+  "kid_activities_60d": 66,
+  "centres": [
+   "Kitchener"
+  ]
+ },
+ "saanich": {
+  "kid_activities_60d": 1199,
+  "centres": [
+   "**Cedar Hill Recreation Centre",
+   "**G. R. Pearkes Recreation Centre",
+   "**Gordon Head Recreation Centre",
+   "**Saanich Commonwealth Place"
+  ]
+ },
+ "sac": {
+  "kid_activities_60d": 5,
+  "centres": [
+   "Gloucester Pottery School / \u00c9cole de poterie"
+  ]
+ },
+ "saintjohny": {
+  "kid_activities_60d": 9,
+  "centres": [
+   "Bill McGuire Centre",
+   "Forest Glen Community Centre",
+   "Irving Oil Field House",
+   "Qplex"
+  ]
+ },
+ "saugeenshores": {
+  "kid_activities_60d": 62,
+  "centres": [
+   "Aquatic & Wellness Centre",
+   "Centennial Pool",
+   "Northshore Park",
+   "Port Elgin Beach"
+  ]
+ },
+ "saultstemarie": {
+  "kid_activities_60d": 10,
+  "centres": [
+   "BALC",
+   "City Green Space & Parks",
+   "Elliott Park",
+   "Ermatinger Clergue"
+  ]
+ },
+ "schoolofalbertaballet": {
+  "kid_activities_60d": 17,
+  "centres": []
+ },
+ "scrd": {
+  "kid_activities_60d": 451,
+  "centres": [
+   "Brothers Park",
+   "Gibsons and Area Community Centre (GACC)",
+   "Gibsons and District Aquatic Facility (GDAF)",
+   "Pender Harbour Aquatic & Fitness Centre (PHAFC)"
+  ]
+ },
+ "simcoe": {
+  "kid_activities_60d": 8,
+  "centres": [
+   "Simcoe County Museum"
+  ]
+ },
+ "slsc": {
+  "kid_activities_60d": 911,
+  "centres": []
+ },
+ "southbrucepeninsula": {
+  "kid_activities_60d": 6,
+  "centres": [
+   "Bluewater Park",
+   "Peninsula Shores District School",
+   "Ross Whicher Centre",
+   "Sauble Beach Community Centre"
+  ]
+ },
+ "ssymca": {
+  "kid_activities_60d": 74,
+  "centres": [
+   "Sault Ste. Marie YMCA"
+  ]
+ },
+ "strideplace": {
+  "kid_activities_60d": 54,
+  "centres": [
+   "Splash Island",
+   "Stride Place"
+  ]
+ },
+ "svcuaquaticsctr": {
+  "kid_activities_60d": 14,
+  "centres": [
+   "Swan Valley Credit Union Aquatic Centre",
+   "Veterans Community Hall"
+  ]
+ },
+ "terrace": {
+  "kid_activities_60d": 84,
+  "centres": [
+   "Skeenaview Park",
+   "Suwilaawks Community School",
+   "Terrace & District Aquatic Centre",
+   "Terrace Sportsplex"
+  ]
+ },
+ "thamescentre": {
+  "kid_activities_60d": 7,
+  "centres": [
+   "Dorchester Community Park",
+   "Dorchester Community Pool",
+   "FlightExec Centre",
+   "Thorndale Community Park"
+  ]
+ },
+ "thezonetraining": {
+  "kid_activities_60d": 261,
+  "centres": [
+   "Guelph",
+   "Waterloo"
+  ]
+ },
+ "thoroldgroup": {
+  "kid_activities_60d": 1,
+  "centres": [
+   "Thorold Community Activities Group (TCAG)"
+  ]
+ },
+ "thoroldrec": {
+  "kid_activities_60d": 4,
+  "centres": [
+   "Thorold Community Arena",
+   "Thorold Community Pool"
+  ]
+ },
+ "thorsbyrecreation": {
+  "kid_activities_60d": 4,
+  "centres": []
+ },
+ "toronto": {
+  "kid_activities_60d": 12427,
+  "centres": [
+   "Adam Beck Community Centre",
+   "Agincourt Community Recreation Centre",
+   "Agnes Macphail Public School",
+   "Albert Campbell Collegiate Institute"
+  ]
+ },
+ "townofaltonarecreation": {
+  "kid_activities_60d": 16,
+  "centres": []
+ },
+ "townofbwg": {
+  "kid_activities_60d": 471,
+  "centres": [
+   "Administration",
+   "Bond Head Memorial Community Centre",
+   "Bradford & District Memorial Community Centre",
+   "Bradford Community Hub"
+  ]
+ },
+ "townofcarletonplace": {
+  "kid_activities_60d": 208,
+  "centres": [
+   "Carleton Place Aquatic Centre"
+  ]
+ },
+ "townofdraytonvalley": {
+  "kid_activities_60d": 65,
+  "centres": [
+   "Ricochet Oil Corp. Aquatic Centre"
+  ]
+ },
+ "townofedson": {
+  "kid_activities_60d": 85,
+  "centres": [
+   "Edson & District Leisure Centre"
+  ]
+ },
+ "townofgrimsby": {
+  "kid_activities_60d": 48,
+  "centres": [
+   "Carnegie Commons",
+   "Elizabeth St Pumphouse",
+   "Grimsby Lions Community Pool",
+   "Grimsby Public Art Gallery"
+  ]
+ },
+ "townofhartland": {
+  "kid_activities_60d": 10,
+  "centres": [
+   "Day & Ross Community Centre",
+   "McLean Outdoor",
+   "Riverside Parks",
+   "Town Hall"
+  ]
+ },
+ "townofhinton": {
+  "kid_activities_60d": 95,
+  "centres": [
+   "Dr. Duncan Murray Recreation Centre"
+  ]
+ },
+ "townoflasalle": {
+  "kid_activities_60d": 61,
+  "centres": [
+   "Event Centre at LaSalle Landing",
+   "LaSalle Civic Centre",
+   "LaSalle Landing",
+   "Vollmer Culture and Recreation Complex"
+  ]
+ },
+ "townofph": {
+  "kid_activities_60d": 21,
+  "centres": [
+   "Civic Centre",
+   "Rec Grounds",
+   "SAERC"
+  ]
+ },
+ "townofsaintandrews": {
+  "kid_activities_60d": 1,
+  "centres": [
+   "Community Youth Activity Centre",
+   "W. C. O'Neill Arena Complex"
+  ]
+ },
+ "townofslavelake": {
+  "kid_activities_60d": 4,
+  "centres": [
+   "Multi-Rec Centre"
+  ]
+ },
+ "townofstmarys": {
+  "kid_activities_60d": 67,
+  "centres": [
+   "DCVI Gymnasium",
+   "Friendship Centre",
+   "Pyramid Recreation Centre",
+   "Quarry"
+  ]
+ },
+ "townofsussex": {
+  "kid_activities_60d": 6,
+  "centres": [
+   "8th Hussars Sports Centre",
+   "Community Services Offices"
+  ]
+ },
+ "townoftecumseh": {
+  "kid_activities_60d": 2,
+  "centres": [
+   "Fire Hall 2",
+   "Optimist Park",
+   "St. Pius X School",
+   "Tecumseh Arena & Recreation Complex"
+  ]
+ },
+ "townofws": {
+  "kid_activities_60d": 246,
+  "centres": [
+   "19 on The Park",
+   "6240 Main Street",
+   "Ballantrae Community Centre",
+   "Barbara Reid Public School"
+  ]
+ },
+ "townshipofuxbridge": {
+  "kid_activities_60d": 14,
+  "centres": [
+   "Arena",
+   "Elgin Park",
+   "Fields of Uxbridge",
+   "Goodwood Hall"
+  ]
+ },
+ "tricocentre": {
+  "kid_activities_60d": 139,
+  "centres": [
+   "Trico Centre"
+  ]
+ },
+ "tuscanyresidentsassoc": {
+  "kid_activities_60d": 29,
+  "centres": [
+   "Tuscany Club"
+  ]
+ },
+ "twu": {
+  "kid_activities_60d": 1,
+  "centres": [
+   "David E. Enarson Gymnasium"
+  ]
+ },
+ "ubcokanagan": {
+  "kid_activities_60d": 17,
+  "centres": []
+ },
+ "universitysettlement": {
+  "kid_activities_60d": 79,
+  "centres": [
+   "Grange"
+  ]
+ },
+ "uofg": {
+  "kid_activities_60d": 53,
+  "centres": [
+   "Alumni Stadium",
+   "Beach Volleyball Courts",
+   "Gryphon Centre",
+   "Gryphon Diamonds"
+  ]
+ },
+ "uofgconnect": {
+  "kid_activities_60d": 5,
+  "centres": []
+ },
+ "uregina": {
+  "kid_activities_60d": 112,
+  "centres": [
+   "Centre for Continuing Education",
+   "Centre for Kinesiology and Health Studies",
+   "Off Campus"
+  ]
+ },
+ "vancouver": {
+  "kid_activities_60d": 5392,
+  "centres": [
+   "*Britannia Community Centre",
+   "*Britannia Pool",
+   "*Britannia Rink",
+   "*Champlain Heights Community Centre"
+  ]
+ },
+ "vancouverislandy": {
+  "kid_activities_60d": 113,
+  "centres": [
+   "Langford Westhills Y",
+   "Victoria Downtown Y",
+   "Y Outdoor Centre"
+  ]
+ },
+ "vancouvertrainer": {
+  "kid_activities_60d": 4553,
+  "centres": [
+   "*Britannia Community Centre",
+   "*Britannia Pool",
+   "*Britannia Rink",
+   "*Champlain Heights Community Centre"
+  ]
+ },
+ "vcm": {
+  "kid_activities_60d": 70,
+  "centres": []
+ },
+ "vecova": {
+  "kid_activities_60d": 2,
+  "centres": []
+ },
+ "vsoschoolofmusic": {
+  "kid_activities_60d": 35,
+  "centres": [
+   "Frank Hurt Secondary School",
+   "Grandview Heights Secondary School",
+   "Guildford Park Secondary School",
+   "Hodson Manor"
+  ]
+ },
+ "waskasoo": {
+  "kid_activities_60d": 4,
+  "centres": [
+   "Allen Bungalow",
+   "Fort Normandeau",
+   "Kerry Wood Nature Centre"
+  ]
+ },
+ "welland": {
+  "kid_activities_60d": 52,
+  "centres": [
+   "Arena - LIV Communities",
+   "Maple Park",
+   "Market Square",
+   "Memorial Park"
+  ]
+ },
+ "wellesley": {
+  "kid_activities_60d": 4,
+  "centres": [
+   "Bill Gies Recreation Complex",
+   "Hawkesville Recreation Complex",
+   "Linwood Recreation Complex",
+   "St. Clements Recreation Complex"
+  ]
+ },
+ "westlincoln": {
+  "kid_activities_60d": 2,
+  "centres": [
+   "Caistor Community Centre",
+   "Silverdale Community Centre",
+   "Wellandport Community Centre Hall",
+   "West Lincoln Community Centre"
+  ]
+ },
+ "westnipissingouest": {
+  "kid_activities_60d": 50,
+  "centres": [
+   "West Nipissing Complex"
+  ]
+ },
+ "westvanrec": {
+  "kid_activities_60d": 1808,
+  "centres": [
+   "Ambleside Park",
+   "Aquatic Centre",
+   "Dundarave Park",
+   "Ferry Building Gallery"
+  ]
+ },
+ "wetaskiwinmanlukcentre": {
+  "kid_activities_60d": 31,
+  "centres": []
+ },
+ "whca": {
+  "kid_activities_60d": 25,
+  "centres": []
+ },
+ "whitby": {
+  "kid_activities_60d": 1276,
+  "centres": [
+   "Brooklin Community Centre and Library",
+   "Carnwith Park",
+   "Centennial Building",
+   "Cullen Central Park"
+  ]
+ },
+ "wilmotrecweb": {
+  "kid_activities_60d": 65,
+  "centres": [
+   "Kirkpatrick Park",
+   "New Hamburg Community Centre",
+   "St. Agatha Community Centre & Lion's Park",
+   "Twp Admin Office"
+  ]
+ },
+ "windsor": {
+  "kid_activities_60d": 684,
+  "centres": [
+   "Adie Knox Herman Recreation Complex",
+   "Adventure Bay",
+   "Atkinson Pool",
+   "Capri Pizzeria Recreation Complex"
+  ]
+ },
+ "wkrec": {
+  "kid_activities_60d": 84,
+  "centres": [
+   "Anders",
+   "Glenrosa Middle School",
+   "Mar Jok Elementary School",
+   "MBCC"
+  ]
+ },
+ "woolwich": {
+  "kid_activities_60d": 30,
+  "centres": [
+   "Breslau Community Centre",
+   "Gore Park",
+   "Heidelberg Community Centre",
+   "Maryhill Community Centre"
+  ]
+ },
+ "ygv": {
+  "kid_activities_60d": 228,
+  "centres": [
+   "Bettie Allard YMCA",
+   "Bob Chan-Kent Family YMCA",
+   "Kamloops Downtown YMCA",
+   "Langara Family YMCA"
+  ]
+ },
+ "ymcabrandon": {
+  "kid_activities_60d": 52,
+  "centres": [
+   "Betty Gibson",
+   "Dood Cristall",
+   "Forrest Elementary",
+   "George Fitton"
+  ]
+ },
+ "ymcacapebreton": {
+  "kid_activities_60d": 21,
+  "centres": [
+   "Frank Rudderham Family YMCA"
+  ]
+ },
+ "ymcacentrallab": {
+  "kid_activities_60d": 51,
+  "centres": [
+   "Central Labrador YMCA"
+  ]
+ },
+ "ymcagta": {
+  "kid_activities_60d": 252,
+  "centres": [
+   "Acton MS Bennett Y",
+   "Acton St. Joseph Y",
+   "Ajax Carruthers Creek Y",
+   "Ajax Dr.Roberta Bondar Y"
+  ]
+ },
+ "ymcahalifaxdart": {
+  "kid_activities_60d": 51,
+  "centres": [
+   "Community YMCA",
+   "John W. Lindsay YMCA",
+   "Purdy's Wharf"
+  ]
+ },
+ "ymcamoncton": {
+  "kid_activities_60d": 299,
+  "centres": [
+   "YMCA North End",
+   "YMCA of Greater Moncton"
+  ]
+ },
+ "ymcanl": {
+  "kid_activities_60d": 134,
+  "centres": [
+   "Bonavista Regional YMCA",
+   "Ches Penney Family YMCA",
+   "Fortis Canada Games Complex",
+   "Marystown YMCA"
+  ]
+ },
+ "ymcanrt": {
+  "kid_activities_60d": 48,
+  "centres": [
+   "Baltimore YMCA Child Care",
+   "Beatrice Strong YMCA Child Care",
+   "Burnham YMCA Child Care",
+   "C.R. Gummow YMCA Child Care"
+  ]
+ },
+ "ymcaofceo": {
+  "kid_activities_60d": 74,
+  "centres": []
+ },
+ "ymcaoffredericton": {
+  "kid_activities_60d": 52,
+  "centres": []
+ },
+ "ymcaofoakville": {
+  "kid_activities_60d": 30,
+  "centres": [
+   "1.River Oaks",
+   "2.Palermo",
+   "3.Valens Conservation Area",
+   "4.Peter Gilgan Family YMCA (PGFY)"
+  ]
+ },
+ "ymcaquebec": {
+  "kid_activities_60d": 147,
+  "centres": [
+   "Camp Kanawana",
+   "Pierrefonds - Gerry Robertson Community Center",
+   "Pierrefonds - Marcel Morin Community Center",
+   "Pierrefonds - West Community Center"
+  ]
+ },
+ "ymcaregina": {
+  "kid_activities_60d": 42,
+  "centres": [
+   "John Chisolm BAS",
+   "Northwest"
+  ]
+ },
+ "ymcasaskatoon": {
+  "kid_activities_60d": 80,
+  "centres": [
+   "BASC - Dundonald",
+   "BASC - Egnatoff",
+   "BASC - Forest Grove",
+   "BASC - Holy Mary"
+  ]
+ },
+ "ymywha": {
+  "kid_activities_60d": 26,
+  "centres": [
+   "Herzliah High School",
+   "Pollack Education Building",
+   "Sylvan Adams YM-YWHA"
+  ]
+ },
+ "ywcastthomaselgin": {
+  "kid_activities_60d": 8,
+  "centres": [
+   "McGregor Public School",
+   "Mitchell Hepburn Public School"
+  ]
+ },
+ "ywinnipeg": {
+  "kid_activities_60d": 274,
+  "centres": []
+ }
+}

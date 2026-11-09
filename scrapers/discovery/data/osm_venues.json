@@ -1,0 +1,4830 @@
+{
+"unitedboxing.club": {
+"url": "https://www.unitedboxing.club/",
+"names": [
+"United Boxing Club"
+],
+"lat": 43.6607381,
+"lng": -79.4318303
+},
+"cineplex.com": {
+"url": "https://www.cineplex.com/Theatre/scotiabank-theatre-toronto",
+"names": [
+"Scotiabank Theatre Toronto",
+"Cineplex Cinemas Yonge-Dundas and VIP",
+"Cineplex VIP Cinemas Yonge-Eglinton",
+"Cineplex Cinemas Fairview Mall",
+"Cineplex Cinemas Yorkdale",
+"Cineplex Cinemas Empress Walk",
+"Cineplex VIP Cinemas Don Mills",
+"Cineplex Cinemas Varsity and VIP",
+"Cineplex Cinemas Queensway and VIP",
+"Cineplex Odeon Morningside Cinemas",
+"Cineplex Cinemas Scarborough",
+"Cineplex Odeon Eglinton Town Centre Cinemas"
+],
+"lat": 43.6485875,
+"lng": -79.3913729
+},
+"suffolklibraries.co.uk": {
+"url": "https://www.suffolklibraries.co.uk/visit/locations-and-times/newmarket-library",
+"names": [
+"Newmarket Library"
+],
+"lat": 52.2448882,
+"lng": 0.4051689
+},
+"uoftbookstore.com": {
+"url": "https://www.uoftbookstore.com",
+"names": [
+"University of Toronto Bookstore",
+"University of Toronto Bookstore"
+],
+"lat": 43.6588244,
+"lng": -79.3969597
+},
+"bpl.on.ca": {
+"url": "https://www.bpl.on.ca/about/locations-hours/ta",
+"names": [
+"Burlington Public Library - Tansley Woods Branch",
+"Burlington Public Library - Central Branch"
+],
+"lat": 43.3822616,
+"lng": -79.8012734
+},
+"imaginecinemas.com": {
+"url": "https://imaginecinemas.com/cinema/market-square/",
+"names": [
+"Imagine Cinemas Market Square",
+"Carlton Cinemas"
+],
+"lat": 43.649526,
+"lng": -79.3724807
+},
+"networkchildcare.com": {
+"url": "https://www.networkchildcare.com",
+"names": [
+"Metamorphosis Child Care Centre",
+"Network Child Care Services",
+"Network Child Care Services",
+"Network Child Care Services",
+"Children\u2019s Gallery Child Care Centre"
+],
+"lat": 43.6813008,
+"lng": -79.3379958
+},
+"lafitness.com": {
+"url": "https://www.lafitness.com/Pages/clubhome.aspx?clubid=1090",
+"names": [
+"LA Fitness"
+],
+"lat": 43.6901276,
+"lng": -79.291078
+},
+"gerrardearlylearningcentre.com": {
+"url": "https://www.gerrardearlylearningcentre.com/",
+"names": [
+"Gerrard Early Learning Centre"
+],
+"lat": 43.660643,
+"lng": -79.3741046
+},
+"heritagetrust.on.ca": {
+"url": "https://www.heritagetrust.on.ca/EWG/Home.aspx",
+"names": [
+"The Elgin & Winter Garden"
+],
+"lat": 43.6530313,
+"lng": -79.379291
+},
+"bmvbooks.com": {
+"url": "https://www.bmvbooks.com/pages/location-annex",
+"names": [
+"BMV Books",
+"BMV"
+],
+"lat": 43.6659306,
+"lng": -79.406875
+},
+"vivefitness.com": {
+"url": "https://vivefitness.com/",
+"names": [
+"Vive Fitness",
+"Vive Fitness",
+"Vive Fitness"
+],
+"lat": 43.6655829,
+"lng": -79.4111876
+},
+"factorytheatre.ca": {
+"url": "https://www.factorytheatre.ca/",
+"names": [
+"Factory Theatre"
+],
+"lat": 43.6455029,
+"lng": -79.4028205
+},
+"torontomu.ca": {
+"url": "https://www.torontomu.ca/chrysalis/",
+"names": [
+"Chrysalis Theatre"
+],
+"lat": 43.6592828,
+"lng": -79.379899
+},
+"chapters.indigo.ca": {
+"url": "https://www.chapters.indigo.ca/",
+"names": [
+"Indigo",
+"Indigo",
+"Indigo",
+"Indigo",
+"Coles",
+"Indigo",
+"Coles",
+"Coles"
+],
+"lat": 43.7268535,
+"lng": -79.451718
+},
+"aurorafoxartscenter.org": {
+"url": "https://www.aurorafoxartscenter.org/",
+"names": [
+"Aurora Fox Arts Center"
+],
+"lat": 39.7399511,
+"lng": -104.8726719
+},
+"auroraco.libnet.info": {
+"url": "https://auroraco.libnet.info/MLK",
+"names": [
+"Martin Luther King Junior Branch Aurora Public Library"
+],
+"lat": 39.7396593,
+"lng": -104.873538
+},
+"plainsmanmuseum.org": {
+"url": "https://www.plainsmanmuseum.org/",
+"names": [
+"Plainsman Museum"
+],
+"lat": 40.858901,
+"lng": -97.9961653
+},
+"nhfarmmuseum.org": {
+"url": "https://nhfarmmuseum.org/",
+"names": [
+"New Hampshire Farm Museum"
+],
+"lat": 43.4632026,
+"lng": -70.99154
+},
+"miltonlibraryvt.org": {
+"url": "https://miltonlibraryvt.org/",
+"names": [
+"Milton Public Library"
+],
+"lat": 44.6191558,
+"lng": -73.1243374
+},
+"forbeshousemuseum.org": {
+"url": "https://www.forbeshousemuseum.org/",
+"names": [
+"Captain Robert Bennet Forbes House"
+],
+"lat": 42.2645838,
+"lng": -71.0650796
+},
+"museumsofburlington.ca": {
+"url": "https://museumsofburlington.ca/visitor-information/joseph-brant-museum/",
+"names": [
+"Joseph Brant Museum"
+],
+"lat": 43.3186764,
+"lng": -79.8015964
+},
+"aurorafossilmuseum.org": {
+"url": "https://aurorafossilmuseum.org/",
+"names": [
+"Aurora Fossil Museum"
+],
+"lat": 35.3046136,
+"lng": -76.7877096
+},
+"cntower.ca": {
+"url": "https://www.cntower.ca/intro.html",
+"names": [
+"CN Tower Edge Walk",
+"CN Tower"
+],
+"lat": 43.6425012,
+"lng": -79.3871153
+},
+"thephoenixconcerttheatre.com": {
+"url": "https://thephoenixconcerttheatre.com/",
+"names": [
+"Phoenix Concert Theatre"
+],
+"lat": 43.6646062,
+"lng": -79.3739374
+},
+"museumofillusions.ca": {
+"url": "https://museumofillusions.ca/",
+"names": [
+"Museum of Illusions"
+],
+"lat": 43.6501295,
+"lng": -79.3696915
+},
+"markham.ca": {
+"url": "https://www.markham.ca/wps/portal/Markham/RecreationCulture/Library/AboutTheLibrary/BranchesAndHours/MarkhamVillage",
+"names": [
+"Markham Public Library - Markham Village Branch",
+"Markham Public Library - Cornell Branch",
+"Markham Public Library - Aaniin Branch",
+"Markham Centennial Community Centre",
+"Markham Museum",
+"Varley Art Gallery of Markham",
+"Markham Community Centre",
+"Angus Glen Community Centre & Library",
+"Aaniin Community Centre"
+],
+"lat": 43.8733205,
+"lng": -79.2586723
+},
+"bookstore.yorku.ca": {
+"url": "https://bookstore.yorku.ca/",
+"names": [
+"York University Bookstore"
+],
+"lat": 43.7743031,
+"lng": -79.5008374
+},
+"oakvillecentre.ca": {
+"url": "https://www.oakvillecentre.ca/",
+"names": [
+"Oakville Centre for the Performing Arts"
+],
+"lat": 43.4445437,
+"lng": -79.6717012
+},
+"dougmillerbooks.com": {
+"url": "https://www.dougmillerbooks.com",
+"names": [
+"Doug Miller Books"
+],
+"lat": 43.6643416,
+"lng": -79.4153847
+},
+"recessfitclub.com": {
+"url": "https://recessfitclub.com",
+"names": [
+"Recess Fit Club"
+],
+"lat": 43.6640932,
+"lng": -79.4153638
+},
+"thecarlu.com": {
+"url": "https://www.thecarlu.com/",
+"names": [
+"The Carlu"
+],
+"lat": 43.6610138,
+"lng": -79.3832223
+},
+"pama.peelregion.ca": {
+"url": "http://www.pama.peelregion.ca/en/index.asp",
+"names": [
+"Peel Art Gallery, Museum and Archives",
+"Peel Art Gallery, Museum and Archives",
+"Peel Art Gallery, Museum and Archives"
+],
+"lat": 43.6848908,
+"lng": -79.7575878
+},
+"artgalleryofmississauga.com": {
+"url": "https://www.artgalleryofmississauga.com/",
+"names": [
+"Art Gallery of Mississauga"
+],
+"lat": 43.5892667,
+"lng": -79.6439136
+},
+"honefitness.com": {
+"url": "https://honefitness.com/",
+"names": [
+"Hone Fitness",
+"Hone Fitness",
+"Hone Fitness",
+"Hone Fitness"
+],
+"lat": 43.6822344,
+"lng": -79.4217084
+},
+"hardknocksboxingclub.com": {
+"url": "https://hardknocksboxingclub.com/",
+"names": [
+"Hardknocks Boxing Club"
+],
+"lat": 43.6461054,
+"lng": -79.4038013
+},
+"anotherstory.ca": {
+"url": "https://anotherstory.ca",
+"names": [
+"Another Story Bookshop"
+],
+"lat": 43.6485504,
+"lng": -79.4497402
+},
+"kingswaymovies.ca": {
+"url": "http://kingswaymovies.ca/",
+"names": [
+"Kingsway Theatre"
+],
+"lat": 43.647319,
+"lng": -79.5122302
+},
+"fitfactoryfitness.com": {
+"url": "https://www.fitfactoryfitness.com",
+"names": [
+"Fit Factory Fitness"
+],
+"lat": 43.7077986,
+"lng": -79.3923842
+},
+"crusadersrugby.club": {
+"url": "https://crusadersrugby.club/",
+"names": [
+"Crusaders Rugby Club"
+],
+"lat": 43.4996061,
+"lng": -79.6877741
+},
+"canadianautomotivemuseum.com": {
+"url": "https://www.canadianautomotivemuseum.com/",
+"names": [
+"Canadian Automotive Museum"
+],
+"lat": 43.8948828,
+"lng": -78.8621421
+},
+"abcbookstoronto.blogspot.com": {
+"url": "https://abcbookstoronto.blogspot.com/",
+"names": [
+"ABC Books"
+],
+"lat": 43.6670478,
+"lng": -79.3856162
+},
+"iamyoga.ca": {
+"url": "https://iamyoga.ca/",
+"names": [
+"IAM Yoga Pilates"
+],
+"lat": 43.6674369,
+"lng": -79.3857767
+},
+"vaughanpl.info": {
+"url": "https://www.vaughanpl.info/libraries/view/7",
+"names": [
+"Pierre Berton Resource Library",
+"Carrville Library",
+"Bathurst Clark Resource Library",
+"Civic Centre Resource Library",
+"Ansley Grove Library"
+],
+"lat": 43.8174992,
+"lng": -79.595937
+},
+"cookmuseumwhitby.co.uk": {
+"url": "https://www.cookmuseumwhitby.co.uk/",
+"names": [
+"Captain Cook Memorial Museum"
+],
+"lat": 54.486762,
+"lng": -0.6117986
+},
+"draculaexperience.co.uk": {
+"url": "https://draculaexperience.co.uk/",
+"names": [
+"Dracula Experience"
+],
+"lat": 54.4879945,
+"lng": -0.6145502
+},
+"centrering.com": {
+"url": "https://www.centrering.com/",
+"names": [
+"Wayne Bourque's Centre Ring"
+],
+"lat": 43.6978382,
+"lng": -79.3953625
+},
+"avantgardetoronto.com": {
+"url": "https://www.avantgardetoronto.com/",
+"names": [
+"Avant Garde"
+],
+"lat": 43.6976557,
+"lng": -79.3896159
+},
+"yukyuks.com": {
+"url": "https://www.yukyuks.com/toronto",
+"names": [
+"Yuk Yuk's",
+"Yuk-Yuk's"
+],
+"lat": 43.6497695,
+"lng": -79.3882724
+},
+"downtownkids.com": {
+"url": "https://www.downtownkids.com",
+"names": [
+"Downtown Kids Academy"
+],
+"lat": 43.6417097,
+"lng": -79.4124668
+},
+"ttdf.ca": {
+"url": "https://ttdf.ca/",
+"names": [
+""
+],
+"lat": 43.6664174,
+"lng": -79.3670572
+},
+"hcry.org": {
+"url": "https://www.hcry.org/",
+"names": [
+"Halton County Radial Railway"
+],
+"lat": 43.5809283,
+"lng": -80.1115818
+},
+"torontocricketclub.com": {
+"url": "https://www.torontocricketclub.com/",
+"names": [
+"TCSCC, Toronto Cricket Skating and Curling Club"
+],
+"lat": 43.7398265,
+"lng": -79.418975
+},
+"copticmuseum.ca": {
+"url": "https://www.copticmuseum.ca/",
+"names": [
+"St. Mark's Coptic Museum"
+],
+"lat": 43.8118788,
+"lng": -79.3324624
+},
+"foxtheatre.ca": {
+"url": "https://www.foxtheatre.ca",
+"names": [
+"Fox Theatre"
+],
+"lat": 43.6728278,
+"lng": -79.2873231
+},
+"buddiesinbadtimes.com": {
+"url": "https://buddiesinbadtimes.com/",
+"names": [
+"Buddies in Bad Times"
+],
+"lat": 43.6632092,
+"lng": -79.382994
+},
+"balancefit.com": {
+"url": "https://www.balancefit.com/",
+"names": [
+"Balance"
+],
+"lat": 43.6887447,
+"lng": -79.3917058
+},
+"oshawamuseum.org": {
+"url": "https://oshawamuseum.org/",
+"names": [
+"Oshawa Community Museum"
+],
+"lat": 43.8639941,
+"lng": -78.8270947
+},
+"textilemuseum.ca": {
+"url": "http://www.textilemuseum.ca/",
+"names": [
+"Textile Museum Of Canada"
+],
+"lat": 43.6544937,
+"lng": -79.3866913
+},
+"fit4less.ca": {
+"url": "https://www.fit4less.ca/locations/provinces/ontario/toronto/toronto-coxwell-and-gerrard",
+"names": [
+"Fit4Less",
+"Fit4Less",
+"Fit4Less"
+],
+"lat": 43.673324,
+"lng": -79.319625
+},
+"4catsleaside.com": {
+"url": "https://4catsleaside.com/",
+"names": [
+"4CATS Art Studio"
+],
+"lat": 43.7005161,
+"lng": -79.3733797
+},
+"bookcity.ca": {
+"url": "https://www.bookcity.ca/",
+"names": [
+"Book City",
+"Book City"
+],
+"lat": 43.687081,
+"lng": -79.393892
+},
+"metrocfitness.com": {
+"url": "https://metrocfitness.com",
+"names": [
+"Metric Fitness"
+],
+"lat": 43.707455,
+"lng": -79.390167
+},
+"clubpilates.com": {
+"url": "https://www.clubpilates.com/location/davisvillevillage",
+"names": [
+"Club Pilates",
+"Club Pilates"
+],
+"lat": 43.704511,
+"lng": -79.388853
+},
+"pannonia.ca": {
+"url": "https://pannonia.ca/",
+"names": [
+"Pannonia Books"
+],
+"lat": 43.684962,
+"lng": -79.410674
+},
+"torontocameraclub.com": {
+"url": "https://torontocameraclub.com",
+"names": [
+"The Toronto Camera Club"
+],
+"lat": 43.7037408,
+"lng": -79.3880979
+},
+"kajama.ca": {
+"url": "https://www.kajama.ca/",
+"names": [
+"Kajama"
+],
+"lat": 43.6377486,
+"lng": -79.3819874
+},
+"behotyogatoronto.com": {
+"url": "https://behotyogatoronto.com/",
+"names": [
+"BeHot Yoga Toronto"
+],
+"lat": 43.648912,
+"lng": -79.375085
+},
+"ferris360.com": {
+"url": "https://ferris360.com/",
+"names": [
+"Ferris 360"
+],
+"lat": 43.6983942,
+"lng": -79.3968986
+},
+"mississaugatheatrealliance.webs.com": {
+"url": "https://mississaugatheatrealliance.webs.com/majaprenticetheatre.htm",
+"names": [
+"Maja Prentice Theatre"
+],
+"lat": 43.6214427,
+"lng": -79.602937
+},
+"opl.ca": {
+"url": "https://opl.ca",
+"names": [
+"Oakville Public Library",
+"Oakville Public Library"
+],
+"lat": 43.4882696,
+"lng": -79.7008804
+},
+"bridgewaycentre.ca": {
+"url": "https://bridgewaycentre.ca",
+"names": [
+"BridgeWay Family Centre/EarlyON"
+],
+"lat": 43.5162782,
+"lng": -79.6246839
+},
+"csj-to.ca": {
+"url": "https://csj-to.ca/What_we_do/village-mosaic.php",
+"names": [
+"Village Mosaic"
+],
+"lat": 43.6019884,
+"lng": -79.5003855
+},
+"cueskids.com": {
+"url": "https://www.cueskids.com/",
+"names": [
+"Children's Urban Enrichement Studio"
+],
+"lat": 43.6004899,
+"lng": -79.5072579
+},
+"absolutecomedy.ca": {
+"url": "http://absolutecomedy.ca",
+"names": [
+"Absolute Comedy"
+],
+"lat": 43.7085508,
+"lng": -79.3985228
+},
+"uyvdc.ca": {
+"url": "https://uyvdc.ca/",
+"names": [
+"Upper Yonge Village Daycare Centre"
+],
+"lat": 43.7130595,
+"lng": -79.400314
+},
+"designexchangetoronto.com": {
+"url": "https://designexchangetoronto.com/",
+"names": [
+"Design Exchange"
+],
+"lat": 43.6477412,
+"lng": -79.3801145
+},
+"fprlongevity.com": {
+"url": "https://fprlongevity.com",
+"names": [
+"FPR Longevity Gym"
+],
+"lat": 43.6473525,
+"lng": -79.5120826
+},
+"arpinursery.ca": {
+"url": "https://www.arpinursery.ca/",
+"names": [
+"Arpi Nursery School"
+],
+"lat": 43.7469508,
+"lng": -79.4781691
+},
+"cclibraryks.org": {
+"url": "https://www.cclibraryks.org/",
+"names": [
+"Coffey County Library"
+],
+"lat": 38.195854,
+"lng": -95.7385379
+},
+"yogatree.ca": {
+"url": "https://www.yogatree.ca/richmond-spadina/",
+"names": [
+"Yogatree",
+"Yogatree"
+],
+"lat": 43.6477336,
+"lng": -79.39626
+},
+"townofyork.com": {
+"url": "https://townofyork.com/",
+"names": [
+"Toronto's First Post Office"
+],
+"lat": 43.6519613,
+"lng": -79.3704013
+},
+"poleinc.com": {
+"url": "http://www.poleinc.com/",
+"names": [
+"Pole Inc"
+],
+"lat": 43.6632017,
+"lng": -79.3418048
+},
+"theflyingyogi.ca": {
+"url": "https://theflyingyogi.ca/",
+"names": [
+"The Flying Yogi"
+],
+"lat": 43.6636721,
+"lng": -79.3409206
+},
+"ocadu.ca": {
+"url": "https://www.ocadu.ca/onsite.htm",
+"names": [
+"Onsite [at] OCAD U",
+"Dorothy H. Hoover Library",
+"OCAD Graduate Gallery"
+],
+"lat": 43.6496857,
+"lng": -79.3886306
+},
+"ncct.on.ca": {
+"url": "https://ncct.on.ca/",
+"names": [
+"The Native Canadian Centre of Toronto"
+],
+"lat": 43.6681584,
+"lng": -79.4050475
+},
+"smartchild.ca": {
+"url": "https://smartchild.ca/",
+"names": [
+"DiscoveryPlay"
+],
+"lat": 43.7805431,
+"lng": -79.2296427
+},
+"legolanddiscoverycentre.ca": {
+"url": "https://www.legolanddiscoverycentre.ca/toronto/",
+"names": [
+"Legoland Discovery Centre"
+],
+"lat": 43.8251666,
+"lng": -79.5354283
+},
+"musideum.com": {
+"url": "http://musideum.com/",
+"names": [
+"Musideum"
+],
+"lat": 43.6478109,
+"lng": -79.395008
+},
+"ohyofun.ca": {
+"url": "https://ohyofun.ca/",
+"names": [
+"Okyo"
+],
+"lat": 43.6576493,
+"lng": -79.3816897
+},
+"arcturus.ca": {
+"url": "https://arcturus.ca/",
+"names": [
+"Gallery Arcturus"
+],
+"lat": 43.6600952,
+"lng": -79.3779959
+},
+"baysiderowing.com": {
+"url": "http://baysiderowing.com/",
+"names": [
+"Bayside Rowing Club"
+],
+"lat": 43.6540762,
+"lng": -79.3327961
+},
+"verbo.ca": {
+"url": "https://www.verbo.ca/",
+"names": [
+"I Love Kickboxing"
+],
+"lat": 43.680322,
+"lng": -79.472778
+},
+"town.richmond-hill.on.ca": {
+"url": "http://www.town.richmond-hill.on.ca/subpage.asp?pageid=parks_the_richmond_hill_heritage_centre",
+"names": [
+"Richmond Hill Heritage Centre"
+],
+"lat": 43.8768338,
+"lng": -79.4367813
+},
+"ontrmuseum.ca": {
+"url": "https://www.ontrmuseum.ca/tankmuseum/",
+"names": [
+"Ontario Regiment Museum"
+],
+"lat": 43.916781,
+"lng": -78.8954348
+},
+"skyzone.com": {
+"url": "https://www.skyzone.com/Toronto",
+"names": [
+"Sky Zone Indoor Trampoline Park"
+],
+"lat": 43.7070916,
+"lng": -79.3573006
+},
+"joerockheads.com": {
+"url": "https://www.joerockheads.com/",
+"names": [
+"Joe Rockhead's Indoor Rock Climbing"
+],
+"lat": 43.6363231,
+"lng": -79.4233654
+},
+"rhga.ca": {
+"url": "https://rhga.ca/",
+"names": [
+"Mill Pond Gallery"
+],
+"lat": 43.8752908,
+"lng": -79.4533686
+},
+"freeplaytoronto.com": {
+"url": "https://freeplaytoronto.com/#/",
+"names": [
+"FreePlay"
+],
+"lat": 43.6578387,
+"lng": -79.401665
+},
+"tps.ca": {
+"url": "https://www.tps.ca/museum/",
+"names": [
+"Police Museum & Discovery Centre"
+],
+"lat": 43.6611292,
+"lng": -79.3851531
+},
+"playactivate.com": {
+"url": "https://playactivate.com",
+"names": [
+"Activate"
+],
+"lat": 43.673169,
+"lng": -79.468885
+},
+"canadianstage.com": {
+"url": "https://www.canadianstage.com",
+"names": [
+"Canadian Stage"
+],
+"lat": 43.650622,
+"lng": -79.3640549
+},
+"chabadmidtownschool.com": {
+"url": "https://www.chabadmidtownschool.com/",
+"names": [
+"Chabad of Midtown Daycare & Preschool"
+],
+"lat": 43.6794603,
+"lng": -79.4170508
+},
+"epicplanetfun.ca": {
+"url": "https://www.epicplanetfun.ca",
+"names": [
+"Epic Planet Fun"
+],
+"lat": 43.7229766,
+"lng": -79.2934889
+},
+"striation6.com": {
+"url": "https://www.striation6.com/",
+"names": [
+"Striation 6 Fitness Centre"
+],
+"lat": 43.6985192,
+"lng": -79.3946525
+},
+"oriolenurseryschool.com": {
+"url": "https://www.oriolenurseryschool.com/",
+"names": [
+"Oriole Nursery School"
+],
+"lat": 43.69019,
+"lng": -79.3959205
+},
+"mississauga.ca": {
+"url": "http://www.mississauga.ca/portal/residents/cooksvillelibrary",
+"names": [
+"Mississauga Library - Cooksville",
+"Malton Community Centre",
+"Missisauga Library - Malton",
+"Mississauga Library - Courtneypark",
+"Mississauga Library - South Common",
+"Mississauga Library - Erin Meadows",
+"Leslie Log House",
+"Bradley Museum",
+"Frank McKechnie Community Centre"
+],
+"lat": 43.5805334,
+"lng": -79.6172825
+},
+"ucdenver.edu": {
+"url": "https://www.ucdenver.edu/academics/colleges/medicalschool/administration/history/Pages/Eisenhower-Suite.aspx",
+"names": [
+"Eisenhower's Room"
+],
+"lat": 39.7450623,
+"lng": -104.8373344
+},
+"beguilingbooksandart.com": {
+"url": "https://www.beguilingbooksandart.com/",
+"names": [
+"The Beguiling"
+],
+"lat": 43.657389,
+"lng": -79.4020809
+},
+"torontorailwaymuseum.com": {
+"url": "https://torontorailwaymuseum.com",
+"names": [
+"Toronto Railway Museum"
+],
+"lat": 43.6406473,
+"lng": -79.3859564
+},
+"torontocomics.com": {
+"url": "https://torontocomics.com/store/",
+"names": [
+"TCAF Shop"
+],
+"lat": 43.6716945,
+"lng": -79.3872067
+},
+"workingwomencc.org": {
+"url": "https://www.workingwomencc.org/",
+"names": [
+"The Hub"
+],
+"lat": 43.7267455,
+"lng": -79.302377
+},
+"www2.youseemore.com": {
+"url": "http://www2.youseemore.com/blrl/contentpages.asp?loc=55",
+"names": [
+"Aurora Branch - Barry Lawrence Regional Library"
+],
+"lat": 36.973715,
+"lng": -93.719299
+},
+"lakeshorearts.ca": {
+"url": "https://www.lakeshorearts.ca/",
+"names": [
+"Lakeshore Arts"
+],
+"lat": 43.6145162,
+"lng": -79.4891245
+},
+"jccc.on.ca": {
+"url": "https://jccc.on.ca/",
+"names": [
+"Japanese Canadian Cultural Centre"
+],
+"lat": 43.7264289,
+"lng": -79.3349715
+},
+"cdvnmississauga.org": {
+"url": "https://www.cdvnmississauga.org/",
+"names": [
+"The Vietnamese Community Centre of Mississauga;Trung T\u00e2m C\u1ed9ng \u0110\u1ed3ng Vi\u1ec7t Nam Mississauga"
+],
+"lat": 43.56841,
+"lng": -79.5674805
+},
+"gallerytpw.ca": {
+"url": "https://www.gallerytpw.ca/",
+"names": [
+"TPW Art Gallery"
+],
+"lat": 43.6539648,
+"lng": -79.4425388
+},
+"harbourfrontcentre.com": {
+"url": "https://harbourfrontcentre.com/venue/fleck-dance-theatre/",
+"names": [
+"Fleck Dance Theatre",
+"Studio Theatre"
+],
+"lat": 43.6383846,
+"lng": -79.3804374
+},
+"mysticpointeyoga.com": {
+"url": "https://mysticpointeyoga.com/",
+"names": [
+"Mystic Pointe Voga"
+],
+"lat": 43.6241525,
+"lng": -79.4897493
+},
+"silversnail.com": {
+"url": "https://www.silversnail.com/",
+"names": [
+"Silver Snails Comics and Cafe"
+],
+"lat": 43.6568885,
+"lng": -79.3809751
+},
+"blackwoodgallery.ca": {
+"url": "https://www.blackwoodgallery.ca/",
+"names": [
+"Blackwood Gallery"
+],
+"lat": 43.5485289,
+"lng": -79.6631545
+},
+"archerydistrict.com": {
+"url": "https://www.archerydistrict.com/",
+"names": [
+"Archery District"
+],
+"lat": 43.7257261,
+"lng": -79.2778194
+},
+"miltoncountrypark.org": {
+"url": "https://www.miltoncountrypark.org/wildplace/",
+"names": [
+"The Wild Place"
+],
+"lat": 52.2364633,
+"lng": 0.1622401
+},
+"coc.ca": {
+"url": "https://www.coc.ca/AboutTheCOC/TanenbaumCentre/AbouttheOperaCentre.aspx",
+"names": [
+"Max Tanenbaum Courtyard Gardens",
+"Four Seasons Centre for the Performing Arts"
+],
+"lat": 43.650624,
+"lng": -79.3652321
+},
+"889yoga.com": {
+"url": "http://www.889yoga.com/",
+"names": [
+"889 Yoga"
+],
+"lat": 43.6745192,
+"lng": -79.3883216
+},
+"telomerefitness.com": {
+"url": "https://www.telomerefitness.com/",
+"names": [
+"Telomere Fitness"
+],
+"lat": 43.6636031,
+"lng": -79.3842132
+},
+"mibody.ca": {
+"url": "https://www.mibody.ca/",
+"names": [
+"Mibody Collective"
+],
+"lat": 43.6021928,
+"lng": -79.5000312
+},
+"dwellgym.com": {
+"url": "https://dwellgym.com/",
+"names": [
+"Dwell Gym"
+],
+"lat": 43.66363,
+"lng": -79.3413958
+},
+"whitbylibrary.on.ca": {
+"url": "http://www.whitbylibrary.on.ca/",
+"names": [
+"Whitby Public Library - Rossland Branch"
+],
+"lat": 43.8994663,
+"lng": -78.938692
+},
+"cfel.ca": {
+"url": "https://cfel.ca/",
+"names": [
+"Dawes Road Centre for Early Learning",
+"Palisades Centre for Early Learning"
+],
+"lat": 43.7018384,
+"lng": -79.2967652
+},
+"courant.com": {
+"url": "https://www.courant.com/news/connecticut/hc-xpm-2009-05-03-hc-tory-den-burlington-wayto-artsunday-story.html",
+"names": [
+"Tory's Den"
+],
+"lat": 41.7190763,
+"lng": -72.9983723
+},
+"mnsinfo.org": {
+"url": "https://www.mnsinfo.org/",
+"names": [
+"MNS Multicultural Newcomer Services"
+],
+"lat": 43.7839049,
+"lng": -79.6594668
+},
+"littlescholarsacademy.ca": {
+"url": "https://www.littlescholarsacademy.ca/",
+"names": [
+"Little Scholars Academy"
+],
+"lat": 43.6489124,
+"lng": -79.549444
+},
+"treasuredmomentskids.com": {
+"url": "https://www.treasuredmomentskids.com",
+"names": [
+"Treasured Moments Kids"
+],
+"lat": 43.6485418,
+"lng": -79.5487005
+},
+"cercleamitie.ca": {
+"url": "https://cercleamitie.ca/",
+"names": [
+"Cercle de l'Amitie"
+],
+"lat": 43.6139601,
+"lng": -79.7461574
+},
+"planetfitness.com": {
+"url": "https://www.planetfitness.com/gyms/north-scarborough-on-1337",
+"names": [
+"Planet Fitness"
+],
+"lat": 43.8237563,
+"lng": -79.3013563
+},
+"filipinocentretoronto.com": {
+"url": "https://www.filipinocentretoronto.com/",
+"names": [
+"The Filipino Centre Toronto"
+],
+"lat": 43.6677953,
+"lng": -79.3691676
+},
+"crossfitcolosseum.com": {
+"url": "https://www.crossfitcolosseum.com/",
+"names": [
+"CrossFit"
+],
+"lat": 43.6047577,
+"lng": -79.5072666
+},
+"reptilia.org": {
+"url": "https://reptilia.org",
+"names": [
+"Reptilia",
+"Reptilia"
+],
+"lat": 43.8335306,
+"lng": -79.5196273
+},
+"theoccultshop.ca": {
+"url": "https://www.theoccultshop.ca/",
+"names": [
+"The Occult Shop"
+],
+"lat": 43.6803433,
+"lng": -79.4170411
+},
+"lolart.ca": {
+"url": "https://www.lolart.ca/",
+"names": [
+"Lol Art School"
+],
+"lat": 43.7759645,
+"lng": -79.3223162
+},
+"hipposchool.com": {
+"url": "http://www.hipposchool.com/",
+"names": [
+"Hippo Nursery School"
+],
+"lat": 43.6807827,
+"lng": -79.4272591
+},
+"citadelcie.com": {
+"url": "https://www.citadelcie.com/space-equipment-rentals/",
+"names": [
+"Mimi Hernndorf Studio Theatre",
+"The Citadel Ross Centre for Dance"
+],
+"lat": 43.6590468,
+"lng": -79.3660304
+},
+"td.com": {
+"url": "https://www.td.com/ca/en/about-td/ready-commitment/connected-communities/art",
+"names": [
+"TD Gallery",
+"TD Gallery of Indigenous Art"
+],
+"lat": 43.6716152,
+"lng": -79.3867594
+},
+"spanishbooks.ca": {
+"url": "https://www.spanishbooks.ca/",
+"names": [
+"Spanish Book Store"
+],
+"lat": 43.6671061,
+"lng": -79.4121497
+},
+"yorkmills.tidalcrossfit.com": {
+"url": "http://www.yorkmills.tidalcrossfit.com/",
+"names": [
+"Tidal Crossfit"
+],
+"lat": 43.7573281,
+"lng": -79.3589228
+},
+"bodyfittraining.com": {
+"url": "https://www.bodyfittraining.com/location/canary-district",
+"names": [
+"Body Fit Training"
+],
+"lat": 43.6538272,
+"lng": -79.3540946
+},
+"goodlifefitness.com": {
+"url": "https://www.goodlifefitness.com/locations/ontario/northyork/york-mills",
+"names": [
+"GoodLife Fitness",
+"GoodLife Fitness for Women",
+"GoodLife Fitness",
+"Goodlife Fitness Toronto Richmond and John"
+],
+"lat": 43.7445107,
+"lng": -79.4060283
+},
+"thrivefit.ca": {
+"url": "https://www.thrivefit.ca",
+"names": [
+"Thrive Fit"
+],
+"lat": 43.6734059,
+"lng": -79.2832984
+},
+"desantos.ca": {
+"url": "https://www.desantos.ca/",
+"names": [
+"Desantos Premier Martial Arts"
+],
+"lat": 43.6655557,
+"lng": -79.3515962
+},
+"gevik.com": {
+"url": "https://gevik.com/",
+"names": [
+"Gallery Phillip"
+],
+"lat": 43.6712883,
+"lng": -79.3937791
+},
+"champsenior.org": {
+"url": "http://champsenior.org/",
+"names": [
+"Champlain Senior Center"
+],
+"lat": 44.4870849,
+"lng": -73.2092259
+},
+"offcentervt.com": {
+"url": "https://www.offcentervt.com/",
+"names": [
+"Off Center for the Dramatic Arts"
+],
+"lat": 44.4877307,
+"lng": -73.207702
+},
+"northendstudios.org": {
+"url": "https://northendstudios.org/",
+"names": [
+"North End Studios"
+],
+"lat": 44.4878618,
+"lng": -73.2076122
+},
+"humbergalleries.ca": {
+"url": "https://www.humbergalleries.ca/",
+"names": [
+"L Space Gallery"
+],
+"lat": 43.5957241,
+"lng": -79.5151403
+},
+"pocketplanet.ca": {
+"url": "https://pocketplanet.ca/toronto/",
+"names": [
+"Little Canada"
+],
+"lat": 43.6567118,
+"lng": -79.3809062
+},
+"agincourtcommunityservices.com": {
+"url": "https://www.agincourtcommunityservices.com/dorset-park-community-hub",
+"names": [
+"Dorset Park Community Hub"
+],
+"lat": 43.7672818,
+"lng": -79.280716
+},
+"sweatshoppeto.com": {
+"url": "http://www.sweatshoppeto.com/",
+"names": [
+"Sweat Shoppe"
+],
+"lat": 43.6712928,
+"lng": -79.3910231
+},
+"toshoknifearts.com": {
+"url": "https://www.toshoknifearts.com/",
+"names": [
+"Tosho Knife Arts Inc."
+],
+"lat": 43.6690148,
+"lng": -79.4128979
+},
+"palacehousenewmarket.co.uk": {
+"url": "https://www.palacehousenewmarket.co.uk/",
+"names": [
+"Palace House: National Horseracing Museum"
+],
+"lat": 52.2438528,
+"lng": 0.4071727
+},
+"crossfit6s.com": {
+"url": "https://www.crossfit6s.com/",
+"names": [
+"CrossFit"
+],
+"lat": 43.6526916,
+"lng": -79.3738333
+},
+"humber.bkstr.com": {
+"url": "http://humber.bkstr.com",
+"names": [
+"Humber Bookstore"
+],
+"lat": 43.7285239,
+"lng": -79.6079612
+},
+"dmchs.org": {
+"url": "https://dmchs.org/",
+"names": [
+"Heritage Center Museum"
+],
+"lat": 40.8121575,
+"lng": -91.1035947
+},
+"chabadmt.com": {
+"url": "https://www.chabadmt.com/",
+"names": [
+"Chabad of Midtown Community Centre"
+],
+"lat": 43.6828228,
+"lng": -79.4208895
+},
+"mercerunion.org": {
+"url": "https://www.mercerunion.org/",
+"names": [
+"Mercer Union - a centre for contemporary art"
+],
+"lat": 43.6586788,
+"lng": -79.4419401
+},
+"facilities.ampd.yorku.ca": {
+"url": "https://facilities.ampd.yorku.ca/home/facilities/",
+"names": [
+"Tribute Communities Recital Hall",
+"Sandra Faire and Ivan Fecan Theatre"
+],
+"lat": 43.7729847,
+"lng": -79.4999278
+},
+"tiff.net": {
+"url": "https://www.tiff.net/",
+"names": [
+"TIFF Lightbox"
+],
+"lat": 43.6467198,
+"lng": -79.3905334
+},
+"disabledsailingontario.com": {
+"url": "https://disabledsailingontario.com/",
+"names": [
+"Queen's Quay Disabled Sailing Program"
+],
+"lat": 43.6382009,
+"lng": -79.3865617
+},
+"torontobjj.com": {
+"url": "https://www.torontobjj.com/",
+"names": [
+"Toronto BJJ"
+],
+"lat": 43.6626717,
+"lng": -79.4217999
+},
+"masseyhall.com": {
+"url": "https://www.masseyhall.com/",
+"names": [
+"Massey Hall"
+],
+"lat": 43.6539472,
+"lng": -79.3789811
+},
+"mariposacruises.com": {
+"url": "https://mariposacruises.com/",
+"names": [
+"Mariposa Cruises"
+],
+"lat": 43.6391111,
+"lng": -79.380615
+},
+"rcmusic.com": {
+"url": "https://www.rcmusic.com/about-us/telus-centre-performance-and-learning/koerner-hall",
+"names": [
+"Koerner Hall",
+"Mazzoleni Concert Hall"
+],
+"lat": 43.6676514,
+"lng": -79.3961376
+},
+"councilfire.ca": {
+"url": "https://www.councilfire.ca/",
+"names": [
+"Toronto Council Fire Native Cultural Centre",
+"Toronto Council Fire Native Cultural Centre"
+],
+"lat": 43.6592794,
+"lng": -79.366135
+},
+"sinounitedpublishing.com": {
+"url": "https://www.sinounitedpublishing.com/",
+"names": [
+"SUP Book Store"
+],
+"lat": 43.8227466,
+"lng": -79.2988041
+},
+"islingtonseniors.ca": {
+"url": "https://www.islingtonseniors.ca/",
+"names": [
+"Islington Seniors Centre"
+],
+"lat": 43.6476022,
+"lng": -79.5300189
+},
+"qyrangmuseum.com": {
+"url": "https://qyrangmuseum.com/",
+"names": [
+"The Queen's York Rangers Museum"
+],
+"lat": 43.6368004,
+"lng": -79.4080393
+},
+"studioko.ca": {
+"url": "https://studioko.ca",
+"names": [
+"Studio K-O"
+],
+"lat": 43.6432806,
+"lng": -79.4065978
+},
+"eyeschildcare.com": {
+"url": "https://eyeschildcare.com/scarborough-child-daycare/",
+"names": [
+"EYES Big Dreams Montessorie",
+"EYES - Big Dreams Montessorie"
+],
+"lat": 43.7360749,
+"lng": -79.3067205
+},
+"alphatextbooks.com": {
+"url": "https://www.alphatextbooks.com/",
+"names": [
+"Alpha Textbooks"
+],
+"lat": 43.7563394,
+"lng": -79.4732699
+},
+"cyclebar.com": {
+"url": "https://cyclebar.com/",
+"names": [
+"Cyclebar"
+],
+"lat": 43.7144888,
+"lng": -79.3779197
+},
+"north-york.mokshayoga.ca": {
+"url": "http://north-york.mokshayoga.ca",
+"names": [
+"Moksha Yoga North York"
+],
+"lat": 43.7632026,
+"lng": -79.4055625
+},
+"culturerising.com": {
+"url": "https://culturerising.com/",
+"names": [
+"Culture Rising Streetsville"
+],
+"lat": 43.583282,
+"lng": -79.7155998
+},
+"basecampclimbing.ca": {
+"url": "https://basecampclimbing.ca/bloor/",
+"names": [
+"Basecamp Climbing",
+"Basecamp"
+],
+"lat": 43.6638554,
+"lng": -79.416486
+},
+"sellersandnewel.com": {
+"url": "https://www.sellersandnewel.com/",
+"names": [
+"Sellers & Newel"
+],
+"lat": 43.6552495,
+"lng": -79.4167863
+},
+"shop.queenbooks.ca": {
+"url": "https://shop.queenbooks.ca/",
+"names": [
+"Queen Books"
+],
+"lat": 43.6607136,
+"lng": -79.3422093
+},
+"redsandcastletheatre.com": {
+"url": "https://redsandcastletheatre.com/",
+"names": [
+"Red Sandcastle Theatre"
+],
+"lat": 43.6607756,
+"lng": -79.3419106
+},
+"generalhardware.ca": {
+"url": "https://www.generalhardware.ca/",
+"names": [
+"General Hardware Contemporary"
+],
+"lat": 43.6403048,
+"lng": -79.4386959
+},
+"northyorkharvest.com": {
+"url": "https://northyorkharvest.com",
+"names": [
+"North York Harvest Food Bank"
+],
+"lat": 43.6938385,
+"lng": -79.4937089
+},
+"elainefleckgallery.com": {
+"url": "https://elainefleckgallery.com/",
+"names": [
+"Elaine Fleck Gallery"
+],
+"lat": 43.6408591,
+"lng": -79.4346727
+},
+"vaughan.ca": {
+"url": "https://www.vaughan.ca/explore-vaughan/city-playhouse-theatre",
+"names": [
+"City Playhouse",
+"North Thornhill Community Centre",
+"Al Palladini Community Centre",
+"Carrville Community Centre"
+],
+"lat": 43.8172473,
+"lng": -79.4537603
+},
+"theredwood.org": {
+"url": "https://theredwood.org/",
+"names": [
+"The Redwood"
+],
+"lat": 43.6712897,
+"lng": -79.3272098
+},
+"sweatandtonic.com": {
+"url": "https://sweatandtonic.com/",
+"names": [
+"Sweat and Tonic"
+],
+"lat": 43.6542722,
+"lng": -79.3797519
+},
+"churchwellesleyvillage.ca": {
+"url": "https://www.churchwellesleyvillage.ca",
+"names": [
+"The Village Centre"
+],
+"lat": 43.6656222,
+"lng": -79.3806163
+},
+"gladdaybookshop.com": {
+"url": "https://www.gladdaybookshop.com",
+"names": [
+"Glad Day Bookshop"
+],
+"lat": 43.6652187,
+"lng": -79.380589
+},
+"cabbagetownarts.org": {
+"url": "https://www.cabbagetownarts.org/",
+"names": [
+"Cabbagetown Community Arts Centre"
+],
+"lat": 43.6628885,
+"lng": -79.3676421
+},
+"lso.ca": {
+"url": "https://lso.ca/about-lso/great-library",
+"names": [
+"Great Library"
+],
+"lat": 43.6518332,
+"lng": -79.3855253
+},
+"propellerctr.com": {
+"url": "https://www.propellerctr.com/",
+"names": [
+"Propeller"
+],
+"lat": 43.6419762,
+"lng": -79.4241142
+},
+"hopelessromanticbooks.ca": {
+"url": "https://hopelessromanticbooks.ca/",
+"names": [
+"Hopeless Romantic"
+],
+"lat": 43.6437143,
+"lng": -79.4218048
+},
+"arquives.ca": {
+"url": "https://arquives.ca",
+"names": [
+"The ArQuives"
+],
+"lat": 43.668138,
+"lng": -79.3839765
+},
+"academyoflions.com": {
+"url": "https://www.academyoflions.com/",
+"names": [
+"Academy of Lions"
+],
+"lat": 43.6495469,
+"lng": -79.4189019
+},
+"boulderzclimbing.com": {
+"url": "https://www.boulderzclimbing.com/",
+"names": [
+"Boulderz Climbing Centre"
+],
+"lat": 43.6670376,
+"lng": -79.4492775
+},
+"millspace.org": {
+"url": "https://millspace.org/",
+"names": [
+"Newmarket Millspace"
+],
+"lat": 43.079846,
+"lng": -70.9353528
+},
+"k1speed.ca": {
+"url": "https://k1speed.ca",
+"names": [
+"K1 Speed"
+],
+"lat": 43.7459187,
+"lng": -79.475218
+},
+"mztv.com": {
+"url": "https://mztv.com/",
+"names": [
+"Museum of Television"
+],
+"lat": 43.637565,
+"lng": -79.4222742
+},
+"typebooks.ca": {
+"url": "https://typebooks.ca/pages/contact-us",
+"names": [
+"Type Books",
+"Type Books",
+"Type Books"
+],
+"lat": 43.6455524,
+"lng": -79.4115487
+},
+"blissyogastudio.net": {
+"url": "https://blissyogastudio.net/",
+"names": [
+"Coloured Soul Yoga & Wellness"
+],
+"lat": 43.6479086,
+"lng": -79.510305
+},
+"fitnessthatfits.ca": {
+"url": "https://fitnessthatfits.ca",
+"names": [
+"Fitness that Fits"
+],
+"lat": 43.6591425,
+"lng": -79.5137838
+},
+"oladaycare.com": {
+"url": "https://www.oladaycare.com/",
+"names": [
+"Ola Learning Academy"
+],
+"lat": 43.6536357,
+"lng": -79.4519126
+},
+"jimmysathletics.com": {
+"url": "https://www.jimmysathletics.com",
+"names": [
+"Jimmy's Athletics"
+],
+"lat": 43.6648997,
+"lng": -79.41285
+},
+"shevchenko.ca": {
+"url": "https://www.shevchenko.ca/",
+"names": [
+"Ukrainian Canadian Shevchenko"
+],
+"lat": 43.6558857,
+"lng": -79.4551879
+},
+"site.houseofanansi.com": {
+"url": "https://site.houseofanansi.com/",
+"names": [
+"House of Anansi Press"
+],
+"lat": 43.6537928,
+"lng": -79.444855
+},
+"soulfuelfitness.ca": {
+"url": "https://soulfuelfitness.ca/",
+"names": [
+"Soul Fuel Fitness"
+],
+"lat": 43.6556016,
+"lng": -79.4551206
+},
+"hotdocscinema.ca": {
+"url": "https://hotdocscinema.ca/",
+"names": [
+"Hot Docs Ted Rogers Cinema"
+],
+"lat": 43.6654393,
+"lng": -79.4104179
+},
+"thunderstruckbooks.ca": {
+"url": "http://www.thunderstruckbooks.ca/",
+"names": [
+"Thunderstruck Books"
+],
+"lat": 43.6661953,
+"lng": -79.4068931
+},
+"rednails2.com": {
+"url": "https://www.rednails2.com/",
+"names": [
+"Red Nails II"
+],
+"lat": 43.7210629,
+"lng": -79.5123299
+},
+"brassvixens.com": {
+"url": "https://brassvixens.com/",
+"names": [
+"Brass Vixens"
+],
+"lat": 43.6466252,
+"lng": -79.4061555
+},
+"kidsandcompany.com": {
+"url": "https://kidsandcompany.com/location/bloor-christie/",
+"names": [
+"Kids & Company",
+"Kids & Company"
+],
+"lat": 43.663605,
+"lng": -79.4176483
+},
+"yogagrove.ca": {
+"url": "https://www.yogagrove.ca/",
+"names": [
+"Yoga Grove"
+],
+"lat": 43.6557795,
+"lng": -79.4872733
+},
+"jjstudio.ca": {
+"url": "https://www.jjstudio.ca/",
+"names": [
+"JJ Studio"
+],
+"lat": 43.6625397,
+"lng": -79.4225619
+},
+"bloor-west.modoyoga.com": {
+"url": "https://bloor-west.modoyoga.com/",
+"names": [
+"Modo Yoga"
+],
+"lat": 43.6486549,
+"lng": -79.4850279
+},
+"orangetheoryfitness.com": {
+"url": "https://www.orangetheoryfitness.com/",
+"names": [
+"Orangetheory Fitness"
+],
+"lat": 43.6483335,
+"lng": -79.4860706
+},
+"reunionyogapilates.ca": {
+"url": "https://www.reunionyogapilates.ca",
+"names": [
+"Reunion Yoga + Pilates"
+],
+"lat": 43.6615012,
+"lng": -79.4284929
+},
+"candyfactorydaycare.com": {
+"url": "https://candyfactorydaycare.com/",
+"names": [
+"The Candy Factory Child Care Centre"
+],
+"lat": 43.6572161,
+"lng": -79.4473878
+},
+"villageplayers.net": {
+"url": "https://villageplayers.net/",
+"names": [
+"Village Playhouse",
+"The Village Playhouse"
+],
+"lat": 43.6516354,
+"lng": -79.4749374
+},
+"humberbooks.ca": {
+"url": "http://humberbooks.ca/",
+"names": [
+"Humberbooks.ca"
+],
+"lat": 43.5973199,
+"lng": -79.5216192
+},
+"pictureperfectgallery.ca": {
+"url": "http://pictureperfectgallery.ca",
+"names": [
+"Picture Perfect Gallery"
+],
+"lat": 43.7148941,
+"lng": -79.3998544
+},
+"generate.to": {
+"url": "https://generate.to/",
+"names": [
+"Generate Fitness"
+],
+"lat": 43.6511381,
+"lng": -79.4752499
+},
+"kikospace.ca": {
+"url": "https://www.kikospace.ca/",
+"names": [
+"Armova Curatorial"
+],
+"lat": 43.6525543,
+"lng": -79.4487812
+},
+"galleryhouse.ca": {
+"url": "https://galleryhouse.ca/",
+"names": [
+"Gallery House"
+],
+"lat": 43.6521419,
+"lng": -79.4478866
+},
+"theblackcat.to": {
+"url": "https://theblackcat.to/",
+"names": [
+"Black Cat Artspace"
+],
+"lat": 43.6535552,
+"lng": -79.4508679
+},
+"f45training.ca": {
+"url": "https://f45training.ca/",
+"names": [
+"F45 Training"
+],
+"lat": 43.6012892,
+"lng": -79.5021276
+},
+"thebookpeople.ca": {
+"url": "https://www.thebookpeople.ca/",
+"names": [
+"Book People on Queen"
+],
+"lat": 43.6394774,
+"lng": -79.4428471
+},
+"drop-boxing.com": {
+"url": "https://drop-boxing.com/",
+"names": [
+"161 Boxing Club"
+],
+"lat": 43.6482939,
+"lng": -79.3958391
+},
+"creatingtogetherparkdale.com": {
+"url": "https://creatingtogetherparkdale.com/",
+"names": [
+"Creating Together EarlyON Child and Family Centre"
+],
+"lat": 43.6416685,
+"lng": -79.431957
+},
+"munchkinzpreschool.com": {
+"url": "https://www.munchkinzpreschool.com/",
+"names": [
+"Munchkinz Preschool"
+],
+"lat": 43.6297173,
+"lng": -79.4882251
+},
+"kindergrove.ca": {
+"url": "https://kindergrove.ca/",
+"names": [
+"Kinder Grove"
+],
+"lat": 43.6835534,
+"lng": -79.4212496
+},
+"storyplanet.ca": {
+"url": "https://www.storyplanet.ca/",
+"names": [
+"Story Planet"
+],
+"lat": 43.6700678,
+"lng": -79.4133127
+},
+"pursuitocr.com": {
+"url": "https://www.pursuitocr.com/",
+"names": [
+"Pursuit OCR"
+],
+"lat": 43.7384238,
+"lng": -79.602052
+},
+"monkeyspaw.com": {
+"url": "http://www.monkeyspaw.com/",
+"names": [
+"The Monkey's Paw"
+],
+"lat": 43.6603041,
+"lng": -79.4327143
+},
+"powerinstitute.com": {
+"url": "http://powerinstitute.com",
+"names": [
+"Power Institute - Personal Training"
+],
+"lat": 43.6751051,
+"lng": -79.3885489
+},
+"lavmonument.ca": {
+"url": "https://www.lavmonument.ca/",
+"names": [
+"LAV III Monument"
+],
+"lat": 43.6365449,
+"lng": -79.4076173
+},
+"hughsroomlive.com": {
+"url": "https://hughsroomlive.com/",
+"names": [
+"Hugh's Room"
+],
+"lat": 43.6638718,
+"lng": -79.3521653
+},
+"theoperahousetoronto.com": {
+"url": "https://theoperahousetoronto.com/",
+"names": [
+"The Opera House"
+],
+"lat": 43.6589873,
+"lng": -79.3487864
+},
+"willowbraechildcareetobicoke.com": {
+"url": "https://www.willowbraechildcareetobicoke.com/",
+"names": [
+"Willowbrae Academy"
+],
+"lat": 43.647141,
+"lng": -79.5299166
+},
+"eskmouthscouts.mywebcommunity.org": {
+"url": "http://eskmouthscouts.mywebcommunity.org/",
+"names": [
+"Eskmouth Scout Hall"
+],
+"lat": 54.4842183,
+"lng": -0.6182679
+},
+"leesofcanada.com": {
+"url": "https://leesofcanada.com/",
+"names": [
+"Lee's Benevolent Association of Ontario"
+],
+"lat": 43.6550347,
+"lng": -79.38631
+},
+"bulgergallery.com": {
+"url": "https://www.bulgergallery.com/",
+"names": [
+"Stephen Bulger Gallery"
+],
+"lat": 43.6496801,
+"lng": -79.4276755
+},
+"fiitco.ca": {
+"url": "https://www.fiitco.ca/",
+"names": [
+"FIIT Co."
+],
+"lat": 43.6689767,
+"lng": -79.3362142
+},
+"canaanac.ca": {
+"url": "https://www.canaanac.ca/",
+"names": [
+"Canaan Art Centre"
+],
+"lat": 43.868583,
+"lng": -79.284339
+},
+"acadiabooks.com": {
+"url": "https://www.acadiabooks.com/",
+"names": [
+"Acadia Art & Rare Books"
+],
+"lat": 43.6547858,
+"lng": -79.3687558
+},
+"lonsdalegallery.com": {
+"url": "https://lonsdalegallery.com",
+"names": [
+"Lonsdale Gallery"
+],
+"lat": 43.6883948,
+"lng": -79.4127712
+},
+"rocketcycle.ca": {
+"url": "https://rocketcycle.ca/",
+"names": [
+"Rocket Cycle"
+],
+"lat": 43.6819045,
+"lng": -79.425938
+},
+"philosophyfitness.com": {
+"url": "https://philosophyfitness.com/",
+"names": [
+"Philosophy Fitness"
+],
+"lat": 43.6823488,
+"lng": -79.4213382
+},
+"purpledragon.ca": {
+"url": "https://purpledragon.ca",
+"names": [
+"Purple Dragon Karate"
+],
+"lat": 43.787088,
+"lng": -79.3291308
+},
+"g1313.org": {
+"url": "https://g1313.org/",
+"names": [
+"1313 Gallery"
+],
+"lat": 43.6410872,
+"lng": -79.4333182
+},
+"childrensgarden.ca": {
+"url": "https://www.childrensgarden.ca/",
+"names": [
+"Children\u2019s Garden Nursery School"
+],
+"lat": 43.7143337,
+"lng": -79.3771139
+},
+"detoxclub.ca": {
+"url": "https://detoxclub.ca/",
+"names": [
+"Detox"
+],
+"lat": 43.7048263,
+"lng": -79.4063098
+},
+"robertkananajgallery.com": {
+"url": "https://robertkananajgallery.com/",
+"names": [
+"Robert Kananaj Gallery"
+],
+"lat": 43.6540476,
+"lng": -79.4425491
+},
+"manormontessorischool.com": {
+"url": "https://www.manormontessorischool.com/",
+"names": [
+"Manor Montessori School"
+],
+"lat": 43.7116264,
+"lng": -79.3911467
+},
+"pickeringlibrary.ca": {
+"url": "https://pickeringlibrary.ca/locations/5/",
+"names": [
+"Pickering Public Library - Claremont Branch"
+],
+"lat": 43.9702796,
+"lng": -79.1285267
+},
+"coalminetheatre.com": {
+"url": "https://www.coalminetheatre.com/",
+"names": [
+"Coal Mine Theatre"
+],
+"lat": 43.6857836,
+"lng": -79.3130535
+},
+"taekwondocentre.com": {
+"url": "https://www.taekwondocentre.com",
+"names": [
+"Taekwondo MFTK Martial Arts Academy"
+],
+"lat": 43.7094078,
+"lng": -79.3843684
+},
+"aarons-seforim.com": {
+"url": "http://aarons-seforim.com/",
+"names": [
+""
+],
+"lat": 43.7294381,
+"lng": -79.4323124
+},
+"canadaswonderland.com": {
+"url": "https://www.canadaswonderland.com/play/rides/wonder-mountains-guardian",
+"names": [
+"Wonder Mountain's Guardians",
+"Lakeside Lagoon Slides",
+"Silver Streak",
+"Krachenwagen",
+"Wilde Beast",
+"Joe Cool's Dodgem School",
+"Boo Blasters on Boo Hill",
+"The Fly",
+"Behemoth",
+"Mighty Canadian Minebuster",
+"White Water Canyon",
+"Vortex",
+"Lakeside Lagoon Pool",
+"Ghoster Coaster",
+"Timberwolf Falls",
+"Antique Carrousel",
+"Peanuts 500",
+"Speed City Raceway",
+"Sledge Hammer",
+"Kidzvill Station",
+"Swan Lake",
+"The Pumpkin Patch",
+"Sally's Love Buggies",
+"Waterways",
+"Pumphouse",
+"Whirlwinds",
+"Barracuda Blaster",
+"The Bat",
+"Swing Time",
+"Spinovator",
+"The Daredeviler",
+"Dragon Fyre",
+"Flying Eagles",
+"Klockwerks",
+"WindSeeker",
+"Yukon Striker",
+"The Plunge and Super Soaker",
+"Lumberjack",
+"Taxi Jam",
+"Flying Canoes",
+"Frequent Flyers",
+"Viking's Rage",
+"Wilde Knight Mares",
+"Drop Tower",
+"Jumpin' Jet",
+"Blast Off",
+"Sugar Shack",
+"Thunder Run",
+"Shockwave",
+"Backlot Stunt Coaster",
+"Swing of the Century",
+"Mountain Bay Cliffs",
+"Black Hole",
+"Muskoka Plunge",
+"Typhoon",
+"Splash Station",
+"Treetop Adventure",
+"Beagle Brigade Airfield",
+"Snoopy vs Red Baron",
+"Snoopy's Space Race",
+"Lucy's Tugboat",
+"Character Carousel",
+"Snoopy's Revolution",
+"Woodstock Whirlybirds",
+"Psyclone",
+"Riptide",
+"Leviathan",
+"Jokey's Jalopies",
+"Riptide Racer",
+"Maple Park Treehouse",
+"Soaring Timbers",
+"Skyhawk",
+"SlingShot"
+],
+"lat": 43.842058,
+"lng": -79.5424506
+},
+"cityviewdrivein.com": {
+"url": "https://cityviewdrivein.com/",
+"names": [
+"City View Drive-In"
+],
+"lat": 43.6417636,
+"lng": -79.3548985
+},
+"canvasgallery.ca": {
+"url": "https://canvasgallery.ca/",
+"names": [
+"Canvas Gallery"
+],
+"lat": 43.6708819,
+"lng": -79.4346981
+},
+"skagitchildrensmuseum.net": {
+"url": "https://www.skagitchildrensmuseum.net/",
+"names": [
+"Children's Museum of Skagit County"
+],
+"lat": 48.4550404,
+"lng": -122.3397155
+},
+"atelierkids.com": {
+"url": "https://www.atelierkids.com/",
+"names": [
+"Atelier Kids"
+],
+"lat": 43.654802,
+"lng": -79.4622975
+},
+"sphinxpilates.com": {
+"url": "https://www.sphinxpilates.com/",
+"names": [
+"sphinx"
+],
+"lat": 43.665959,
+"lng": -79.4081083
+},
+"truenorthclimbing.com": {
+"url": "https://www.truenorthclimbing.com/",
+"names": [
+"True North Climbing"
+],
+"lat": 43.7454121,
+"lng": -79.474356
+},
+"646weightliftinggym.com": {
+"url": "https://www.646weightliftinggym.com",
+"names": [
+"646 Weightlifting"
+],
+"lat": 43.6902184,
+"lng": -79.3485708
+},
+"ardasclinic.com": {
+"url": "https://www.ardasclinic.com/mangohouse.html",
+"names": [
+"Mango House"
+],
+"lat": 39.7398596,
+"lng": -104.8699227
+},
+"rehearsalfactory.com": {
+"url": "https://rehearsalfactory.com/",
+"names": [
+"Rehearsal Factory"
+],
+"lat": 43.6689276,
+"lng": -79.4436157
+},
+"shoalhavenlibraries.com.au": {
+"url": "https://www.shoalhavenlibraries.com.au/Our-Libraries/Milton-Library",
+"names": [
+"Milton Library"
+],
+"lat": -35.315842,
+"lng": 150.4350574
+},
+"tothewaypoint.ca": {
+"url": "https://tothewaypoint.ca/",
+"names": [
+"The Waypoint"
+],
+"lat": 43.8544764,
+"lng": -79.0594164
+},
+"bodybusterfitness.com": {
+"url": "https://www.bodybusterfitness.com",
+"names": [
+"Body Buster Bootcamp",
+"Body Buster Bootcamp"
+],
+"lat": 43.6662547,
+"lng": -79.5452809
+},
+"alijanpour.com": {
+"url": "https://alijanpour.com/",
+"names": [
+"Irena Art Gallery"
+],
+"lat": 43.8022619,
+"lng": -79.4206799
+},
+"aurorahistorical.org": {
+"url": "https://aurorahistorical.org/",
+"names": [
+"Aurora Historical Society"
+],
+"lat": 41.3129661,
+"lng": -81.3440971
+},
+"vangoghexhibit.ca": {
+"url": "https://www.vangoghexhibit.ca/",
+"names": [
+"Van Gogh Exhibit"
+],
+"lat": 43.6426417,
+"lng": -79.3743319
+},
+"loftcycleclub.com": {
+"url": "https://www.loftcycleclub.com",
+"names": [
+"loft cycle club"
+],
+"lat": 43.6780175,
+"lng": -79.3503075
+},
+"allaccesshealthandfitness.com": {
+"url": "https://www.allaccesshealthandfitness.com/",
+"names": [
+"All Access Health & Fitness"
+],
+"lat": 43.6775785,
+"lng": -79.3510134
+},
+"thescribebookstore.com": {
+"url": "https://thescribebookstore.com",
+"names": [
+"The Scribe"
+],
+"lat": 43.6774028,
+"lng": -79.3519672
+},
+"burlingtoncityarts.org": {
+"url": "https://www.burlingtoncityarts.org/",
+"names": [
+"BCA Center"
+],
+"lat": 44.4766137,
+"lng": -73.2127304
+},
+"levelupreality.ca": {
+"url": "https://www.levelupreality.ca/",
+"names": [
+"Levelup Virtual Reality (VR) Arcade"
+],
+"lat": 43.6522231,
+"lng": -79.3755804
+},
+"southsidemuaythai.ca": {
+"url": "http://www.southsidemuaythai.ca/",
+"names": [
+"Southside Muay Thai Academy"
+],
+"lat": 43.7695967,
+"lng": -79.2793463
+},
+"happyfeetindoorplayground.com": {
+"url": "https://www.happyfeetindoorplayground.com",
+"names": [
+"Happy Feet"
+],
+"lat": 43.6198802,
+"lng": -79.5495901
+},
+"denisachildcare.com": {
+"url": "https://www.denisachildcare.com",
+"names": [
+"Denisa Childcare"
+],
+"lat": 43.6526984,
+"lng": -79.4311691
+},
+"mede-gallery.com": {
+"url": "https://mede-gallery.com",
+"names": [
+"Robert Mede Gallery"
+],
+"lat": 43.6728822,
+"lng": -79.3140965
+},
+"smallworldmusic.com": {
+"url": "https://smallworldmusic.com",
+"names": [
+"Small World Music Centre"
+],
+"lat": 43.6471243,
+"lng": -79.4175088
+},
+"rockoasis.com": {
+"url": "https://www.rockoasis.com/",
+"names": [
+"The Rock Oasis Inc."
+],
+"lat": 43.6658734,
+"lng": -79.3429006
+},
+"diannawitte.com": {
+"url": "https://www.diannawitte.com/",
+"names": [
+"Dianna Witte Gallery"
+],
+"lat": 43.664237,
+"lng": -79.3431545
+},
+"brightpathkidsacademy.com": {
+"url": "https://www.brightpathkidsacademy.com",
+"names": [
+"BrightPath Academy"
+],
+"lat": 43.6690105,
+"lng": -79.3039883
+},
+"kardiaathletica.com": {
+"url": "https://kardiaathletica.com/",
+"names": [
+"Kardia"
+],
+"lat": 43.6379425,
+"lng": -79.3923768
+},
+"beachessandbox.com": {
+"url": "https://www.beachessandbox.com/",
+"names": [
+"Beaches Sandbox"
+],
+"lat": 43.6704588,
+"lng": -79.2974357
+},
+"growthpath.ca": {
+"url": "https://www.growthpath.ca",
+"names": [
+"Growth Path Optical Art"
+],
+"lat": 43.7087983,
+"lng": -79.4032857
+},
+"otspersonaltraining.ca": {
+"url": "https://www.otspersonaltraining.ca/",
+"names": [
+"Onlythestrong"
+],
+"lat": 43.6643894,
+"lng": -79.3247577
+},
+"tesoc.org": {
+"url": "https://www.tesoc.org",
+"names": [
+"Tesoc Multicultural Settlement Services"
+],
+"lat": 43.6589024,
+"lng": -79.4427392
+},
+"f45training.com": {
+"url": "https://f45training.com/ca/studio/etobicokecentral/",
+"names": [
+"F45 Training",
+"F45 Training",
+"F45 Training"
+],
+"lat": 43.6447806,
+"lng": -79.5327896
+},
+"centrefranco.org": {
+"url": "https://www.centrefranco.org/",
+"names": [
+"Centre francophone"
+],
+"lat": 43.6465628,
+"lng": -79.4024763
+},
+"torontometcatholics.ca": {
+"url": "https://www.torontometcatholics.ca/",
+"names": [
+"Toronto Met Catholics"
+],
+"lat": 43.6556264,
+"lng": -79.3773395
+},
+"tilt.bar": {
+"url": "https://tilt.bar/",
+"names": [
+"Tilt Arcade Bar"
+],
+"lat": 43.6416307,
+"lng": -79.4308475
+},
+"artacademyofmilton.com": {
+"url": "https://www.artacademyofmilton.com/",
+"names": [
+"Art Academy of Milton"
+],
+"lat": 41.019374,
+"lng": -76.8557107
+},
+"climbsmartshop.com": {
+"url": "https://climbsmartshop.com/",
+"names": [
+"Climb Smart Shop"
+],
+"lat": 43.6187011,
+"lng": -79.5503086
+},
+"brightpathkids.com": {
+"url": "https://brightpathkids.com/brightpath-academy/locations/leaside",
+"names": [
+"BrightPath Academy",
+"Brightpath Academy"
+],
+"lat": 43.7089743,
+"lng": -79.3645213
+},
+"thestorefront.org": {
+"url": "https://thestorefront.org/",
+"names": [
+"East Scarborough Storefront"
+],
+"lat": 43.7659103,
+"lng": -79.1989175
+},
+"conccommunity.org": {
+"url": "https://www.conccommunity.org",
+"names": [
+"George Chuvalo Neighbourhood Centre"
+],
+"lat": 43.6618286,
+"lng": -79.4540531
+},
+"mesopotamiagroup.org": {
+"url": "https://mesopotamiagroup.org",
+"names": [
+"Mesopotamia Group"
+],
+"lat": 43.5052245,
+"lng": -79.6383116
+},
+"beacheshotyoga.com": {
+"url": "https://beacheshotyoga.com/",
+"names": [
+"Beaches Hot Yoga"
+],
+"lat": 43.6687788,
+"lng": -79.3043355
+},
+"rumbleboxing.com": {
+"url": "https://rumbleboxing.com/midtown-toronto",
+"names": [
+"Rumble Boxing Studio Midtown"
+],
+"lat": 43.7087999,
+"lng": -79.3991207
+},
+"pureyogatoronto.com": {
+"url": "https://pureyogatoronto.com",
+"names": [
+"Pure Yoga"
+],
+"lat": 43.6373097,
+"lng": -79.4237814
+},
+"balmybeachcanoe.com": {
+"url": "https://www.balmybeachcanoe.com/",
+"names": [
+"Balmy Beach Canoe Club"
+],
+"lat": 43.6608065,
+"lng": -79.3139176
+},
+"skyfitness.ca": {
+"url": "https://skyfitness.ca",
+"names": [
+"Sky Fitness"
+],
+"lat": 43.6195405,
+"lng": -79.5293821
+},
+"caviar20.com": {
+"url": "https://www.caviar20.com/",
+"names": [
+"Caviar 20"
+],
+"lat": 43.6715995,
+"lng": -79.4210193
+},
+"robertsgallery.net": {
+"url": "https://www.robertsgallery.net/",
+"names": [
+"Roberts Gallery"
+],
+"lat": 43.6716898,
+"lng": -79.4204984
+},
+"library.yorku.ca": {
+"url": "https://www.library.yorku.ca/web/bbl/",
+"names": [
+"Peter F. Bronfman Business Library",
+"Scott Library",
+"Steacie Science & Engineering Library"
+],
+"lat": 43.7732536,
+"lng": -79.498449
+},
+"studiolagree.com": {
+"url": "https://studiolagree.com/",
+"names": [
+"Studio Lagree",
+"Stuido Lagree"
+],
+"lat": 43.6891378,
+"lng": -79.4126205
+},
+"fletcherfree.org": {
+"url": "https://fletcherfree.org/NNE",
+"names": [
+"Fletcher Free Library: NNE Branch",
+"Fletcher Free Library"
+],
+"lat": 44.5063974,
+"lng": -73.2459663
+},
+"fhvillagegym.com": {
+"url": "https://fhvillagegym.com/",
+"names": [
+"Forest Hill Village Gym"
+],
+"lat": 43.6888738,
+"lng": -79.4123099
+},
+"commonground416.com": {
+"url": "http://commonground416.com",
+"names": [
+"Common Ground"
+],
+"lat": 43.6370941,
+"lng": -79.3965277
+},
+"carpiogym.com": {
+"url": "https://www.carpiogym.com/",
+"names": [
+"Carpio Strength and Conditioning"
+],
+"lat": 43.6694541,
+"lng": -79.4383873
+},
+"activekidszone.com": {
+"url": "https://www.activekidszone.com/",
+"names": [
+"Active Kids Zone"
+],
+"lat": 43.7812836,
+"lng": -79.4752878
+},
+"torontokinbakusalon.com": {
+"url": "https://torontokinbakusalon.com",
+"names": [
+"Toronto Kinbaku Salon"
+],
+"lat": 43.666293,
+"lng": -79.4494121
+},
+"lamothesugarhouse.com": {
+"url": "https://lamothesugarhouse.com",
+"names": [
+"Lamothe Sugar House"
+],
+"lat": 41.7368674,
+"lng": -72.9375061
+},
+"sleuthofbakerstreet.ca": {
+"url": "https://sleuthofbakerstreet.ca",
+"names": [
+"Sleuth of Baker Street"
+],
+"lat": 43.703,
+"lng": -79.3638939
+},
+"davidmasonbooks.com": {
+"url": "https://www.davidmasonbooks.com/",
+"names": [
+"David Mason Books"
+],
+"lat": 43.6472363,
+"lng": -79.3943592
+},
+"gatheringwild.ca": {
+"url": "https://gatheringwild.ca/",
+"names": [
+"Gathering Wild"
+],
+"lat": 43.6716714,
+"lng": -79.4135606
+},
+"hoganscidermill.com": {
+"url": "https://www.hoganscidermill.com/",
+"names": [
+"Hogan's Cider Mill"
+],
+"lat": 41.7769587,
+"lng": -73.0089086
+},
+"tyttheatre.com": {
+"url": "https://www.tyttheatre.com/",
+"names": [
+"Theatre for Young Audiences"
+],
+"lat": 43.6800713,
+"lng": -79.4234619
+},
+"recroomchildcare.ca": {
+"url": "https://recroomchildcare.ca/locations/long-branch/",
+"names": [
+"Rec Room Childcare"
+],
+"lat": 43.5937272,
+"lng": -79.5334064
+},
+"centroclintondaycare.ca": {
+"url": "https://www.centroclintondaycare.ca/",
+"names": [
+"Centro Clinton Day Care Centre"
+],
+"lat": 43.6575577,
+"lng": -79.4141319
+},
+"bramptonlibrary.ca": {
+"url": "https://www.bramptonlibrary.ca/your-library/branches/claireville-branch-library",
+"names": [
+"Brampton Library - Claireville Branch",
+"Brampton Library - Four Corners Branch",
+"Brampton Library - Springdale Branch"
+],
+"lat": 43.7663167,
+"lng": -79.6567479
+},
+"comedybar.ca": {
+"url": "https://comedybar.ca/",
+"names": [
+"Comedy Club Danforth"
+],
+"lat": 43.6895689,
+"lng": -79.2963496
+},
+"thepinkstudio.ca": {
+"url": "https://www.thepinkstudio.ca/",
+"names": [
+"The Pink Studio"
+],
+"lat": 43.6853347,
+"lng": -79.3136188
+},
+"flourishingsprouts.com": {
+"url": "https://flourishingsprouts.com/",
+"names": [
+"Flourishing Sprouts"
+],
+"lat": 43.685474,
+"lng": -79.3129568
+},
+"kidsfuntown.ca": {
+"url": "https://kidsfuntown.ca/",
+"names": [
+"Kids Fun Town"
+],
+"lat": 43.6854551,
+"lng": -79.3130693
+},
+"hcanteen.com": {
+"url": "https://www.hcanteen.com",
+"names": [
+"Hollywood Canteen Cinema Shop"
+],
+"lat": 43.684469,
+"lng": -79.3177963
+},
+"tidalfitness.ca": {
+"url": "https://tidalfitness.ca",
+"names": [
+"Tidal Fitness"
+],
+"lat": 43.6831753,
+"lng": -79.3252653
+},
+"centraltorontowrestling.com": {
+"url": "https://www.centraltorontowrestling.com/",
+"names": [
+"Central Toronto Wrestling"
+],
+"lat": 43.6817828,
+"lng": -79.331697
+},
+"littledribblers.ca": {
+"url": "https://littledribblers.ca",
+"names": [
+"Little Dribblers"
+],
+"lat": 43.6801918,
+"lng": -79.3393212
+},
+"rereading.ca": {
+"url": "https://www.rereading.ca/",
+"names": [
+"Re-Reading"
+],
+"lat": 43.6785195,
+"lng": -79.3477256
+},
+"strongpilates.ca": {
+"url": "https://strongpilates.ca/",
+"names": [
+"Strong Pilates"
+],
+"lat": 43.6692656,
+"lng": -79.3028117
+},
+"zedeighty.com": {
+"url": "https://www.zedeighty.com/",
+"names": [
+"Zed*80"
+],
+"lat": 43.6765406,
+"lng": -79.3563669
+},
+"studio-fitness.com": {
+"url": "https://www.studio-fitness.com/",
+"names": [
+"Studio Fitness"
+],
+"lat": 43.6474858,
+"lng": -79.3980643
+},
+"hogtownboulders.com": {
+"url": "https://hogtownboulders.com/",
+"names": [
+"Hogtown Boulders"
+],
+"lat": 43.7621379,
+"lng": -79.3602459
+},
+"kongclimbing.ca": {
+"url": "https://kongclimbing.ca/",
+"names": [
+"Kong Climbing"
+],
+"lat": 43.7712028,
+"lng": -79.3225986
+},
+"torontoislandcanoeclub.org": {
+"url": "https://www.torontoislandcanoeclub.org",
+"names": [
+"Toronto Island Canoe Club"
+],
+"lat": 43.6273156,
+"lng": -79.3573777
+},
+"twhls.ca": {
+"url": "https://twhls.ca/",
+"names": [
+"Thunder Woman Healing Lodge Society"
+],
+"lat": 43.6590579,
+"lng": -79.3671502
+},
+"lotusfitness.ca": {
+"url": "https://www.lotusfitness.ca",
+"names": [
+"Lotus Fitness"
+],
+"lat": 43.6369249,
+"lng": -79.4197607
+},
+"tlaf.ca": {
+"url": "https://tlaf.ca/",
+"names": [
+"The Lost & Found"
+],
+"lat": 43.6562455,
+"lng": -79.3621627
+},
+"crowstheatre.com": {
+"url": "https://www.crowstheatre.com/",
+"names": [
+"Crow's Theater"
+],
+"lat": 43.6651972,
+"lng": -79.3414309
+},
+"nativeearth.ca": {
+"url": "https://nativeearth.ca/akistudio",
+"names": [
+"Aki Studio"
+],
+"lat": 43.6600942,
+"lng": -79.3620824
+},
+"setu.ca": {
+"url": "https://setu.ca/",
+"names": [
+"Setu Yoga Studio"
+],
+"lat": 43.6648593,
+"lng": -79.3411836
+},
+"risecycle.ca": {
+"url": "https://www.risecycle.ca/",
+"names": [
+"RISE Cycle"
+],
+"lat": 43.6586721,
+"lng": -79.3512708
+},
+"ralphthornton.org": {
+"url": "https://www.ralphthornton.org/",
+"names": [
+"Ralph Thornton Community Center"
+],
+"lat": 43.6592434,
+"lng": -79.3476629
+},
+"lafemmestrong.com": {
+"url": "https://www.lafemmestrong.com/",
+"names": [
+"LeFemme Stronge"
+],
+"lat": 43.6582914,
+"lng": -79.3519097
+},
+"wildseedcentre.com": {
+"url": "https://www.wildseedcentre.com/",
+"names": [
+"Wildseed Centre for Art & Activism"
+],
+"lat": 43.6570026,
+"lng": -79.3961517
+},
+"slowmedicinecompany.com": {
+"url": "https://www.slowmedicinecompany.com/",
+"names": [
+"Slow Medicine Company"
+],
+"lat": 43.6629252,
+"lng": -79.3411143
+},
+"breakdownfitness.com": {
+"url": "https://www.breakdownfitness.com/",
+"names": [
+"Breakdown Fitness"
+],
+"lat": 43.6645196,
+"lng": -79.3523943
+},
+"shop.benmcnallybooks.com": {
+"url": "https://shop.benmcnallybooks.com/",
+"names": [
+"Ben McNally"
+],
+"lat": 43.6537448,
+"lng": -79.3736389
+},
+"bloorcourtvillageearlylearningcentre.ca": {
+"url": "https://www.bloorcourtvillageearlylearningcentre.ca/",
+"names": [
+"Bloorcourt Village Early Learning Centre"
+],
+"lat": 43.6631397,
+"lng": -79.4297479
+},
+"poweryogacanada.com": {
+"url": "https://poweryogacanada.com/toronto-west/",
+"names": [
+"Power Yoga"
+],
+"lat": 43.6494922,
+"lng": -79.4305571
+},
+"theyogalounge.net": {
+"url": "https://www.theyogalounge.net/",
+"names": [
+"The Yoga Lounge"
+],
+"lat": 43.6522622,
+"lng": -79.3688623
+},
+"cahoots.ca": {
+"url": "https://www.cahoots.ca/",
+"names": [
+"Cahoots Theater Compnay"
+],
+"lat": 43.6561182,
+"lng": -79.3632179
+},
+"assemblymovement.ca": {
+"url": "https://www.assemblymovement.ca/",
+"names": [
+"Assembly Movement"
+],
+"lat": 43.6622297,
+"lng": -79.3354693
+},
+"galeriapilates.com": {
+"url": "https://www.galeriapilates.com/",
+"names": [
+"Galeria"
+],
+"lat": 43.6613109,
+"lng": -79.3394924
+},
+"abstractionsgallery.com": {
+"url": "https://www.abstractionsgallery.com/",
+"names": [
+"Abstractions Art Gallery"
+],
+"lat": 44.476877,
+"lng": -73.2150059
+},
+"azerbaijanhouse.ca": {
+"url": "https://azerbaijanhouse.ca/",
+"names": [
+"Azerbaijan House"
+],
+"lat": 43.7759415,
+"lng": -79.431662
+},
+"creativeworks-studio.ca": {
+"url": "https://creativeworks-studio.ca/",
+"names": [
+"Creative Arts Studio"
+],
+"lat": 43.6668193,
+"lng": -79.3456787
+},
+"allaboutkids.ca": {
+"url": "https://allaboutkids.ca/",
+"names": [
+"All About Kids"
+],
+"lat": 43.6689946,
+"lng": -79.3360177
+},
+"dundurn.com": {
+"url": "https://www.dundurn.com/about/the-dundurn-press-bookshop",
+"names": [
+"The Dundurn Press Bookshop"
+],
+"lat": 43.6646221,
+"lng": -79.3248102
+},
+"torontoyogamamas.com": {
+"url": "https://www.torontoyogamamas.com/",
+"names": [
+"Yoga Mamas"
+],
+"lat": 43.664783,
+"lng": -79.3243067
+},
+"anytimefitness.ca": {
+"url": "https://www.anytimefitness.ca/",
+"names": [
+"Anytime Fitness"
+],
+"lat": 43.6581383,
+"lng": -79.3499162
+},
+"lobplay.com": {
+"url": "https://lobplay.com/?location=toronto",
+"names": [
+"LOB"
+],
+"lat": 43.6581799,
+"lng": -79.3499661
+},
+"trixacrogym.com": {
+"url": "https://www.trixacrogym.com/",
+"names": [
+"Trix acro gym",
+"Trix acro gym"
+],
+"lat": 43.7846191,
+"lng": -79.4743441
+},
+"spinco.ca": {
+"url": "https://spinco.ca/locations/leslieville/",
+"names": [
+"SpinCo"
+],
+"lat": 43.6619263,
+"lng": -79.340264
+},
+"visitadventurealley.com": {
+"url": "https://visitadventurealley.com",
+"names": [
+"Adventure Alley"
+],
+"lat": 43.6675131,
+"lng": -79.4428395
+},
+"yumearcade.ca": {
+"url": "https://yumearcade.ca",
+"names": [
+"Yume"
+],
+"lat": 43.6547318,
+"lng": -79.3984605
+},
+"parkcycle.ca": {
+"url": "https://parkcycle.ca/",
+"names": [
+"Park Cycle - Spin Studio"
+],
+"lat": 43.7133379,
+"lng": -79.3995397
+},
+"operainconcert.com": {
+"url": "https://www.operainconcert.com/rental.htm",
+"names": [
+"The Edward Jackman Centre"
+],
+"lat": 43.6607411,
+"lng": -79.3396765
+},
+"trinitystpauls.ca": {
+"url": "https://www.trinitystpauls.ca/tsp-centre/",
+"names": [
+"Jeanne Lamon Hal"
+],
+"lat": 43.6660248,
+"lng": -79.4056775
+},
+"extremefun.ca": {
+"url": "https://www.extremefun.ca/",
+"names": [
+"Extreme Fun Indoor Playground"
+],
+"lat": 43.721078,
+"lng": -79.3128322
+},
+"playloft.ca": {
+"url": "https://www.playloft.ca",
+"names": [
+"PlayLoft"
+],
+"lat": 43.6784398,
+"lng": -79.3465539
+},
+"dupontfitness.ca": {
+"url": "https://dupontfitness.ca/",
+"names": [
+"DuPont Local 24/7 Fitness"
+],
+"lat": 43.6701139,
+"lng": -79.4300577
+},
+"gladday.ca": {
+"url": "https://www.gladday.ca/",
+"names": [
+"Glad Day"
+],
+"lat": 43.6420283,
+"lng": -79.4233695
+},
+"interaccess.org": {
+"url": "https://www.interaccess.org/",
+"names": [
+"InterAccess"
+],
+"lat": 43.6419477,
+"lng": -79.4232906
+},
+"8x7.ca": {
+"url": "https://8x7.ca/",
+"names": [
+"8\u00d77"
+],
+"lat": 43.6687259,
+"lng": -79.4636609
+},
+"rbg.ca": {
+"url": "https://www.rbg.ca/gardens-trails/by-attraction/rbg-centre/",
+"names": [
+"RBG Centre"
+],
+"lat": 43.2903841,
+"lng": -79.8752616
+},
+"cakecabaret.ca": {
+"url": "https://www.cakecabaret.ca/",
+"names": [
+"Cake Cabaret"
+],
+"lat": 43.6786689,
+"lng": -79.3455022
+},
+"culturalgoodsgallery.com": {
+"url": "https://culturalgoodsgallery.com/",
+"names": [
+"Cultural Goods Gallery"
+],
+"lat": 43.6669772,
+"lng": -79.4492542
+},
+"roaminggnometheatre.com": {
+"url": "https://roaminggnometheatre.com",
+"names": [
+"Roaming Gnome Theater"
+],
+"lat": 39.7531917,
+"lng": -104.868933
+},
+"insideoutstudio.ca": {
+"url": "https://www.insideoutstudio.ca",
+"names": [
+"Inside Out"
+],
+"lat": 43.7110764,
+"lng": -79.3642457
+},
+"stgermaingallery.com": {
+"url": "https://www.stgermaingallery.com",
+"names": [
+"St. Germain Gallery"
+],
+"lat": 43.7320539,
+"lng": -79.4042477
+},
+"ccsa.art": {
+"url": "https://www.ccsa.art",
+"names": [
+"Canadian Contemporary Scool of Art"
+],
+"lat": 43.712473,
+"lng": -79.3598146
+},
+"sugarmoonyoga.com": {
+"url": "https://sugarmoonyoga.com",
+"names": [
+"Sugarmoon Yoga"
+],
+"lat": 43.6773817,
+"lng": -79.3520185
+},
+"riverdalefliptumble.ca": {
+"url": "https://www.riverdalefliptumble.ca/",
+"names": [
+"Riverdale Flip & Tumble"
+],
+"lat": 43.6776227,
+"lng": -79.3507833
+},
+"torontojiujitsuclub.ca": {
+"url": "https://torontojiujitsuclub.ca",
+"names": [
+"Toronto Jiu-Jitsu Club"
+],
+"lat": 43.685469,
+"lng": -79.3129843
+},
+"oneacademylife.com": {
+"url": "https://oneacademylife.com/pages/one-academy-etobicoke",
+"names": [
+"One Academy"
+],
+"lat": 43.6195531,
+"lng": -79.5292917
+},
+"sunnyleacoop.com": {
+"url": "https://www.sunnyleacoop.com/",
+"names": [
+"Sunnylea Co-operative Nursery School"
+],
+"lat": 43.6499552,
+"lng": -79.5217145
+},
+"bookbarto.ca": {
+"url": "https://bookbarto.ca/",
+"names": [
+"Book Bar"
+],
+"lat": 43.6640634,
+"lng": -79.4123398
+},
+"cavershambooksellers.com": {
+"url": "https://www.cavershambooksellers.com",
+"names": [
+"Caversham Booksellers"
+],
+"lat": 43.6696491,
+"lng": -79.4405779
+},
+"unit2.club": {
+"url": "https://unit2.club/",
+"names": [
+"Unit 2"
+],
+"lat": 43.6540732,
+"lng": -79.4445156
+},
+"franksswimschool.com": {
+"url": "https://www.franksswimschool.com/locations/havergal/",
+"names": [
+"Frank's Swim School at Havergal College in Toronto"
+],
+"lat": 43.7205119,
+"lng": -79.4142253
+},
+"leveluphotyoga.com": {
+"url": "https://www.leveluphotyoga.com/",
+"names": [
+"LevelUp Hot Yoga"
+],
+"lat": 43.7685176,
+"lng": -79.3848345
+},
+"yorkvillejewishcentre.com": {
+"url": "https://yorkvillejewishcentre.com",
+"names": [
+"Yorkville Jewish Centre"
+],
+"lat": 43.6725234,
+"lng": -79.3958961
+},
+"treasurehill.com": {
+"url": "https://www.treasurehill.com/",
+"names": [
+"Treasure Hill"
+],
+"lat": 43.8168964,
+"lng": -79.487366
+},
+"pupsandposesyoga.ca": {
+"url": "https://pupsandposesyoga.ca/",
+"names": [
+"Pups & Poses Yoga"
+],
+"lat": 43.6755017,
+"lng": -79.4017947
+},
+"newtonbrooktennis.com": {
+"url": "https://www.newtonbrooktennis.com/",
+"names": [
+"Newtonbrook Tennis Club"
+],
+"lat": 43.7975898,
+"lng": -79.4079404
+},
+"ethosclimbing.ca": {
+"url": "https://www.ethosclimbing.ca/",
+"names": [
+"Ethos Climbing"
+],
+"lat": 43.6443335,
+"lng": -79.368701
+},
+"cambridgesciencecentre.org": {
+"url": "https://www.cambridgesciencecentre.org/",
+"names": [
+"Cambridge Science Centre"
+],
+"lat": 52.2320989,
+"lng": 0.145782
+},
+"purefitnesscanada.com": {
+"url": "https://www.purefitnesscanada.com/",
+"names": [
+"Pure Fitness Canada"
+],
+"lat": 43.7132068,
+"lng": -79.3602015
+},
+"torontommateam.com": {
+"url": "https://torontommateam.com/",
+"names": [
+"Toronto Top Team Mixed Martial Arts"
+],
+"lat": 43.7212473,
+"lng": -79.3095234
+},
+"northleachildcare.com": {
+"url": "https://northleachildcare.com",
+"names": [
+"Northlea Community Child Care"
+],
+"lat": 43.7146426,
+"lng": -79.369971
+},
+"kababayan.org": {
+"url": "https://www.kababayan.org/",
+"names": [
+"Kababayan Multicultural Centre"
+],
+"lat": 43.6409206,
+"lng": -79.4331606
+},
+"rom.on.ca": {
+"url": "https://www.rom.on.ca/en",
+"names": [
+"Royal Ontario Museum"
+],
+"lat": 43.6677062,
+"lng": -79.3946899
+},
+"fortyork.ca": {
+"url": "https://www.fortyork.ca/",
+"names": [
+"Fort York"
+],
+"lat": 43.6390316,
+"lng": -79.4032888
+},
+"gardinermuseum.on.ca": {
+"url": "https://www.gardinermuseum.on.ca/",
+"names": [
+"Gardiner Museum"
+],
+"lat": 43.6681559,
+"lng": -79.3931282
+},
+"batashoemuseum.ca": {
+"url": "https://batashoemuseum.ca/",
+"names": [
+"Bata Shoe Museum"
+],
+"lat": 43.6672516,
+"lng": -79.4001432
+},
+"highparkzoo.ca": {
+"url": "https://www.highparkzoo.ca",
+"names": [
+"High Park Zoo"
+],
+"lat": 43.643523,
+"lng": -79.4627004
+},
+"eastyorkcurling.ca": {
+"url": "https://eastyorkcurling.ca/",
+"names": [
+"East York Curling Club"
+],
+"lat": 43.6966013,
+"lng": -79.3136546
+},
+"facilities.burlington.ca": {
+"url": "https://facilities.burlington.ca/Home/Detail?Id=cd66cf1d-55e6-42f2-a677-6a5f3e63592c",
+"names": [
+"Tansley Woods Community Centre"
+],
+"lat": 43.3821015,
+"lng": -79.8006522
+},
+"english-heritage.org.uk": {
+"url": "https://www.english-heritage.org.uk/visit/places/whitby-abbey/",
+"names": [
+"Whitby Abbey",
+"Cholmley House"
+],
+"lat": 54.4875816,
+"lng": -0.6064462
+},
+"cruxbooks.com": {
+"url": "http://www.cruxbooks.com/",
+"names": [
+"Crux Discount Theological Books"
+],
+"lat": 43.6642008,
+"lng": -79.3952518
+},
+"yorkulions.ca": {
+"url": "https://yorkulions.ca/sports/2013/4/12/GEN_0412133336.aspx",
+"names": [
+"Tait McKenzie Centre"
+],
+"lat": 43.7745034,
+"lng": -79.5096577
+},
+"miltonlibrary.org": {
+"url": "https://miltonlibrary.org/",
+"names": [
+"Milton Public Library"
+],
+"lat": 42.2538476,
+"lng": -71.0773447
+},
+"cosburnbowls.ca": {
+"url": "https://www.cosburnbowls.ca/",
+"names": [
+"Cosburn Park Lawn Bowling Club"
+],
+"lat": 43.6933054,
+"lng": -79.3303974
+},
+"downsviewpark.ca": {
+"url": "https://downsviewpark.ca",
+"names": [
+"Downsview Park"
+],
+"lat": 43.7415385,
+"lng": -79.4807498
+},
+"rexdalechc.ca": {
+"url": "http://www.rexdalechc.ca",
+"names": [
+"Rexdale Community Health Centre"
+],
+"lat": 43.7193615,
+"lng": -79.5720962
+},
+"paramountfinefoodscentre.com": {
+"url": "https://paramountfinefoodscentre.com/",
+"names": [
+"Paramount Fine Foods Centre"
+],
+"lat": 43.6314534,
+"lng": -79.6537283
+},
+"tolive.com": {
+"url": "https://tolive.com/Meridian-Hall",
+"names": [
+"Meridian Hall",
+"St. Lawrence Centre for the Arts"
+],
+"lat": 43.6466648,
+"lng": -79.3760315
+},
+"boulevardclub.com": {
+"url": "https://www.boulevardclub.com/",
+"names": [
+"The Boulevard Club"
+],
+"lat": 43.6355592,
+"lng": -79.4442305
+},
+"leasidecurling.ca": {
+"url": "https://leasidecurling.ca/",
+"names": [
+"Leaside Curling Club"
+],
+"lat": 43.700976,
+"lng": -79.3609086
+},
+"latviancentre.org": {
+"url": "https://latviancentre.org/",
+"names": [
+"Latvian Canadian Cultural Centre"
+],
+"lat": 43.7254275,
+"lng": -79.318901
+},
+"universitysettlement.ca": {
+"url": "https://www.universitysettlement.ca/",
+"names": [
+"The University Settlement Recreation Centre"
+],
+"lat": 43.6520076,
+"lng": -79.3913857
+},
+"teentourband.org": {
+"url": "https://www.teentourband.org/",
+"names": [
+"Music/Drama Centre"
+],
+"lat": 43.3355804,
+"lng": -79.7909849
+},
+"dixonhall.org": {
+"url": "https://dixonhall.org",
+"names": [
+"Dixon Hall",
+"Dixon Hall"
+],
+"lat": 43.6637046,
+"lng": -79.3719254
+},
+"flatomarkhamtheatre.ca": {
+"url": "https://www.flatomarkhamtheatre.ca/Online/default.asp",
+"names": [
+"Flato Markham Theatre"
+],
+"lat": 43.8575989,
+"lng": -79.3363279
+},
+"markhamwesley.com": {
+"url": "https://www.markhamwesley.com",
+"names": [
+"Markham Wesley Centre"
+],
+"lat": 43.8282614,
+"lng": -79.3486109
+},
+"105gibson.wordpress.com": {
+"url": "https://105gibson.wordpress.com/",
+"names": [
+"105 Gibson Centre"
+],
+"lat": 43.822685,
+"lng": -79.3285995
+},
+"plast.ca": {
+"url": "https://www.plast.ca/toronto",
+"names": [
+"Plast Huculak Centre"
+],
+"lat": 43.6734481,
+"lng": -79.5483104
+},
+"the519.org": {
+"url": "https://www.the519.org/",
+"names": [
+"The 519"
+],
+"lat": 43.6665123,
+"lng": -79.3808937
+},
+"mirvish.com": {
+"url": "https://www.mirvish.com/",
+"names": [
+"Princess of Wales Theatre",
+"Royal Alexandra Theatre",
+"Ed Mirvish Theatre"
+],
+"lat": 43.6470595,
+"lng": -79.3892481
+},
+"hhof.com": {
+"url": "https://www.hhof.com/",
+"names": [
+"Hockey Hall of Fame"
+],
+"lat": 43.6469729,
+"lng": -79.3773001
+},
+"betelcentre.org": {
+"url": "https://www.betelcentre.org/",
+"names": [
+"The Bernard Betel Centre for Creative Living"
+],
+"lat": 43.7916599,
+"lng": -79.4470535
+},
+"tamheather.ca": {
+"url": "https://tamheather.ca/",
+"names": [
+"Tam Heather Curling & Tennis Club"
+],
+"lat": 43.7911452,
+"lng": -79.1992082
+},
+"nebsfunworld.com": {
+"url": "https://www.nebsfunworld.com/",
+"names": [
+"NEB's Fun World"
+],
+"lat": 43.9355488,
+"lng": -78.8602465
+},
+"massaudubon.org": {
+"url": "https://www.massaudubon.org/places-to-explore/wildlife-sanctuaries/blue-hills-trailside-museum",
+"names": [
+"Blue Hills Trailside Museum"
+],
+"lat": 42.2184573,
+"lng": -71.1187094
+},
+"newmarket.ca": {
+"url": "https://www.newmarket.ca/adults55+",
+"names": [
+"Newmarket Seniors' Meeting Place"
+],
+"lat": 44.0590756,
+"lng": -79.4583214
+},
+"eastviewcentre.com": {
+"url": "https://www.eastviewcentre.com/",
+"names": [
+"Eastview Neighbourhood Community Centre"
+],
+"lat": 43.6750346,
+"lng": -79.3398185
+},
+"franklinhorner.org": {
+"url": "https://www.franklinhorner.org/",
+"names": [
+"Franklin Horner Community Centre"
+],
+"lat": 43.6036434,
+"lng": -79.5379672
+},
+"pickering.ca": {
+"url": "http://www.pickering.ca/en/museum.asp",
+"names": [
+"Pickering Museum Village"
+],
+"lat": 43.9257132,
+"lng": -79.0719528
+},
+"echovermont.org": {
+"url": "https://www.echovermont.org/",
+"names": [
+"ECHO Leahy Center for Lake Champlain"
+],
+"lat": 44.4765081,
+"lng": -73.221073
+},
+"rmg.on.ca": {
+"url": "https://rmg.on.ca/",
+"names": [
+"The Robert McLaughlin Gallery"
+],
+"lat": 43.8949494,
+"lng": -78.8660554
+},
+"parkwoodestate.com": {
+"url": "https://www.parkwoodestate.com/",
+"names": [
+"Parkwood Estate"
+],
+"lat": 43.9040655,
+"lng": -78.8681735
+},
+"abcacademy.ca": {
+"url": "https://www.abcacademy.ca/",
+"names": [
+"ABC Academy"
+],
+"lat": 43.7021168,
+"lng": -79.3740361
+},
+"whitbymuseum.org.uk": {
+"url": "https://whitbymuseum.org.uk/",
+"names": [
+"Whitby Museum"
+],
+"lat": 54.4854258,
+"lng": -0.6214605
+},
+"cygnets.org.uk": {
+"url": "https://www.cygnets.org.uk/",
+"names": [
+"Community Annex"
+],
+"lat": 52.2398401,
+"lng": 0.1611343
+},
+"womensartofcanada.ca": {
+"url": "https://womensartofcanada.ca/",
+"names": [
+"Women's Art Association"
+],
+"lat": 43.6693387,
+"lng": -79.3962667
+},
+"auroraculturalcentre.ca": {
+"url": "https://auroraculturalcentre.ca/",
+"names": [
+"Aurora Museum & Cultural Centre"
+],
+"lat": 43.9973982,
+"lng": -79.4655782
+},
+"campuscoopdaycare.ca": {
+"url": "https://www.campuscoopdaycare.ca/",
+"names": [
+"Campus Coop"
+],
+"lat": 43.6645652,
+"lng": -79.4007876
+},
+"wetnwildtoronto.com": {
+"url": "https://www.wetnwildtoronto.com/",
+"names": [
+"Wet 'n' Wild Toronto"
+],
+"lat": 43.7424078,
+"lng": -79.6410446
+},
+"whitbypavilion.co.uk": {
+"url": "https://www.whitbypavilion.co.uk/",
+"names": [
+"Whitby Pavilion"
+],
+"lat": 54.4908997,
+"lng": -0.620036
+},
+"hslibrary.ucdenver.edu": {
+"url": "https://hslibrary.ucdenver.edu/",
+"names": [
+"CU Health Sciences Library"
+],
+"lat": 39.7469102,
+"lng": -104.8370123
+},
+"auroragov.org": {
+"url": "https://www.auroragov.org/things_to_do/aurora_public_library/locations___hours",
+"names": [
+"Aurora Public Library Central Branch",
+"Hoffman Heights Library",
+"Aurora History Museum"
+],
+"lat": 39.7104044,
+"lng": -104.8151917
+},
+"ago.ca": {
+"url": "https://ago.ca/",
+"names": [
+"Art Gallery of Ontario"
+],
+"lat": 43.6535508,
+"lng": -79.3925239
+},
+"roythomsonhall.com": {
+"url": "https://www.roythomsonhall.com/",
+"names": [
+"Roy Thomson Hall"
+],
+"lat": 43.6466287,
+"lng": -79.386369
+},
+"wfrm.org": {
+"url": "https://www.wfrm.org/",
+"names": [
+"West Florida Railroad Museum"
+],
+"lat": 30.6162961,
+"lng": -87.0383244
+},
+"livenation.com": {
+"url": "https://www.livenation.com/venues/14878/budweiser-stage",
+"names": [
+"RBC Amphitheatre"
+],
+"lat": 43.6293253,
+"lng": -79.4150982
+},
+"burlingtonpubliclibrary.org": {
+"url": "https://www.burlingtonpubliclibrary.org/",
+"names": [
+"Burlington Public Library"
+],
+"lat": 42.5059944,
+"lng": -71.1922838
+},
+"irelandparkfoundation.com": {
+"url": "https://www.irelandparkfoundation.com/",
+"names": [
+"Ireland Park"
+],
+"lat": 43.6354245,
+"lng": -79.3962722
+},
+"oldtownburlington.com": {
+"url": "https://www.oldtownburlington.com/",
+"names": [
+"Old Town Museum"
+],
+"lat": 39.2964574,
+"lng": -102.2673775
+},
+"drurylane.ca": {
+"url": "https://www.drurylane.ca/",
+"names": [
+"Drury Lane Theatrical Productions"
+],
+"lat": 43.3336438,
+"lng": -79.7908891
+},
+"northyorks.gov.uk": {
+"url": "https://www.northyorks.gov.uk/pickeringlibrary",
+"names": [
+"Pickering Library"
+],
+"lat": 54.2458843,
+"lng": -0.7795501
+},
+"kirktheatre.co.uk": {
+"url": "https://kirktheatre.co.uk/",
+"names": [
+"Kirk Theatre"
+],
+"lat": 54.2445852,
+"lng": -0.7778809
+},
+"beckislemuseum.org.uk": {
+"url": "https://www.beckislemuseum.org.uk/",
+"names": [
+"Beck Isle Museum"
+],
+"lat": 54.2470004,
+"lng": -0.7797441
+},
+"zoo.aurora.il.us": {
+"url": "https://zoo.aurora.il.us/",
+"names": [
+"Phillips Park Zoo"
+],
+"lat": 41.7362318,
+"lng": -88.2942545
+},
+"oakville.ca": {
+"url": "https://www.oakville.ca/museum/",
+"names": [
+"Oakville Museum",
+"Oakville Trafalgar Community Centre"
+],
+"lat": 43.4419256,
+"lng": -79.6667173
+},
+"tommythompsonpark.ca": {
+"url": "https://tommythompsonpark.ca/",
+"names": [
+"Tommy Thompson Park"
+],
+"lat": 43.6325136,
+"lng": -79.3325519
+},
+"deafculturecentre.ca": {
+"url": "https://deafculturecentre.ca/",
+"names": [
+"Deaf Culture Centre"
+],
+"lat": 43.6498293,
+"lng": -79.3599555
+},
+"algonquinislandassociation.ca": {
+"url": "https://www.algonquinislandassociation.ca/",
+"names": [
+"Algonquin Island Association Clubhouse"
+],
+"lat": 43.6265291,
+"lng": -79.3621639
+},
+"clarelibrary.ie": {
+"url": "https://www.clarelibrary.ie/",
+"names": [
+"William Smith O\u2019Brien Public Library, Newmarket-on-Fergus"
+],
+"lat": 52.7609764,
+"lng": -8.8978795
+},
+"goodshepherd.ca": {
+"url": "https://goodshepherd.ca/",
+"names": [
+"Good Shephard Ministries"
+],
+"lat": 43.6563029,
+"lng": -79.3625773
+},
+"ripleys.com": {
+"url": "https://www.ripleys.com/attractions/ripleys-aquarium-of-canada",
+"names": [
+"Ripley's Aquarium of Canada"
+],
+"lat": 43.6424924,
+"lng": -79.3861757
+},
+"casaloma.ca": {
+"url": "https://casaloma.ca/",
+"names": [
+"Casa Loma"
+],
+"lat": 43.6781038,
+"lng": -79.409377
+},
+"saraholbrookcc.org": {
+"url": "https://www.saraholbrookcc.org/",
+"names": [
+"Sara Holbrook Community Center"
+],
+"lat": 44.483807,
+"lng": -73.2215014
+},
+"torontozoo.com": {
+"url": "https://www.torontozoo.com/",
+"names": [
+"Toronto Zoo"
+],
+"lat": 43.8198517,
+"lng": -79.1849372
+},
+"burlington.lib.ia.us": {
+"url": "https://www.burlington.lib.ia.us/",
+"names": [
+"Burlington Public Library"
+],
+"lat": 40.8131989,
+"lng": -91.1014353
+},
+"agakhanmuseum.org": {
+"url": "https://www.agakhanmuseum.org/",
+"names": [
+"Aga Khan Museum"
+],
+"lat": 43.7252934,
+"lng": -79.3319998
+},
+"trl.org": {
+"url": "https://trl.org/locations/oakville/",
+"names": [
+"Oakville Timberland Library"
+],
+"lat": 46.8396704,
+"lng": -123.2325876
+},
+"burlingtonpac.ca": {
+"url": "https://burlingtonpac.ca/",
+"names": [
+"Burlington Performing Arts Centre"
+],
+"lat": 43.3242592,
+"lng": -79.7986309
+},
+"theracingcentre.org": {
+"url": "https://www.theracingcentre.org/",
+"names": [
+"The Racing Centre"
+],
+"lat": 52.2454167,
+"lng": 0.4047236
+},
+"uvm.edu": {
+"url": "https://www.uvm.edu/~fleming/",
+"names": [
+"Fleming Museum of Art"
+],
+"lat": 44.4799137,
+"lng": -73.1971286
+},
+"goscitech.org": {
+"url": "https://www.goscitech.org/",
+"names": [
+"SciTech Hands on Museum"
+],
+"lat": 41.7562167,
+"lng": -88.3182421
+},
+"rcl66.com": {
+"url": "https://rcl66.com/",
+"names": [
+"Royal Canadian Legion Branch 66"
+],
+"lat": 43.7647135,
+"lng": -79.4110478
+},
+"paradiseonbloor.com": {
+"url": "https://paradiseonbloor.com/",
+"names": [
+"Paradise Cinema"
+],
+"lat": 43.6611446,
+"lng": -79.4307114
+},
+"centralontario.cioc.ca": {
+"url": "https://centralontario.cioc.ca/record/NKT1524",
+"names": [
+"former Unionville Train Station"
+],
+"lat": 43.8645268,
+"lng": -79.31119
+},
+"918bathurst.com": {
+"url": "https://918bathurst.com/",
+"names": [
+"918 Bathurst"
+],
+"lat": 43.6685679,
+"lng": -79.4129805
+},
+"richmondhill.ca": {
+"url": "https://www.richmondhill.ca/en/things-to-do/Bayview-Hill-Community-Centre.aspx",
+"names": [
+"Bayview Hill Community Centre and Pool",
+"Oak Ridges Community Centre"
+],
+"lat": 43.8696318,
+"lng": -79.402035
+},
+"bovairdhouse.ca": {
+"url": "https://bovairdhouse.ca/",
+"names": [
+"Bovaird House"
+],
+"lat": 43.7166415,
+"lng": -79.7750745
+},
+"montgomerysinn.com": {
+"url": "http://montgomerysinn.com/",
+"names": [
+"Montgomery's Inn"
+],
+"lat": 43.6516585,
+"lng": -79.525608
+},
+"aurorapubliclibrary.org": {
+"url": "https://www.aurorapubliclibrary.org/",
+"names": [
+"Eola Road Branch Library",
+"Aurora Public Library West Branch"
+],
+"lat": 41.745713,
+"lng": -88.2478407
+},
+"eagles2311.ca": {
+"url": "https://www.eagles2311.ca/",
+"names": [
+"Fraternal Order Of Eagles : Maple Leaf Aerie 2311"
+],
+"lat": 43.6574658,
+"lng": -79.3825516
+},
+"lambtonhouse.org": {
+"url": "https://lambtonhouse.org/",
+"names": [
+"Lambton House"
+],
+"lat": 43.6630955,
+"lng": -79.5036593
+},
+"dundasroncesvallespeacegarden.com": {
+"url": "http://dundasroncesvallespeacegarden.com/",
+"names": [
+"Dundas Roncesvalles Peace Garden"
+],
+"lat": 43.6535851,
+"lng": -79.4515541
+},
+"bau-xi.com": {
+"url": "https://bau-xi.com",
+"names": [
+"Bau Xi Gallery"
+],
+"lat": 43.6697056,
+"lng": -79.4399464
+},
+"eyc.ca": {
+"url": "https://www.eyc.ca/",
+"names": [
+"Etobicoke Yacht Club Club House / Great Hall"
+],
+"lat": 43.6149252,
+"lng": -79.4797986
+},
+"hbsailing.com": {
+"url": "https://www.hbsailing.com/",
+"names": [
+"Humber Bay Sailing Centre"
+],
+"lat": 43.6187628,
+"lng": -79.4811717
+},
+"mcmichael.com": {
+"url": "https://mcmichael.com/",
+"names": [
+"McMichael Canadian Art Collection"
+],
+"lat": 43.8434783,
+"lng": -79.6164892
+},
+"bramlib.on.ca": {
+"url": "http://www.bramlib.on.ca/index.php/cyril-clark-branch",
+"names": [
+"Brampton Library - Cyril Clark Branch"
+],
+"lat": 43.725703,
+"lng": -79.8000985
+},
+"paramountaurora.com": {
+"url": "https://paramountaurora.com/",
+"names": [
+"Paramount Arts Center"
+],
+"lat": 41.7575391,
+"lng": -88.3147845
+},
+"auroraregionalfiremuseum.org": {
+"url": "https://www.auroraregionalfiremuseum.org/",
+"names": [
+"Aurora Regional Fire Museum"
+],
+"lat": 41.7581945,
+"lng": -88.3114442
+},
+"aurora.edu": {
+"url": "https://aurora.edu/academics/library/",
+"names": [
+"Charles B. Phillips Library"
+],
+"lat": 41.7554581,
+"lng": -88.3473778
+},
+"alamancelibraries.org": {
+"url": "https://www.alamancelibraries.org/",
+"names": [
+"May Memorial Library",
+"North Park Library / Community Center"
+],
+"lat": 36.0927844,
+"lng": -79.4364616
+},
+"oshawa.ca": {
+"url": "https://www.oshawa.ca/mun_res/facility/socc/",
+"names": [
+"South Oshawa Community Centre"
+],
+"lat": 43.8594888,
+"lng": -78.8465224
+},
+"anavets.ca": {
+"url": "https://anavets.ca/",
+"names": [
+"Army Navy Air Force Veterans in Canada"
+],
+"lat": 43.6596131,
+"lng": -79.3504589
+},
+"burlingtonctlibrary.org": {
+"url": "https://burlingtonctlibrary.org/",
+"names": [
+"Burlington Public Library"
+],
+"lat": 41.7715203,
+"lng": -72.9669384
+},
+"tarragontheatre.com": {
+"url": "https://www.tarragontheatre.com/",
+"names": [
+"Tarragon Theatre"
+],
+"lat": 43.6749866,
+"lng": -79.4130052
+},
+"burlingtonwa.gov": {
+"url": "http://www.burlingtonwa.gov/library",
+"names": [
+"Burlington Public Library"
+],
+"lat": 48.474318,
+"lng": -122.3237836
+},
+"newmarketlibrary.org": {
+"url": "https://newmarketlibrary.org/index.html",
+"names": [
+"Newmarket Public Library"
+],
+"lat": 43.0814072,
+"lng": -70.9356167
+},
+"accessalliance.ca": {
+"url": "https://accessalliance.ca/accesspoint",
+"names": [
+"AccessPoint Danforth"
+],
+"lat": 43.691185,
+"lng": -79.287284
+},
+"cabe.ent.sirsi.net": {
+"url": "https://cabe.ent.sirsi.net/client/en_US/cabell/?rm=MILTON+BRANCH+0%7C%7C%7C1%7C%7C%7C0%7C%7C%7Ctrue&dt=list",
+"names": [
+"Milton Public Library"
+],
+"lat": 38.4365977,
+"lng": -82.133335
+},
+"theyorkcentre.ca": {
+"url": "http://www.theyorkcentre.ca",
+"names": [
+"The York Centre for Children, Youth & Families"
+],
+"lat": 43.9100644,
+"lng": -79.3977396
+},
+"burlingtonamusementpark.com": {
+"url": "https://www.burlingtonamusementpark.com/",
+"names": [
+"Burlington Amusement Park"
+],
+"lat": 46.4821233,
+"lng": -63.5735427
+},
+"theatrecentre.org": {
+"url": "https://theatrecentre.org/",
+"names": [
+"The Theatre Centre"
+],
+"lat": 43.64302,
+"lng": -79.4232517
+},
+"santarosahistoricalsociety.com": {
+"url": "https://santarosahistoricalsociety.com/",
+"names": [
+"Imogene Theater"
+],
+"lat": 30.6231457,
+"lng": -87.0366157
+},
+"aplfoundationil.org": {
+"url": "https://aplfoundationil.org/about-us/",
+"names": [
+"Aurora Public Library"
+],
+"lat": 41.7570925,
+"lng": -88.3200676
+},
+"burlingtoncapitoltheater.org": {
+"url": "http://www.burlingtoncapitoltheater.org/",
+"names": [
+"Capitol Theater"
+],
+"lat": 40.8095951,
+"lng": -91.1032266
+},
+"whitbystationgallery.com": {
+"url": "https://www.whitbystationgallery.com/",
+"names": [
+"Station Gallery"
+],
+"lat": 43.861519,
+"lng": -78.9402691
+},
+"emeryvillagebia.ca": {
+"url": "http://emeryvillagebia.ca/about/history-of-emery-village/joseph-bannon-park.html",
+"names": [
+"Joseph Bannon Park"
+],
+"lat": 43.7324502,
+"lng": -79.5347964
+},
+"bandgclub.org": {
+"url": "https://www.bandgclub.org/",
+"names": [
+"Boys and Girls Club of Burlington"
+],
+"lat": 44.4899782,
+"lng": -73.2110977
+},
+"moca.ca": {
+"url": "https://moca.ca/",
+"names": [
+"Museum of Contemporary Art"
+],
+"lat": 43.6546127,
+"lng": -79.445202
+},
+"communitysailingcenter.org": {
+"url": "https://communitysailingcenter.org/",
+"names": [
+"Community Waterfront Campus"
+],
+"lat": 44.4833566,
+"lng": -73.2243114
+},
+"staygoldtoronto.com": {
+"url": "https://www.staygoldtoronto.com/",
+"names": [
+"STAY GOLD"
+],
+"lat": 43.6460403,
+"lng": -79.4345272
+},
+"band-rand.com": {
+"url": "http://band-rand.com/",
+"names": [
+"BAND"
+],
+"lat": 43.6425115,
+"lng": -79.4325112
+},
+"parc.on.ca": {
+"url": "https://parc.on.ca/",
+"names": [
+"Parkdale Activity-Recreation Centre"
+],
+"lat": 43.6396197,
+"lng": -79.4404072
+},
+"passemuraille.ca": {
+"url": "https://www.passemuraille.ca/",
+"names": [
+"Theatre Passe Muraille"
+],
+"lat": 43.6485882,
+"lng": -79.4026161
+},
+"burlingtontownship.biblionix.com": {
+"url": "https://burlingtontownship.biblionix.com/",
+"names": [
+"Burlington Township Library"
+],
+"lat": 42.1058433,
+"lng": -85.0781299
+},
+"fueltrainingclub.ca": {
+"url": "https://fueltrainingclub.ca/",
+"names": [
+"Fuel Training Club"
+],
+"lat": 43.65158,
+"lng": -79.4453479
+},
+"lansingnursery.org": {
+"url": "https://www.lansingnursery.org/",
+"names": [
+"Lansing Co-Operative Nursery School"
+],
+"lat": 43.7749298,
+"lng": -79.4097402
+},
+"jrccwillowdale.org": {
+"url": "https://www.jrccwillowdale.org/",
+"names": [
+"Jewish Russian Community Centre of Willowdale"
+],
+"lat": 43.7737711,
+"lng": -79.4131305
+},
+"lornesmuseum.ca": {
+"url": "https://www.lornesmuseum.ca/",
+"names": [
+"Lorne Scots Regimental Museum"
+],
+"lat": 43.6869395,
+"lng": -79.757595
+},
+"acapo.ca": {
+"url": "https://acapo.ca/",
+"names": [
+"Associacao Migrante De Barcelos"
+],
+"lat": 43.6873645,
+"lng": -79.4465176
+},
+"casadamadeira.ca": {
+"url": "https://casadamadeira.ca",
+"names": [
+"Casa Da Madeira Community Centre"
+],
+"lat": 43.6647196,
+"lng": -79.4550136
+},
+"blackcreek.ca": {
+"url": "https://blackcreek.ca/",
+"names": [
+"The Village at Black Creek"
+],
+"lat": 43.7749403,
+"lng": -79.5193941
+},
+"albioncinemas.com": {
+"url": "https://albioncinemas.com",
+"names": [
+"Albion Cinemas"
+],
+"lat": 43.7419914,
+"lng": -79.58521
+},
+"healthsciences.humber.ca": {
+"url": "https://healthsciences.humber.ca/resources/labs/child-development-centre.html",
+"names": [
+"",
+""
+],
+"lat": 43.7278075,
+"lng": -79.609308
+},
+"tcgn.ca": {
+"url": "https://tcgn.ca/garden/perth-dupont-community-garden/",
+"names": [
+""
+],
+"lat": 43.6668903,
+"lng": -79.452037
+},
+"leasidegardens.com": {
+"url": "https://leasidegardens.com/",
+"names": [
+"Leaside Memorial Community Gardens"
+],
+"lat": 43.7017761,
+"lng": -79.3607248
+},
+"bramptoncommunitycentre.org.uk": {
+"url": "http://www.bramptoncommunitycentre.org.uk",
+"names": [
+"Brampton Community Centre"
+],
+"lat": 54.9438133,
+"lng": -2.736718
+},
+"coliseumcentre.org": {
+"url": "https://www.coliseumcentre.org/",
+"names": [
+"The Coliseum Centre"
+],
+"lat": 54.4847328,
+"lng": -0.6166627
+},
+"christiepitsgarden.wordpress.com": {
+"url": "https://christiepitsgarden.wordpress.com/",
+"names": [
+""
+],
+"lat": 43.6640333,
+"lng": -79.4218337
+},
+"highpark.org": {
+"url": "http://www.highpark.org/labyrinth/",
+"names": [
+"High Park Labyrinth"
+],
+"lat": 43.6469385,
+"lng": -79.4661758
+},
+"youngplace.ca": {
+"url": "https://www.youngplace.ca/",
+"names": [
+"Artscape Youngplace"
+],
+"lat": 43.6469018,
+"lng": -79.4175953
+},
+"ajax.ca": {
+"url": "https://www.ajax.ca/en/play-and-discover/st-francis-centre.aspx",
+"names": [
+"St. Francis Centre"
+],
+"lat": 43.8515839,
+"lng": -79.0544711
+},
+"backalleybarbell.com": {
+"url": "https://www.backalleybarbell.com/",
+"names": [
+"Back Alley Barbell"
+],
+"lat": 43.6745143,
+"lng": -79.4145589
+},
+"tranzac.org": {
+"url": "https://www.tranzac.org/",
+"names": [
+"Tranzac"
+],
+"lat": 43.6652215,
+"lng": -79.407534
+},
+"sixflags.com": {
+"url": "https://www.sixflags.com/canadaswonderland",
+"names": [
+"Canada's Wonderland"
+],
+"lat": 43.8420801,
+"lng": -79.5425078
+},
+"endeavourwhitby.com": {
+"url": "https://www.endeavourwhitby.com/",
+"names": [
+"The Endeavour Experience"
+],
+"lat": 54.4854339,
+"lng": -0.6134765
+},
+"vintagetheatre.org": {
+"url": "https://www.vintagetheatre.org/",
+"names": [
+"Vintage Theater"
+],
+"lat": 39.7394712,
+"lng": -104.8749335
+},
+"cityofmiltonga.us": {
+"url": "https://www.cityofmiltonga.us/Home/Components/FacilityDirectory/FacilityDirectory/6/203",
+"names": [
+"Bethwell Community Center"
+],
+"lat": 34.1372426,
+"lng": -84.2858216
+},
+"nhrm.co.uk": {
+"url": "https://www.nhrm.co.uk/",
+"names": [
+"National Horse Racing Museum"
+],
+"lat": 52.2435458,
+"lng": 0.4089609
+},
+"bridgeplayerstheatre.com": {
+"url": "https://www.bridgeplayerstheatre.com/",
+"names": [
+"Bridge Players Theatre Company"
+],
+"lat": 40.0772567,
+"lng": -74.8567204
+},
+"olympianswimming.com": {
+"url": "https://www.olympianswimming.com/",
+"names": [
+"Olympian School of Swimming (Midland Location)"
+],
+"lat": 43.7285015,
+"lng": -79.2574771
+},
+"miltonvt.gov": {
+"url": "https://www.miltonvt.gov/businessdirectoryii.aspx?bid=8",
+"names": [
+"Arrowhead Senior Citizen Center",
+"Milton Grange"
+],
+"lat": 44.6199245,
+"lng": -73.1184678
+},
+"brampton.ca": {
+"url": "https://www.brampton.ca/EN/residents/Recreation/Community-Centres/Pages/Riverstone-Community-Centre.aspx",
+"names": [
+"Brampton Riverstone Community Centre"
+],
+"lat": 43.7656735,
+"lng": -79.6712354
+},
+"miltonvthistory.org": {
+"url": "https://www.miltonvthistory.org/milton-historical-museum.html",
+"names": [
+"Milton Historical Museum"
+],
+"lat": 44.6385482,
+"lng": -73.1111925
+},
+"librarycompanyofburlington.org": {
+"url": "https://librarycompanyofburlington.org/",
+"names": [
+"Library Company Of Burlington"
+],
+"lat": 40.0792824,
+"lng": -74.8603982
+},
+"stanleymarketplace.com": {
+"url": "https://www.stanleymarketplace.com/hangar/",
+"names": [
+"The Hangar at Stanley"
+],
+"lat": 39.7531975,
+"lng": -104.8779026
+},
+"theimagecentre.ca": {
+"url": "https://theimagecentre.ca/",
+"names": [
+"The Image Centre"
+],
+"lat": 43.6576972,
+"lng": -79.3792807
+},
+"blackberryfarm.info": {
+"url": "https://www.blackberryfarm.info/",
+"names": [
+"Blackberry Farm"
+],
+"lat": 41.7639511,
+"lng": -88.3885872
+},
+"centre55.com": {
+"url": "https://www.centre55.com/",
+"names": [
+"Community Centre 55"
+],
+"lat": 43.6820762,
+"lng": -79.2991421
+},
+"thegoldfarbgallery.ca": {
+"url": "https://thegoldfarbgallery.ca/",
+"names": [
+"The Joan and Martin Goldfarb Gallery of York University"
+],
+"lat": 43.7729334,
+"lng": -79.5005886
+},
+"bhmlib.org": {
+"url": "https://bhmlib.org/",
+"names": [
+"Hazel W. Guilford Memorial Library"
+],
+"lat": 35.3047261,
+"lng": -76.7891021
+},
+"cibcsquare.com": {
+"url": "https://cibcsquare.com/engage/",
+"names": [
+"The Park at CIBC Square"
+],
+"lat": 43.6449305,
+"lng": -79.3780124
+},
+"villagesofvanburen.com": {
+"url": "https://villagesofvanburen.com/explore/milton_heritage_house/",
+"names": [
+"Heritage House"
+],
+"lat": 40.6727463,
+"lng": -92.162177
+},
+"centraltechstadium.com": {
+"url": "https://www.centraltechstadium.com/",
+"names": [
+"Central Tech Stadium"
+],
+"lat": 43.6625739,
+"lng": -79.4094003
+},
+"cvc.ca": {
+"url": "https://cvc.ca/project/jim-tovey-lakeview-conservation-area/",
+"names": [
+"Jim Tovey Lakeview Conservation Area"
+],
+"lat": 43.5758734,
+"lng": -79.5432144
+},
+"studlandsclub.co.uk": {
+"url": "https://studlandsclub.co.uk/",
+"names": [
+"Studlands Park Sports and Social Club"
+],
+"lat": 52.2653571,
+"lng": 0.3872041
+},
+"gardenpartytoronto.com": {
+"url": "https://www.gardenpartytoronto.com/",
+"names": [
+"The Garden Party"
+],
+"lat": 43.6549236,
+"lng": -79.4574799
+},
+"srcentre.ca": {
+"url": "http://www.srcentre.ca/",
+"names": [
+"Schwartz/Reisman Centre/Lebovic Campus"
+],
+"lat": 43.8534309,
+"lng": -79.4623567
+},
+"parks.canada.ca": {
+"url": "https://parks.canada.ca/pn-np/on/rouge",
+"names": [
+"Rouge National Urban Park"
+],
+"lat": 43.8924284,
+"lng": -79.1906992
+},
+"centreisland.ca": {
+"url": "https://centreisland.ca/",
+"names": [
+"Centreville"
+],
+"lat": 43.6201918,
+"lng": -79.3728842
+}
+}

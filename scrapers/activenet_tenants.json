@@ -1,0 +1,85 @@
+{
+ "_note": "GTA ActiveNet tenants found by discovery/harvest_activenet.py (209 Canada-wide; non-GTA omitted).",
+ "tenants": [
+  {
+   "slug": "toronto",
+   "name": "City of Toronto Parks & Recreation",
+   "city": "Toronto"
+  },
+  {
+   "slug": "activemississauga",
+   "name": "City of Mississauga",
+   "city": "Mississauga"
+  },
+  {
+   "slug": "richmondhill",
+   "name": "City of Richmond Hill",
+   "city": "Richmond Hill"
+  },
+  {
+   "slug": "ajax",
+   "name": "Town of Ajax",
+   "city": "Ajax"
+  },
+  {
+   "slug": "whitby",
+   "name": "Town of Whitby",
+   "city": "Whitby"
+  },
+  {
+   "slug": "cityofpickering",
+   "name": "City of Pickering",
+   "city": "Pickering"
+  },
+  {
+   "slug": "auroraontario",
+   "name": "Town of Aurora",
+   "city": "Aurora"
+  },
+  {
+   "slug": "eastgwillimbury",
+   "name": "Town of East Gwillimbury",
+   "city": "East Gwillimbury"
+  },
+  {
+   "slug": "townofws",
+   "name": "Town of Whitchurch-Stouffville",
+   "city": "Stouffville"
+  },
+  {
+   "slug": "townofbwg",
+   "name": "Town of Bradford West Gwillimbury",
+   "city": "Bradford"
+  },
+  {
+   "slug": "clarington",
+   "name": "Municipality of Clarington",
+   "city": "Clarington"
+  },
+  {
+   "slug": "georgina",
+   "name": "Town of Georgina",
+   "city": "Georgina"
+  },
+  {
+   "slug": "townshipofuxbridge",
+   "name": "Township of Uxbridge",
+   "city": "Uxbridge"
+  },
+  {
+   "slug": "esbgc",
+   "name": "Boys & Girls Club East Scarborough",
+   "city": "Toronto"
+  },
+  {
+   "slug": "havefun",
+   "name": "Beaches Sandbox",
+   "city": "Toronto"
+  },
+  {
+   "slug": "ymywha",
+   "name": "Sylvan Adams YM-YWHA",
+   "city": "Toronto"
+  }
+ ]
+}
