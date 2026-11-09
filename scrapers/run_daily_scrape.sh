@@ -32,6 +32,10 @@ if [ $? -eq 0 ]; then
     # which just rewrote events_week1.json + metadata.json that geo_inject reads.
     if python3 /var/www/html/kidsevents/geo_inject.py >> "$LOG_FILE" 2>&1; then
         echo "✅ geo_inject refreshed index.html at $(date)" >> "$LOG_FILE"
+        TODAY=$(date +%Y-%m-%d)
+        sed -i "s/const CACHE_NAME = 'kidsevents-[^']*'/const CACHE_NAME = 'kidsevents-$TODAY'/" /var/www/html/kidsevents/sw.js
+        echo "✅ sw.js cache bumped to kidsevents-$TODAY at $(date)" >> "$LOG_FILE"
+        python3 /var/www/html/kidsevents/ics_build.py >> "$LOG_FILE" 2>&1 && echo "✅ calendar feeds rebuilt at $(date)" >> "$LOG_FILE" || echo "⚠️ ics_build failed at $(date)" >> "$LOG_FILE"
     else
         echo "⚠️ geo_inject failed at $(date)" >> "$LOG_FILE"
     fi

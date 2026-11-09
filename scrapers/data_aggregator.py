@@ -57,6 +57,8 @@ from ago_scraper import AGOScraper
 from agakhan_scraper import AgaKhanMuseumScraper
 from highpark_scraper import HighParkScraper
 from fortyork_scraper import FortYorkScraper
+from tribe_venues_scraper import TribeVenuesScraper
+from kidpages_scraper import KidPagesScraper
 from tribe_scraper import TribeScraper
 from jsonld_scraper import JsonLdScraper
 from activenet_scraper import ActiveNetScraper
@@ -387,7 +389,7 @@ def main():
     try:
         holistic_scraper = HolisticCommunityScraper()
         holistic_events = holistic_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(holistic_events, 'HolisticCommunity')
+        pass  # DISABLED: generated from a hardcoded schedule, not a real listing
     except Exception as e:
         print(f"   ❌ Error fetching Holistic Community Events: {e}")
 
@@ -410,7 +412,7 @@ def main():
         from toronto_events_scraper import TorontoEventsScraper
         toronto_scraper = TorontoEventsScraper()
         toronto_events = toronto_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(toronto_events, 'TorontoEvents')
+        pass  # DISABLED: generated from a hardcoded schedule, not a real listing
     except Exception as e:
         print(f"   ❌ Error fetching Toronto Events: {e}")
 
@@ -427,7 +429,7 @@ def main():
         museums_events = museums_scraper.fetch_events(months_ahead=1)
         # Don't override source - use the source from each event
         for event in museums_events:
-            aggregator.add_events([event], event.get('source', 'Museums'))
+            pass  # DISABLED: generated from a hardcoded schedule, not a real listing
     except Exception as e:
         print(f"   ❌ Error fetching Museum events: {e}")
 
@@ -548,7 +550,7 @@ def main():
     try:
         harbourfront_scraper = HarbourfrontScraper()
         harbourfront_events = harbourfront_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(harbourfront_events, 'Harbourfront')
+        pass  # DISABLED: generated from a hardcoded schedule, not a real listing
     except Exception as e:
         print(f"   ❌ Error fetching Harbourfront events: {e}")
 
@@ -609,7 +611,7 @@ def main():
     try:
         likeadad_scraper = LikeADadScraper()
         likeadad_events = likeadad_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(likeadad_events, 'LikeADad')
+        pass  # DISABLED: hardcoded schedule / not a kid event; unverified against the venue site
     except Exception as e:
         print(f"   ❌ Error fetching Like A Dad events: {e}")
 
@@ -625,7 +627,7 @@ def main():
     try:
         moca_scraper = MOCAScraper()
         moca_events = moca_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(moca_events, 'MOCA')
+        pass  # DISABLED: generated from a hardcoded schedule, not a real listing
     except Exception as e:
         print(f"   ❌ Error fetching MOCA events: {e}")
 
@@ -636,7 +638,7 @@ def main():
     try:
         mississauga_scraper = MississaugaScraper()
         mississauga_events = mississauga_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(mississauga_events, 'Mississauga')
+        pass  # DISABLED: hardcoded schedule / not a kid event; unverified against the venue site
     except Exception as e:
         print(f"   ❌ Error fetching Mississauga events: {e}")
 
@@ -647,7 +649,7 @@ def main():
     try:
         tinytown_scraper = TinyTownScraper()
         tinytown_events = tinytown_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(tinytown_events, 'TinyTown')
+        pass  # DISABLED: generated from a hardcoded schedule, not a real listing
     except Exception as e:
         print(f"   ❌ Error fetching Tiny Town events: {e}")
 
@@ -658,7 +660,7 @@ def main():
     try:
         stonegate_scraper = StonegateScraper()
         stonegate_events = stonegate_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(stonegate_events, 'StonegateCHC')
+        pass  # DISABLED: hardcoded schedule / not a kid event; unverified against the venue site
     except Exception as e:
         print(f"   ❌ Error fetching Stonegate CHC events: {e}")
 
@@ -669,7 +671,7 @@ def main():
     try:
         artsetobicoke_scraper = ArtsEtobicokeScraper()
         artsetobicoke_events = artsetobicoke_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(artsetobicoke_events, 'ArtsEtobicoke')
+        pass  # DISABLED: hardcoded schedule / not a kid event; unverified against the venue site
     except Exception as e:
         print(f"   ❌ Error fetching Arts Etobicoke events: {e}")
 
@@ -680,7 +682,7 @@ def main():
     try:
         westnh_scraper = WestNHScraper()
         westnh_events = westnh_scraper.fetch_events(days_ahead=7)
-        aggregator.add_events(westnh_events, 'WestNH')
+        pass  # DISABLED: hardcoded schedule / not a kid event; unverified against the venue site
     except Exception as e:
         print(f"   ❌ Error fetching West Neighbourhood House events: {e}")
 
@@ -702,7 +704,7 @@ def main():
     try:
         evergreen_scraper = EvergreenBrickWorksScraper()
         evergreen_events = evergreen_scraper.fetch_events(days_ahead=30)
-        aggregator.add_events(evergreen_events, 'EvergreenBrickWorks')
+        pass  # DISABLED: hardcoded schedule / not a kid event; unverified against the venue site
     except Exception as e:
         print(f"   ❌ Error fetching Evergreen Brick Works events: {e}")
 
@@ -713,7 +715,7 @@ def main():
     try:
         rom_scraper = ROMScraper()
         rom_events = rom_scraper.fetch_events(days_ahead=90)
-        aggregator.add_events(rom_events, 'ROM')
+        pass  # DISABLED: hardcoded schedule / not a kid event; unverified against the venue site
     except Exception as e:
         print(f"   ❌ Error fetching ROM events: {e}")
 
@@ -724,7 +726,7 @@ def main():
     try:
         ago_scraper = AGOScraper()
         ago_events = ago_scraper.fetch_events(days_ahead=90)
-        aggregator.add_events(ago_events, 'AGO')
+        pass  # DISABLED: hardcoded schedule / not a kid event; unverified against the venue site
     except Exception as e:
         print(f"   ❌ Error fetching AGO events: {e}")
 
@@ -735,7 +737,7 @@ def main():
     try:
         agakhan_scraper = AgaKhanMuseumScraper()
         agakhan_events = agakhan_scraper.fetch_events(days_ahead=90)
-        aggregator.add_events(agakhan_events, 'AgaKhanMuseum')
+        pass  # DISABLED: generated from a hardcoded schedule, not a real listing
     except Exception as e:
         print(f"   ❌ Error fetching Aga Khan Museum events: {e}")
 
@@ -745,8 +747,8 @@ def main():
     print("🌳 Fetching from High Park...")
     try:
         highpark_scraper = HighParkScraper()
-        highpark_events = highpark_scraper.fetch_events(days_ahead=90)
-        aggregator.add_events(highpark_events, 'HighPark')
+        # DISABLED: generated filler (zoo/nature-walk entries every weekend), not real scheduled events
+        pass
     except Exception as e:
         print(f"   ❌ Error fetching High Park events: {e}")
 
@@ -756,38 +758,55 @@ def main():
     print("🏰 Fetching from Toronto History Museums...")
     try:
         fortyork_scraper = FortYorkScraper()
-        fortyork_events = fortyork_scraper.fetch_events(days_ahead=90)
-        aggregator.add_events(fortyork_events, 'TorontoHistoryMuseums')
+        # DISABLED: generated 'FREE admission' entries every other Saturday, not real events
+        pass
     except Exception as e:
         print(f"   ❌ Error fetching Toronto History Museums events: {e}")
 
     print()
 
-    # 39. Platform sweep: every venue on The Events Calendar (Tribe), from tribe_venues.json
+    # 38b. Venue-owned event feeds (Bata Shoe Museum, Gardiner Museum, Textile Museum): family events only
+    print("🏛️  Fetching venue-owned event feeds (Bata, Gardiner, Textile)...")
+    try:
+        for src, evs in TribeVenuesScraper().fetch_by_venue(days_ahead=120).items():
+            aggregator.add_events(evs, src)
+    except Exception as e:
+        print(f"   ❌ Error fetching venue feeds: {e}")
+
+    print()
+
+    # 38c. Kid events read from venue pages (Arts Etobicoke classes, Evergreen Children's Garden)
+    print("🎨 Fetching venue-page kid events (Arts Etobicoke, Evergreen)...")
+    try:
+        for src, evs in KidPagesScraper().fetch_by_source().items():
+            aggregator.add_events(evs, src)
+    except Exception as e:
+        print(f"   ❌ Error fetching venue-page kid events: {e}")
+
+    print()
+
+    # 38d. Platform sweep: venues on The Events Calendar (Tribe), tribe_venues.json (kid filter, robots-gated)
     print("📅 Fetching from Tribe-platform venues...")
     try:
-        tribe_events = TribeScraper().fetch_events(days_ahead=90)
-        aggregator.add_events(tribe_events, 'Tribe')
+        aggregator.add_events(TribeScraper().fetch_events(days_ahead=90), 'Tribe')
     except Exception as e:
         print(f"   ❌ Error fetching Tribe venue events: {e}")
 
     print()
 
-    # 40. Platform sweep: venues publishing schema.org Event JSON-LD (jsonld_venues.json)
+    # 38e. Platform sweep: venues publishing schema.org Event JSON-LD, jsonld_venues.json
     print("🧬 Fetching from JSON-LD venues...")
     try:
-        jsonld_events = JsonLdScraper().fetch_events(days_ahead=90)
-        aggregator.add_events(jsonld_events, 'JSONLD')
+        aggregator.add_events(JsonLdScraper().fetch_events(days_ahead=90), 'JSONLD')
     except Exception as e:
         print(f"   ❌ Error fetching JSON-LD venue events: {e}")
 
     print()
 
-    # 41. Platform sweep: municipal recreation on ActiveNet (activenet_tenants.json) - event-like kid items only
+    # 38f. Platform sweep: GTA municipal recreation on ActiveNet, activenet_tenants.json (event-like kid items only)
     print("🏊 Fetching from ActiveNet municipal recreation...")
     try:
-        activenet_events = ActiveNetScraper().fetch_events(days_ahead=45)
-        aggregator.add_events(activenet_events, 'ActiveNet')
+        aggregator.add_events(ActiveNetScraper().fetch_events(days_ahead=45), 'ActiveNet')
     except Exception as e:
         print(f"   ❌ Error fetching ActiveNet events: {e}")
 

@@ -123,7 +123,8 @@ async function loadInitialEvents() {
                 return event.age_groups.some(age =>
                     age.includes('Babies') ||
                     age.includes('Toddlers') ||
-                    age.includes('Kids (6-12)') ||
+                    age.startsWith('Kids') ||
+                    age.startsWith('Preteens') ||
                     age === 'All Ages'
                 );
             });
@@ -200,7 +201,8 @@ async function initializeAppWithData() {
             return event.age_groups.some(age =>
                 age.includes('Babies') ||
                 age.includes('Toddlers') ||
-                age.includes('Kids (6-12)') ||
+                age.startsWith('Kids') ||
+                age.startsWith('Preteens') ||
                 age === 'All Ages'
             );
         });

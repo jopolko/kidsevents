@@ -63,7 +63,7 @@
     # allow caching but force revalidation. Apache answers If-Modified-Since
     # with a 304 (empty body) unless the scrape rewrote the file, so repeat
     # visitors skip the full download while never seeing stale data.
-    <FilesMatch "^(events|events_full|events_week[0-9]|metadata)\.json$">
+    <FilesMatch "^(events|events_full|events_week[0-9]|metadata|weather)\.json$">
         Header set Cache-Control "no-cache"
         Header unset Pragma
         Header unset Expires
@@ -84,7 +84,7 @@
 # rather than merging with it, so every compressible type must be listed here
 # — omitting text/html silently disables HTML compression for this directory.
 <IfModule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml
+    AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml text/calendar
     AddOutputFilterByType DEFLATE application/json application/xml image/svg+xml
     AddOutputFilterByType DEFLATE application/javascript text/javascript
 </IfModule>
@@ -136,3 +136,13 @@ Options -Indexes
 # Retired guide pages (EarlyON / Parks & Rec) -> main kidsevents page (2026-06-18)
 RedirectMatch 301 ^/kidsevents/earlyon-guide/?$ /kidsevents/
 RedirectMatch 301 ^/kidsevents/parks-rec-guide/?$ /kidsevents/
+
+# Calendar feeds (rebuilt daily by ics_build.py)
+<IfModule mod_mime.c>
+    AddType text/calendar .ics
+</IfModule>
+<IfModule mod_headers.c>
+    <FilesMatch "\.ics$">
+        Header set Cache-Control "no-cache"
+    </FilesMatch>
+</IfModule>

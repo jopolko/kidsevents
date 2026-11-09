@@ -160,7 +160,7 @@ s=s.replace('<body>','<body>'+noscript,1)
 # see the placeholder "Loading...". Format matches updateDateRangeHeader()'s
 # JS output exactly so hydration causes no visible change or layout shift.
 hr = meta.get('human_readable', {})
-baked = f"<strong>{hr.get('venues', venues)} venues</strong> • {hr.get('events', total)} events"
+baked = f"<strong>{hr.get('venues', venues)} venues</strong> • {hr.get('events', total)} events this week"
 s = re.sub(r'(<div id="week-range"[^>]*>).*?(</div>)', lambda m: m.group(1)+baked+m.group(2), s, count=1, flags=re.S)
 open(os.path.join(BASE,'index.html'),'w').write(s)
 print(f"GEO injected: {total} events total, {len(events[:SCHEMA_CAP])} in schema, "
@@ -309,7 +309,7 @@ guides_grid = (
     f'<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-bottom:36px;">'
     + guide_card(f'{SITE}free-museum-days/',
         '🏛️ Free Museum Days',
-        'ROM third Tuesdays, AGO first Wednesdays, always-free Toronto History Museums, and Canada Strong Pass windows.')
+        'ROM third Tuesdays, AGO first Wednesdays, and other museum free-admission programs.')
     + guide_card(f'{SITE}neighbourhoods/',
         '📍 Events by Neighbourhood',
         f'How free programming is distributed across the city this week — {top_district} has the most at {top_district_n} events.')

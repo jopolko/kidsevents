@@ -77,6 +77,16 @@ class FamilyFunScraper:
         if any(keyword in title.lower() for keyword in skip_keywords):
             return None
 
+        # Only real dated events: the guide also lists roundup articles, adult shows, campers-only
+        # weekends and places outside the GTA. Roundups have no date in the heading.
+        low = title.lower()
+        if any(k in low for k in ('guide to', 'things to do', 'bucket list', 'freebies', "don't miss", 'don’t miss',
+                                  'camper', 'bala ', 'miniature', 'fall for dance', 'dog-friendly')):
+            return None
+        import re as _re
+        if not _re.search(r'(january|february|march|april|may|june|july|august|september|october|november|december)\s+\d', low):
+            return None
+
         # Get description from following paragraphs
         description = ""
         next_elem = heading.find_next_sibling()
